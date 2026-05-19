@@ -15,7 +15,7 @@ interface ListingCardProps {
 
 export default function ListingCard({ listing, onGetDetails, isSaved, onToggleSave, onRequireAuth }: ListingCardProps) {
   const [imgError, setImgError] = useState(false);
-  const photoUrl = imgError ? `https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=600&q=80` : getPhotoUrl(listing);
+  const photoUrl = imgError ? '/placeholder-home.svg' : getPhotoUrl(listing);
 
   const savings = calcSavingsVsConventional(listing);
   const conventionalMonthly = calcConventionalMonthly(listing.price);

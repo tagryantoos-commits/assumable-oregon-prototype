@@ -92,7 +92,7 @@ export default function ListingsMap({ listings, onGetDetails }: ListingsMapProps
         {validListings.map(listing => (
           <Marker
             key={listing.id}
-            position={[listing.latitude, listing.longitude]}
+            position={[listing.latitude as number, listing.longitude as number]}
             icon={createPriceIcon(listing.assumableMonthlyPayment)}
           >
             <Popup>

@@ -6,21 +6,14 @@ import { useAuth } from '../lib/useAuth';
 import AuthGate from './AuthGate';
 
 const frontRangeCities = [
-  { name: 'Colorado Springs', href: '/colorado-springs' },
-  { name: 'Denver', href: '/denver' },
-  { name: 'Aurora', href: '/aurora' },
-  { name: 'Castle Rock', href: '/castle-rock' },
-  { name: 'Parker', href: '/parker' },
-  { name: 'Highlands Ranch', href: '/highlands-ranch' },
+  { name: 'Portland', href: '/portland' },
+  { name: 'Vancouver, WA', href: '/vancouver' },
+  { name: 'Beaverton', href: '/beaverton' },
+  { name: 'Ridgefield, WA', href: '/ridgefield' },
+  { name: 'Silverlake, WA', href: '/silverlake' },
 ];
 
-const northSouthCities = [
-  { name: 'Fort Collins', href: '/fort-collins' },
-  { name: 'Boulder', href: '/boulder' },
-  { name: 'Loveland', href: '/loveland' },
-  { name: 'Greeley', href: '/greeley' },
-  { name: 'Pueblo', href: '/pueblo' },
-];
+const northSouthCities: { name: string; href: string }[] = [];
 
 export default function Header() {
   const { user, isLoggedIn, signOut } = useAuth();
@@ -108,7 +101,7 @@ export default function Header() {
                   <div className="grid grid-cols-2 gap-6">
                     {/* Column 1 */}
                     <div>
-                      <p className="text-xs uppercase tracking-wider text-gray-400 font-semibold mb-2">Front Range Metro</p>
+                      <p className="text-xs uppercase tracking-wider text-gray-400 font-semibold mb-2">Oregon &amp; PNW Markets</p>
                       <div className="space-y-0.5">
                         {frontRangeCities.map((city) => (
                           <Link
@@ -123,7 +116,7 @@ export default function Header() {
                     </div>
                     {/* Column 2 */}
                     <div>
-                      <p className="text-xs uppercase tracking-wider text-gray-400 font-semibold mb-2">Northern &amp; Southern CO</p>
+                      <p className="text-xs uppercase tracking-wider text-gray-400 font-semibold mb-2">More Markets</p>
                       <div className="space-y-0.5">
                         {northSouthCities.map((city) => (
                           <Link
@@ -142,7 +135,7 @@ export default function Header() {
                       href="/homes"
                       className="text-xs text-gray-400 hover:text-brand transition-colors"
                     >
-                      View All Colorado Markets →
+                      View All Oregon &amp; PNW Markets →
                     </Link>
                   </div>
                 </div>
@@ -248,7 +241,7 @@ export default function Header() {
               </button>
               {mobileMarketsOpen && (
                 <div className="mt-2 ml-4 space-y-1">
-                  <p className="text-xs uppercase tracking-wider text-gray-400 font-semibold mb-1">Front Range Metro</p>
+                  <p className="text-xs uppercase tracking-wider text-gray-400 font-semibold mb-1">Oregon &amp; PNW Markets</p>
                   {frontRangeCities.map((city) => (
                     <Link
                       key={city.href}
@@ -259,7 +252,7 @@ export default function Header() {
                       {city.name}
                     </Link>
                   ))}
-                  <p className="text-xs uppercase tracking-wider text-gray-400 font-semibold mt-3 mb-1">Northern &amp; Southern CO</p>
+                  <p className="text-xs uppercase tracking-wider text-gray-400 font-semibold mt-3 mb-1">More Markets</p>
                   {northSouthCities.map((city) => (
                     <Link
                       key={city.href}

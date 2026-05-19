@@ -32,8 +32,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: `${listing.address} | ${listing.assumableRate}% ${listing.loanType} Assumable`,
       description: `Save $${savings.toLocaleString()}/mo. ${listing.beds}bd/${listing.baths}ba in ${listing.city}. ${listing.assumableRate}% assumable ${listing.loanType} loan.`,
       type: 'website',
-      url: `https://assumableguy.com/homes/${listing.id}`,
-      images: [{ url: photoUrl, width: 800, height: 600, alt: `${listing.address} - Assumable ${listing.loanType} at ${listing.assumableRate}%` }],
+      url: `https://assumable-oregon-prototype.vercel.app/homes/${listing.id}`,
+      images: [{ url: 'https://assumableguy.com/images/ryan-headshot.png', width: 800, height: 600, alt: `${listing.address} - Assumable ${listing.loanType} at ${listing.assumableRate}%` }],
     },
     twitter: {
       card: 'summary_large_image',
@@ -59,10 +59,10 @@ export default async function ListingDetailPage({ params }: Props) {
   const listingSchema = {
     '@context': 'https://schema.org',
     '@type': 'Product',
-    name: `${listing.address}, ${listing.city}, CO`,
+    name: `${listing.address}, ${listing.city}, ${listing.state}`,
     description: `${listing.beds}bd/${listing.baths}ba home with ${listing.assumableRate}% assumable ${listing.loanType} loan. Save $${savingsVsConventional.toLocaleString()}/mo vs 6.5% conventional.`,
-    url: `https://assumableguy.com/homes/${listing.id}`,
-    image: photoUrl,
+    url: `https://assumable-oregon-prototype.vercel.app/homes/${listing.id}`,
+    image: '/placeholder-home.svg',
     offers: {
       '@type': 'Offer',
       price: listing.price,

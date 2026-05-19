@@ -25,14 +25,14 @@ export interface Listing {
   description: string;
   daysOnMarket: number;
   sourceUrl: string;
-  latitude: number;
-  longitude: number;
+  latitude: number | null;
+  longitude: number | null;
   sourceMls?: string;
   listingAgentName?: string;
   listingOfficeName?: string;
 }
 
-export const allListings: Listing[] = listingsData as Listing[];
+export const allListings: Listing[] = listingsData as unknown as Listing[];
 
 export function getListingById(id: string): Listing | undefined {
   return allListings.find(l => l.id === id || l.slug === id);
@@ -70,10 +70,11 @@ export function calcMonthlyPayment(principal: number, ratePct: number, years = 3
 
 export function getPhotoUrl(listing: Listing, index = 0): string {
   if (listing.photoUrls && listing.photoUrls.length > index) {
-    return listing.photoUrls[index];
+    const url = listing.photoUrls[index];
+    if (url && url.startsWith('http')) return url;
   }
-  // Fallback placeholder based on city
-  return `https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=600&q=80`;
+  // Oregon prototype: use local placeholder SVG
+  return '/placeholder-home.svg';
 }
 
 export const MARKET_RATE = 6.9;
@@ -101,8 +102,11 @@ export function sortListingsDefault(listings: Listing[]): Listing[] {
 }
 
 export const STATS = {
-  totalClosings: 100,
-  lifetimeSavings: 48000000,
-  avgMonthlySavings: 748,
+  totalClosings: 0,
+  lifetimeSavings: 0,
+  avgMonthlySavings: Math.round(
+    allListings.filter(l => l.monthlySavings > 0).reduce((s, l) => s + l.monthlySavings, 0) /
+    Math.max(allListings.filter(l => l.monthlySavings > 0).length, 1)
+  ),
   activeListings: allListings.length,
 };

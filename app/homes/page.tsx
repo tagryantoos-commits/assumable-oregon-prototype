@@ -3,8 +3,8 @@ import { allListings, STATS } from '../../lib/listings';
 import HomesClient from './HomesClient';
 
 export const metadata: Metadata = {
-  title: 'Browse Colorado Assumable Mortgages | The Assumable Guy',
-  description: `Browse ${STATS.activeListings}+ Colorado homes with assumable mortgages at 1-4% rates. Filter by city, price, and rate. Save $500-$1,500/month.`,
+  title: 'Browse Oregon & PNW Assumable Mortgages | The Assumable Guy',
+  description: `Browse ${STATS.activeListings} Oregon & Washington homes with assumable mortgages at 2-4% rates. Filter by city, price, and rate. Save $500-$1,500/month.`,
 };
 
 interface Props {
@@ -21,10 +21,10 @@ export default async function HomesPage({ searchParams }: Props) {
       <div className="bg-gray-50 border-b border-gray-100 py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-3xl font-bold text-gray-900">
-            {city ? `${city} Assumable Mortgages` : 'Colorado Assumable Mortgage Listings'}
+            {city ? `${city} Assumable Mortgages` : 'Oregon & PNW Assumable Mortgage Listings'}
           </h1>
           <p className="text-gray-500 mt-1">
-            {STATS.activeListings}+ active listings · Rates as low as 2.25% · Updated daily
+            {STATS.activeListings} active listings · Rates as low as 2.6% · PropStream data
           </p>
         </div>
       </div>

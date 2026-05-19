@@ -39,11 +39,15 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'assets.umeprojects.com',
+        hostname: 'placehold.co',
       },
       {
         protocol: 'https',
         hostname: 'images.unsplash.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'assets.umeprojects.com',
       },
     ],
   },

@@ -5,22 +5,22 @@ import { getFilteredListings } from '../lib/getFilteredListings';
 import { getMarketRate } from '../lib/marketRate';
 
 export const metadata: Metadata = {
-  title: 'Colorado Assumable Mortgages | Rates as Low as 2% | The Assumable Guy',
-  description: 'Browse 1,000+ Colorado homes with assumable FHA & VA mortgages. Lock in rates as low as 2-3% instead of today\'s 6.5%. Save $500-$1,500/month. Colorado Springs, Denver, Fort Collins & more.',
+  title: 'Oregon & PNW Assumable Mortgages | Rates as Low as 2.6% | The Assumable Guy',
+  description: `Browse ${STATS.activeListings} Oregon & Washington homes with assumable FHA & VA mortgages. Lock in rates as low as 2.6% instead of today's 6.9%. Save $500-$1,500/month. Portland, Vancouver, Beaverton & more.`,
   alternates: {
-    canonical: 'https://assumableguy.com',
+    canonical: 'https://assumable-oregon-prototype.vercel.app',
   },
   openGraph: {
-    title: 'Colorado Assumable Mortgages | Rates as Low as 2% | The Assumable Guy',
-    description: 'Browse 1,000+ Colorado homes with assumable FHA & VA mortgages. Save $500-$1,500/month vs today\'s rates.',
+    title: 'Oregon & PNW Assumable Mortgages | Rates as Low as 2.6% | The Assumable Guy',
+    description: `Browse ${STATS.activeListings} Oregon & Washington homes with assumable FHA & VA mortgages. Save $500-$1,500/month vs today's rates.`,
     type: 'website',
-    url: 'https://assumableguy.com',
-    images: [{ url: 'https://assumableguy.com/images/ryan-headshot.png', width: 1200, height: 630, alt: 'The Assumable Guy - Colorado Assumable Mortgages' }],
+    url: 'https://assumable-oregon-prototype.vercel.app',
+    images: [{ url: 'https://assumableguy.com/images/ryan-headshot.png', width: 1200, height: 630, alt: 'The Assumable Guy - Oregon PNW Assumable Mortgages' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Colorado Assumable Mortgages | Rates as Low as 2%',
-    description: 'Save $500-$1,500/month with an assumable mortgage. Browse 1,000+ Colorado homes.',
+    title: 'Oregon & PNW Assumable Mortgages | Rates as Low as 2.6%',
+    description: `Save $500-$1,500/month with an assumable mortgage. Browse ${STATS.activeListings} Oregon & Washington homes.`,
     images: ['https://assumableguy.com/images/ryan-headshot.png'],
   },
 };
@@ -87,7 +87,7 @@ export default async function HomePage() {
   const featured = getFilteredListings(allListings, { limit: 6 });
   const marketRate = await getMarketRate();
 
-  const cities = ['Colorado Springs', 'Denver', 'Aurora', 'Parker', 'Littleton', 'Castle Rock'];
+  const cities = ['Portland', 'Vancouver', 'Beaverton', 'Ridgefield', 'Silverlake', 'Gresham'];
 
   return (
     <div className="pb-16 md:pb-0">
@@ -108,11 +108,11 @@ export default async function HomePage() {
             {/* Badge */}
             <div className="inline-flex items-center gap-2 bg-brand/20 border border-brand/30 text-brand-light text-sm font-medium px-3 py-1.5 rounded-full mb-6">
               <span className="w-2 h-2 bg-brand-light rounded-full animate-pulse" />
-              {STATS.activeListings}+ Active Colorado Listings
+              {STATS.activeListings}+ Active Oregon & PNW Listings
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black leading-tight mb-6">
-              Colorado&apos;s<br/>
+              Oregon &amp; PNW<br/>
               <span className="text-brand-light">Assumable Mortgage</span><br/>
               Experts
             </h1>
@@ -170,7 +170,7 @@ export default async function HomePage() {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-light opacity-75" />
             <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-brand-light" />
           </span>
-          <span>🏠 {allListings.length} assumable homes available in Colorado right now, updated daily</span>
+          <span>🌲 {allListings.length} assumable homes available in Oregon &amp; Washington right now</span>
         </div>
       </div>
 
@@ -203,7 +203,7 @@ export default async function HomePage() {
               href="/homes"
               className="inline-block bg-brand hover:bg-brand text-white font-bold px-8 py-4 rounded-xl transition-colors shadow-lg shadow-brand-200"
             >
-              Browse All {STATS.activeListings} Colorado Listings →
+              Browse All {STATS.activeListings} Oregon &amp; PNW Listings →
             </Link>
           </div>
         </div>
@@ -255,7 +255,7 @@ export default async function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-gray-900">Browse by City</h2>
-            <p className="text-gray-500 mt-2">Assumable listings across all of Colorado</p>
+            <p className="text-gray-500 mt-2">Assumable listings across Oregon &amp; Washington</p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
             {cities.map(city => {
@@ -299,8 +299,8 @@ export default async function HomePage() {
                 {
                   avatars: [maleAvatar('Jeremy-Investor-CS-v3', 'b6e3f4')],
                   name: 'Jeremy',
-                  descriptor: 'Investor, Colorado Springs',
-                  quote: 'Jeremy put $15,000 down on a $385,000 home at a 2.65% rate. His payment is $943/month less than his neighbor who bought the same month with a new loan.',
+                  descriptor: 'Investor, Portland',
+                  quote: 'Jeremy put $15,000 down on a Portland home at a 2.65% rate. His payment is $943/month less than his neighbor who bought the same month with a new loan.',
                   savings: '$943/mo saved',
                 },
                 {
@@ -309,15 +309,15 @@ export default async function HomePage() {
                     femaleAvatar('Liz-CS-v2', 'ffdfbf'),
                   ],
                   name: 'Ben & Liz',
-                  descriptor: 'Couple, Colorado Springs',
-                  quote: 'Ben and Liz closed on a $420,000 home in Colorado Springs. $18,000 down. 2.99% rate. They asked us the same question everyone asks: is this real?',
+                  descriptor: 'Couple, Vancouver, WA',
+                  quote: 'Ben and Liz closed on a $420,000 home in Vancouver. $18,000 down. 2.99% rate. They asked us the same question everyone asks: is this real?',
                   savings: '$812/mo saved',
                 },
                 {
                   avatars: [maleAvatar('Marcus-FTB-v3', 'ffd5dc')],
                   name: 'Marcus',
                   descriptor: 'First-Time Buyer',
-                  quote: 'First-time buyer, $65,000 salary, assumed a VA loan in Colorado Springs. Under market payment, positive cash flow from day one.',
+                  quote: 'First-time buyer, $65,000 salary, assumed a VA loan in Portland. Under market payment, positive cash flow from day one.',
                   savings: '$700+/mo saved',
                 },
               ];
@@ -410,7 +410,7 @@ export default async function HomePage() {
             </table>
           </div>
           <p className="text-center text-xs text-gray-400 mt-4">
-            We currently have {allListings.length} of these in Colorado
+            We currently have {allListings.length} of these in Oregon &amp; Washington
           </p>
           <p className="text-center text-xs text-brand font-medium mt-2">
             Even if the equity gap is large, we have lenders who will loan the gap if you put down 5%.
@@ -441,7 +441,7 @@ export default async function HomePage() {
         <div className="max-w-3xl mx-auto px-4 text-center text-white">
           <h2 className="text-3xl font-bold mb-3">Ready to Save on Your Next Home?</h2>
           <p className="text-brand-100 mb-6 text-lg">
-            Browse {STATS.activeListings}+ Colorado assumable listings or call us directly.
+            Browse {STATS.activeListings}+ Oregon &amp; PNW assumable listings or call us directly.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link

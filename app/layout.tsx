@@ -7,19 +7,20 @@ import ChatWidget from '../components/ChatWidget';
 import MetaPixel from '../components/MetaPixel';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://assumableguy.com'),
-  title: 'The Assumable Guy | Colorado Assumable Mortgages | Save $500-$1,500/Month',
-  description: 'Browse 800+ Colorado homes with low-rate assumable mortgages (2-4%). Save hundreds per month vs today\'s 6%+ rates. Colorado Springs, Denver, Aurora & more.',
-  keywords: 'assumable mortgage colorado, FHA assumable loan, VA assumable mortgage, colorado springs assumable, denver assumable homes',
+  metadataBase: new URL('https://assumable-oregon-prototype.vercel.app'),
+  title: 'The Assumable Guy | Oregon & PNW Assumable Mortgages | Save $500-$1,500/Month',
+  description: 'Browse Oregon & Washington homes with low-rate assumable mortgages (2-4%). Save hundreds per month vs today\'s 6%+ rates. Portland, Vancouver, Beaverton & more.',
+  keywords: 'assumable mortgage oregon, FHA assumable loan oregon, VA assumable mortgage portland, portland assumable, vancouver wa assumable homes',
+
   icons: {
     icon: '/icon.svg',
     apple: '/apple-touch-icon.png',
   },
   openGraph: {
-    title: 'The Assumable Guy | Colorado Assumable Mortgages',
-    description: 'Browse 800+ Colorado homes with low-rate assumable mortgages. Save $500-$1,500/month.',
+    title: 'The Assumable Guy | Oregon & PNW Assumable Mortgages',
+    description: 'Browse Oregon & Washington homes with low-rate assumable mortgages. Save $500-$1,500/month.',
     type: 'website',
-    url: 'https://assumableguy.com',
+    url: 'https://assumable-oregon-prototype.vercel.app',
   },
 };
 
@@ -27,17 +28,17 @@ const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'RealEstateAgent',
   name: 'The Assumable Guy',
-  description: 'Colorado real estate team specializing in assumable mortgages. FHA and VA loans with rates as low as 2.25%. Serving Colorado Springs, Denver, and the Front Range.',
-  url: 'https://assumableguy.com',
+  description: 'Oregon & Washington real estate team specializing in assumable mortgages. FHA and VA loans with rates as low as 2.6%. Serving Portland, Vancouver, Beaverton, and the PNW.',
+  url: 'https://assumable-oregon-prototype.vercel.app',
   telephone: '+17196243472',
-  areaServed: {
-    '@type': 'State',
-    name: 'Colorado',
-  },
+  areaServed: [
+    { '@type': 'State', name: 'Oregon' },
+    { '@type': 'State', name: 'Washington' },
+  ],
   address: {
     '@type': 'PostalAddress',
-    addressLocality: 'Colorado Springs',
-    addressRegion: 'CO',
+    addressLocality: 'Portland',
+    addressRegion: 'OR',
     addressCountry: 'US',
   },
   knowsAbout: ['Assumable mortgages', 'FHA loans', 'VA loans', 'USDA loans', 'Colorado real estate'],

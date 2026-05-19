@@ -12,7 +12,7 @@ export default function Footer() {
               <span>The <span className="text-brand-light">Assumable</span> Guy</span>
             </div>
             <p className="text-sm text-gray-400 max-w-sm">
-              Colorado&apos;s trusted experts in assumable mortgage transactions.
+              Oregon &amp; PNW experts in assumable mortgage transactions.
               Helping buyers save $1,100+ per month on their next home.
             </p>
             <div className="mt-4 flex flex-col gap-1 text-sm">
@@ -25,10 +25,10 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-3 text-sm uppercase tracking-wider">Browse</h4>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/homes" className="hover:text-brand-light transition-colors">All Colorado Listings</Link></li>
-              <li><Link href="/colorado-springs" className="hover:text-brand-light transition-colors">Colorado Springs</Link></li>
-              <li><Link href="/homes?city=Denver" className="hover:text-brand-light transition-colors">Denver</Link></li>
-              <li><Link href="/homes?city=Aurora" className="hover:text-brand-light transition-colors">Aurora</Link></li>
+              <li><Link href="/homes" className="hover:text-brand-light transition-colors">All Oregon &amp; PNW Listings</Link></li>
+              <li><Link href="/portland" className="hover:text-brand-light transition-colors">Portland</Link></li>
+              <li><Link href="/vancouver" className="hover:text-brand-light transition-colors">Vancouver, WA</Link></li>
+              <li><Link href="/beaverton" className="hover:text-brand-light transition-colors">Beaverton</Link></li>
             </ul>
           </div>
 
@@ -43,7 +43,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 pt-6 border-t border-gray-800 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-gray-500">
-          <p>© 2026 The Assumable Guy | Ryan Thomson, Colorado Real Estate. All rights reserved.</p>
+          <p>© 2026 The Assumable Guy | Oregon &amp; PNW Prototype. All rights reserved.</p>
           <p>All listings subject to change. Contact us to verify current availability.</p>
         </div>
       </div>
