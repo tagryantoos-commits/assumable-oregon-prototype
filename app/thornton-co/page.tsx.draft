@@ -1,0 +1,238 @@
+import { Metadata } from 'next';
+import Link from 'next/link';
+import { getListingsByCity } from '../../lib/listings';
+import ListingCardWrapper from '../ListingCardWrapper';
+import LeadCaptureForm from '../../components/LeadCaptureForm';
+import { getRelatedPostsForCity } from '../../lib/blog';
+
+export function generateMetadata(): Metadata {
+ const cityListings = getListingsByCity('Thornton');
+ const count = cityListings.length;
+ const minRate = count > 0 ? Math.min(...cityListings.map(l => l.assumableRate)).toFixed(2) : '2.25';
+ const slugStr = 'thornton-co';
+ const cityName = 'Thornton';
+
+ return {
+ title: `${cityName} Assumable Mortgages | ${count}+ Homes | ${minRate}% Rate | The Assumable Guy`,
+ description: `Browse ${count} assumable mortgage listings in ${cityName}, CO. Rates as low as ${minRate}%. Save $500-$1,400/month vs new loans at 6.5%. FHA and VA loans available.`,
+ alternates: { canonical: `https://assumableguy.com/${slugStr}` },
+ openGraph: {
+ title: `${cityName} Assumable Mortgages | ${minRate}% Rate | The Assumable Guy`,
+ description: `${count} homes in ${cityName} with assumable loans. Rates from ${minRate}%. Save hundreds per month.`,
+ type: 'website',
+ url: `https://assumableguy.com/${slugStr}`,
+ images: [{ url: 'https://assumableguy.com/images/ryan-headshot.png', width: 1200, height: 630, alt: `${cityName} Assumable Mortgages` }],
+ },
+ twitter: {
+ card: 'summary_large_image',
+ title: `${cityName} Assumable Mortgages | ${minRate}% Rate`,
+ description: `${count} homes with assumable loans in ${cityName}. Rates from ${minRate}%.`,
+ images: ['https://assumableguy.com/images/ryan-headshot.png'],
+ },
+ };
+}
+
+export default function ThorntonPage() {
+ const thorntonListings = getListingsByCity('Thornton');
+ const featured = thorntonListings
+ .sort((a, b) => b.monthlySavings - a.monthlySavings)
+ .slice(0, 6);
+
+ const avgRate = thorntonListings.length > 0
+ ? (thorntonListings.reduce((sum, l) => sum + l.assumableRate, 0) / thorntonListings.length).toFixed(2)
+ : '2.75';
+
+ const avgSavings = thorntonListings.length > 0
+ ? Math.round(thorntonListings.reduce((sum, l) => sum + l.monthlySavings, 0) / thorntonListings.length)
+ : 850;
+
+ const relatedPosts = getRelatedPostsForCity('Thornton');
+
+ return (
+ <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+ <section className="w-full bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16 px-4">
+ <div className="max-w-5xl mx-auto">
+ <h1 className="text-4xl md:text-5xl font-bold mb-4">
+ Assumable Mortgages in Thornton, Colorado
+ </h1>
+ <p className="text-xl md:text-2xl text-blue-100 mb-2">
+ {thorntonListings.length} homes with rates as low as {Math.min(...thorntonListings.map(l => l.assumableRate)).toFixed(2)}%
+ </p>
+ <p className="text-lg text-blue-100">
+ Save an average of ${avgSavings}/month compared to current market rates
+ </p>
+ </div>
+ </section>
+
+ <section className="max-w-5xl mx-auto px-4 py-12">
+ <div className="grid md:grid-cols-3 gap-8 mb-12">
+ <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-600">
+ <h3 className="text-3xl font-bold text-blue-600 mb-2">{thorntonListings.length}+</h3>
+ <p className="text-gray-700">Active Assumable Listings</p>
+ <p className="text-sm text-gray-600 mt-2">Updated daily to show current inventory</p>
+ </div>
+ <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-green-600">
+ <h3 className="text-3xl font-bold text-green-600 mb-2">${avgSavings}/mo</h3>
+ <p className="text-gray-700">Average Monthly Savings</p>
+ <p className="text-sm text-gray-600 mt-2">Compared to 6.5% new loan rates</p>
+ </div>
+ <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-purple-600">
+ <h3 className="text-3xl font-bold text-purple-600 mb-2">{avgRate}%</h3>
+ <p className="text-gray-700">Average Assumable Rate</p>
+ <p className="text-sm text-gray-600 mt-2">FHA, VA, and conventional loans</p>
+ </div>
+ </div>
+
+ <div className="prose prose-lg max-w-none mb-12">
+ <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Choose Assumable Mortgages in Thornton?</h2>
+ <p className="text-gray-700 mb-4">
+ Thornton has seen significant growth over the past decade, making it an attractive market for homebuyers. As a growing suburb north of Denver with excellent schools and family-friendly neighborhoods, assumable mortgages offer Thornton buyers a competitive edge in this active market.
+ </p>
+ <p className="text-gray-700 mb-4">
+ An assumable mortgage allows you to take over the seller's existing loan at their original rate, often significantly lower than current market rates. Instead of qualifying for a new loan at today's higher rates, you assume their favorable terms. This approach can save you thousands of dollars in interest over the life of the loan.
+ </p>
+ <p className="text-gray-700 mb-4">
+ Thornton's proximity to military installations like Fort Carson makes VA loans particularly common in this area. Many sellers have VA loans that are assumable by both military and non-military buyers. We specialize in helping buyers navigate both VA and FHA assumable mortgages.
+ </p>
+ </div>
+
+ <div className="bg-blue-50 border border-blue-200 rounded-lg p-8 mb-12">
+ <h3 className="text-2xl font-bold text-gray-900 mb-4">Key Benefits of Assumable Mortgages</h3>
+ <ul className="grid md:grid-cols-2 gap-4">
+ <li className="flex items-start">
+ <span className="text-blue-600 font-bold mr-3">.</span>
+ <span className="text-gray-700">Lower interest rates, often 2-3% below current market</span>
+ </li>
+ <li className="flex items-start">
+ <span className="text-blue-600 font-bold mr-3">.</span>
+ <span className="text-gray-700">Reduced closing costs compared to new mortgages</span>
+ </li>
+ <li className="flex items-start">
+ <span className="text-blue-600 font-bold mr-3">.</span>
+ <span className="text-gray-700">Faster closing process. No appraisal required in many cases</span>
+ </li>
+ <li className="flex items-start">
+ <span className="text-blue-600 font-bold mr-3">.</span>
+ <span className="text-gray-700">VA loans may be assumable with no new VA funding fee</span>
+ </li>
+ <li className="flex items-start">
+ <span className="text-blue-600 font-bold mr-3">.</span>
+ <span className="text-gray-700">Fixed rates protect against future rate increases</span>
+ </li>
+ <li className="flex items-start">
+ <span className="text-blue-600 font-bold mr-3">.</span>
+ <span className="text-gray-700">Less strict qualification requirements than new loans</span>
+ </li>
+ </ul>
+ </div>
+ </section>
+
+ <section className="max-w-5xl mx-auto px-4 py-12">
+ <h2 className="text-3xl font-bold text-gray-900 mb-8">Featured Assumable Listings in Thornton</h2>
+ {featured.length > 0 ? (
+ <ListingCardWrapper listings={featured} />
+ ) : (
+ <div className="bg-gray-100 rounded-lg p-8 text-center">
+ <p className="text-gray-600 text-lg">No listings currently available. Check back soon or contact us for off-market opportunities.</p>
+ </div>
+ )}
+ </section>
+
+ <section className="max-w-5xl mx-auto px-4 py-12">
+ <h2 className="text-3xl font-bold text-gray-900 mb-8">Understanding Assumable Mortgages</h2>
+ <div className="grid md:grid-cols-2 gap-8">
+ <div>
+ <h3 className="text-xl font-bold text-gray-900 mb-4">How Does Assumption Work?</h3>
+ <p className="text-gray-700 mb-4">
+ When you assume a mortgage, you're taking legal responsibility for the seller's existing loan. The lender must approve you, ensuring you meet their credit and income requirements. However, approval is typically easier than qualifying for a new loan.
+ </p>
+ <p className="text-gray-700">
+ The seller remains obligated unless specifically released by the lender. We guide you through the entire process to protect your interests and ensure a smooth transition.
+ </p>
+ </div>
+ <div>
+ <h3 className="text-xl font-bold text-gray-900 mb-4">Types of Assumable Loans</h3>
+ <ul className="space-y-3 text-gray-700">
+ <li className="flex items-start">
+ <span className="text-blue-600 font-bold mr-3">.</span>
+ <div>
+ <strong>FHA Loans.</strong> Most are assumable with lender approval and higher qualification standards.
+ </div>
+ </li>
+ <li className="flex items-start">
+ <span className="text-blue-600 font-bold mr-3">.</span>
+ <div>
+ <strong>VA Loans.</strong> Highly assumable for both veterans and non-veterans. Former service members may restore their VA entitlement.
+ </div>
+ </li>
+ <li className="flex items-start">
+ <span className="text-blue-600 font-bold mr-3">.</span>
+ <div>
+ <strong>USDA Loans.</strong> Assumable with lender approval. Common in rural Thornton areas.
+ </div>
+ </li>
+ <li className="flex items-start">
+ <span className="text-blue-600 font-bold mr-3">.</span>
+ <div>
+ <strong>Conventional Loans.</strong> Rarely assumable unless explicitly stated in the original note.
+ </div>
+ </li>
+ </ul>
+ </div>
+ </div>
+ </section>
+
+ <section className="max-w-5xl mx-auto px-4 py-12">
+ <h2 className="text-3xl font-bold text-gray-900 mb-4">About Thornton, Colorado</h2>
+ <p className="text-gray-700 mb-4">
+ Thornton is one of Colorado's fastest-growing cities, located approximately 25 miles north of downtown Denver. Home to over 140,000 residents, Thornton offers a blend of suburban convenience and urban access. The city is known for its excellent schools, parks, and family-friendly atmosphere.
+ </p>
+ <p className="text-gray-700 mb-4">
+ Major employers in the Thornton area include the Denver Tech Center companies, St. Anthony's Hospital, and numerous retail and service businesses. The city has experienced significant residential development, making it an attractive market for homebuyers of all types.
+ </p>
+ <p className="text-gray-700">
+ Many Thornton residents have military ties due to proximity to Colorado Springs military installations. This makes VA assumable loans particularly valuable in the area. Our team has extensive experience with VA and FHA loans for both military members and civilians.
+ </p>
+ </section>
+
+ <section className="bg-gray-50 py-12 px-4">
+ <div className="max-w-5xl mx-auto">
+ <h2 className="text-3xl font-bold text-gray-900 mb-8">Ready to Explore Assumable Mortgages?</h2>
+ <div className="grid md:grid-cols-2 gap-8">
+ <LeadCaptureForm
+ source="thornton-co-page"
+ title="Get Your Free Assumable Mortgage Guide"
+ subtitle="Learn how to save thousands with an assumable loan in Thornton"
+ compact={false}
+ />
+ <div className="bg-white p-8 rounded-lg shadow-md">
+ <h3 className="text-xl font-bold text-gray-900 mb-4">Questions About Assumable Mortgages?</h3>
+ <p className="text-gray-700 mb-4">
+ Our team at The Assumable Guy specializes in helping Colorado Springs area buyers leverage assumable mortgages to save money and close faster.
+ </p>
+ <p className="text-gray-700 mb-4">
+ Whether you're a first-time homebuyer, military service member, or experienced investor, we have the expertise to guide you through the assumption process.
+ </p>
+ <p className="text-gray-700 font-semibold mb-4">
+ Contact us today for a free consultation about assuming a mortgage in Thornton.
+ </p>
+ <Link href="/" className="text-blue-600 hover:text-blue-800 font-bold">
+ Return to Home
+ </Link>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ {relatedPosts.length > 0 && (
+ <section className="max-w-5xl mx-auto px-4 py-12">
+ <h2 className="text-3xl font-bold text-gray-900 mb-8">Related Articles</h2>
+ <div className="grid md:grid-cols-3 gap-8">
+ {relatedPosts.slice(0, 3).map((post) => (
+ <Link href={`/blog/${post.slug}`} key={post.slug}>
+ <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow cursor-pointer">
+ <div className="p-6">
+ <h3 className="text-lg font-bold text-gray-900 mb-2 hover:text-blue-600">
+ {post.title}
+ </h3>
+ <p className="text-gray-600 text-sm mb-4">{post.excerpt}</p>

@@ -1,0 +1,9797 @@
+
+
+
+
+
+
+
+
+
+
+
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+
+
+
+
+
+
+
+
+
+
+
+
+if (window.mtxAnalytics) {mtxAnalytics.init("3da8d56ab740ca12e1101ecfd9d90a54", {batch_requests:true, track_pageview:false});mtxAnalytics.reset();mtxAnalytics.register({appId:"Matrix", resID:"1000079", AgentID:"230024640", distinctID:"230024640", SecurityGroup:"AG - Subscriber/Agent"});}
+
+if(!window.modelVars_PendoAnalytics) {const modelVars_PendoAnalytics = {apiKey: "96b1a5b6-0f87-4ef4-5232-f19d131490f9",data: {"VisitorID":"24363 Ryan Thomson","VisitorData":{"UserID":"24363","FullName":"Ryan Thomson","Email":"Ryan@TheAssumableGuy.com","Group":"AG - Subscriber/Agent","DateActivated":"03/30/2021","WorkingAs":"Ryan Thomson","UILanguage":"English","UIMode":"Responsive","ActiveAutoEmails":"14","ActiveContacts":"166","AgentID":"230024640","OfficeID":"00001197","OfficeName":"Keller Williams Advantage Realty","RCSLBranding":"yes","ResAgentID":"1000079-24363"},"AccountID":"PPAR","AccountData":{"Version":"12.7.3.5","PreviousVersion":"12.7.2.5","Current-MajorVersion":"12","Current-MinorVersion":"7","Current-Patch":"3.5","Previous-MajorVersion":"12","Previous-MinorVersion":"7","Previous-Patch":"2.5","ResID":"1000079"}}};mtrxPendoAnalytics.Init(modelVars_PendoAnalytics);}
+
+
+
+
+
+
+//<![CDATA[
+ResultsJs.asyncPostUpdate('');
+//]]>
+
+
+
+
+//<![CDATA[
+var SpeedBarJsVars={ m_strSpeedBar:'ctl01_m_ucSpeedBar' };
+//]]>
+
+
+
+
+//<![CDATA[
+ResultsPageTabs.initialize('m_ucResultsPageTabs_m_hfState');
+//]]>
+
+
+
+
+//<![CDATA[
+MLClientLabel.registerOptions('m_lblMapSummary',{Default:
+function(extra, rec)
+{
+	var MEParam = typeof MatrixExpression !== 'undefined' ? MatrixExpression : null;
+	var recParam = rec !== undefined ? rec : null;
+	var result = function(rec,ME){return '<b>'+extra.visiblecount+'<\/b> of <b>'+extra.count+'<\/b>';}(recParam, MEParam);
+	return  result;
+}
+},'Default');
+MLClientLabel.registerOptions('m_lblCheckedCount',{Default:
+function(extra, rec)
+{
+	var MEParam = typeof MatrixExpression !== 'undefined' ? MatrixExpression : null;
+	var recParam = rec !== undefined ? rec : null;
+	var result = function(rec,ME){return 'Checked <strong>'+extra.checkeditems+'<\/strong>';}(recParam, MEParam);
+	return  result;
+}
+},'Default');
+//]]>
+
+
+
+
+//<![CDATA[
+typeof(LBX_Control)!='undefined'&&LBX_Control.removeControls();SearchJs.setDefaultColor('#ffffff');SearchJs.setRequiredColor('khaki');SearchJs.setDataEnteredColor('#d3e2f9');SearchJs.setLang(1);
+//]]>
+
+
+
+
+
+
+//<![CDATA[
+LBX_Control.addControl('Fm1_Ctrl249_LB',new LBX_Simple({ID:'Fm1_Ctrl249_LB',items:null}));
+LBX_Control.addControl('Fm1_Ctrl246_LB',new LBX_SubList({ID:'Fm1_Ctrl246_LB',items:['9115','5-Plex','9120','Apartment','9116','Apartments(6+ Units)','9101','Campground','9121','Condominium','9112','Duplex','9113','Fourplex','9102','Hotel','42244','Hotel\/Motel','9117','House and Cottage','9103','Industrial','9107','Mixed Use','9122','Mobile Home','9105','Mobile Home Park','9106','Motel','9119','Multi Family','9108','Office','9109','Other','9123','Patio Home','9110','Retail','9124','Single Family','9118','Single Family Home','9125','Townhouse','9126','Tri-Plex Unit','9114','Triplex','9104','Unimproved Land','9111','Warehouse\/Storage'],parentID:'Fm1_Ctrl249_LB',sublistShowAll:false,parentToChildren:{'151':'9121,9123,9124,9125','7525':'9112,9113,9114,9115,9116,9117,9118,9119','7526':'9104','7528':'9102,9103,9104,9105,9106,9107,9108,9109,9110,9111','7530':'9112,9113,9118,9120,9121,9122,9123,9125'}}));
+//]]>
+
+
+
+
+
+
+
+
+//<![CDATA[
+LBX_Control.addControl('Fm1_Ctrl242_LB',new LBX_TextBox({ID:'Fm1_Ctrl242_LB',items:null,USFCID:242,withPrefixCodes:false}));
+LBX_Control.addControl('Fm1_Ctrl243_LB',new LBX_TextBox({ID:'Fm1_Ctrl243_LB',items:null,USFCID:243,withPrefixCodes:false}));
+LBX_Control.addControl('Fm1_Ctrl414_LB',new LBX_TextBox({ID:'Fm1_Ctrl414_LB',items:null,USFCID:414,withPrefixCodes:false}));
+LBX_Control.addControl('Fm1_Ctrl245_LB',new LBX_TextBox({ID:'Fm1_Ctrl245_LB',items:null,USFCID:245,withPrefixCodes:false}));
+LBX_Control.addControl('Fm1_Ctrl723_LB',new LBX_Simple({ID:'Fm1_Ctrl723_LB',items:null}));
+MLClientLabel.registerOptions('m_ucSearchButtons_ctl01',{Default:
+function(extra, rec)
+{
+	var MEParam = typeof MatrixExpression !== 'undefined' ? MatrixExpression : null;
+	var recParam = rec !== undefined ? rec : null;
+	var result = function(rec,ME){return 'Clear';}(recParam, MEParam);
+	return  result;
+}
+},'Default');
+MLClientLabel.registerOptions('m_ucSearchButtons_m_clblCount',{Default:
+function(extra, rec)
+{
+	var MEParam = typeof MatrixExpression !== 'undefined' ? MatrixExpression : null;
+	var recParam = rec !== undefined ? rec : null;
+	var result = function(rec,ME){return extra.count+' matches';}(recParam, MEParam);
+	return  result;
+}
+},'Default');
+LBX_Control.addControl('Fm1_Ctrl688_LB',new LBX_Simple({ID:'Fm1_Ctrl688_LB',items:null}));
+LBX_Control.addControl('Fm1_Ctrl567_LB',new LBX_Simple({ID:'Fm1_Ctrl567_LB',items:null}));
+LBX_Control.addControl('Fm1_Ctrl553_LB',new LBX_Simple({ID:'Fm1_Ctrl553_LB',items:null}));
+//]]>
+
+.stickywrapper, FORM.stickyform{margin-bottom:-114px;} .stickypush{height:114px;}
+
+
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+
+
+
+									
+
+										
+										
+									
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47351304-1', 'mlsmatrix.com');
+  ga('send', 'pageview');
+
+ 
+
+
+
+	
+	if (typeof Object.assign != 'function') {
+	  Object.assign = function(target) {
+		'use strict';
+		if (target == null) {
+		  throw new TypeError('Cannot convert undefined or null to object');
+		}
+		target = Object(target);
+		for (var index = 1; index < arguments.length; index++) {
+		  var source = arguments[index];
+		  if (source != null) {
+			for (var key in source) {
+			  if (Object.prototype.hasOwnProperty.call(source, key)) {
+				target[key] = source[key];
+			  }
+			}
+		  }
+		}
+		return target;
+	  };
+	}
+	
+
+
+
+// ForeSee Production Embed Script v2.01
+// DO NOT MODIFY BELOW THIS LINE *****************************************
+;(function (g) {
+  var d = document, am = d.createElement('script'), h = d.head || d.getElementsByTagName("head")[0], fsr = 'fsReady',
+  aex = {
+    "src": "//gateway.foresee.com/sites/mlsmatrix/production/gateway.min.js",
+    "type": "text/javascript",
+    "async": "true",
+    "data-vendor": "fs",
+    "data-role": "gateway"
+  };
+  for (var attr in aex) { am.setAttribute(attr, aex[attr]); } h.appendChild(am); g[fsr] || (g[fsr] = function () { var aT = '__' + fsr + '_stk__'; g[aT] = g[aT] || []; g[aT].push(arguments); });
+})(window);
+// DO NOT MODIFY ABOVE THIS LINE *****************************************
+
+fsReady(function() {
+  FSR.CPPS.set('MLSSystem','PPAR'); 
+  FSR.run();
+});
+
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m_SessionTimeoutWarningDiv$m_up','','fctl01$m_ucSpeedBar$m_upSpeedbar','','tctl01$m_ucSpeedBar$m_ucrs$m_upMain','','fm_upDivPopups','','fm_upHeader','','tm_ucTitle$m_ucMarketWatch$m_upContent','','fm_upSubHeader','','fm_upSearch','','fm_upDisplayCore','','fm_upDisplay','','fm_upMap','','fm_upDisplayButtons','','fm_upResultsInfo',''], ['ctl01$m_ucSpeedBar$m_lnkGo',''], ['m_ucSearchFormAdditional','','m_lbOldStats','','m_lbNewStats',''], 90, '');
+//]]>
+
+
+
+
+
+	
+	
+			
+				
+					
+						
+							
+						
+						
+							Hello, Ryan
+							
+							
+						
+					
+					
+						
+							
+									
+										
+											My Matrix
+											
+												
+													
+														
+															My Matrix
+														
+													
+													
+															
+																
+																
+																	
+																		Dashboard
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Summary
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Contacts
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		My Listings
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Saved Searches
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		My CMAs
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Sent Email
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Auto Emails
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Reverse Prospect Email History
+																	
+																
+															
+														
+												
+											
+										
+										
+										
+									
+								
+									
+										
+											Search
+											
+												
+													
+														
+															Search
+														
+													
+													
+															
+																
+																
+																	
+																		Search(New!)
+																	
+																
+															
+														
+															
+																
+																	Residential
+																	
+																		
+																			
+																				Residential
+																			
+																			
+																					
+																						
+																							Resi Default Search
+																						
+																					
+																				
+																					
+																						
+																							MLS # Search
+																						
+																					
+																				
+																					
+																						
+																							Custom Search
+																						
+																					
+																				
+																		
+																	
+																
+																
+															
+														
+															
+																
+																
+																	
+																		Rental Beast
+																	
+																
+															
+														
+															
+																
+																	Income
+																	
+																		
+																			
+																				Income
+																			
+																			
+																					
+																						
+																							Income Default Search
+																						
+																					
+																				
+																					
+																						
+																							MLS # Search
+																						
+																					
+																				
+																					
+																						
+																							Custom Search
+																						
+																					
+																				
+																		
+																	
+																
+																
+															
+														
+															
+																
+																	Land
+																	
+																		
+																			
+																				Land
+																			
+																			
+																					
+																						
+																							Land Default Search
+																						
+																					
+																				
+																					
+																						
+																							MLS # Search
+																						
+																					
+																				
+																					
+																						
+																							Custom Search
+																						
+																					
+																				
+																		
+																	
+																
+																
+															
+														
+															
+																
+																	Farm
+																	
+																		
+																			
+																				Farm
+																			
+																			
+																					
+																						
+																							Farm Default Search
+																						
+																					
+																				
+																					
+																						
+																							MLS # Search
+																						
+																					
+																				
+																					
+																						
+																							Custom Search
+																						
+																					
+																				
+																		
+																	
+																
+																
+															
+														
+															
+																
+																	Commercial
+																	
+																		
+																			
+																				Commercial
+																			
+																			
+																					
+																						
+																							Comm Default Search
+																						
+																					
+																				
+																					
+																						
+																							MLS # Search
+																						
+																					
+																				
+																					
+																						
+																							Custom Search
+																						
+																					
+																				
+																		
+																	
+																
+																
+															
+														
+															
+																
+																	Business
+																	
+																		
+																			
+																				Business
+																			
+																			
+																					
+																						
+																							Business Default Search
+																						
+																					
+																				
+																					
+																						
+																							MLS # Search
+																						
+																					
+																				
+																					
+																						
+																							Custom Search
+																						
+																					
+																				
+																		
+																	
+																
+																
+															
+														
+															
+																
+																
+																	
+																		Built On Owners Lot
+																	
+																
+															
+														
+															
+																
+																	Rental
+																	
+																		
+																			
+																				Rental
+																			
+																			
+																					
+																						
+																							Rent Default Search
+																						
+																					
+																				
+																					
+																						
+																							MLS # Search
+																						
+																					
+																				
+																					
+																						
+																							Custom Search
+																						
+																					
+																				
+																		
+																	
+																
+																
+															
+														
+															
+																
+																	Cross Property
+																	
+																		
+																			
+																				Cross Property
+																			
+																			
+																					
+																						
+																							Default Search
+																						
+																					
+																				
+																					
+																						
+																							MLS # Search
+																						
+																					
+																				
+																					
+																						
+																							Custom Search
+																						
+																					
+																				
+																		
+																	
+																
+																
+															
+														
+															
+																
+																
+																	
+																		Default Search
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		MLS # Search
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Agent
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Open House
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		More...
+																	
+																
+															
+														
+												
+											
+										
+										
+										
+									
+								
+									
+										
+											Stats
+											
+												
+													
+														
+															Stats
+														
+													
+													
+															
+																
+																
+																	
+																		Residential
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Land
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Cross Property
+																	
+																
+															
+														
+												
+											
+										
+										
+										
+									
+								
+									
+										
+											Tax
+											
+												
+													
+														
+															Tax
+														
+													
+													
+															
+																
+																
+																	
+																		Public Record Search
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Realist Tax
+																	
+																
+															
+														
+												
+											
+										
+										
+										
+									
+								
+									
+										
+										
+											
+												Links
+											
+										
+										
+									
+								
+									
+										
+											Finance
+											
+												
+													
+														
+															Finance
+														
+													
+													
+															
+																
+																
+																	
+																		Seller's Estimated Net Proceeds
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Buyer's Closing Costs
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		New Calculators
+																	
+																
+															
+														
+												
+											
+										
+										
+										
+									
+								
+									
+										
+											Add/Edit
+											
+												
+													
+														
+															Add/Edit
+														
+													
+													
+															
+																
+																
+																	
+																		Add/Edit
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Add/Edit Rental
+																	
+																
+															
+														
+												
+											
+										
+										
+										
+									
+								
+									
+										
+										
+											
+												Market Reports
+											
+										
+										
+									
+								
+									
+										
+											Data Partners
+											
+												
+													
+														
+															Data Partners
+														
+													
+													
+															
+																
+																
+																	
+																		CANOPY MLS (NC)
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		First MLS (GA)
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		HMLSD - Heartland MLS (KS)
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Longleaf Pines MLS (Fayetteville) (DD) (NC)
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Northwest MLS (WA)
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		OMNI (Mexico & South Amerca)
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		WARDEX (Western Arizona)
+																	
+																
+															
+														
+												
+											
+										
+										
+										
+									
+								
+							
+							
+									
+										
+											
+												Settings
+											
+										
+									
+								
+									
+										
+											
+												Manage Branding
+											
+										
+									
+								
+									
+										
+											
+												Help
+											
+										
+									
+								
+									
+										
+											
+												Mobile
+											
+										
+									
+								
+							
+							
+								
+									
+										
+										Logout
+									
+								
+							
+						
+					
+				
+			
+		
+	
+		
+			
+				
+	
+				
+					
+						
+								
+									
+										My Matrix
+									
+									
+											
+												
+													Dashboard
+												
+												
+											
+										
+											
+												
+													Summary
+												
+												
+											
+										
+											
+												
+													Contacts
+												
+												
+											
+										
+											
+												
+													My Listings
+												
+												
+											
+										
+											
+												
+													Saved Searches
+												
+												
+											
+										
+											
+												
+													My CMAs
+												
+												
+											
+										
+											
+												
+													Sent Email
+												
+												
+											
+										
+											
+												
+													Auto Emails
+												
+												
+											
+										
+											
+												
+													Reverse Prospect Email History
+												
+												
+											
+										
+								
+								 
+							
+								
+									
+										Search
+									
+									
+											
+												
+													Search(New!)
+												
+												
+											
+										
+											
+												
+													Residential
+												
+												
+														
+															
+																
+																Resi Default Search
+															
+														
+													
+														
+															
+																
+																MLS # Search
+															
+														
+													
+														
+															
+																
+																Custom Search
+															
+														
+													
+											
+										
+											
+												
+													Rental Beast
+												
+												
+											
+										
+											
+												
+													Income
+												
+												
+														
+															
+																
+																Income Default Search
+															
+														
+													
+														
+															
+																
+																MLS # Search
+															
+														
+													
+														
+															
+																
+																Custom Search
+															
+														
+													
+											
+										
+											
+												
+													Land
+												
+												
+														
+															
+																
+																Land Default Search
+															
+														
+													
+														
+															
+																
+																MLS # Search
+															
+														
+													
+														
+															
+																
+																Custom Search
+															
+														
+													
+											
+										
+											
+												
+													Farm
+												
+												
+														
+															
+																
+																Farm Default Search
+															
+														
+													
+														
+															
+																
+																MLS # Search
+															
+														
+													
+														
+															
+																
+																Custom Search
+															
+														
+													
+											
+										
+											
+												
+													Commercial
+												
+												
+														
+															
+																
+																Comm Default Search
+															
+														
+													
+														
+															
+																
+																MLS # Search
+															
+														
+													
+														
+															
+																
+																Custom Search
+															
+														
+													
+											
+										
+											
+												
+													Business
+												
+												
+														
+															
+																
+																Business Default Search
+															
+														
+													
+														
+															
+																
+																MLS # Search
+															
+														
+													
+														
+															
+																
+																Custom Search
+															
+														
+													
+											
+										
+											
+												
+													Built On Owners Lot
+												
+												
+											
+										
+											
+												
+													Rental
+												
+												
+														
+															
+																
+																Rent Default Search
+															
+														
+													
+														
+															
+																
+																MLS # Search
+															
+														
+													
+														
+															
+																
+																Custom Search
+															
+														
+													
+											
+										
+											
+												
+													Cross Property
+												
+												
+														
+															
+																
+																Default Search
+															
+														
+													
+														
+															
+																
+																MLS # Search
+															
+														
+													
+														
+															
+																
+																Custom Search
+															
+														
+													
+											
+										
+											
+												
+													Default Search
+												
+												
+											
+										
+											
+												
+													MLS # Search
+												
+												
+											
+										
+											
+												
+													Agent
+												
+												
+											
+										
+											
+												
+													Open House
+												
+												
+											
+										
+											
+												
+													More...
+												
+												
+											
+										
+								
+								 
+							
+								
+									
+										Stats
+									
+									
+											
+												
+													Residential
+												
+												
+											
+										
+											
+												
+													Land
+												
+												
+											
+										
+											
+												
+													Cross Property
+												
+												
+											
+										
+								
+								 
+							
+								
+									
+										Tax
+									
+									
+											
+												
+													Public Record Search
+												
+												
+											
+										
+											
+												
+													Realist Tax
+												
+												
+											
+										
+								
+								 
+							
+								
+									
+										Links
+									
+									
+								
+								 
+							
+								
+									
+										Finance
+									
+									
+											
+												
+													Seller's Estimated Net Proceeds
+												
+												
+											
+										
+											
+												
+													Buyer's Closing Costs
+												
+												
+											
+										
+											
+												
+													New Calculators
+												
+												
+											
+										
+								
+								 
+							
+								
+									
+										Add/Edit
+									
+									
+											
+												
+													Add/Edit
+												
+												
+											
+										
+											
+												
+													Add/Edit Rental
+												
+												
+											
+										
+								
+								 
+							
+								
+									
+										Market Reports
+									
+									
+								
+								 
+							
+								
+									
+										Data Partners
+									
+									
+											
+												
+													CANOPY MLS (NC)
+												
+												
+											
+										
+											
+												
+													First MLS (GA)
+												
+												
+											
+										
+											
+												
+													HMLSD - Heartland MLS (KS)
+												
+												
+											
+										
+											
+												
+													Longleaf Pines MLS (Fayetteville) (DD) (NC)
+												
+												
+											
+										
+											
+												
+													Northwest MLS (WA)
+												
+												
+											
+										
+											
+												
+													OMNI (Mexico & South Amerca)
+												
+												
+											
+										
+											
+												
+													WARDEX (Western Arizona)
+												
+												
+											
+										
+								
+								
+							
+						
+							
+								More
+							
+							
+							
+						
+						
+					
+				
+	
+				
+					
+		
+			
+
+
+	$(function () {
+		$('#m_spnNotifications').tooltip();
+		$('#m_spnLogOutAs').tooltip();
+		$('#ctl01_ctl06_m_btnFontSize').tooltip();
+
+        const uiVersionSwitchForm = $('#mtrxUIVersionSwitchConfirmForm');
+		
+		uiVersionSwitchForm.on('click', 'button[type=submit]', (e) => {
+			e.stopPropagation();
+			e.preventDefault();
+
+			const action = uiVersionSwitchForm.data('action-url');
+
+			const body = new FormData();
+			body.append('__RequestVerificationToken', uiVersionSwitchForm.find('input[name=__RequestVerificationToken]').val());
+			body.append('uiVersion', uiVersionSwitchForm.find('input[name=uiVersion]').val());
+
+			uiVersionSwitchForm.find('button[type=submit]')
+				.attr({ disabled: true })
+				.addClass('disabled');
+
+			fetch(action, {
+				method: 'POST',
+				body,
+			}).then((response) => {
+				if(response.redirected){
+					window.location = response.url;
+				}else {
+					alert('An error occurred');
+				}
+			}).finally(() => {
+				uiVersionSwitchForm.find('button[type=submit]')
+					.removeAttr('disabled')
+					.removeClass('disabled');
+			});
+		});
+
+		$('#mtrxUIVersionSwitchConfirm').on('hide.bs.modal', () => {
+			document.getElementById('ctl01_ctl06_m_uiVersionSwitch').checked = false;
+		});
+	});
+
+
+
+	Aa
+
+
+
+	
+	
+		
+		
+			
+				
+				
+			
+		
+		
+		
+		
+			
+			
+				Notifications
+			
+			
+			
+			
+		
+		
+			There are no notifications at this time.
+		
+	
+
+
+
+
+
+
+	
+		Hello, Ryan
+		
+		
+		
+		
+		
+	
+	
+		
+
+		
+			
+				
+					
+				
+				Classic Mode
+			
+		
+
+		
+				
+					
+						Settings
+						
+						
+					
+				
+			
+				
+					
+						Manage Branding
+						
+						
+					
+				
+			
+				
+					
+						Help
+						
+						
+					
+				
+			
+				
+					
+						Mobile
+						
+						
+					
+				
+			
+		
+		
+		
+			Logout   
+			
+		
+	
+
+
+	
+
+
+
+
+
+
+	
+		
+	
+
+
+
+
+	
+		
+	
+	
+
+
+
+	
+		
+			
+				
+					Switching to Classic Mode
+				
+				
+					
+				
+			
+			
+				
+					You are switching to the classic user experience. You can switch back to the new user experience at any time.
+				
+			
+			
+				
+
+				
+				
+					Cancel
+				
+				
+					Go to Classic Dashboard
+				
+			
+		
+	
+
+
+
+	function UIVersionSwitchPost()
+	{
+		var dataToSend = {
+			uiVersion: $('#mtrxUIVersionInput').val(),
+			__RequestVerificationToken: $("[name='__RequestVerificationToken']").val()
+		};
+
+		$.ajax({
+			url: '/Matrix/home/ChangeUIVersion',
+			type: 'POST',
+			data: dataToSend,
+			success: (function (result)
+			{
+				if (result.hasOwnProperty('target')) {
+					window.location.href = result.target;
+				}
+				else if (result.hasOwnProperty('errorMessage')) {
+					alert(result.errorMessage);
+				}
+				else {
+					alert('UnExpected - ' + result);
+				}
+			})
+		});
+	}
+
+
+
+			
+		
+	
+	
+					
+				
+			
+		
+	
+
+
+
+	
+		
+	
+	
+
+
+
+
+	
+		
+	
+				
+			
+
+	
+	
+		
+		  
+		Refresh
+		   	
+		Log Out
+	
+	
+		Your Session has Expired. Please login again.
+		Login
+	
+
+
+
+
+
+
+	
+	
+			
+			
+				
+					
+					
+						
+					
+					
+					
+					
+					
+				
+			
+
+			
+			
+				
+					
+					
+						
+							
+						
+						
+					
+					
+					
+				
+
+			
+
+			
+			
+			
+				
+				
+		
+		
+			
+				
+					
+						
+							Recent Searches
+							
+							
+						
+					
+				
+			
+		
+
+		
+			
+				
+					
+						
+							
+						
+						Recent Searches
+					
+					
+
+						
+
+					
+				
+			
+		
+
+	
+	
+
+			
+			
+		
+
+
+
+
+
+
+
+	$(document).ready(function () {
+		var langheader = document.getElementById("topMenuBlade").querySelectorAll('.liSectionTitle');
+		if(langheader.length > 0) {
+			langheader.item(0).style.display = 'none';
+		}
+		var langdivider = document.getElementById("topMenuBlade").querySelectorAll('.divider');
+		if(langdivider.length > 0) {
+			langdivider.item(0).style.display = 'none';
+		}
+		var langitems = document.getElementById("topMenuBlade").querySelectorAll('*[id^="lang_item"]');
+		for (var i = 0; i < langitems.length; i++) {
+			langitems.item(i).classList.add("mtx-text--larger");
+			langitems.item(i).classList.remove("mtx-dropdown-lang-item");
+			if (langitems.item(i).childElementCount==0) {				
+				langitems.item(i).setAttribute("style","padding-left:30px;")
+			}			
+		}
+	});
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+		
+	Display Name:
+	
+		
+	
+
+	
+
+	
+	Save As a Copy
+	Revert unsaved changes
+	
+
+
+
+
+		
+		
+			
+				
+					Set currently selected search criteria as my starting default
+				
+				
+					Reset to the system Search defaults
+				
+				
+
+	Set current display, sort order and count per page as my Search starting default
+
+
+	Reset to the system Search defaults
+
+
+				
+					Set this map view as my starting default
+				
+				
+					Restore system default map view
+				
+			
+		
+	
+
+
+
+
+
+	
+		Try Our New Search
+		
+			
+		
+				
+
+
+			
+	
+		
+				
+		
+					
+	
+		
+			
+				 Market Watch
+			
+					
+			
+				
+						
+						 
+					
+					 
+			
+			
+				
+			
+			
+				
+			
+		
+	
+
+				
+
+		
+					
+			
+					
+						
+					
+						New Listing (131)
+						
+					
+				
+					
+						Price Increase (11)
+						
+					
+				
+					
+						Price Decrease (78)
+						
+					
+				
+					
+						Back On Market (8)
+						
+					
+				
+					
+						Act 1st Rgt - Showing (1)
+						
+					
+				
+					
+						Under Contract - Showing (32)
+						
+					
+				
+					
+						UC Short Sale - Showing (3)
+						
+					
+				
+					
+						Withdrawn (3)
+						
+					
+				
+					
+						Pending (22)
+						
+					
+				
+					
+						Sold (72)
+						
+					
+				
+					
+						Coming Soon (7)
+						
+					
+				
+					
+						Leased (0)
+						
+					
+				
+					
+						Cancelled (6)
+						
+					
+				
+					
+						Expired (2)
+						
+					
+				
+					
+				
+			
+			
+			
+						
+				
+
+					
+						
+							
+							
+							Residential
+							Income
+							Land
+							Farm
+							Commercial
+							Business
+							Rental
+							Cross Property
+
+						
+							
+						
+						
+							
+							24 Hour
+							Today
+							3 Day
+							7 Day
+
+						
+						
+					
+				
+				
+					
+						
+							
+								Refresh
+							
+							
+								Customize
+								
+								
+							
+						
+					
+				
+			
+					
+		
+				
+	
+			
+
+
+
+	
+	
+		(function () {
+			
+			$('body').on('click', '#m_ucTitle_btnMarketWatch', function () {
+				$("#divMarketWatch").show();
+			});
+			$('body').on('mouseleave', '#divMarketWatch', function (e) {
+				if ($(this).find("select").is(":focus")) return
+				$("#divMarketWatch").hide();
+			});
+			$('body').on('blur', "#divMarketWatch select", function () {
+				if ($("#divMarketWatch").is(":hover")) return;
+				$("#divMarketWatch").hide();
+			});
+			$('body').on('click', "#divMarketWatch select", function () {
+				setTimeout(function () {
+					if ($("#divMarketWatch").is(":hover") || $("#divMarketWatch select").is(":focus")) return;
+					$("#divMarketWatch").hide();
+				}, 2000);
+			});
+		}());
+	
+
+		
+
+
+
+			
+	
+			
+
+	
+		
+		Results
+	
+	
+	
+	
+		
+		Map
+		
+	
+	
+	
+	
+		
+		Criteria
+		
+	
+	
+	
+
+
+		
+	
+
+
+
+	
+		
+		
+			
+				
+					
+						
+						   
+							
+								
+									
+									
+										
+											
+												
+													
+													Default Search
+												
+												
+													
+												
+												
+													 of 
+												
+												
+													Checked 
+																								
+												
+													All
+													·
+													None
+													·
+													Page
+													Page
+													·
+												
+												
+												
+													
+														
+															
+																
+															
+															
+																
+															
+															 											
+														
+													
+												
+												
+													Comp View display
+												
+											
+										
+									
+									
+									
+										
+											
+												
+												
+													Display
+
+			my:Single Line
+			my:Copy of Single Line
+			my:Schools
+			my:Comp View
+			my:Copy of Single Line
+			my:Relocation Comp View
+			Single Line
+			360 Property View
+			Thumbnail
+			Short
+			Hotsheet
+			Agent Report Preview
+			Appraisal Report (Res only)
+			Agent Full Report/Map
+			Agent Full Report w/photos
+			Agent Full Report (Condensed)
+			Photo Gallery
+			Thumbnail Gallery w/Remarks
+			Customer Single Line
+			Customer Mobile
+			Customer Preview
+			Customer Short
+			Customer Full Report
+			Customer Full Report /Map
+			Customer Full Report w/photos
+			Customer Full Report (Condensed)
+
+		
+
+at
+
+			10
+			25
+			50
+			100
+
+		
+per page
+
+
+												
+												
+												
+													
+												
+												
+													
+													
+												
+												
+													
+												
+												
+													
+												
+												
+													
+												
+												
+													
+												
+												
+													
+												
+												
+													
+												
+												
+													
+												
+											
+										
+									
+									
+									
+										
+										
+											
+												
+
+	
+		
+	
+	
+	
+	
+		<div class="list" style="display:block;">
+			<span class="">Did you mean:</span>
+		</div>
+	
+	
+		<div class="list" style="display:block;">
+			Your exact location could not be determined.
+			<a class="go" href="#">Use approximate location</a>
+			<a class="cancel" href="#">Cancel</a>
+		</div>
+	
+	
+		<div class="list" style="display:block;">
+			No matching address in MLS boundaries.
+			<a class="cancel" href="#">Close</a>
+		</div>
+	
+	
+		My Current Location
+		
+	
+
+											
+											
+										
+										
+									
+								
+							
+						
+						
+							
+							
+								
+									 
+										
+									 
+								
+							
+						
+					
+				
+			
+		
+	
+	
+
+
+
+	
+		
+		
+			
+			
+			
+				
+					
+			Current StatusSelect AllSelect None
+			Active
+			
+			ACT 1st Rgt-Showing
+			
+			UC Short Sale - Showing
+			
+			Under Contract - Showing
+			
+			Pending
+			
+			Leased
+			
+			Sold
+			
+			Withdrawn
+			
+			Expired
+			
+			Coming Soon-No Showings
+			
+			Cancelled
+			
+			
+			
+			
+			_____________________________________ Status Change Date  List Date Received_____________________________________   Property Category
+			Residential
+			Income
+			Land
+			Farms
+			Commercial
+			Business
+			Rental
+			
+			
+			
+			
+			OrNot
+			  Property Type
+			
+			
+			
+			OrNot
+			_____________________________________   NoticesAddenda RequiredAffordable Housing Subsidy Avail.Auction-AbsoluteAuction-ReserveBank OwnedBroker OwnedBuilder OwnedColorado Time ShareCorporate OwnedEstablished Rental HistoryEstateFannie Mae Homepath PropertyFannie/Freddie OwnedFIRPTAGovernment OwnedHUD OwnedIn ForeclosureLead Base Paint Discl ReqLeasehold Title Interest in LandNo AccessNot ApplicableOther RepoRenters Insurance is RequiredSee Media LinkSee Show/Agent RemarksSenior Tax ExemptionShort Sale Add SignedSold As IsVA RepoAndOr
+			Map Search:No Map SelectedClear Map
+			   Within 0.250.512351025  miles of  My Location<ul class="disambiguation"><li>Your exact location could not be determined.</li><li><a class="go" href="#">Use approximate location</a></li><li><a class="cancel" href="#">Cancel</a></li></ul><ul class="disambiguation"><li>Did you mean:</li></ul>  _______________________________________________________________   
+			St #Street DirStreet NameStreet TypeUnit #Zip
+			
+			
+			N
+			E
+			S
+			W
+			
+			
+			
+			Alley
+			Avenue
+			Bend
+			Boulevard
+			Canyon
+			Circle
+			Court
+			Cove
+			Crest
+			Drive
+			Estates
+			Grove
+			Heights
+			Highway
+			Hollow
+			Landing
+			Lane
+			Loop
+			Not Applicable
+			Overlook
+			Park
+			Parkway
+			Pass
+			Path
+			Place
+			Plaza
+			Point
+			Ridge
+			Road
+			Run
+			Square
+			Street
+			Terrace
+			Trace
+			Trail
+			Trailway
+			View
+			Village
+			Vista
+			Way
+			
+			
+			
+			
+			More
+			
+			_______________________________________________________________   County 
+			
+			
+			El Paso
+			Teller
+			Adams
+			Alamosa
+			Arapahoe
+			Archuleta
+			Baca
+			Bent
+			Boulder
+			Broomfield
+			Chaffee
+			Cheyenne
+			Clear Creek
+			Conejos
+			Costilla
+			Crowley
+			Custer
+			Delta
+			Denver
+			Dolores
+			Douglas
+			Eagle
+			Elbert
+			Fremont
+			Garfield
+			Gilpin
+			Grand
+			Gunnison
+			Hinsdale
+			Huerfano
+			Jackson
+			Jefferson
+			Kiowa
+			Kit Carson
+			La Plata
+			Lake
+			Larimer
+			Las Animas
+			Lincoln
+			Logan
+			Mesa
+			Mineral
+			Moffat
+			Montezuma
+			Montrose
+			Morgan
+			Otero
+			Ouray
+			Park
+			Phillips
+			Pitkin
+			Prowers
+			Pueblo
+			Rio Blanco
+			Rio Grande
+			Routt
+			Saguache
+			San Juan
+			San Miguel
+			Sedgwick
+			Summit
+			Washington
+			Weld
+			Yuma
+			
+			
+			
+			OrNot
+			School District
+			
+			
+			Colorado Springs 11
+			Academy-20
+			District 49
+			Harrison-2
+			Widefield-3
+			Cheyenne Mtn-12
+			Manitou Springs-14
+			Lewis-Palmer-38
+			Peyton 23JT
+			Calhan RJ1
+			Miami/Yoder 60JT
+			Edison 54 JT
+			Hanover-28
+			Woodland Park Re2
+			Cripple Crk/Victor RE1
+			27J
+			50-Plateau Valley
+			Adams 12 Five Star
+			Adams 14
+			Adams 50
+			Adams-Arapahoe 28J
+			Agate 300
+			Aguilar Reorganized 6
+			Alamosa Re-11J
+			Archuleta 50 JT
+			Arickaree R-2
+			Arriba-Flagler C-20
+			Ault-Highland RE-9
+			Bayfield 10 JT-R
+			Bennett 29J
+			Big Sandy 100J
+			Boulder Valley RE2
+			Brush RE-2
+			Buena Vista R-31
+			Burlington RE-6J
+			Byers 32J
+			Canon City Re-1
+			Centennial R-1
+			Cheraw 31
+			Cherry Creek-5
+			Cheyenne County RE-5
+			Clear Creek Re-1
+			Cotopaxi Re-3
+			Crowley Re-1-J
+			Custer Consolidated C-1
+			Deer Trail 26J
+			Delta County 50
+			Denver County 1
+			Dolores RE-4a
+			Douglas Re1
+			Durango 9-R
+			Eagle County RE 50
+			East Grand 2
+			East Otero R-1
+			Eaton RE-2
+			Elbert-200
+			Elizabeth C-1
+			Ellicott 22
+			Englewood 1
+			Estes Park R-3
+			Fleming RE3
+			Florence/Fremont Re-2
+			Fort Morgan RE-3
+			Fowler R-4J
+			Ftn/Ft Carson 8
+			Garfield RE-2
+			Genoa-Hugo C113
+			Gilpin County RE-1
+			Greeley-6
+			Gunnison Watershed Re1J
+			Haxtun RE-2J
+			Hi-Plains R-23
+			Hinsdale County RE 1
+			Hoehne 3
+			Huerfano RE-1
+			Ignacio 11 JT
+			Jefferson R-1
+			Johnstown-Milliken RE-5J
+			Julesburg RE-1
+			Karval RE-23
+			Kiowa C-2
+			Kiowa Re-1
+			Kit Carson R-1
+			La Veta RE-2
+			Lake County R-1
+			Lamar RE-2
+			Las Animas RE-1
+			Liberty J-4
+			Limon Re-4J
+			Littleton 6
+			Mancos Re-6
+			Manzanola 3J
+			Mapleton 1
+			Mesa County Valley 51
+			Moffat 2
+			Moffat RE-1
+			Monte Vista C-8
+			Montrose County Re-1j
+			Mountain Valley RE-1
+			North Conejos RE-1J
+			Ouray R-1
+			Park Re-2
+			Peetz Plateau RE-5
+			Platte Canyon 1
+			Platte Valley RE-7
+			Poudre R-1
+			Primero Reorganized 2
+			Pueblo City-60
+			Pueblo County 70
+			Ridgeway R-2
+			Roaring Fork RE-1
+			Rocky Ford R-2
+			Salida R-32
+			Sangre De Cristo RE-22J
+			Sheridan-2
+			Sierra Grande R-30
+			South Conejos RE-10
+			South Routt RE 3
+			St Vrain Valley RE1-J
+			Steamboat Springs Re-2
+			Strasburg 31J
+			Stratton R-4
+			Summit RE-1
+			Swink 33
+			Thompson R2-J
+			Trinidad 1
+			Upper Rio Grande C-7
+			Valley RE-1
+			Walsh RE-1
+			Weld County RE-1
+			Weld County RE-3J
+			Weld Re-8
+			Westminster Public Schools
+			Wiggins RE-50J
+			Wiley RE-13
+			Weld RE-4
+			Wray RD-2
+			Yuma 1
+			
+			
+			
+			OrNot
+			City
+			
+			
+			Colorado Springs
+			Woodland Park
+			Agate
+			Aguilar
+			Akron
+			Alamosa
+			Allenspark
+			Alma
+			Almont
+			Amherst
+			Anton
+			Antonito
+			Arapahoe
+			Araphoe
+			Arboles
+			Arlington
+			Arriba
+			Arvada
+			Aspen
+			Atwood
+			Ault
+			Aurora
+			Austin
+			Avon
+			Avondale
+			Bailey
+			Basalt
+			Battlement Mesa
+			Bayfield
+			Beaver Creek
+			Bellvue
+			Bennett
+			Berthoud
+			Bethune
+			Beulah
+			Black Forest
+			Black Hawk
+			Blanca
+			Blue River
+			Boncarbo
+			Bond
+			Boone
+			Boulder
+			Bovina
+			Bow Mar
+			Boyero
+			Branson
+			Breckenridge
+			Briggsdale
+			Brighton
+			Brookside
+			Broomfield
+			Brush
+			Buena Vista
+			Buffalo Creek
+			Burlington
+			Byers
+			Calhan
+			Campion
+			Campo
+			Canon City
+			Capulin
+			Carbondale
+			Carr
+			Carter Lake
+			Cascade
+			Castle Pines
+			Castle Pines North
+			Castle Rock
+			Cedaredge
+			Centennial
+			Center
+			Central City
+			Chama
+			Cheraw
+			Cherry Hills Village
+			Cheyenne
+			Cheyenne Wells
+			Chipita Park
+			Chromo
+			Cimarron
+			Clark
+			Clifton
+			Coal Creek
+			Coaldale
+			Cokedale
+			Collbran
+			Colorado City
+			Columbine Valley
+			Commerce City
+			Como
+			Conejos
+			Conifer
+			Cope
+			Copper Mountain
+			Cortez
+			Cotopaxi
+			Cowdrey
+			Craig
+			Crawford
+			Creede
+			Crested Butte
+			Crestone
+			Cripple Creek
+			Crook
+			Crowley
+			Crystola
+			Cuchara
+			Dacono
+			De Beque
+			Deckers
+			Deer Trail
+			Del Norte
+			Delta
+			Denver
+			Deora
+			Dillon
+			Dinosaur
+			Divide
+			Dolores
+			Dove Creek
+			Downieville
+			Drake
+			Dumont
+			Dupont
+			Durango
+			Eads
+			Eagle
+			Eastlake
+			Eaton
+			Eckert
+			Eckley
+			Edgewater
+			Edison
+			Edwards
+			El Jebel
+			Elbert
+			Eldorado Springs
+			Elizabeth
+			Ellicott
+			Empire
+			Englewood
+			Erie
+			Estes Park
+			Evans
+			Evergreen
+			Fairplay
+			Falcon
+			Farista
+			Federal Heights
+			Firestone
+			Flagler
+			Fleming
+			Florence
+			Florissant
+			Fort Collins
+			Fort Garland
+			Fort Lupton
+			Fort Morgan
+			Fountain
+			Fowler
+			Foxfield
+			Foxton
+			Franktown
+			Fraser
+			Frederick
+			Frisco
+			Fruita
+			Galeton
+			Garcia
+			Garden City
+			Gardner
+			Gateway
+			Genoa
+			Georgetown
+			Gilcrest
+			Gill
+			Glade Park
+			Glen Haven
+			Glendale
+			Glenwood Springs
+			Golden
+			Goldfield
+			Granada
+			Granby
+			Grand Junction
+			Grand Lake
+			Granite
+			Grant
+			Greeley
+			Green Mountain Falls
+			Greenwood Village
+			Grover
+			Guffey
+			Gulnare
+			Gunnison
+			Gypsum
+			Hamilton
+			Hartsel
+			Hasty
+			Haswell
+			Haxtun
+			Hayden
+			Heeney
+			Henderson
+			Hereford
+			Hesperus
+			Highlands Ranch
+			Hillrose
+			Hillside
+			Hoehne
+			Holly
+			Holyoke
+			Hooper
+			Hot Sulphur Springs
+			Hotchkiss
+			Howard
+			Hudson
+			Hugo
+			Hygiene
+			Idaho Springs
+			Idalia
+			Idledale
+			Ignacio
+			Iliff
+			Independence
+			Indian Hills
+			Jamestown
+			Jefferson
+			Jelm
+			Joes
+			Johnstown
+			Julesburg
+			Karval
+			Keenesburg
+			Keota
+			Kersey
+			Keystone
+			Kim
+			Kiowa
+			Kirk
+			Kit Carson
+			Kittredge
+			Kremmling
+			La Jara
+			La Junta
+			La Salle
+			La Veta
+			Lafayette
+			LaGrange
+			Lake City
+			Lake George
+			Lakeside
+			Lakewood
+			Lamar
+			Laporte
+			Larkspur
+			Las Animas
+			Last Chance
+			Lawson
+			Lazear
+			Leadville
+			Limon
+			Lindon
+			Littleton
+			Livermore
+			Lochbuie
+			Log Lane Village
+			Loma
+			Lone Tree
+			Longmont
+			Louisville
+			Louviers
+			Loveland
+			Lucerne
+			Lyons
+			Mack
+			Manassa
+			Mancos
+			Manitou Springs
+			Manzanola
+			Masonville
+			Matheson
+			Maybell
+			Maysville
+			Mc Clave
+			Mc Coy
+			Mead
+			Meeker
+			Meeker Park
+			Merino
+			Mesa
+			Mesita
+			Midway
+			Milliken
+			Minturn
+			Model
+			Moffat
+			Molina
+			Monte Vista
+			Montrose
+			Monument
+			Morrison
+			Mosca
+			Nathrop
+			Naturita
+			Nederland
+			New Castle
+			New Raymer
+			Niwot
+			Northglenn
+			Norwood
+			Nucla
+			Nunn
+			Oak Creek
+			Ohio City
+			Olathe
+			Olney Springs
+			Orchard
+			Ordway
+			Otis
+			Ouray
+			Ovid
+			Oxyoke
+			Padroni
+			Pagosa Springs
+			Palisade
+			Palmer Lake
+			Paoli
+			Paonia
+			Parachute
+			Park
+			Parker
+			Parlin
+			Parshall
+			Peaceful Valley
+			Peetz
+			Penrose
+			Peyton
+			Phippsburg
+			Pierce
+			Pine
+			Pinecliffe
+			Pinewood Springs
+			Pitkin
+			Placerville
+			Platteville
+			Poncha Springs
+			Powderhorn
+			Pritchett
+			Proctor
+			Pueblo
+			Pueblo West
+			Ramah
+			Rand
+			Rangely
+			Raymer
+			Raymond
+			Red Cliff
+			Red Feather
+			Red Feather Lakes
+			Redstone
+			Ridgway
+			Rifle
+			Riverside
+			Rockvale
+			Rocky Ford
+			Roggen
+			Rollinsville
+			Rush
+			Rye
+			Saguache
+			Salida
+			San Luis
+			San Pablo
+			Sanford
+			Sangre de Cristo Ranches
+			Sargents
+			Security
+			Sedalia
+			Sedgwick
+			Seibert
+			Severance
+			Shawnee
+			Sheridan
+			Sheridan Lake
+			Silt
+			Silver Cliff
+			Silver Plume
+			Silverthorne
+			Silverton
+			Simla
+			Snowmass
+			Snyder
+			Somerset
+			South Fork
+			Springfield
+			Steamboat Springs
+			Sterling
+			Stoneham
+			Stonington
+			Strasburg
+			Stratton
+			Sugar City
+			Superior
+			Swink
+			Tabernash
+			Tarryall
+			Telluride
+			Texas Creek
+			Thornton
+			Timnath
+			Toponas
+			Trinchera
+			Trinidad
+			Truckton
+			Twin Lakes
+			Tyrone
+			Ute
+			Vail
+			Victor
+			Villa Grove
+			Virginia Dale
+			Vona
+			Walden
+			Walsenburg
+			Walsh
+			Ward
+			Watkins
+			Wattenburg
+			Waverly
+			Weldona
+			Wellington
+			Westcliffe
+			Westminster
+			Weston
+			Wetmore
+			Wheat Ridge
+			Whitewater
+			Widefield
+			Wiggins
+			Wiley
+			Williamsburg
+			Windsor
+			Winter Park
+			Wolcott
+			Wondervu
+			Woodrow
+			Woody Creek
+			Wray
+			Yampa
+			Yellow Jacket
+			Yoder
+			Yuma
+			
+			
+			
+			OrNot
+			Sub Area
+			
+			
+			2 Grand Ave Condo
+			3D Estates
+			4 Way Ranch
+			6 Arrow East Com
+			7th Street Duplex
+			20 Bonforte + Constitution
+			470 Frontage Co
+			550 Monument Sub
+			760 CR 194
+			1907 West Cucharras Street
+			2400 Wood Ave
+			A & B
+			A C Ptolemys
+			A E Davis
+			A Macon
+			A P B
+			A V Hunter
+			A-Bar Ranches
+			AA
+			Abbe Hills Acres
+			Aberdeen
+			Abert Estates
+			Abert Ranch
+			Abert Ridge
+			Abiding Word Lutheran Church
+			Abrahamsons Stratmoor Hills
+			Abrahamsons Venetian Village
+			Abriendo
+			Abundant Acres
+			Academy Central Office Condominiums
+			Academy Corner
+			Academy East
+			Academy Hills
+			Academy Park Loop
+			Academy Plaza
+			Academy View
+			Academy Village
+			Acequia
+			Acres Green
+			Acres Of Ireland
+			Adams
+			Adams & Mcdonalds
+			Adams Addition
+			Addisons
+			Addition 1
+			Adee Chamberlin & Wileys
+			Adnet Sub
+			Adobe Creek Ranch
+			Adobe Village Condominiums
+			Adonea Sub
+			Aero Estates
+			Aeroplaza
+			Agate Petersons Add
+			Agers
+			Agram
+			Aimee Acres
+			Airport
+			Airport Square
+			Akers Acres
+			Alameda
+			Alameda Hills
+			Alan Park
+			Alana
+			Albrecht
+			Aldred Sub
+			Alexs
+			Alice Alley
+			Allantowne
+			Allegheny Drive
+			Allegheny Ridge
+			Allegiant At Lorson Ranch
+			Allendale
+			Allison
+			Allmendinger-Bradbury
+			Alma North Rhodesia South
+			Alpenheim
+			Alpha and Omega
+			Alpine & Alley
+			Alpine Acres
+			Alpine Bluffs
+			Alpine Glen
+			Alpine Meadow Ranch
+			Alpine Shadows
+			Alpine Vale
+			Alpine Village
+			Alps Of Cripple Creek
+			Alta Mira
+			Alta Vista Sub
+			Amber
+			Amber Glade
+			Amerald Acres
+			American Village Sub
+			Amherst
+			Amos Sub
+			Anderosa
+			Anderosa Estates
+			Anderson
+			Anderson Brothers
+			Anderson Knoll
+			Andrews Acres
+			Angeline
+			Angelview Condo
+			Anita Ranch
+			Antelope Acres
+			Antelope Creek
+			Antelope Heights
+			Antelope Hills
+			Antelope Meadows
+			Antelope Park Ranchettes
+			Antelope Ridge
+			Antelope Trail
+			Antelope Trails
+			Antelope Valley
+			Antero Vista
+			Anthem
+			Anthony Bott
+			Antlers Ridge Estates
+			Apache Creek Ranch
+			Apache Hills
+			Apache Mesa
+			Apache Springs
+			Apache Woods
+			Apex of the Little Ollie
+			Apex Ranch Estates
+			Apple Ridge
+			Apple Valley Estates
+			Appleby
+			Appletree
+			Applewood Knolls
+			Applewood Park Townhomes Condo
+			Applewood Village
+			Arabian Acres
+			Arapahoe Lakes
+			Arapahoe Meadows
+			Arbor Pointe Condos
+			Arbors Mountain Shadows
+			Arcadia
+			Arcadia Heights
+			Arch at Manitou Springs
+			Ardrey
+			Arensdale
+			Argyle Place
+			Arkansas River Mh Estates
+			Arkansas Wilderness
+			Arlington
+			Arlington Heights
+			Arlington Park
+			Armonia Ranch
+			Armour Sub
+			Armstrong
+			Arnold
+			Arrow C Ranches
+			Arrowhead
+			Arrowhead Estates
+			Arrowpoint
+			Arrowswest
+			Arrowwood
+			Arshad Acres
+			Arterberrys
+			ARTHUR C SHEELY
+			Arvidson
+			Arvonia
+			Asbury Heights
+			Ascent at Quail Brush
+			Ash
+			Ashleys
+			Aspen Acres
+			Aspen Creek
+			Aspen Creek Ranch
+			Aspen Gardens
+			Aspen Glen
+			Aspen Glen Sub Amd
+			Aspen Grove
+			Aspen Heights
+			Aspen Hills
+			Aspen Leaf Townhomes
+			Aspen Leaf Village
+			Aspen Meadows
+			Aspen Moores
+			Aspen Mountain Ranch
+			Aspen Park
+			Aspen Point Ranch
+			Aspen Ranch
+			Aspen Ridge
+			Aspen Rose Ranch
+			Aspen Springs
+			Aspen Valley
+			Aspen Village
+			Aspen Woods
+			Aspenwilde
+			Aspenwood
+			Assembly Estates
+			Assembly Grounds Of National Chautauqua
+			Astro Business Park
+			Atencio
+			Athmar Park
+			Atkinson
+			Atlas
+			Atwaters Add
+			Auburn
+			Audubon
+			Audubon Gardens
+			Audubon Spring
+			Augustas C Hahns Parklawn
+			Augustus C Hahns Parklawn
+			Aurora
+			Aurora East Planned Community
+			Aurora Highlands Sub
+			Aurora Hills
+			Aurora Knolls
+			Austin Bluffs
+			Austin Estates
+			Austin Heights
+			Austin Hill
+			Austin Ridge
+			Austins
+			Auto Acres
+			Autumn Creek
+			Autumn Heights
+			Avondale
+			Awbry Waiver
+			B & R Sub
+			B Lazy M Ranch
+			B&B
+			Baby Shoe Rock
+			Baca Grande Chalet
+			Baca Grande Mobile Home Estate
+			Bachman Farm
+			Back O The Wind
+			Backlund Ranches
+			Badger Creek Ranch
+			Bailey
+			Bain
+			Baker
+			Bakers
+			Bakers Half-Acre Sub
+			Bakers Sub
+			Bakers Villa
+			Balboa
+			Balchuck's
+			Bald Mountain Estates
+			Baldridge
+			Baldwin Park Estates
+			Bales
+			Balterra Condominiums
+			Baltimore Plaza
+			Banded Peaks River Ranch
+			Bank Add
+			Banning Lewis Ranch
+			Bannockburn
+			Bar D Ranch
+			Bar J-B Acres
+			Bar X Ranch
+			Bar-J Ranch
+			Bar-Kat
+			Barbarick
+			Barclay
+			Barclay Towers Condo
+			Barefoot Lakes
+			Barger
+			Barkers
+			Barndollar & CO 1st
+			Barndollar & CO 2nd
+			Barndollar & Lowthar
+			Barnes Center
+			Barnes Sub
+			Barneys Place
+			Barnstormers Landing
+			Barnum
+			Baron Ridge at Broadmoor Resort Community
+			Barrette
+			Bartlett & Miller
+			Bartlett Sub
+			Basgal
+			Baskett Heights
+			Bassick
+			Bauer
+			Bauer Mills
+			Baumann
+			Bay At The Landings
+			Bayberry Condos
+			Bayou Gulch Minor Residential Development
+			Bayou Salado
+			BDWY Heights
+			Beacon
+			Beacon Heights
+			Beacon Office Park
+			Beacon Point Sub
+			Bear Canyon Ranch
+			Bear Creek
+			Bear Creek Terraces
+			Bear Dance
+			Bear Park View
+			Bear Ridge
+			Bear Trap Ranch
+			Bear Valley
+			Beardsle
+			Beardsleys
+			Bears Den
+			Beasley Hills
+			Beaulah Heights
+			Beaumont
+			Beaver Creek
+			Beaver Creek Area Survey
+			Beaver Creek Heights
+			Beaver Park
+			Beaver Parkall
+			Beaver Ridge
+			Beaver Springs
+			Beaver Valley Estates
+			Beaver Valley Ranch
+			Beaver Valley Village
+			Beckett Bandley
+			Beckwith Mountain Ranch
+			Beebe Draw Farms Equestrian
+			Being Verified
+			Bel-Aire
+			Bell Cross Ranch
+			Bell Mountain Ranch
+			Bella Vista
+			Belle Creek
+			Belle Vue at Manitou Springs
+			Bellehaven
+			Belleville
+			Bellevue
+			Bellevue Park
+			Belmar Park Townhomes
+			Belmont
+			Belmont 1st
+			Belmont 2nd
+			Belmont 4th
+			Belmont 5th
+			Belmont 6th
+			Belmont 8th
+			Belmont 10th
+			Belmont 11th
+			Belmont 12th
+			Belmont 13th
+			Belmont 14th
+			Belmont 15th
+			Belmont 16th
+			Belmont 18th
+			Belmont 19th
+			Belmont 21st
+			Belmont 22nd
+			Belmont 23rd
+			Belmont 24th
+			Belmont 25th
+			Belmont 26th
+			Belmont 30th
+			Belmont 31st
+			Belmont 33rd
+			Belmont 47th
+			Belmont 53rd
+			Belmont 58th
+			Belmont 77th
+			Belmont Hills
+			Belmont Park Condos
+			Belmont Vista
+			Ben-Mor Terrace
+			Benbolt
+			Benchmark Condo
+			Bennett
+			Bennett Acres
+			Bennett Arms
+			Bennett Ave
+			Bennetts
+			Bent Grass Residential
+			Bent Tree
+			Bent Tree I
+			Bent Tree II
+			Bent Tree III
+			Bent Tree IV
+			Bent Tree V
+			Bergamo Estates
+			Bergers
+			Bergstrom
+			Berisford
+			Berkeley
+			Berkeley Hills
+			Berkeley Homes
+			Berkshire
+			Bernabee
+			Bernard Creek
+			Bernards 1st Add
+			Bertagnolli
+			Bessemer
+			Best Butte Ranches
+			Bestview
+			Beulah Heights
+			Beulah Highlands
+			Beverly Heights
+			Beverly Hills Estates
+			Biby Sub
+			Big Doe Meadows
+			Big Elk Meadows
+			Big Horn
+			Big Horn Ranch
+			Big Pine Estates
+			Big Springs Ranches
+			Bighorn Sheep Ranch
+			Bijou Creek
+			Bijou Heights
+			Bijou Star
+			Bijou Valley Estates
+			Billups & Barns
+			Binkley Gulch
+			Birger Larsen
+			Biscuit Minor
+			Bison Meadows
+			Bison Ridge At Kettle Creek
+			Bissell
+			Black Diamond Park
+			Black Forest Country Club
+			Black Forest Estates
+			Black Forest Highlands
+			Black Forest Park
+			Black Forest Reserve
+			Black Forest Shops
+			Black Forest Square
+			Black Hills
+			Black Hills Ranch
+			Black Squirrel Creek Park
+			Black Squirrel Park
+			Blackfeather
+			Blackfoot
+			Blackhawk Ranch
+			Blackman
+			Blackstone Ranch
+			Blake
+			Blakes
+			Blakes Add
+			Blanca
+			Blanca Vista
+			Blaney Road
+			Blasdel
+			Blaylock
+			Blende
+			Blende Industrial Park Sub
+			Blende Mobile Park
+			Blodgett Ranch
+			Bloom
+			Blue Hills Estates
+			Blue Jay
+			Blue Lake
+			Blue Mesa
+			Blue Mountain
+			Blue Mountain Estates
+			Blue Rose
+			Blue Sage
+			Blue Sky Preserve
+			Blue Sky Ranch
+			Blue Springs
+			Blue Springs Ranch
+			Blue Spruce
+			Bluebird Estates
+			Bluebird Hill
+			Bluffs at Castle Pointe
+			Bluffs At Rockrimmon
+			Blumenau
+			Boggs Creek
+			Bomgaars Replat
+			Bonita Village
+			Bonnie Acres
+			Bonnie Ridge
+			Bonnie Terrace Sub
+			Bonnyville
+			Boone
+			Bormann
+			Bormans Subdivision
+			Boston Heights
+			Bott
+			Botts
+			Boulder Cresent Condo
+			Boulder Heights
+			Boulder Street Orchards
+			Boulders Broadmoor
+			Boulevard
+			Bountiful
+			Bouziden
+			Bow Meadows
+			Bow Valley
+			Bow-Mar Hts
+			Bowen
+			Bowyer Sub
+			Boyd
+			Boysen Sub
+			Bradburn
+			Bradbury Ranch
+			Bradford
+			Bradford Place
+			Bradish
+			Bradley
+			Bradley Heights
+			Bradley Ranch
+			Bradley Ridge
+			Braggs
+			Brams
+			Branding Iron at Sterling Ranch
+			Brandon Park Condos
+			Brandychase II Condos
+			Brandyglass
+			Brant Hollow
+			Bravo
+			Brazil
+			Brecken Heights
+			Breckenridge Prop
+			Breeden
+			Breenlow
+			Breezedale
+			Breglio
+			Brenda Dae
+			Brent
+			Brentwood
+			Brentwood Country Club and Cabin
+			Brewster
+			Briar Haven
+			Briargate
+			Briargate Satellite
+			Briargate Square
+			Briargate Station
+			Briarhaven
+			Briarhill
+			Briarhill Place
+			Briarwood
+			Briarwood Village
+			Bridle Bit Ranch
+			Bridle Pass
+			Bridlewood
+			Briese
+			Brighton Crossing
+			Brighton East Farms
+			Brighton Reserve At Welchs Hilltop Acres
+			Brightside
+			Bristol Heights
+			Bristol School Sub
+			Bristols
+			Britanie Ridge Estates
+			Brittany Park Townhomes
+			Broadlands West
+			Broadmarket Square
+			Broadmoor
+			Broadmoor Bluffs
+			Broadmoor Bluffs Estates
+			Broadmoor Bluffs Park
+			Broadmoor Campus
+			Broadmoor Downs
+			Broadmoor Foothills
+			Broadmoor Glen
+			Broadmoor Glen South
+			Broadmoor Heights
+			Broadmoor Hills Park
+			Broadmoor Knolls
+			Broadmoor Mesa
+			Broadmoor Mesa Single Family
+			Broadmoor Mesa Townhomes
+			Broadmoor Northstar
+			Broadmoor Oaks
+			Broadmoor Park
+			Broadmoor Plaza
+			Broadmoor Resort Community
+			Broadmoor Ridge
+			Broadmoor Road Circle
+			Broadmoor Terrace
+			Broadmoor Valley
+			Broadmoor Valley Park
+			Broadmoor View
+			Broadmoor View At Spring Creek
+			Broadmoor Village
+			Broadmoor Vista
+			Broadmoorings
+			Broadview Business Park
+			Broadview Ranch
+			Broadview Ridge
+			Broadview Rural Open Space Incentive
+			Broadview Terraces
+			Broadway
+			Broadway Bluffs
+			Broadway Estates
+			Broadway Heights
+			Broadway North
+			Broadway Terrace
+			Broken Wagon Estates
+			Broken Wheel Village
+			Bromley Park
+			Bronco Ranch
+			Brook Meadows
+			Brookhaven
+			Brookmoor
+			Brookpark
+			Brooks Place
+			Brookshire Downs At Heatherridge
+			Brookside
+			Brookside Estates
+			Brookstone Estates
+			Brooktree Village
+			Brookwood
+			Brookwood Manor
+			Brookwood Park
+			Brookwood Terrace
+			Brookwood Village
+			Broomfield Country Club Estates
+			Broomfield Heights
+			Brothers Four First Add Town Of Benett
+			Brown Farm
+			Brown Trust Minor
+			Browns
+			Brownstones at Town Center Condo
+			Bruning
+			Brush Creek Estates
+			Bryan-Jiles
+			Buck 2nd Sub
+			Buck Point Sites
+			Buckeye
+			Buckingham Estates
+			Buckingham Terrace
+			Buckley Ranch
+			Buckwalter
+			Buells
+			Buena Vista
+			Buena Vista Park
+			Buffalo
+			Buffalo Creek
+			Buffalo Crossing
+			Buffalo Highlands
+			Buffalo Run
+			Bull Domingo Ranch
+			Bungalow Add Ivywild
+			Bunting
+			Burgess
+			Burkhardt
+			Burl Cleveland
+			Burl Fairsite
+			Burland Ranchettes
+			Burmeister
+			Burnett & Lennon
+			Burning Tree at Columbine
+			Burning Tree East Condos
+			Burning Tree Ranch
+			Burning Tree Square
+			Burns
+			Burns Brentwood Sub
+			Burns Heights
+			Burrells
+			Burro Ranch
+			Burroughs
+			Burtons 1st Add To Deer Trail
+			Busbys
+			Busch
+			Busch Tracts/Foard Tracks
+			Bush Crescent
+			Buss Cardenas
+			Butterfield
+			Buttle
+			Buttonwood Park
+			Byers
+			C & D
+			C & G Sub
+			C & H Estates
+			C & N
+			C C Iselys
+			C D Weavers
+			C F & I Corp Sub
+			C R S
+			Cabin Creek
+			Cactus Mountain
+			Cahns
+			Cahns Add Colorado Springs
+			Caitbrand
+			Calahan Homes
+			Caley Ponds
+			Calhan
+			Callbreaths Blanca Gardens
+			Caltrider
+			Calvert Heights
+			Cambridge Commons Condos
+			Cambridge Estates
+			Camco
+			Camelback Village
+			Camelot
+			Camels Pointe At Kissing Camels Estates
+			Camels Ridge Kissing Camels
+			Cameo Estates
+			Camerons
+			Camp
+			Campus Bluffs
+			Campus Commons
+			Candelas
+			Candelas Townhomes
+			Candlewood
+			Candlewood Court
+			Canon
+			Canon City
+			Canon Creek Ranch
+			Canon Creek Village
+			Canon Gardens
+			Canon Ridge North
+			Canon Ridge Ranch
+			Canonwood
+			Canterbury
+			Canterbury East
+			Canterbury West
+			Cantril
+			Canty
+			Canyon
+			Canyon Club Condo
+			Canyon Creek
+			Canyon Creek Townhomes
+			Canyon Ranch
+			Canyon Reserve At Mountain Shadows
+			Canyon Ridge North
+			Canyon Ridge Ranch
+			Canyon Springs at Soaring Eagles
+			Canyon Springs Ranch
+			Canyon View
+			Canyon Wood Condos
+			Canyons South
+			Cap Rock Acres
+			Cap Rock Hills
+			Cap Rock Hills East
+			Cap Rock Ranch
+			Capitol Ave Sub
+			Capitol Hill
+			Capulin
+			Carabiner
+			Caramillo
+			Carbon Valley
+			Carbone
+			Carefree
+			Carefree Twnhms
+			Carefree Village
+			Carefree Village North
+			Carla
+			Carlile
+			Carlile Parks
+			Carlino
+			Carlson
+			Carlson Farms
+			Carlson Ranch
+			Carmodys Hillcrest
+			Carole LLA
+			Carousel Farms
+			Carpenter
+			Carriage Club
+			Carriage Hills
+			Carriage House Lofts
+			Carriage Meadows North
+			Carriage Meadows North at Lorson Ranch
+			Carriage Meadows South at Lorson Ranch
+			Carriage Point West
+			Carriages at Briargate
+			Carriages At Indigo Ranch
+			Carriages At Jackson Creek
+			Carriages At Pine Creek
+			Carriages at Sanctuary Pointe
+			Carroccia BLA
+			Carroll
+			Carter-Kring
+			Casa Bella Vista
+			Casa Blanca Condos
+			Casa Cascade
+			Casa De Campo
+			Casa Del Mar
+			Casa Grande
+			Casa Monterey
+			Casa Verde
+			Cascade
+			Cascade Elms
+			Cascade Pines
+			Case
+			Casey
+			Cass
+			Castle Commerical Minor
+			Castle Creek
+			Castle Crest
+			Castle Heights
+			Castle Highlands
+			Castle Hills
+			Castle Mesa
+			Castle Mountain Ranch
+			Castle Mtn
+			Castle Oaks
+			Castle Oaks Estates
+			Castle Park Ranch
+			Castle Pines
+			Castle Pines Commercial
+			Castle Pines North
+			Castle Pines Town Center
+			Castle Pines Village
+			Castle Ridge East
+			Castle Rock
+			Castle Rock Park
+			Castle Villas Condo
+			Castlenorth
+			Castlepoint
+			Castlewood
+			Castlewood North
+			Castlewood Ranch
+			Catamount
+			Catamount Area
+			Cathedral Park Estates
+			Cathedral Pines
+			Cathedral Ridge at Garden of the Gods Club
+			Catlin's 2nd
+			Catlins
+			Cavanaugh Hills
+			Cay At Marina Pointe Condos
+			CC&I Co
+			Cedar Heights
+			Cedar Heights Estates
+			Cedar Lodge Condo
+			Cedar Mtn Ranch
+			Cedar Ridge
+			Cedar Valley
+			Cedar Valley At Peregrine
+			Cedarwood
+			Cedarwood Station
+			Celestina Martino
+			Centennial Acres
+			Centennial Business Center
+			Centennial Estates
+			Centennial Farms
+			Centennial Glen
+			Centennial Heights
+			Centennial North
+			Centennial Ranch
+			Centennial Ridge
+			Centennial South
+			Centennial Townes
+			Centennial West
+			Center
+			Central
+			Central Add to Brighton
+			Central Area
+			Central Park
+			Central Park Minor Sub
+			Century
+			Century Colorado
+			Century Communities at Austin Bluffs
+			Century Communities At Norwood
+			Century Heights
+			Century Park
+			Challenger Park Estates
+			Challenger Park Townhomes
+			Chamberlins Mesa
+			Chamberlins Sub
+			Chambers Heights
+			Chambers Ridge
+			Champel Lode
+			Champion Greens
+			Champion Villa Condo
+			Champlin Knob Hill Heights
+			Chandler Heights
+			Chaparral
+			Chaparral Condos
+			Chaparral Heights
+			Chaparral Hills
+			Chaparral Meadows
+			Chaparral Point At Indigo Ranch
+			Chaparral Pointe
+			Chaparral Ridge
+			Chaparral Valley
+			Chapel Heights
+			Chapel Hills
+			Charles Court
+			Charles H Whites
+			Charles Jaramillo
+			Charleston Place
+			Charleston Place Condos
+			Charline Palace Condo
+			Charmatella Park
+			Charter Greens
+			Chase & Frazier
+			Chase Heights
+			Chases
+			Chatalet Lane Condo
+			Chateau At Antelope Ridge
+			Chateau Chaparral
+			Chateau West
+			Chateaux Condos
+			Chatelet Lane Condo
+			Chatfield Acres
+			Chatfield Center
+			Chatfield Farms
+			Chatfield Green
+			Cheairs
+			Cheesman
+			Cheesman & Moffats
+			Chelsea Glen
+			Chelsea Terrace
+			Chelten Hills
+			Cheltenham Heights
+			Chelton Centre
+			Chelton Heights
+			Chelton Place
+			Chelton Square
+			Chenango
+			Cheri Meadows
+			Cherokee
+			Cherokee Drive
+			Cherokee Farms
+			Cherokee Flying Heights
+			Cherokee Heights
+			Cherokee Kivas Condo
+			Cherokee Meadows
+			Cherokee Park
+			Cherokee Ridge Estates
+			Cherokee Street
+			Cherokee Village
+			Cherokee Village West
+			Cherry Creek Apartment Homes
+			Cherry Creek Condo
+			Cherry Creek Crossing
+			Cherry Creek Farms
+			Cherry Creek Springs
+			Cherry Creek Vista
+			CHERRY GROVE EAST II
+			Cherry Hills
+			Cherry Knolls
+			Cherry Ridge
+			Cherry Springs Ranch
+			Cherry Valley Ranchettes
+			Cherrylane
+			Cherrywood Village
+			Chesham Village North
+			Chesham Village South
+			Chestnut
+			Chestnut Condos
+			Chestnut Glen
+			Chestnut Knoll
+			Chestnut Park
+			Chestnut Ranch
+			Cheyenne
+			Cheyenne Add
+			Cheyenne Add Colorado Spgs
+			Cheyenne Autumn
+			Cheyenne Canyon
+			Cheyenne Commons
+			Cheyenne Court
+			Cheyenne Creek
+			Cheyenne Crossing
+			Cheyenne Heights
+			Cheyenne Hills
+			Cheyenne Meadows
+			Cheyenne Meadows South
+			Cheyenne Mountain Estates
+			Cheyenne Mountain Highlands
+			Cheyenne Park
+			Cheyenne Place
+			Cheyenne Ridge
+			Cheyenne Run
+			Cheyenne Terrace
+			Cheyenne Valley
+			Chickasaw
+			Chico
+			Childs Manor Sub
+			Chipita Homes
+			Chisholm
+			Chisholm Amended
+			Chisholm Estates
+			Chisman
+			Choctaw Heights
+			Christianson
+			Christopher
+			Christopher Ranch
+			Christy Ridge
+			Chula Vista
+			Churchill & Chatfield Condo
+			Cielito Lindo
+			Cielo Grande
+			Cima Vista
+			Cimarron
+			Cimarron Eastridge
+			Cimarron Hills
+			Cimarron Industrial
+			Cimarron Northwest Industrial
+			Cimarron South
+			Cimarron Southeast
+			Cimarron Southridge
+			Cimarron Westridge
+			Cinnimon Down The Street
+			Circle
+			Circle Hill Md
+			Citadel
+			Citadel Crossing
+			City Hall Place
+			City of Austin Bluff
+			Cityscapes at the Meadows
+			Citywalk Downtown Lofts
+			Claremont Estates
+			Claremont Ranch
+			Clarke Farms
+			Clarks
+			Clarkson Park Condos
+			Classic
+			Claytons Add
+			Clear View Estates
+			Clear View Indust Park
+			Clearview
+			Clearway
+			Clements Add
+			Clemons
+			Cliff House
+			Cliffs Acres
+			Cliffwood Sub
+			Clifton
+			Cloven Hoof Estates
+			Clover Meadows
+			Cloverleaf
+			Cloverleaf Estates
+			Club Crest
+			Club Manor
+			Club Plaza
+			Club Valencia Condos
+			Club Villa
+			Club Vista
+			Club Vista Village
+			Clubside Green Condos
+			Clyde Summer Home
+			Clydesdale Park
+			Coal Creek
+			Coalson Farms
+			Cobblestone
+			Cobblestone At Cheyenne Mountain Ranch
+			Cobblestone Corners
+			Cochran
+			Cockrums
+			Cody Park
+			Cogway
+			Colburns
+			Cole Heights
+			Coleman Ranch
+			Colfax Terrace
+			College Green
+			College Green Commons
+			College Green Corner
+			College Green Office Park
+			College Green Point
+			College Hill
+			College Overlook
+			College Park
+			College Road
+			College View
+			College View Estates
+			College West Estates
+			Colletti
+			Colletti Tracts
+			Colliers Hill
+			Collins
+			Colo City
+			Colonial Park
+			Colonial Village
+			Colony At Cherry Creek Condo
+			Colony at Marina Pointe
+			Colony Glen
+			Colony Hills
+			Colony Pointe
+			Colorado & Southern
+			Colorado Acres
+			Colorado Buffalo Ranch
+			Colorado Canyon
+			Colorado Centre
+			Colorado Centre Residential
+			Colorado City
+			Colorado Coal and Iron Companys
+			Colorado Country
+			Colorado Estates
+			Colorado Fuel & Iron Companys
+			Colorado Land & Grazing Ranch
+			Colorado Land And Cattle
+			Colorado Mountain Estates
+			Colorado Mtn Estate
+			Colorado Ranch
+			Colorado Springs
+			Colorado Springs Addition
+			Colorado Springs Companys
+			Colorado Springs Music Building & Lofts
+			Colorado Woodland Estates
+			Colton Bluffs Sub
+			Columbia
+			Columbine Acres
+			Columbine Canyon
+			Columbine Casitas
+			Columbine Estates
+			Columbine Heights
+			Columbine Hills
+			Columbine Knolls North
+			Columbine Knolls South
+			Columbine Ranch Estates
+			Columbine Valley
+			Columbine Village
+			Columbine West
+			Columbine West Hillside
+			Colvin Sub
+			Colwood
+			Comanche Creek Ranch
+			Comanche Crossing
+			Comanche Estates
+			Comanche Junction
+			Comanche Spgs
+			Compark
+			Compark Village
+			Compass Flg
+			Comstock
+			Comstock Village
+			Concord
+			Conestoga Pines
+			Conifer Court
+			Conifer Grove Estates
+			Conifer Meadows
+			Conifer Mountain
+			Conifer Ridge
+			Conley
+			Conleys
+			Connells
+			Connolly Sub
+			Conoco
+			Conover
+			Conquistador
+			Conquistador Estates
+			Constitution Heights
+			Constitution Hills
+			Constitution Hills North
+			Contrails
+			Contrails at Briargate
+			Cooper Avenue
+			Cooper Court
+			Cooper Mountain
+			Cope
+			Copper Chase at Sterling Ranch
+			Copper Creek
+			Copper Gulch
+			Copperfield
+			Copperleaf
+			Cordera
+			Cordillera
+			Cordova
+			Corinado Estates
+			Corkish-Sackman Littell
+			Corkish-Sackman Sub
+			Cornella Court
+			Cornerstone
+			Corona
+			Corona Extra Addition
+			Corona Park
+			Corona Place
+			Coronado
+			Corral Bluffs
+			Corral Heights
+			Corral Ranches
+			Cosgrave
+			Cottage Place First
+			Cottonwood
+			Cottonwood Creek
+			Cottonwood Creek Estates
+			Cottonwood Draw
+			Cottonwood Estates
+			Cottonwood Grove
+			Cottonwood Highlands
+			Cottonwood Knolls
+			Cottonwood Lakes
+			Cottonwood Landing
+			Cottonwood Meadows
+			Cottonwood Point
+			Cottonwood River Ranch
+			Cottonwood South
+			Cottonwood Village Condos
+			Cougar Canyon
+			Count Pourtales
+			Count Pourtales Add Broadmoor
+			Country Acres
+			Country Broadmoor
+			Country Club
+			Country Club Acres
+			Country Club Court
+			Country Club Estates
+			Country Club Heights
+			Country Club Park
+			Country Club Village
+			Country Crossing
+			Country Estates
+			Country Green
+			Country Lane Farm
+			Country Living
+			Country Meadows
+			Country Ridge Estates
+			Country Side Add
+			Country Squire Estates
+			Country View Estates
+			Country Village Place
+			Country Walk At Broadmoor
+			Country Woodmoor
+			Countryside
+			Countryside Estates
+			Countryside North
+			Countryside Townhome
+			Countryside West
+			County Add
+			County Line Estates
+			Courier           S
+			Court Club
+			Courtside
+			Courtyard At Kissing Camels Estates
+			Courtyards At Newport
+			Courtyards At Quail Lake
+			Courtyards at Woodmen Hills North
+			Courtyards at Woodmen Hills South
+			Courtyards at Woodmen Hills West
+			Coutts
+			Cove at Cottonwood Creek
+			Covenant at Castle Rock
+			Coventry
+			Cover Mountain
+			Cover Mtn Ranch
+			Cowdrey-Johnson
+			Coyote Crossing
+			Coyote Hills
+			Coyote Meadows
+			Coyote Ridge
+			CP Treats
+			Craftwood Inn
+			Cragmor Heights
+			Cragmor Hills
+			Craig & Goulds
+			Craigs Add
+			Craigs Clover Knoll
+			Craigs Sub
+			Cranberry Park
+			Crandall
+			Crane
+			Cranes Add
+			Craven
+			Crawford Sub
+			Creek Estates
+			Creek House
+			Creek Side
+			Creek Terrace
+			Creek Terrace at Mesa Village
+			Creekside
+			Creekside At Caprock
+			Creekside At Jackson Creek
+			Creekside At Lorson Ranch
+			Creekside at Rockrimmon
+			Creekside Eagle Bend
+			Creekside Estates
+			Creekside South at Lorson Ranch
+			Creekview At River Run
+			Creekview Townhomes
+			Creighbaum
+			Crescent Lakes Estates
+			Crescent Place
+			Crescent Ranch
+			Crescent View
+			Cresta Vista
+			Crestfield Heights
+			Crestline Heights
+			Crestline Village
+			Crestmoor Park
+			Crestone
+			Crestone Heights
+			Crestridge Estates
+			Crestview
+			Crestview Acres
+			Crestview Hills
+			Crestwood Acres
+			Crestwood Park
+			Cripple Creek First Edition
+			Cripple Creek Heights
+			Cripple Creek Mountain
+			Cripple Creek Mountain Estates
+			Cripple Creek Mountain Timbers
+			Cripple Creek North
+			Cripple Creek Ranch
+			Cripple Creek Ranches of CO
+			Cripple Creek Villas
+			Cristo Vista Sub
+			Crocker
+			Croff
+			Cross Church Sub
+			Cross Creek
+			Cross Creek At Mesa Ridge
+			Crossmans
+			Crossroads Durango
+			Crossroads Village
+			Crosstrail
+			Crowfoot Springs Ranch
+			Crown Hill
+			Crown Hill at Rockrimmon
+			Crown Hill Mesa
+			Crown Sub
+			Crows Sub
+			Crystal Creek
+			Crystal Hills
+			Crystal Hills East
+			Crystal Lakes
+			Crystal Park
+			Crystal Park Townhomes
+			Crystal Peak Estates
+			Crystal Peak Ranches
+			Crystal Pines Ranch
+			Crystal Springs Ranch
+			Crystal Terrace
+			Crystal Valley Ranch
+			Crystola
+			Crystola Canyon
+			Crystola Pines
+			Cuchara Pass Ranch
+			Cuchares Ranch
+			Cuerno Verde Pines
+			Culig
+			Cumberland Green
+			Cumbre Vista
+			Cumming Track
+			Cummins Sub
+			Cunninghams
+			Curlissville
+			Curtis Baldwin
+			Curtis Estates
+			Custer County
+			Cutters Ridge At Sapphire Pointe
+			CW
+			CW 1st Add
+			Cypress Ridge
+			D J
+			D L Miller Sub
+			D L V
+			D Russ Wood
+			D&GB Sub
+			D&J Patch
+			D-Cross-D
+			Dakota Hideout
+			Dakota Ridge
+			Dakota Station
+			Dale Hill
+			Dale Johnson
+			Dale Village East Estates
+			Dalka
+			Damon
+			Danbury Park
+			Dancing Willows
+			Dancing Wolf Estates
+			Daniels & Others
+			Daniels Loft Condo
+			Dankenbrings Glen View
+			Darrs Place
+			Date Joint Venture
+			Davids Sub
+			Davis
+			Davis Ranch
+			Dawson Butte
+			Dawson Heights
+			Dawson Ranch
+			Day
+			Day Add
+			Daybreak at Wolf Ranch
+			Dayspring Christian Fellowship
+			De Marche Terre
+			Deaton
+			Deckers
+			Declue
+			Deeds
+			Deer Creek At Northgate
+			Deer Creek Estates
+			Deer Creek Farm
+			Deer Creek Valley Ranchos
+			Deer Meadows
+			Deer Mountain Ranch
+			Deer Park
+			Deer Run
+			Deer Trail
+			Deer Valley Estates
+			Deerfield
+			Deerfield Hills
+			Deerfield Meadows
+			Deerview
+			Del Norte
+			Del Norte Add Colo Spgs
+			Delassus
+			Delavan Place
+			Delilah Peak Ranch
+			Deliverance
+			Delmonico
+			Delta Place
+			Delta Square
+			Dennis Sub
+			Denson Raper
+			Denver Connection West
+			Denver Sp & Pacific
+			Derrington
+			Deweese
+			Dewell Addition
+			Dextraze
+			Diamond Ridge Estates
+			Diamond View
+			Dickson
+			Dickson Acres
+			Digby Crofts
+			Dilley Ranch
+			Dillion
+			Disalle
+			Discovery
+			Discovery At Ravencrest
+			Discovery At Smoky Hill Condos
+			Divide
+			Divide Central Area
+			Divide Ranches
+			Divide South
+			Dixie
+			Dixon Heights
+			Dodges
+			Doewood
+			Doherty Business Center
+			Doherty Village
+			Dollhouse Village 2
+			Domar Estates
+			Dome Rock Ranch
+			Dome Rock Ranchetts
+			Donala
+			Donleys Addition
+			Donohue & Ellsworth
+			Dooley
+			Dora Mountain Vistas
+			Dorchester
+			Dorchester Heights
+			Dorrough
+			Dos Lomos
+			Doss Terrace
+			Double Creek Ranch
+			Double D Exemption
+			Double Tree Ranch Minor Development
+			Doubleheader Ranch
+			Douglas 234
+			Douglas Acres
+			Douglas Mountain Ranch
+			Douglas Park
+			Douglas Southwest
+			Douglass
+			Dougs
+			Dove Creek
+			Downens
+			Downtown Central
+			Dozier & Mackenzie
+			Dr Owens Heights
+			Drakes
+			Dream House Acres
+			Dream Ridge
+			Druid Hills
+			Dry Creek Crossing Condo
+			Dublin Business Park
+			Dublin Heights
+			Dublin Manor
+			Dublin Meadows
+			Dublin North
+			Dublin Terrace
+			Dublin Townhomes
+			Duncan
+			Dundee Place
+			Dunes Park
+			Duran
+			Duran Walton
+			Durango
+			Durango Heights
+			Durango Hills
+			Dusty Hills
+			Dutch Creek Village
+			Dynair
+			E P Tenneys
+			E White
+			Eagle Brook Meadows
+			Eagle Canyon
+			Eagle Creek
+			Eagle Forest
+			Eagle Heights
+			Eagle Moon Ranch
+			Eagle Peak
+			Eagle Peak Ranch
+			Eagle Pines
+			Eagle Point
+			Eagle Ranch
+			Eagle Ridge
+			Eagle Rock
+			Eagle Springs Ranch
+			Eagle Three Patio Homes
+			Eagle View
+			Eagle Views Condominiums
+			Eagle Villas
+			Eagle Vista Estates
+			Eagle Wing Estates
+			Eaglecrest
+			Eaglecrest Townhomes
+			Eaglepointe Townhomes
+			Eagleridge Estates
+			Eagles Nest
+			Eagles Nest Ranches
+			Eagleside View
+			Eagleview Patio Homes
+			Earle & Raynolds
+			East Bend
+			East Bijou Creek Ranch
+			East Cherry Creek
+			East Coal Creek Estate
+			East Colorado City
+			East Dale
+			East Dale Add
+			East Denver Boyds
+			East Edlowe
+			East End Addition
+			East Hills
+			East Iron Springs
+			East Junior Heights
+			East Junior Park
+			East Lake
+			East Manitou
+			East Pueblo
+			East Pueblo Heights
+			East Quincy Highlands
+			East Rim Estates
+			East Side
+			East Side Haven
+			East Village At Rigden Farm Condos
+			East Windermere Gardens
+			Eastborough
+			Eastcliffe
+			Eastcrest
+			Easter
+			Eastern Capitol Hill
+			Eastin Albers
+			Eastlake
+			Eastmoor Park
+			Eastmorland
+			Eastonville Meadows
+			Eastridge
+			Eastridge Townhomes
+			Eastside Landing
+			Eastside/Pue
+			Eastview Estates
+			Eastwood
+			Eaton
+			Ebrite Place
+			Echo Hills
+			Echo Lane Townhomes
+			Echo Ridge
+			Echo Valley Estates
+			Echo Village
+			Echternacht Add
+			Eddy Acres
+			Edge at Wolf Ranch
+			Edgewater
+			Edison
+			Edmonds Terrace
+			Edora Acres
+			Edwards Add
+			Edwards Sub
+			EHM Sub
+			Ehmann
+			Ehrich
+			Eiffel Place
+			Eklunds
+			El Camino
+			El Chico Park
+			El Dorado Acres
+			El Dorado Village
+			El Parque
+			El Paso Sub
+			El Tesoro Outlook
+			Elan At Wolf Ranch
+			Elbert Beckman
+			Elbert Fricks
+			Elbert Heights
+			Elbert Original
+			Elbert Scotts
+			Eldon Park
+			Eldorado Estates
+			Electric Heights
+			Elephant Acres
+			Elephant Rock Acres
+			Elevate at Percheron
+			Elevate at Wolf Ranch
+			Eleven Mile Lakesites
+			Eleven Mile Ranch
+			Eleven Mile Tracts
+			Eleven Mile Village
+			Elisha C Kimballs
+			Elite Terrace
+			Elizabeth Acres
+			Elizabeth Amended
+			Elizabeth Farms
+			Elizabeth Garlands
+			Elizabeth Homesites
+			Elizabeth In The Pines
+			Elizabeth Phillips Add
+			Elizabeth Ridge
+			Elizabeth Settlement
+			Elizabeth Sorenson
+			Elizabeth Street
+			Elizabeth Villages
+			Elk Creek Ranch
+			Elk Creek Ranches
+			Elk Meadows Ranch
+			Elk Park Meadows
+			Elk Ridge
+			Elk Ridge Estates
+			Elk Ridge Ranch
+			Elk Valley Estates
+			Elk Valley Ranches
+			Elk View Ranch
+			Elkhorn Acres
+			Elkhorn Ranch
+			Elkhorn Ranches
+			Elkhorn Sub
+			Elkton Overlook
+			Ellicott Heights Ranch
+			Ellicott Lumber
+			Ellis Ranch
+			Ellston Park
+			Elm Creek Ranch
+			Elm Grove Villa
+			Elm View Estates
+			Elmwood Add
+			Elmwood Estates
+			Elmwood Heights
+			Elmwood Horizon
+			Elmwood Place
+			Elmwood Plaza
+			Elster Estates
+			Elwell and Smith
+			Embarcadero In Willowridge
+			Emerald Canyon Beulah Highlands
+			Emery Sub
+			Empire Estates
+			Enchantment
+			Enclave At Broadmoor Glen
+			Enclave At Monument
+			Enclave At Shiloh Mesa
+			Enclave at Walking Stick
+			Enclave at Wolf Ranch
+			Enclave Estates
+			ENCLAVE II AT WOLF RANCH
+			ENCLAVE III AT WOLF RANCH
+			Enclave IV at Wolf Ranch
+			Enclaves at Mountain Vista Ranch
+			Encore Cr Condos
+			Engleby Moors
+			Englewood Add
+			Englewood Sub
+			Englund
+			Ensigns
+			Equestrian Country
+			Equine Meadows
+			Equitable Improvement Company
+			Erickson
+			Erie Highlands
+			Erin Centre
+			Erindale
+			Erindale Heights
+			Erindale Office Center
+			Erindale Park
+			Erindale Place
+			Ermel Heights
+			Erwins
+			Esmiol
+			Espanola Mission
+			Esperanza Village
+			Estates Above Plum Creek
+			Estates At Belmar Park
+			Estates at Living Water
+			Estates At Van Bibber
+			Estates Of Colorado
+			Esteb
+			Eubanks Estates
+			Eureka Sub
+			Evans
+			Evans Park Estates
+			Evans Ranch
+			Evanston
+			Evanston Bdwy
+			Evelyne
+			Evergreen
+			Evergreen Acres
+			Evergreen Heights
+			Evergreen Meadows West
+			Evergreen Ridge Townhomes
+			Everton
+			Ewing Ranch
+			Ex Sur
+			Executive 9 Club Estates
+			Executive Business Park
+			Executive Park
+			F H Lamberty
+			Fahrlander
+			Fairfax
+			Fairfax At Briargate
+			Fairfax Meadows
+			Fairfax Ridge
+			Fairfax Station
+			Fairfield 1st
+			Fairhaven
+			Fairmont
+			Fairmount Park
+			Fairpark Sub
+			Fairplay
+			Fairview
+			Fairview Heights
+			Fairway
+			Fairway Estates
+			Fairway Pines
+			Fairway Village
+			Fairway Village Fore
+			Fairway Villas
+			Fairytale Acres
+			Faith
+			Falcon
+			Falcon Estates
+			Falcon Forest
+			Falcon Heights
+			Falcon Highlands
+			Falcon Hills
+			Falcon Meadows
+			Falcon Meadows at Bent Grass
+			Falcon Ranches
+			Falcon Ranches Estates
+			Falcon Ranchettes
+			Falcon Ridge
+			Falcon Ridge at Springs Ranch
+			Falcon Terrace at Springs Ranch
+			Falcon View
+			Falcon Vista
+			Falcons Nest
+			Fallbrook
+			Fallwell
+			Family of Faith Luthern Church
+			Fariss and Gartley
+			Fawn Valley
+			Fearnowville
+			Felix Place
+			Fellowship
+			Feltons
+			Fenmoor
+			Ferrara
+			Ferriers
+			Fi Subdivision
+			Ficals Addition
+			Fiedler
+			Field Sub
+			Fieldstone
+			Fifteenth Fairway
+			Fillmore Senior Campus
+			Finlay Orchard
+			Fire Clay Lofts
+			Firefly
+			Firemans Bluff
+			First Add
+			First Add to South Denver
+			First Addition Cripple Creek
+			First Baskett Hills
+			First Creek Farm Condo
+			Fischer
+			Fishcher
+			Fisks Broadway
+			Five Fountains
+			FL Martin Assignee William B Youngs
+			Flagler
+			Flagler Seals
+			Flanagans
+			Flatiron Meadows
+			Fleming
+			Fletcher Hill
+			Fletchers
+			Flintridge Hill Norwood
+			Flintridge Plaza
+			Flintwood Hills
+			Flintwood Pines Estates
+			Flocks
+			Flora Heights
+			Florence
+			Florence Heights
+			Florida-Colo Acres
+			Florissant
+			Florissant Canyon
+			Florissant Estates
+			Florissant Heights
+			Flying Cloud Estates
+			Flying Dutchman Condo
+			Flying Horse
+			Flying Horse 25 Turin
+			Flying Horse 36 Molise
+			Flying Horse NO 4 Palermo
+			Flying Horse North
+			Flying Horse South
+			Flying Horse Torino
+			Flying R Ranch
+			Foard Tracts
+			Fontenelle
+			Fontmore
+			Foot Hills
+			Foothill
+			Foothill Green
+			Foothill Green South
+			Foothills At Cheyenne Autumn
+			Foothills Farm
+			Forbes Park
+			Ford Sub
+			Forest Edge Estates
+			Forest Edge Park
+			Forest Edge Townhomes
+			Forest Estates
+			Forest Gate
+			Forest Glen
+			Forest Green
+			Forest Heights
+			Forest Highlands
+			Forest Hills
+			Forest Lakes
+			Forest Meadows
+			Forest Oaks
+			Forest Park
+			Forest Park Estates
+			Forest Ridge Ranch
+			Forest Trace
+			Forest View Acres
+			Forest View Estates
+			Forest View Heights
+			Forge
+			Fort Worth
+			Fortino & Giannetto
+			Fossil Beds Area
+			Fossinger
+			Fossinger Estates
+			Fosters
+			Founders Village
+			Fountain
+			Fountain Commons
+			Fountain Country Club Heights East
+			Fountain Crest Estates
+			Fountain Farms
+			Fountain Heights
+			Fountain Manor
+			Fountain Mesa Heights
+			Fountain Mesa Medical Commons
+			Fountain North
+			Fountain Plaza North
+			Fountain Ridge
+			Fountain Suburban
+			Fountain Valley Land & Irrigation
+			Fountain Valley Ranch
+			Fountain Village Townhomes
+			Fountaintree
+			Four Bar Kay Farm
+			Four Mile 2600
+			Four Mile 4038
+			Four Mile Ranch
+			Four Mile Sfr-1A
+			Four Mile Village Condos
+			Four Way Ranch
+			Fourmile Creek Ranch
+			FourMile Fishing Club
+			Foursquare Collection at Pathways
+			Fowler Burnett
+			Fowler Fairview
+			Fowler Heckart
+			Fowler Hoagland
+			Fowler Oxford
+			Fowler Park
+			Fowler Stiffler
+			Fox Creek
+			Fox Creek Farm
+			Fox Crossing
+			Fox Farm Village
+			Fox Glen
+			Fox Hill
+			Fox Hollow
+			Fox Meadows
+			Fox Mesa Ranch
+			Fox Pines
+			Fox Run
+			Fox Run At Centennial Condo
+			Foxdale Condo
+			Foxhill
+			Foxtail Pines
+			Foxx Springs Ranch
+			Foxx Valley Ranch
+			Framco
+			France Heights
+			Francias
+			Francis Add
+			Franciscos
+			Frank E Meyers
+			Frankenbergs
+			Franklin Park
+			Franklin Square
+			Frantzhurst
+			Frazier Add
+			Freedom Heights
+			Freeman
+			Freeman  Placer
+			Fremont Add
+			Fremont County
+			Fremont Place Condo
+			Frenchs Knoll Sub
+			Friendly Hills
+			Friendship Place
+			Fronterra Village
+			Frontier Village
+			Fruitland
+			Fruitmere
+			Fry Cruncleton
+			Frye Acres
+			Fuller Estates
+			Fullview
+			Fulton Heights
+			G King
+			Gaharts Refil of the Hansen
+			Gaharts Sub Division
+			Gaiser Holly Hills
+			Gaiser Holly Ridge
+			Gales
+			Gallegos-Atencio TRS
+			Gambel Oak Bluffs
+			Gambel Oaks
+			Game Trail
+			Gameridge
+			Gammon
+			Garcilaso
+			Garden Edge
+			Garden Fair Homes
+			Garden Grove Townhomes
+			Garden Hill
+			Garden Home
+			Garden Of The Gods
+			Garden Of The Gods Estates
+			Garden of the Gods Mesa Dev
+			Garden Of The Gods Village Condo
+			Garden of the Gods Village Manitou Springs
+			Garden Park
+			Garden Place
+			Garden Ranch
+			Garden Ranch Estates
+			Garden Terrace
+			Garden View
+			Garden Village
+			Garden Village Townhomes
+			Garden Vista
+			Gardens at Wolf Ranch
+			Gardner
+			Gardner Peak Ranch
+			Garfield
+			Garfield Place
+			Garnet Mesa
+			Garr
+			Gate House Garden
+			Gatehouse Village At Briargate
+			Gates
+			Gateway
+			Gateway Estates
+			Gateway Park
+			Gateway Village
+			Gateway Vista
+			Gebhart
+			Geiger
+			Geist
+			Gemenskap
+			Gemenskapa
+			Gen Henry G Thomas
+			General Iron Works
+			Genesee Flg #9
+			Genesee Village Condos
+			Gentry
+			GEO MCCORMICK GTWYPK
+			George H Stewarts
+			Georgeson
+			Georgetown
+			Georgetown Square
+			Gertrude
+			Ghebre
+			Ghost River Ranch
+			Giddings Lofts Condos
+			Gieck
+			Giffin Sub
+			Gifford Gardens
+			Gillen Add
+			Gillette
+			Gillis Development
+			Gilmore-Danskin
+			Gilster
+			Gissinger
+			Glacier Ridge
+			Glass House Condos
+			Glen Ellen
+			Glen Oaks
+			Glen Oaks at Broadmoor
+			Glen Park
+			Glen Park Palmer Lake
+			Glen View
+			Glen-Vista
+			Glenbrook
+			Gleneagle
+			Glenfield Meadows
+			Glenmoor Estates
+			Glenn Heights
+			Glenn Oaks
+			Glenns of Cottonwood
+			Glenwood Gardens
+			Glover
+			Godfrey & Boyd
+			Gods Country Estates
+			Gods County Estates
+			Gold Camp Estates
+			Gold Canon
+			Gold Canon Village
+			Gold Creek Meadows
+			Gold Creek Park
+			Gold Flats
+			Gold Hill Condominiums
+			Gold Hill Mesa
+			Gold Hill Mesa Townes Condo
+			Gold Hills
+			Gold King Placer
+			Gold Nugget
+			Gold Valley Add
+			Golden Acres
+			Golden Arrow Valley
+			Golden Bell
+			Golden Bell Nazarene Ranch
+			Golden Eagle Ridge
+			Golden Hills
+			Golden Meadows
+			Golden Ridge Condos
+			Golden Triangle
+			Golden West
+			Golden West Two
+			Goldfield
+			Goldmuntz
+			Golf Club
+			Golf Club Acres
+			Golf Course Heights At Springs Ranch
+			Golf Course North at Springs Ranch
+			Golf Links
+			Gonzales
+			Goodman
+			Goodnight Avenue Place
+			Governors Abbey Condos
+			Governors Terrace
+			Gowdy
+			Grace Townhome
+			Gradishar
+			Grafs
+			Graham Hill
+			Grahams Sub
+			Granby
+			Granby Circle Duplexes
+			Grand Peak
+			Grand View
+			Grand Vista
+			Grandote Golf & Country Club
+			Grandview
+			Grandview Blacks
+			Grandview Estates
+			Grandview Place
+			Grandwood Ranch Estates
+			Grant
+			Granville Sub
+			Grasslands At Comanche
+			Graves & Westwavier
+			Gray Heights
+			Gray Horse Ranch
+			Great American Replat
+			Green Meadows
+			Green Mountain
+			Green Mountain Falls
+			Green Mountain Falls Add 5
+			Green Mountain Falls Overlook
+			Green Mountain Ranch Estates
+			Green Valley
+			Green Valley Ranch
+			Greenbriar Park
+			Greenbriar Park View
+			Greenbrook
+			Greencrest
+			Greenfield
+			Greenhaven
+			Greenhorn Village
+			Greenland
+			Greenland Acres
+			Greenland Preserve
+			Greens
+			Greens ADD
+			Greens JW Detached
+			Greentowers
+			Greenway
+			Greenways At Sand Creek
+			Greenwood Sub
+			Greenwood Tracts
+			Greer
+			Greyhawk At Northgate
+			Grier Pines
+			Griffins Add
+			Grimes Ranch
+			Grizzly Park
+			Grove
+			Grubbs
+			Guffey
+			Guffey Fresh Water
+			Guier
+			Gulicks
+			Gunners Ridge
+			Gunsmoke
+			Guntzelman Porcelain Pines
+			Gutheil Gardens
+			Guths
+			H & A Rudds
+			H E Mcdonald
+			H M W
+			H R M ADDN
+			Hacienda Estates
+			Hackmans
+			Hadden Heights
+			Hagerman Heights
+			Hahn
+			Hall
+			Hallcrafts Village East Apart Homes
+			Hallcrafts Walnut Hills
+			Hallowells
+			Halo
+			Hals
+			Hamilton
+			Hamlet at Quail Lake Park
+			Hamlet On Kingsboro
+			Hamlet Village
+			Hammer Ranch
+			Hammers Sub
+			Hampden Court Condo
+			Hampden Heights
+			Hampden Hills at Aurora
+			Hampden Villa
+			Hancock
+			Hancock Plaza
+			Hancocks Corner
+			Hanna Lea
+			Hannah Ridge at Feathergrass
+			Hannon
+			Hansen Ranch
+			Hansens
+			Hanson & Titan
+			Happy Canyon
+			Happy Landing Estates
+			Harding
+			Hardings 1st
+			Hardings 2nd
+			Hardman
+			Hardrick Tracts
+			Hardy
+			Hardy Ridge
+			Harkness Heights
+			Harmans Sub
+			Harmon Hills
+			Harmony
+			Harmony Hills
+			Harrel
+			Harriman Park
+			Harriman Park South
+			Harriman Park Townhomes
+			Harris Park
+			Harris Park Estates
+			Harrison
+			Harrison Estates
+			Harrison Park
+			Harrison Ranch
+			Harry O Schmidt
+			Hartman & Wilcox
+			Hartmans Add Landons Sub
+			Hartmans Add Shanguinettes Resub
+			Hartsel
+			Hartsel Ranch
+			Hartsel Spgs
+			Hartsel Springs Ranch
+			Hartsock Village
+			Harvest at Wheatland Condo
+			Harvest at Wheatlands
+			Harvest Ridge
+			Harvest Springs
+			Harvey Park
+			Harveys Re-Sub
+			Haskells
+			Hastings
+			Hastings Bros
+			Hastings Brothers
+			Hastings Yampa
+			Hasty
+			Hat Creek Ranch
+			Hatchet Ranch
+			Hathaway
+			Hathaway Business Park
+			Havana Park
+			Haven Valley
+			Havenwood
+			HAVNAERS
+			Hawk Ridge
+			Hawk Ridge West
+			Hawkeye
+			Hawkeye Ranches
+			Hawkins
+			Hawkins & Houston
+			Hawkwoods
+			Hawthorn
+			Hay Creek Ranch
+			Hay Creek Valley
+			Hayden Placer Addition
+			Hayden Point Estates
+			Hayesmount Acres
+			Hayesmount Ridge Estates
+			Haynes Addition
+			Hazelhursts Sub
+			Hazeltine Heights
+			Hazen Moore
+			Hearthstone
+			Hearthstone at Regency Ridge
+			Hearthwood
+			Heather Gardens
+			Heather Ridge
+			Heather Wood Village
+			Heathercrest
+			Heavens Gate
+			Hebron Hills
+			Heckendorf Ranch
+			Heftler Homes Hillcrest
+			Heights
+			Heights At Cottonwood Creek
+			Heinle Acres
+			Heinze
+			Heinze Minor
+			Heirloom at Gold Hill Mesa
+			Helland
+			Hellbeck Acres
+			Hembre Estates
+			Hemenways
+			Hemmingsen
+			Henbests
+			Hendricks
+			Henry Mcallister Jrs
+			Heritage
+			Heritage Eagle Bend
+			Heritage Farms
+			Heritage Hills
+			Heritage Park
+			Heritage Park Condominiums
+			Heritage Place
+			Heritage Ranch Estates
+			Heritage Todd Creek
+			Heritage Village
+			Hermosa Creek
+			Herndon Minor
+			Herrick Rechignac
+			Hewitts
+			Hibbard Trail at Heritage
+			Hickman
+			Hicks
+			Hidden Acres
+			Hidden Canyon Patio Homes at University Park
+			Hidden Canyon Patio Homes Of University Park
+			Hidden Canyon Ranch
+			Hidden Creek Park
+			Hidden Forest Estates
+			Hidden Forest Ranch
+			Hidden Hills Twnhs
+			Hidden River
+			Hidden Spgs At Friendly Hills
+			Hidden Valley
+			Hidden Valley at Peregrine
+			Hidden Valley Ranch
+			Hidden Village
+			Hide-A-Way Ranches
+			Hideaway Ranch
+			Higby Estates
+			High Acres
+			High Chap Ranch Chase Gulch
+			High Chap Ranch Puma Hills
+			High Chap Ranch Ranger Station
+			High Chap Ranch Resort
+			High Chap Ranch Sulphur Mountain
+			High Chap Ranch Turner Gulch
+			High Chaparral Ranch Chase Gulch
+			High Chaparral Ranch Turner Gulch
+			High Chaparral Ranch Union Creek
+			High Chateau Ranches
+			High Country
+			High Country Haven
+			High Country Land Stewart Ranch
+			High Country Village
+			High Forest Ranch
+			High Gate Farms
+			High Lake Estates at Broadmoor Resort Comm
+			High Meadow at Fox Run
+			High Meadows
+			High Meadows At Springs Ranch
+			High Park
+			High Park Ranch
+			High Peaks Ranch
+			High Pines
+			High Pines Patio Homes
+			High Plains Country Club Sub
+			High Point
+			High Point Gardens
+			High Point Place
+			High Point Place Ph II
+			High Point Village
+			High Prairie International Polo Club
+			High Street
+			High Valley Park
+			High View Estates
+			Highland
+			Highland Acres
+			Highland Add
+			Highland Canyon Rancho
+			Highland East
+			Highland Estates
+			Highland Gardens
+			Highland Grove
+			Highland Heights
+			Highland Hills
+			Highland Lakes
+			Highland Meadows
+			Highland Mobile Home Estates
+			Highland Oaks Cheyenne Mountain
+			Highland Park
+			Highland Terrace
+			Highland View
+			Highland Vista
+			Highlands
+			Highlands North
+			Highlands of Oak Creek
+			Highlands Of Turkey Canon Ranch
+			Highlands Ranch
+			Highline At Wolf Ranch
+			Highplains
+			Highpoint
+			Highpoint Place
+			Hiland Hills Condo
+			Hill Crest Park
+			Hill Road Court
+			Hill Top
+			Hillcrest
+			Hillcrest Acres
+			Hillcrest Apartment Homes
+			Hillcrest Estates
+			Hilldale Pines
+			Hillis
+			Hillmans
+			Hills
+			Hills Industrial
+			Hillsboro At Springs Ranch
+			Hillsdale
+			Hillside
+			Hillside Estates
+			Hillside Manor
+			Hillside Promised Land
+			Hillside Ranch
+			Hillside Village
+			Hilltop
+			Hilltop Circle
+			Hilltop Pines
+			Hiltner
+			Hilton Acres
+			Himes
+			Hinton
+			Hirsch
+			Hirt
+			Historic Arkansas Riverwalk
+			Hiwan
+			Hobbs West
+			Hochstetlers View
+			Hoefelmeyer Zimmerman
+			Hoffman Town
+			Holden Place
+			Holiday Hills
+			Holiday Park
+			Holland Park
+			Holland Park West
+			Holland Walk
+			Holley
+			Holli Heights
+			Holliday Hills
+			Hollorans
+			Hollow Brook Corner
+			Holly & Dry Creek
+			Holly Hills
+			Hollydot Park
+			Holmes
+			Holmes Park Subdivision
+			Holt
+			Holtz
+			Home Add to Brighton
+			Home Place Ranch
+			Homeplace
+			Homestake
+			Homestead
+			Homestead At Jackson Creek
+			Homestead at Sterling Ranch
+			Homestead At Wildernest
+			Homestead Hills
+			Homestead Meadows
+			Homestead North at Jackson Creek
+			Homestead North at Sterling Ranch
+			Homestead on Oak Creek
+			Homestead Park
+			Homestead Ranch
+			Homestead View
+			Homesteads at Discovery Farm
+			Hometown South Amd 1
+			Hookes
+			Hopper Ranch Preserve
+			Horizon
+			Horizon III
+			Horizon Uptown
+			Horseshoe Rancheros
+			Horseshoe Ridge
+			Hoshis
+			Hotchkiss
+			House Creek
+			Howard
+			Howard Minor
+			Howells
+			Hribar Sub
+			Hritz Exemption
+			Huajatolla Valley Estates
+			Huckleberry Knoll
+			Hudick Estate
+			Hudson Minor
+			Hudson Town
+			Hughes
+			Hughes Haven
+			Hughes Ranch
+			Hughes Sub Of N Boone
+			Hugo
+			Huismann
+			Hulbert & Ehrich Sub
+			Hulberts
+			Hulings
+			Hunsinger
+			Hunt Subdivision
+			Hunters Crossing
+			Hunters Meadow
+			Hunters Point
+			Hunters Reserve
+			Hunters Run
+			Hunting Hill
+			Hunting Meadows
+			Huntington Acres
+			Huntington Heights
+			Huntington Park
+			Hunts
+			Hutchins
+			Hutchinson Heights
+			Hutchinson Hills
+			Hybar
+			Hyde Park
+			Hyde Park Gardens
+			Idaho Springs
+			Idlewild
+			Ilse Camp
+			Immels
+			Inca Ridge
+			Independence
+			Independence View Townhomes
+			Indian Bluffs Townhomes
+			Indian Creek
+			Indian Creek East
+			Indian Creek Ranch
+			Indian Gap
+			Indian Head
+			Indian Heights
+			Indian Hills
+			Indian Hills Village
+			Indian Mesa
+			Indian Mountain
+			Indian Oaks
+			Indian Springs
+			Indian Summer
+			Indian Village
+			Indian Wells
+			Indigo Ranch
+			Indigo Ranch at Ridgeview
+			Indigo Ranch at Stetson Ridge
+			Indigo Ridge
+			Ingalls
+			Ingham
+			Ingo Mesa
+			Ink Sub
+			Inman Acres
+			Innsbruck-Val Moritz
+			Inslees
+			Inspiration
+			Interquest
+			Intravest 320
+			Inverness
+			Investing in Front Street
+			Iron Horse Villas
+			Iron Mountain Wilderness
+			Iron Springs
+			Irondale
+			Ironstone Condominiums
+			Irving Park
+			Irving Place
+			Ivilo Sub
+			Ivy Country Point
+			Ivywild
+			Ivywild Heights
+			J & G
+			J & J Slagle
+			J & M Add
+			J & M Mills Add
+			J & M Sub
+			J Cooks JRs North
+			J D K
+			J E M Sub
+			J F Humphrey & G Summers
+			J G Hall
+			J Kelly
+			J P Curtis Resub
+			J P Denny
+			J R L B J N
+			J R Marks
+			J W Smiths Add To Denver
+			Jack Kerouac Lofts Condos
+			Jackie Sub
+			Jackson Creek
+			Jackson Creek Market Village
+			Jackson Creek North
+			Jackson Creek Townhomes
+			Jackson Ranch
+			Jacksonboro
+			Jacques
+			James Sub
+			Jamestown
+			Jan-Lee Estates
+			Janitell
+			Jasmine Condo
+			Jasmine Estates
+			JBW Sub
+			Jdk Subdivision
+			Jeanette Mose
+			Jeffers
+			Jefferson
+			Jefferson Heights
+			Jenkins
+			Jennings Estates
+			Jensens
+			Jerrod
+			Jerrys Sub
+			Jessica Heights
+			Jewelfield
+			Jewell Gardens
+			JMS
+			Jo Dandy Gold Flats
+			John Alec Estates
+			John C Emersons
+			John D Rodgers
+			John Kelly
+			Johnson
+			Johnsons Sub
+			Johnston
+			Johnston & McClintocks
+			Johnstown Village
+			Jones Junction
+			Josefiak & Vidmer
+			Judge Orr Ranchettes
+			Julie Heights
+			June Munson
+			Juniata
+			Juniper
+			Juniper Hills South
+			Juniper Ridge
+			Juniper Ridge at Cedar Heights
+			K-Mart Plaza
+			Kaer
+			KAF Estates
+			Kahler
+			Kalorama Heights
+			Kalthoff
+			Kambridge Point
+			Kambridge Point at Briargate
+			Kania
+			Karls Farm
+			Karval Tracts
+			Kassonia
+			Katie Acres
+			Kay Tee
+			KC Caldwell Add
+			Keeler LLA
+			Keenan
+			Keene Ranch
+			KEG
+			Keith
+			Keithley Sub
+			Kelly
+			Kelly Air Park
+			Kelly Creek Sub
+			Kellys
+			Kellys Korner
+			Kellys Reserve
+			Kelseys
+			Kelty Farms
+			Kemper
+			Ken Caryl Ranch Plains
+			Kendall Brook First
+			Kendora Pines
+			Kenland Heights
+			Kenosha
+			Kensingtons
+			Kent Village
+			Kentridge East
+			Kentridge South
+			Kents
+			Kentucky Gardens
+			Kenyon
+			Kercher
+			Kernal Estates
+			Kerstetter
+			Kesling
+			Ketchem
+			Kettle Creek
+			Kevco
+			Key Placer
+			Keys ADD to Littleton
+			Keystone Ridge
+			KGF
+			Kibler
+			Kilbourn Place
+			Kiley
+			Kilgore
+			Kinch Minor
+			Kindler
+			King
+			King Dunn Sub
+			King Houston
+			King Meadows Ranch
+			King Ranch Estates
+			Kings Deer
+			Kings Deer Highlands
+			Kings Glen
+			Kings Manor
+			Kings Mill North
+			Kings Mill Townhouses
+			Kings Minor
+			Kings Valley Custom Resort
+			Kingsborough
+			Kingswood
+			Kinneys Add
+			Kiowa Creek Condo
+			Kiowa Heights
+			Kiowa Kruse
+			Kiowa Original
+			Kiowa Park
+			Kiowa Town Limits
+			Kipling Sun Twnhms
+			Kipling Villas
+			Kirk W Shadrick
+			Kirkpatrick
+			Kirks Resub Wray First
+			Kissing Camels
+			Kissing Camels Estates
+			Kissing Camels Mesa
+			Kissing Camels Townhomes
+			Kitty Hawk
+			Kittyhawk Village
+			Kittyhawk Village In Chapel Hill
+			Klaumann
+			Klien
+			Kloepfer
+			KMC Estates
+			Knaughty Pine Estates
+			Knavel
+			Knecht
+			Knights Creek Ranch
+			Knob Hill
+			Knob Hill Heights
+			Knollwood Estates
+			Knudtson
+			KO Townhouses
+			Kobilan
+			Koles
+			Korte
+			Kowalski
+			Kowitz Tracts
+			Krantz
+			Kraskey Nupud Corr
+			Kraus
+			Kreutzer Sub
+			Kristin Park Estates
+			Kristopher Sub
+			Kroeker/Parton
+			Kuprin Minor
+			Kutter
+			L Clifford
+			L J Conway
+			L K Adams
+			L T Clark Sub
+			La Bellezza
+			La Casa Contenta
+			La Casas at Broadmoor
+			La Cresta Mobile Estates
+			La Cresta Vista Grande
+			La Jolla Park
+			La Mariposa Ranch
+			La Mesa Fontana
+			LA Mesa Fontana East
+			La Mesa Vista
+			La Montana Mesa
+			La Posada Del Sol
+			La Salle
+			La Scala
+			La Vergne
+			La Veta Add
+			La Veta Ranch
+			La Vista Hills
+			Labib
+			Ladech
+			Lagae Ranch
+			Lago Vistas
+			Laibach
+			Lake
+			Lake Add
+			Lake Arbor
+			Lake Archer
+			Lake Ave Add
+			Lake Ave Plaza
+			Lake Ave Sub
+			LAKE AVENUE SUB
+			Lake Deweese
+			Lake Front
+			Lake George
+			Lake George Park
+			Lake George Ranchettes
+			Lake Hatcher Park
+			Lake Lochwood Village Condo
+			Lake Minnequa Add
+			Lake of the Rockies
+			Lake Park
+			Lake Shadows
+			Lake Shore
+			Lake View
+			Lake View Craigs Sub
+			Lake View Fitzgeralds
+			Lake Woodmoor
+			Lakehouse Condos
+			Lakemoor West
+			Lakepointe Condos
+			Lakeridge
+			Lakes at Dunes Park
+			Lakeside
+			Lakeside Estates
+			Lakeside Manor Estate
+			Lakeview
+			Lakeview Heights
+			Lakeview Place
+			Lakeview West
+			Lakewood
+			Lakewood Hills Condos
+			Lakewood Pines Townhomes
+			Lakewood Square
+			Lakota Hills
+			Lamar Heights
+			Lambert Ranch
+			Lambrecht
+			Lamkin Plaza
+			Lammey Add
+			Lancaster
+			Lance
+			Landhuis
+			Landing at Standley Lake
+			Landings Of Denmark
+			Landis
+			Landon & Currys
+			Lane
+			Lang's Sub
+			Langdon & Miles
+			Langknecht
+			Langness Wilderness
+			Langtree
+			Lanphier Eastview
+			Lanterns
+			Lapin Creek Ranch
+			Laredo At Lakeshore
+			Laredo At Lakshore
+			Laredo At Parkside
+			Larkspur
+			Larkspur Heights
+			Larkspur Meadows
+			Larkspur South
+			Larkspur Village East
+			Larranaga
+			Larrow
+			Larsen
+			Las Animas
+			Las Animas Ranch
+			Las Brisas Ranchettes
+			Las Casas at Broadmoor Bluffs
+			Las Colinas
+			Las Piedras Estates
+			Lasko
+			Lasleys
+			Last Mile Estate
+			Latasha
+			Latigo Business Center
+			Latigo Country Estates
+			Launch Pad Estates
+			Laurel
+			Lavelett Properties Sub
+			Lawrence
+			Lawrences Place
+			Lawtons
+			Lazy M Estates
+			LDT
+			Lea Village East Estates
+			Leachs Westview
+			League
+			Leaning Tree Sub
+			Leawood
+			Leddys
+			Lee Downs
+			Lee Edwards
+			Leeland Heights
+			Lees Summit
+			Lefkowskys
+			Legacy Pines
+			Legacy Ridge
+			Legends at Wolf Ranch
+			Legion
+			Lehigh Ranch
+			Leisure Hills
+			Lender
+			Lennon Park
+			Lennox Park
+			Lents
+			Leonards
+			Lesley
+			Levad
+			Levy Park
+			Lewis Pointe
+			Lewis Sub
+			Lewis Thompson Add
+			Lexington
+			Lexington Crossing at Briargate
+			Lexington East
+			Lexington Heights
+			Lexington Heights at Briargate
+			Lexington Manor
+			Lexington Park
+			Lexington Village
+			Ley Subdivision
+			Leyden Rock
+			Lgm Parcels
+			Liberty
+			Liberty Gardens
+			Liberty Heights
+			Liberty Point
+			Liberty Point Estates
+			Liberty Square
+			Library Plaza
+			Lieberg
+			Lighthouse
+			Lihue
+			Lillian Heights
+			Lillian Heights Palmer Lake
+			Limited Edition
+			Limon Original
+			Limon Tracts
+			Lincoln
+			Lincoln Commons
+			Lincoln County
+			Lincoln Creek Village
+			Lincoln Park
+			Lincoln Square Lofts
+			Linda Vista
+			Lindale
+			Lindenwood
+			Lindsey
+			Lindsley Park Condo
+			Linnerud
+			Lions Head Ranch
+			Little Lee Ann Sub
+			Little Norway
+			Little Ranches Of The Fountain
+			Little River Ranch
+			Little Switzerland Manitou
+			Little Turkey Creek
+			Little Turtle
+			Little Village
+			Littlefield
+			Littleton Village
+			Liv City Center Condo
+			Live Oak Station
+			Livengood Hills
+			Living Forest Estates
+			Living Waters
+			LJ
+			LJ Green
+			Lobachs
+			Lochbuie Center
+			Lochwood
+			Lochwood Chateau Condo
+			Lochwood Farms Pud
+			Lochwood Pud
+			Lochwood Square
+			Lock Ranch
+			Locke Mountain Ranch
+			Lode Avenue Townhomes
+			Loehndorf
+			Loft Village
+			Lofthouse West
+			Lofts At Belmar Square
+			Log Haven
+			Logan Court Condo
+			Lola
+			Loma Linda Park
+			Loma Park
+			Loma Vista Add
+			Loma Vista East
+			Loma Vista Sub
+			Loma Vista West
+			Lombard Village
+			Lone Pine Heights
+			Lone Star Ranch East
+			Lone Tree
+			Lonesome Road Estates
+			Long Canyon
+			Longbranch Condo
+			Longhorn Acres
+			Longhorn Ranch
+			Longs Sub
+			Longs Terrace
+			Longsview
+			Longview
+			Lonna Belle
+			Loomis
+			Loraine
+			Lorettas
+			Lori Ann
+			Lorimer Estates
+			Lorraine
+			Lorson Ranch East
+			Los Corrales
+			Los Pinos
+			Lost Canyon Ranch
+			Lost Canyon Tr Sub
+			Lost Park Ranch
+			Lost Valley Ranch
+			Lot A Aldred Sub
+			Lot B Aldred Sub
+			Lot C Aldred Sub
+			Lot C Blk P Sub
+			Lot D Aldred Sub
+			Loudermilk
+			Louisiana Purchase Condos
+			Loustano Ave Heights
+			Louviers
+			Love & Quimbys Add
+			Love & Quinbys
+			Love Point
+			Lowell
+			Lower Gold Camp Road
+			Lowery
+			Lowry
+			Lowry Ranch Sub
+			Lucas Sub
+			Lucky Acres
+			Luna Vista Heights
+			Lutheran
+			Lutheran House
+			Lutheran Valley Ranch
+			Lyn Acres
+			Lynda Common Sub
+			Lyndale
+			Lyndale Junior Sub
+			Lynde
+			Lynn Gardens
+			Lynwood
+			Lyons Ridge
+			Lytle
+			M A Ginsburg
+			M J Brock
+			M M J
+			M Neuman
+			M S M
+			M V W
+			Macdonald
+			Mackenzie Place Union Condos
+			Macneir
+			Macon's
+			Maddocks
+			Madison Ridge
+			Magill Minor
+			Maher Ranch
+			Mahogany Vale
+			Mahogany Vale at Peregrine
+			Mahoney
+			Maizeland
+			Maizeland Moors
+			Maizeland Road
+			Maizeland Village
+			Majestic Meadows
+			Majestic Park
+			Majestic Peaks Ranch
+			Majestic Pines
+			Majors
+			Majors Ranch
+			Mak Mobile Home Estates
+			Manassa Original
+			Mancaves of Dove Valley Condo
+			Manchester Newcastle
+			Mandalay Villas
+			Manhattan
+			Manila Village
+			Manitou
+			Manitou Heights
+			Manitou Iron Springs CO
+			Manitou Lofts & Shops At Fountain Creek
+			Manitou Mesa
+			Manitou Place
+			Manitou Springs
+			Manitou Springs Spa
+			Manitou Terrace
+			Manlea
+			Manley
+			Mansions Park Place
+			Many Hills Ranch
+			Manzanola
+			Maple Valley
+			Mapleshade
+			Mapleton Add
+			Maplewood Condo
+			Maplewood Estates
+			Marchbank Sub
+			Margil Farms
+			Mariah Trail
+			Marian House
+			Mariana Butte
+			Marietta Sub
+			Marigreen
+			Marilyn
+			Marions
+			Marker
+			Market At Chapel Hills
+			Marland Court
+			Marland Heights
+			Marland Park
+			Marshalls
+			Martellero
+			Martin
+			Martin Drake
+			Martinez
+			Martins Add To Beulah Springs
+			Marvin Gardens
+			Mary F Hendleys
+			Mary Rogers
+			Maser
+			Mason-Jares Acres
+			Matheson
+			Matika Sub
+			Matt Ranches
+			Mattice & Gibson Add
+			Mattices
+			Mattson
+			Mattson Boundary Survey
+			Maverick Acres
+			Maxwells
+			Mayberry
+			Mayfair
+			Mayfair Park
+			Mayfield
+			Mayhew Heights
+			Mayhurst
+			Mays Sub
+			Maytag
+			Maytag Acres
+			Maytag Mtn Ranch
+			Mc Hargs
+			Mc Intosh
+			Mc Meekan
+			MC Nutts
+			McAlexander
+			Mcaninch
+			Mccandless
+			McCart Ranch
+			McClain & Fink
+			Mcclintock
+			MCCLURES
+			Mccormacks
+			McCulloughs Add
+			McDonough
+			McElmurry
+			Mcferrans
+			McGehee Sub
+			McIntosh & Cleveland
+			Mckay Estates
+			McKinley Mountain
+			McKinstry Park
+			McLaughlin
+			Mclaughlin Hills
+			Mcneill
+			McQueen Minor
+			Meacham
+			Meadow
+			Meadow Creek Condos
+			Meadow Gardens
+			Meadow Hills
+			Meadow Lake Airport
+			Meadow Lake Estates
+			Meadow Lane
+			Meadow Lark
+			Meadow Park
+			Meadow Point Condos
+			Meadow Ranch
+			Meadow Ridge
+			Meadow Ridge At Briargate
+			Meadow Station
+			Meadow Valley Estates
+			Meadowbrook
+			Meadowbrook Crossing
+			Meadowbrook Heights
+			Meadowbrook Ranch
+			Meadowbrooke Sub
+			Meadowdale Park Dale
+			Meadowdale Ranch
+			Meadowlands
+			Meadowlark
+			Meadowood
+			Meadoworks
+			Meadows
+			Meadows at Castlewood
+			Meadows At Monument Lake
+			Meadows At Westwoods Ranch
+			Meadows Park
+			Meehans
+			Meeks
+			Meese & Jamieson
+			Meiers
+			Melody Acres
+			Melrose Place
+			Memmens Add to Castle Rock
+			Meribel Village
+			Meridian
+			Meridian International Business
+			Meridian Office Park
+			Meridian Ranch
+			Meridian Ranch Estates
+			Merit Acres
+			Merrell
+			Merriams
+			Merrick
+			Mesa
+			Mesa Building & Investment CO
+			Mesa Grande
+			Mesa Heights
+			Mesa Meadows
+			Mesa Pines
+			Mesa Ridge
+			Mesa Ridge Condo
+			Mesa Springs
+			Mesa Terrace
+			Mesa Valley Road Condominiums
+			Mesa View
+			Mesa Village
+			Mesa Vista
+			Mesa Vista at Kissing Camels Estates
+			Mesita Court
+			Mesita Park
+			Metes & Bounds
+			Metropolitan Club
+			Metzger Sub
+			Metzler Ranch
+			Metzlers
+			Meyers Meadow
+			Michaels
+			Michel Sub
+			Michelli Int LLV
+			Michigan Hill
+			Michigan Place
+			Mick
+			Middle Cliff
+			Middle Creek Manor
+			Middlebrook
+			Middleton
+			Middleton M S
+			Midland Pines
+			Midland Summer Home Group
+			Midtown At Clear Creek
+			Midtown At Cottonwood Creek
+			MIDTOWN AT FOOTHILLS FARM
+			Midtown at Percheron
+			Midtown At Wolf Ranch
+			Midtown Collection at Hannah Ridge
+			Midtown Collection at Pathways
+			Midway Ranches
+			Mihelich
+			Miles Mountain
+			Millennium Northwest
+			Miller Creek Heights
+			Millers Crossing
+			Millers Sub
+			Milligan Ranch
+			Mills Sub
+			Milsoms
+			Mineola Townhomes
+			Mineral Hot Springs Estates
+			Minnequa
+			Minnequa Area
+			Minnequa Heights
+			Minnequa Town Company's
+			Minnick
+			Mirage At Cheyenne Mountain
+			Miramonte Condos
+			Miramonte Country Club
+			Miramonte Farms
+			Miramonte Ranch Condo
+			Miramonte Sub
+			Miriams
+			Mirrillion Heights
+			Misfit Crew Estates
+			Miss Lee
+			Miss Lee Sub
+			Mission Cove
+			Mission Plaza
+			Mission Plaza Minor
+			Mission Ridge Townhomes
+			Mission Viejo
+			Mississippi Heights
+			Mistry Sub
+			Misty Acres
+			Misty Meadows At Briargate
+			Mitchell Minor
+			Mitchell Park Place
+			Moberly Ridge
+			Moffat
+			Mogilner
+			Mohawk
+			Mola
+			Moline
+			Molish
+			Mollard
+			Monaco Place
+			Monarch River Estates
+			Monash Re-Sub
+			Monnettes
+			Montana Verde
+			Montarbor Villas
+			Montbello
+			Montclair
+			Montclair Three
+			Monte Ridge
+			Monte Vista
+			Monteagle Townhouse
+			Montebello
+			Montebello Plaza
+			Monterey
+			Monterey Villas
+			Monticello
+			Montrose
+			Monty Heights
+			Monument
+			Monument Creek Commerce Center
+			Monument Hills
+			Monument Junction East
+			Monument View
+			Monument Villas
+			Moon Shadow Condos
+			Moore & Carlile
+			Moores
+			Moothart
+			Morgan
+			Morgans Meadow
+			Morin
+			Morning Shadows Estates
+			Morning Star at Castle Pines
+			Morning Sun
+			Morning Sun Solar Community
+			Morningside
+			Morningview
+			Morris
+			Morton Sub
+			Moses Bros
+			Mosleys
+			Moss Property
+			Motts
+			Mount Blanca Valley Ranches
+			Mount Herman Estates
+			Mount Pisgah
+			Mount View Heights
+			Mount Woodmen Estates
+			Mountain Cliff
+			Mountain Gate At Ken Caryl III
+			Mountain Harbor
+			Mountain Oaks
+			Mountain Prairie Estates
+			Mountain Shadow Ranch
+			Mountain Shadows
+			Mountain Shadows Flying W Ranch
+			Mountain Springs
+			Mountain Springs Ranch Estates
+			Mountain Valley Preserve
+			Mountain Valley Ranch
+			Mountain View
+			Mountain View Estates
+			Mountain View Lakes Sub
+			Mountain View Park
+			Mountain View Place
+			Mountain View Ranch
+			Mountain View Ranchettes
+			Mountain Vista
+			Mountain Vista at Kissing Camels Estates
+			Mountain Vista Village
+			Mountaindale Equestrian Estates
+			Mountains Edge
+			Mountainside at Silvercreek
+			Mountair
+			Mountview Heights
+			Mountview Townhomes
+			Mourning Dove Ranch
+			Mowrey Sub
+			Moyes
+			Mt Blanca Valley Ranches
+			Mt Washington
+			Mt Woodman Estates
+			Mt. Elbert Plamor Ranch
+			MTN View Condo
+			Mueller
+			Muhe
+			Muirfield
+			Mule Deer Crossing
+			Mulvey
+			Mumford Heights
+			Munafo MD
+			Munson
+			Murphy
+			Murphy Creek
+			Murray
+			Murray Heights
+			Muse
+			Mustang Meadows
+			MUSTIONS
+			MX Crossing
+			N Dundee Pl
+			N H S Sub
+			Nance Vac
+			Nantucket
+			Nash
+			Nashville Minor Sub
+			Navajo Heights
+			Navajo Mountain Mesa
+			Navajo Ranch
+			Navajo Ranch Estates
+			NE Area
+			Neal Craft
+			Neal Ranch
+			Neighbors Point
+			Nelson Sub
+			New Addition To City Of Victor
+			New Breed Ranch
+			New Discovery
+			New England Heights
+			New Horizon
+			Newey
+			Newlin Meadows
+			Newlin Ridge
+			Newport
+			Newport Broadmoor Condominiums
+			Newport Estates
+			Newport Heights East
+			Newport Heights West
+			Newsoms
+			Newton Lumber
+			Nicely
+			Nichols
+			Nienhauser
+			Nine Mile Heights
+			No Mans Land
+			Nob Hill
+			Noble Ranch Estates
+			Nona Brooks Court
+			Nona Brooks Place
+			None
+			Nordick Acres Second
+			Nordyke Comm Park
+			Normandy
+			Normandy Estates
+			Norris
+			North Boone
+			North Circle Plaza
+			North Colorado Springs
+			North Creek
+			North Dundee Place
+			North Durango
+			North End
+			North Fork At Briargate
+			North Fork Sub
+			North Fountain
+			North Gate Ridge
+			North Golden Edge
+			North Lake Estate
+			North Meadows
+			North Monument Add
+			North Nevada Business Park
+			North Park
+			North Point Estates
+			North Ranch Park
+			North Range At Springs Ranch
+			North Star Hills
+			North Swink Ext
+			North Vista Highlands
+			Northbrook
+			Northcrest
+			Northcrest Center
+			Northcrest Heights
+			Northern Outlook
+			Northface
+			Northfield
+			Northfield Acres
+			Northfield Park
+			Northgate
+			Northgate Estates
+			Northgate Highlands
+			Northglen
+			Northglen Court
+			Northglen Heights
+			Northglen Park
+			Northglenn First Filing
+			Northglenn Twenty Fifth Filing
+			Northlands at Peregrine
+			Northmor
+			Northpark
+			Northpointe at Kissing Camels Estates
+			Northridge
+			Northridge Green
+			Northridge/Eagle
+			Northwest Area
+			Northwind
+			Northwoods
+			Norvell
+			Norwest
+			Norwood
+			Novey Garden Home
+			nugent
+			Nussbaum
+			Nuttings East
+			Nuttings West
+			O'Banion Vacation and Replat
+			Oak Bridge Park
+			Oak Creek
+			Oak Creek Mountain Ranch
+			Oak Crest Condominiums
+			Oak Hills
+			Oak Mountain Estates
+			Oak Park Condos
+			Oak Place
+			Oak Ridge
+			Oak Ridge Home
+			Oak Valley
+			Oak Valley Ranch
+			Oak Valley Ranches
+			Oak View Heights
+			Oakbridge
+			Oakhurst Park
+			Oakland
+			Oakland Heights
+			Oakmont
+			Oakridge
+			Oaks Of Castle Rock
+			Oakview
+			Oakview Heights
+			Oakwood
+			Oakwood Park
+			Oakwood Village
+			Oakwoods Of Skyway
+			Oasis
+			Oberle Vacation
+			Obrien
+			Ocho Caballos
+			Ohio
+			Olathe
+			Old Broadmoor Road
+			Old Colorado City
+			Old Eagle Rock
+			Old Farm
+			Old Farm Business Park
+			Old Fountain
+			Old Kathleen Ranch
+			Old Stage
+			Old West Ranch
+			Oldborough
+			Olde Town at Parker
+			Olde Towne Sub
+			Olders
+			Olders Add
+			Olin Resubd
+			Olmsted Hill
+			Olney Springs
+			Olsens
+			Olympic Park
+			Olympic Village Office Park
+			Omaley
+			On the Rocks
+			One Ski Hill Place
+			Oneal
+			Orchard
+			Orchard Mesa Heights
+			Orchard Park
+			Orchards at Sunset Ridge
+			Ord And Swopes
+			Ordway
+			Original Town of Limon
+			Oriole
+			Orlena Griffin
+			Ormandale
+			Orofino Place at Castle Pines
+			Orrin
+			Otteman-Schulz
+			Our Odyssey
+			Ouray
+			Outlook
+			Outlook on Goldcamp
+			Outskirts Hideaway
+			Overland
+			Overlook
+			Overlook at Spring Creek
+			Overlook At Standley Lake
+			Overlook Estates
+			Owen & Swifts
+			Owen Love & Quinbys
+			Owl Canyon
+			Oxford Farm
+			Oxford Harrow Courts
+			Oxford-Harrow Courts
+			P O S Sub
+			P P L H A
+			P.G.M.
+			Pacesetter Pud
+			Pacheco
+			Page
+			Page + Whites
+			Pagosa Meadows
+			Paint Brush Hills
+			Paint Pony
+			Paint Pony Ranch Club
+			Painted Prairie
+			Painted Sky at Waterview
+			Palace Hotel Condo
+			Palisade Park
+			Pallomino Ranch at Stetson Ridge
+			Palmer Ave Place
+			Palmer Divide
+			Palmer Divide Ranches On East Cherry Creek
+			Palmer Heights
+			Palmer Lake
+			Palmer Lake Browns
+			Palmer Park
+			Palmer Park Gardens
+			Palmer Village
+			Palmer Vista
+			Palomino Ranch At Stetson
+			Palomino Ranch Patio Homes
+			Panorama
+			Panorama Estates
+			Panorama Heights
+			Panorama Pines
+			Panoramas Unlimited
+			Panoramic Acres
+			Paolis
+			Papeton
+			Par A Sub
+			Par B Sub
+			Par C
+			Par D Sub
+			Paradise Acres
+			Paradise Estates
+			Paradise Found
+			Paradise Hills
+			Paradise Homes
+			Paradise Island
+			Paradise Lodge
+			Paradise of Colorado
+			Paradise Office Park
+			Paradise Pines
+			Paradise Pines Woodland Park
+			Paradise Ranch
+			Paradise Valley Ranch
+			Paradise Villas
+			Paris Creek Ranch
+			Park
+			Park Ave
+			Park Center
+			Park Forest Estates
+			Park Haven Village
+			Park Hill
+			Park Land Estates
+			Park Line Estates
+			Park Meadows
+			Park Mountain Ranch
+			Park Place Condos
+			Park Place Townhomes
+			Park Place Villas
+			Park Ridge
+			Park Ridge Ranch
+			Park Valley Estates
+			Park View
+			Park View Estates
+			Park View Meadows
+			Park Vista
+			Park Vista Estates
+			Park West
+			Park-Meadows
+			Parkborough
+			Parker Crossroads
+			Parker East
+			Parker Heights
+			Parker Homestead
+			Parker Landing
+			Parker North
+			Parker Ridge
+			Parker Village
+			Parkhaven
+			Parklawn
+			Parkmoor
+			Parkmoor Plaza
+			Parkmoor Village
+			Parkside
+			Parkside at Mountain Shadows
+			Parkside At Reunion Condominiums
+			Parkview
+			Parkview At Spring Creek
+			Parkview Estate
+			Parkway Estates
+			Parkway Village
+			Parkwood
+			Parkwood at Wolf Ranch
+			Parliament Place
+			Parrishs
+			Parsons
+			Paseo
+			Paseo Del Rio
+			Patio Townhouse
+			Patriot Heights
+			Patriot Park
+			Patriot Place
+			Patterson
+			Pattersons Log Road
+			Pattie Lea
+			Pattys
+			Paula Dora
+			Paw Prints
+			Pawnee Hills
+			Pawnee Rancheros
+			Peabody Heights
+			Peaceful Pines
+			Peaceful Valley Country Club
+			Peaceful Valley Estates
+			Peaceful Valley Lake Estates
+			Peak & Ponds
+			Peak View Ridge
+			Peak View Villas
+			Peak Vista
+			Peakview
+			Peakview Estates
+			Peakview Mini Ranches Sub
+			Peakview Park
+			Peakview Pointe Condo
+			Pear Ring
+			Pearl Creek Estates
+			Pearman
+			Pearson Ranch Estates
+			Pearsons
+			Pebble Brook Condominiums
+			Pebble Creek
+			Pebble Run
+			Pebblebrook
+			Pebblewood
+			Pebblewood at Pinecliff
+			Pecks
+			Pecos Place
+			Pedone
+			Pedro
+			Pegasus I
+			Peidmont
+			Pelstring
+			Penhurst Park
+			Penner Sub
+			Penrith Park
+			Penrose
+			Peoria Park
+			Pepple Brook
+			Percheron
+			Peregrine
+			Peregrine North Valley
+			Perkins + Fortsons
+			Perl Mack Manor
+			Perry Park
+			Perry Park East
+			Perry Pines
+			Pershings
+			Petersen Ranch
+			Petrelli
+			Peyton
+			Peyton Pines
+			Peyton Place
+			Peyton Ranches
+			Pfeifer
+			Phantom Canyon
+			Phantom Capital
+			Pheasant Ridge
+			Pheasant Run
+			Pheasant Run Ranch
+			Phelps
+			Phillips
+			Picketwire Ranch
+			Piedmont
+			Pier Point Village
+			Pierces
+			Pierson
+			Piersons Unplatted Sub
+			Pike Forest Estates
+			Pike Meadows Estates
+			Pike Park Estates
+			Pike San Isabel
+			Pike Trails Ranch
+			Pike Trails Ranches
+			Pike View Estates
+			Pike View Farms
+			Pikes Peak
+			Pikes Peak Area
+			Pikes Peak Habitat For Humanity
+			Pikes Peak Mountain Estates
+			Pikes Peak Office Condominiums
+			Pikes Peak Panorama
+			Pikes Peak Park
+			Pikes Peak Park Mobile Home Vill
+			Pikes Peak Park Townhomes
+			Pikes Peak Ranch
+			Pikes Peak Ranch Estates
+			Pikes Peak Research
+			Pikes Peak Villas
+			Pikes Vista
+			Pine Bluff
+			Pine Bluff Estates
+			Pine Bluffs
+			Pine Brook Hills
+			Pine Cone Acres
+			Pine Cone Ranch
+			Pine Cone Trail
+			Pine Creek East
+			Pine Creek Estates
+			Pine Creek Sub
+			Pine Creek West
+			Pine Crest
+			Pine Crest Estates
+			Pine Crest Tri - Dist Assembly Grounds
+			Pine Crest Youth Ranch
+			Pine Drive South
+			Pine Glen
+			Pine Grove
+			Pine Hill
+			Pine Hill In Erindale Park
+			Pine Hills
+			Pine Meadows
+			Pine Mountain Estates
+			Pine Oaks
+			Pine Park Estates
+			Pine Point Townhomes
+			Pine Ridge
+			Pine Ridge at Meadow Park
+			Pine Ridge Ranches
+			Pine Shadow
+			Pine Terrace
+			Pine Tree
+			Pine Valley Estates
+			Pine Valley North
+			Pine View Estates
+			Pine Vistas
+			Pinecliff
+			Pinecrest at Palmer Lake
+			Pinehurst
+			Pinehurst Estates
+			Pinehurst Estates South
+			Pinehurst Station
+			Pinehurst Wood
+			Pinello
+			Pinemoor
+			Pineridge
+			Pineridge Estates
+			Pinery
+			Pinery SW
+			Pinery West
+			Pines
+			Pines At Forest Meadows
+			Pineview Condos
+			Pinewood
+			Pinewood Knolls
+			Pinewood Park
+			Pinewood Park Estates
+			Pinewood Springs
+			Pinewoods
+			Piney Creek
+			Piney Creek Ranches
+			Pinion Trails
+			Pinion Valley Survey
+			Pinnacle
+			PINNACLE AT CHEYENNE MOUNTAIN
+			Pinnacle At Pinecliff
+			Pinnacle Ranch
+			Pinon Bluffs
+			Pinon Condos
+			Pinon Glen
+			Pinon Hills
+			Pinon Land & Cattle Co
+			Pinon Mesa
+			Pinon Ranch
+			Pinon Springs
+			Pinon Sun
+			Pinon Terrace
+			Pinon Valley
+			Pinons Of Turkey Canon Ranch
+			Pinto Village East Estates
+			Pioneer
+			Pioneer Landing At Lorson Ranch
+			Pioneer Lookout
+			Pioneer Preserve
+			Pioneer Ridge
+			Pioneer Village
+			Piotter
+			Pisciotta Acres
+			Pisgah Park
+			Pisgah South
+			Pita
+			PJS Sub
+			Placer Acres
+			Placer Park Ridge At Cedar Heights
+			Placer Valley
+			Plainview
+			Platt Sub
+			Platte Acres
+			Platte Farm
+			Platte Retail Center
+			Platte River Ranch
+			Platts
+			Players Club Estates
+			Players Club Villas Twnhms
+			Plaza De Monaco Towers
+			Plaza Del Lago Condo
+			Plaza Terrace
+			Pleasant Acres
+			Pleasant Park
+			Pleasant Valley
+			Pleasant View
+			Pleasant View Estates
+			Plowman
+			Plum Creek
+			Plum Creek Fairway
+			Plum Creek Meadows
+			Plum Creek Parkway
+			Plum Creek Ridge at Castle Rock
+			Plum Creek South
+			Plumtree Condomiums
+			Poburka
+			Poco
+			Poenitsch
+			Poet Lofts
+			Point Of The Pines
+			Point Of The Rocks
+			Point Subline
+			Pointe South Corporate
+			Polo Field Estates
+			Polo Park
+			Polo Point
+			Polo Point at Skyway
+			Ponderosa
+			Ponderosa Acres
+			Ponderosa At Lorson Ranch
+			Ponderosa East
+			Ponderosa Heights
+			Ponderosa Hills
+			Ponderosa Park Estates
+			Ponderosa Pine Estates
+			Ponderosa Pines
+			Ponderosa Ramparts
+			Ponderosa Ranch
+			Ponderosa Springs
+			Pontaski
+			Pony Park
+			Pope Valley Ranch
+			Popes Snowslide Valley Ranch
+			Porak
+			Porcelain Pines
+			Porcupine
+			Portis Place
+			Portland Heights
+			Positano
+			Potter
+			Pourtales Place
+			Povenmire
+			Powderhorn
+			Powers Business Park
+			Powers Center
+			Powers Plaza
+			Prado Condos
+			Prairie At Running Creek
+			Prairie Ave Place
+			Prairie Center Village
+			Prairie Estates
+			Prairie Farm
+			Prairie Glen
+			Prairie Knoll
+			Prairie Ridge
+			Prairie Ridge At Saddle Rock East Condos
+			Prairie Trail Ranches
+			Prairie View
+			Prairie View Acres
+			Prairie View Estates
+			Prairie Vista
+			Prairie Vista Meadows
+			Prairie Walk On Cherry Creek Condos
+			Prairiestar
+			Premier Park
+			Prentice Ave Townhomes
+			Preserve at Deerfield
+			Preserve at Mesa Creek
+			Presidio At Briargate
+			Prestwick
+			Preuss Road Improvement Association Condominiums
+			Prides Crossing
+			Priestly-Robbins Addition
+			Primrose Terrace
+			Princeton Estates
+			Probst Sub
+			Proctor
+			Prominence
+			Promontory at Northgate
+			Promontory Place
+			Promontory Point
+			Promontory Pointe
+			Pronghorn Glen
+			Pronghorn Meadows
+			Propect Lake Acres
+			Prospect Heights
+			Prospect Lake
+			Prospect Park
+			Prospect Place
+			Prospect Point
+			Provenance
+			Providence Point Estates
+			Provident Cornerstone
+			Province Center
+			Pruess Road Improv Association Condo
+			PT of Viaduct
+			Ptarmigan Court
+			Ptarmigan Trail Estates
+			Ptarmigan Valley
+			Pueblo
+			Pueblo Boulevard Square
+			Pueblo Building & Improvement Company
+			Pueblo County
+			Pueblo Golf & Country Club
+			Pueblo Mesa
+			Pueblo West
+			PUEBLO WEST PATIO HOMES
+			Pulpit Rock
+			Pulpit Rock Park
+			Puma Canyon Ranch
+			Puma City
+			Purgatoire Recreation
+			Pyramid Mountain
+			Quadrant Village
+			Quail Brush Creek
+			Quail Creek
+			Quail Creek Condos
+			Quail Hill
+			Quail Meadows
+			Quail Ridge
+			Quail Ridge At Liberty Point
+			Quail Run
+			Quarry Station
+			Quartz Creek
+			Queensborough
+			Quiet View
+			Quimbys Add To Westminster
+			Quinbys
+			Quinbys Add
+			Quincy Creek
+			Quinlan Gulch Estates
+			Quivira Heights
+			R & D
+			R & G
+			R A Edgertons
+			R And B
+			R C Bristols
+			R Chacons
+			R D Sub
+			R&C Sub
+			R&M
+			Radosta Valley
+			Radosta Valley 2nd
+			Ragle
+			Railroad
+			Rainbow Falls
+			Rainbow Falls Park
+			Rainbow Falls Park North
+			Rainbow Harbour
+			Rainbow Park
+			Rainbow Ranch
+			Rainbow Valley
+			Rainbow Valley Ranch
+			Raindance
+			Raintree
+			Ralph Munoz
+			Ralston Valley
+			Ramah
+			Ramona
+			Rampart Canyon at Cedar Heights
+			Rampart Meadows
+			Rampart Meadows
+			Rampart Meadows at Briargate
+			Rampart Ranches
+			Rampart Station
+			Rampart View Subdivision
+			Rampart Village Townhomes
+			Ramparts at Roxborough
+			Rams Park Condos
+			Ramtron
+			Ranch at Cottonwood
+			Ranch At Forest Ridge
+			Ranch Estates
+			Ranch Resorts
+			Ranch Union Creek Add
+			Ranches at Glitter Gultch
+			Rancho
+			RANCHO DEL SOL
+			Rancho Escondido
+			Rancho Estrella
+			Rancho Iracema
+			Rancho Verde
+			Ranchos De Taos
+			Randall Center
+			Raney
+			Range View
+			Range View Estates
+			Range View Heights
+			Range Vista
+			Rangeview
+			Rangewood
+			Rangewood at Briargate
+			Ransoms Property
+			Ranson
+			Raspberry Mountain
+			Rau
+			Raven Hills
+			Ravenwood Town Homes
+			Rawhide Ranches
+			Rawles
+			Raygor
+			Raynolds
+			Reagans Subdivision
+			Reata
+			Reata North
+			Reata South
+			Red Canon Townhomes
+			Red Canyon
+			Red Creek Ranch
+			Red Fox Ridge
+			Red Hawk
+			Red Hawk Ranch
+			Red Mountain
+			Red Rock Canyon
+			Red Rock Estates
+			Red Rock Point at Kissing Camels Estate
+			Red Rock Ranch
+			Red Rock Reserve
+			Red Rock Valley Estates
+			Red Rocks At Beaver Creek
+			Red Sky Condos
+			Red Top
+			Redbuck at Sorrel Ranch Condo
+			Redhill Forest
+			Redstone Ridge Condos
+			Redtail Ranch
+			Reed Hollow
+			Reed Ranch
+			Reed Street
+			Reeds
+			Reese
+			Reeves
+			Reeves Acres
+			Regency Crest
+			Regency Park
+			Regency Ridge
+			Regis Heights
+			Reimers Minor
+			Reinecker Ranch
+			Rembrandt Place
+			Remington
+			Remington at Wolf Ranch
+			Remington Hill
+			Remington Hill At Jackson Creek
+			Remuda Ranch
+			Renaissance
+			Renaissance at Heather Gardens
+			Renaissance At Indigo
+			Renaissance at Indigo North
+			Renaud Place
+			Research Parkway
+			Reserve At Corral Bluffs
+			Reserve At Tamarac
+			Reservoir Acres
+			Residence at Outlook
+			Residences at Buffalo Run
+			Resiloft
+			Rest Home
+			Retherford
+			Retreat At Timberridge
+			Retreat in Perry Park Condo
+			Reunion
+			Reunion Ridge
+			REVEL AT WOLF RANCH
+			Revel Crossing at Wolf Ranch
+			Revel Terrace at Wolf Ranch
+			Reverie-Pine Creek
+			Rex Run
+			Reynolds
+			Rhea
+			Rhyolite Area
+			Richard C Bristols
+			Richards Acres
+			Richards Farm
+			Richardson Subdivision
+			RIDDOCH-TORBIT
+			Ridge At Broomfield
+			Ridge At Harmony Road
+			Ridge At Hiwan 10th
+			Ridge at Superior
+			Ridge at Ward Station
+			Ridge At West Meadows
+			Ridge Condominiums
+			Ridge Gate
+			Ridge View
+			Ridgegate
+			Ridgeview
+			Ridgeview Acres
+			Ridgeview At Stetson Hills
+			Ridgeview Glen
+			Ridgeway
+			Ridgewood
+			Ridgewood Estates
+			Riley Sub
+			Rinehart
+			Ringler Sub
+			Rio Casa Condo
+			Rio Cucharas
+			Rio Grande
+			Rio Grande Square
+			Rio Hondo
+			Rio Nevada
+			Ritoro
+			River Bluff Acres
+			River Ridge Ranch
+			River Run
+			River Valley Ranch
+			River View Mesa 2nd
+			Riverbend At Mill Village Condos Lg
+			Riverbend Estates
+			Riverdale Heights
+			Rivers Divide
+			Rivers Run
+			Riverside
+			Riverview Estates
+			Riverview Farm
+			RKR Ranch
+			Robbin Place
+			Robin
+			Robinson
+			Robinson Ranch
+			Robys
+			Rochette
+			Rock
+			Rock Creek
+			Rock Creek Mesa
+			Rock Creek Park
+			Rock Creek Ranch
+			Rock Estates
+			Rock Island
+			Rock Ridge
+			Rock Ridge Reserve
+			Rock Springs Ranch
+			Rock Sub
+			Rockinghorse
+			Rockledge
+			Rockledge at Peregrine
+			Rockrimmon
+			Rockrimmon Cliffs
+			Rockrimmon Raven Hills
+			Rockrimmon Sub Golden Hills
+			Rockrimmon Vista
+			Rockvale Original
+			Rockvale Tracts
+			Rocky Ford
+			Rocky Mountain Industrial Park
+			Rocky Mountain Metal Finishers
+			Roden & Hutchisons
+			Rodgers Addition
+			Rodgwick
+			Rodriguez
+			Roe & Harding
+			Roeder
+			Roger & Olive Whitney
+			Roland Valley
+			Rolfes Wildhorn Properties
+			Rollin Ridge
+			Rollin Ridge Rancheros
+			Rolling Hills Ranch
+			Rolling Hills Ranch at Meridian Ranch
+			Rolling Hills Ranch Estates
+			Rolling Meadows
+			Rolling Park
+			Rolling Thunder Business Park
+			Romens
+			Romeo
+			Romoca
+			Roosevelt
+			Roots
+			Rosedale
+			Rosedell
+			Rosenhahn Estates
+			Rosewood Hills
+			Rosholt Retreat
+			Rosita Hills
+			Ross
+			ROSS SPRINGS RANCH
+			Rossi Investments
+			Roswell
+			Roswell City
+			Rowley Downs
+			Roxben Estates
+			Roxborough Park
+			Roxborough Village
+			Roxbury Park
+			Royal Fork
+			RR Add
+			Ruby Mountain Ranch
+			Rudd
+			Rudd & H&A Rudd Addition
+			Rudds
+			Ruggles American Pie
+			Rule Creek Sub
+			Running Brook
+			RunnyMede Village Townhomes
+			Rupps
+			Rush
+			Rushmer
+			Ruskin Square
+			Russellville
+			Rustic Acres
+			Rustic Glen Manitou
+			Rustic Heights
+			Rustic Hills
+			Rustic Hills North
+			Rustic Hills Ranch
+			Rustic Home Add Colo City
+			Rustic Ridge
+			Rustlers Canyon
+			Ruth G Chews
+			Rye
+			Rye Ranchettes
+			S L & I Co
+			S L & I Sub
+			S L V R
+			S Todd
+			S&R sub
+			Sable Chase
+			Sable Cove
+			Sable Landing
+			Sable Ridge
+			Saddle BLA
+			Saddle Mountain Heights
+			Saddle Mountain Ranch
+			Saddle Ridge
+			Saddle Ridge at Sterling Ranch
+			Saddle Ridge Condominiums
+			Saddle Rock East
+			Saddle Rock Golf Club South
+			Saddle Rock Highlands
+			Saddle Rock Ridge
+			Saddle Rock Townhomes
+			Saddleback
+			Saddleback At Newport Heights
+			Saddleback Estates
+			Saddleback Ridge
+			Saddleback Townhomes
+			Saddlehorn Ranch
+			Saddlewood
+			Sage Creek
+			Sage Meadows II Townhomes at Wolf Ranch
+			Sage Port
+			Sagecreek North
+			Sagecreek South
+			Sagecrest
+			Sagewood
+			Saguache
+			Salamon
+			Salbeck
+			Salida Mountain Meadows Condo
+			Salisbury
+			Samuel Woodfill Emplacement
+			Samuels
+			San Carlos Estates
+			San Francisco
+			San Francisco Heights
+			San Juan Villas
+			San Luis Estates
+			San Luis Valley Ranches
+			San Miguel
+			Sanctuary of Peace
+			Sanctuary Pointe
+			Sand Creek
+			Sand Creek Commons
+			Sandcreek Preserve
+			Sandi Acres
+			Sandoval Sub
+			Sandpiper
+			Sanford
+			Sangre De Cristo Estates
+			Sangre De Cristo Place
+			Sangre De Cristo Ranches
+			Sangre View Park
+			Santa Clara Condominiums
+			Santa Cruz
+			Santa Fe
+			Santa Fe Arts Center Condo
+			Santa Fe Land & Improv Co Sub
+			Santa Fe RR West
+			Santa Fe Trail Ranch
+			Santa Fe Trails
+			Santa Fe Village
+			Santa Maria
+			Sante Fe Land Improv CO
+			Satellite Condominiums
+			Satellite Square
+			Satellite Townhomes
+			Saturn Towers
+			Saunders
+			Sause
+			Savanna Acres
+			Savannah
+			Sawgrass at Plum Creek
+			Sawyer
+			Sawyer Ridge
+			Scenic View
+			Scenic View At Paint Brush Hills
+			Scenic View Estates
+			Schades
+			Schaffer Heights
+			Schieffer Exemption
+			Schlessingers
+			Schmidts 1st
+			Schmotzer
+			Schoell Estates
+			Scholz & Eyes Sub
+			Scholz & Hinckleys
+			Schulze & Barela
+			Schulze Ranch
+			Schuttes Subdivision
+			Schwab
+			Schwenck Pine Grove Sub
+			Sciacca
+			Sclavenitis
+			Scooter & Yogis
+			Scotch Pines
+			Scotch Pines at Chelsea Glen
+			Scott
+			Scott Estates at the Top of Skyway
+			Scott II
+			Scottsdale
+			Scottsdale at Briargate Townhomes
+			Scrub Oak Acres
+			SDL Holdings LLC Sub
+			SE of County
+			Seasons Crested Hill
+			Seaveys
+			Second Creek Farm
+			Second Timbers Condo
+			Security
+			Security Commons
+			Sedalia
+			Seibert Original
+			Sellers Add To Beulah
+			Sellers Creek Ranch
+			Sellers Landing
+			Sells Add
+			Sengbeil Estates
+			Sentinel
+			Sequoia Condos
+			Serenity at Wolf Creek
+			Serenity Park
+			Settlers Chase Crossings Condos
+			Settlers Landing
+			Settlers Ranch
+			Settlers View
+			Settlers Village
+			Seven Hills
+			Seven Lakes North 6th
+			Seven Oaks Condos
+			Seventh Tee
+			Shadow Hills Estates
+			Shadow Lake
+			Shadow Lake Estates
+			Shadow Lake Villas
+			Shadow Mountain
+			Shadow Mountain Ranch
+			Shadow Ridge
+			Shadow Valley
+			Shadow Wood Condos
+			Shamrock Hills
+			Shamrock Park Condo
+			Shannon
+			Shannon Glen
+			Shannon Green
+			Shapiro
+			Shar Dell
+			Sharmoor
+			Sharon Point
+			Sharps Add
+			Shasta Acres
+			ShastaCo Dev Subdivision
+			Shaw Heights
+			Shaw River Ranch
+			Shaws Park Ranches
+			Shaws Park Ranches East
+			Shay Park
+			Shea Acres
+			Sheldon
+			Sheldon Add
+			Sheldon Group
+			Shelnutt Bla
+			Shelter Homes
+			Shenandoah
+			Sheridan Manor
+			Sheridans
+			Sherman
+			Sherrelwood Estates
+			Sherrelwood Village
+			Sherwood
+			Sherwood Condo
+			Sherwood Forest Estates
+			Shigley
+			Shiloh
+			Shiloh Mesa
+			Shiloh Pines
+			Shiloh Ranch
+			Shining Mountain
+			Shipley
+			Shipley-Miller-Vance
+			Shoemakers
+			Shooks Run
+			Shoptaugh
+			Shulls & Grahams Sub
+			Shulls Acres
+			Sienna Park
+			Sierra City
+			Sierra Mesa
+			Sierra Mojada South
+			Sierra Pines
+			Sierra Pointe
+			Sierra Ridge
+			Sierra Springs
+			Sierra Sun
+			Sierra Vista
+			Sierra Vista Ranches
+			Siferd Boulevard Sub
+			Siferd Place Condominiums
+			Siglers
+			Siglers Sub Of N Boone
+			Signal Creek
+			Signal Mountain Ranch
+			Signature Point at Garden of the Gods Club
+			Sikes
+			Silent Valley Estates
+			Silva Sub
+			Silver Cliff
+			Silver Cliff Heights
+			Silver Cliff Ranch
+			Silver Creek Lakes
+			Silver Hawk
+			Silver Hawk Commons
+			Silver Heights
+			Silver Mesa at Palomino Park
+			Silver Peaks
+			Silver Ponds
+			Silver Ridge Condo
+			Silver Springs
+			Silver Spurs
+			Silver Vista Ranch
+			Silver West Estates
+			Silverado Ranch
+			Silvercliff
+			Silverheels Ranch
+			Silversage
+			Silvertrees At Wildernest Condo
+			Simco
+			Simla Add
+			Simla Heights
+			Simla Original
+			Simmelink
+			Simmelink II
+			Simmons
+			Simpich Lofts Condo
+			Single Tree Estates
+			Singletree At DIA
+			Sinton Center
+			Sir Edwards
+			Siskadee
+			Six Shooter Junction
+			Skagway Reservoir Ranch
+			Sky Ranch
+			Sky Rim
+			Sky View Ranch
+			Skycrest
+			Skyfall
+			Skylake Ranch
+			Skyline
+			Skyline Estates
+			Skyline Park
+			Skyline Ranch
+			Skyline Ridge
+			Skyline Views at the Homer Condo
+			Skyline Village
+			Skyrud
+			Skyview Village
+			Skyway Condominiums
+			Skyway Heights
+			Skyway Northwest
+			Skyway Park
+			Skyway Park Estates
+			Skyway Plaza
+			Skyway Ranch Reserve
+			Skyway Village
+			Slater Creek
+			Sloan Lake
+			Slopeside Condo
+			Slys
+			Smartts
+			Smiley
+			Smith-Medran
+			Smiths
+			Smoke Tree Townhomes at Briargate
+			Smoketree
+			Smoky Hill
+			Snapfinger Woods
+			Snowbird Condo
+			Snyder
+			So Bdwy Heights
+			Soaring Eagles
+			Soda Lake
+			Soda Springs
+			Soda Springs Ranch
+			Solar Ridge
+			Solarvines
+			Solitude Colorado
+			Solomon
+			Solstice
+			Solterra
+			Somerlid Heights
+			Somerset Village
+			Sommerlyn Hills
+			Sonnet Springs
+			Sonnet Springs at University Park
+			Sorrel Ranch
+			Sorrento
+			Soucek
+			South 40
+			South Canon
+			South Capitol Hill
+			South College Heights
+			South Colorado City & Calvert Heights
+			South Creek 8
+			South Denver
+			South Derby
+			South End
+			South Florissant
+			South Forrest
+			South La Vergne
+			South Manitou
+			South Park
+			South Park at Broadmoor Resort Community
+			South Park Meadows
+			South Park Ranches
+			South Pearl Street
+			South Pueblo
+			South Pueblo Homestead&Building Assoc
+			South Range View
+			South Side Jones Creek
+			South Sloan's Lake
+			South Slope Condos
+			South T-Bar Ranch
+			South Valley
+			South Valley At Trail Ridge
+			South Woodmoor Preserve
+			Southborough
+			Southbridge
+			Southcreek
+			Southeast El Paso County
+			Southern Area
+			Southern Colorado Medical Center
+			Southern Cross
+			Southern Hills
+			Southface
+			Southfork
+			Southglen
+			Southglenn Commons
+			Southmoor
+			Southpark
+			Southpointe
+			Southridge
+			Southridge Estate
+			Southshore At Aurora
+			Southwest
+			Southwest Bennett Properties
+			Southwind Sub
+			Southwood
+			Sovereign Court Condominium
+			Spaccamonti Acres
+			Space Command Park
+			Spanier
+			Spanish Peaks Village
+			Spark
+			Spear Sub
+			Speer
+			Speer Station
+			Speer Tech Development
+			Spencers
+			Sperry
+			Spielman
+			Spinnaker
+			Spirit Lakes
+			Spitfire Heights
+			Spitfire Sub
+			Sporich
+			Sportsmans Paradise
+			Spread Eagle Pines
+			Spread Eagle Springs
+			Spring Canyon Ranch
+			Spring Creek
+			Spring Creek North
+			Spring Creek Ranch
+			Spring Creek Townhomes
+			Spring Creek Traditional Neighborhood
+			Spring Creek Villas
+			Spring Crest
+			Spring Grove
+			Spring Lake
+			Spring Lake Lt 1 Twnhs
+			Spring Park
+			Spring Valley
+			Spring Valley Ranch
+			Springlake
+			Springrun
+			Springs at Waterview
+			Springs Canyon at University Park
+			Springs East Airport
+			Springs Ranch
+			Sproul Rail Industrial Park
+			Sproull
+			Spruce
+			Spruce Basin
+			Spruce Haven
+			Spruce Hill
+			Spruce Mountain Estates
+			Spruce Ridge At Meadow Park
+			Spruce Ridge Sub
+			Spruce Street
+			Sprucewood
+			Spur Ranch Estates
+			Spurlock
+			Spyglass
+			Squirrel Creek Estates
+			St Acacius
+			St Andrews
+			St Andrews at Plum Creek
+			St Andrews Highlands
+			St Charles Mesa
+			St Charles River Estates
+			St Elmo Outlying
+			St Michaels
+			St Pauls
+			Stage Run
+			Stagecoach Ranch on the Range
+			Stagecoach Springs Estates
+			Stagestop
+			Stahler
+			Stanton & Snyder
+			Stanton & Vroman
+			Stanton Sub
+			Stapleton
+			Stapleton Aurora
+			Stapleton Estates
+			Star Canyon Ranch
+			Star Heights
+			Star Ranch
+			Stardust Mesa
+			Stark Bros N Woodlawn
+			Starks
+			Starlight Acres
+			Starlight Ranchettes
+			Starlite
+			Starlite Hills
+			Starsmore
+			Starwatch
+			State
+			State Add
+			State Add Colo Spgs
+			State Add To Littleton
+			State Park Village
+			Stebbins Heights
+			Steelton
+			Steelworkers
+			Steelworks
+			Steeplechase Condo
+			Steffas
+			Stephen Braziers
+			Stepping Stones West
+			Steppington Place Condo
+			Sterling Collection at Banning Lewis Ranch
+			Sterling Court Condominiums
+			Sterling Heights
+			Sterling Hills
+			Sterling Pointe
+			Sterling Ranch
+			Sterling Ranch East
+			Sterling Tree Farm
+			Sternberg M S
+			Stetson Hills
+			Stetson Ridge Highlands
+			Stetson Ridge South
+			Stetson Ridge Townhomes
+			Stevenson Sub
+			Stewart
+			Stewart Place
+			Stewarts
+			Stiffler
+			Stiles
+			Stillwater
+			Stiners
+			Stockton Sub
+			Stoll Ranch
+			Stone & Thatcher
+			Stone Canon Ranch
+			Stone Creek
+			Stone Creek Ranch
+			Stone Crossing At Middle Creek
+			Stone Ridge Village
+			Stonebridge
+			Stonebridge at Cedar Heights
+			Stonebridge at Cedar Hgts Colo Springs
+			Stonebridge At Meridian Ranch
+			Stonecliff
+			Stonegate
+			Stonegate Park Guell Condos
+			Stonegate Terrace
+			Stonehenge At Roxborough
+			Stonemoor Hills
+			Stoneridge
+			Stonesthrow
+			Stonesthrow at El Camino
+			Stonesthrow at Springs Ranch
+			Stonewater at Northgate
+			Stony Creek
+			Storybook
+			Stout
+			Stover Sub
+			Strang Bros & Deems
+			Strasburg
+			Strasburg East
+			Stratmoor
+			Stratmoor Heights
+			Stratmoor Hills
+			Stratmoor Manor
+			Stratmoor South
+			Stratmoor Valley
+			Stratmoor Village
+			Stratton Forest
+			Stratton Meadows
+			Stratton Original
+			Stratton Park
+			Stratton Pines
+			Stratton Preserve
+			Strawberry at Heatheridge
+			Strawberry Fields
+			Stray Horse
+			Strayers Park Place
+			Streamside Sub
+			Streets Sub
+			Strickler
+			Stroh Crossing
+			Stroh Ranch
+			Strubels
+			Struthers Ranch
+			Studio 80 Condos
+			Stumps Add
+			Sub Exemption #2006-002
+			Sufferns Sunny Valley
+			Sugar City
+			Sugar Pine Heights
+			Summer Breeze
+			Summer Circle
+			Summer Glen
+			Summer Haven Addition
+			Summer Lake
+			Summer Night
+			Summer Oak at Broadmoor Resort Community
+			Summer Valley
+			Summerfield
+			Summerfield Apts
+			Summerfield At Briargate
+			Summerfield Condominiums
+			Summerfield Villas
+			Summerlee
+			Summernight Div
+			Summerset Commons
+			Summersong Ranch
+			Summit
+			Summit Park
+			Summit Place
+			Summit View Estates
+			Summit View Townhomes
+			Sumners
+			Sumo Village
+			Sun Country Meadows
+			Sun Creek Ranches
+			Sun Forest
+			Sun Hills
+			Sun Mesa
+			Sun Mesa Townhomes
+			Sun Mountain
+			Sun Valley
+			Sunbird Cliffs
+			Sunburst
+			Suncrest At Meadow Park
+			Sundance
+			Sundance at Greencrest
+			Sundance Estates
+			Sundance Hills
+			Sundance Meadows
+			Sundance Ranch
+			Sundown
+			Sundown Heights
+			Sundown North
+			Sundown Villas
+			Sundowner Townhome Sub
+			Sunfield
+			Sunflower Rd Addition
+			Sunny Glen
+			Sunny Glen Retreat
+			Sunny Heights
+			Sunny Slope Acres
+			Sunny Slope Estates
+			Sunnyland Estates Mobile Home Court Sub
+			Sunnyside
+			Sunnyslope
+			Sunnyvale
+			Sunnywood
+			Sunnywood Manor
+			Sunpointe At Lakewood Estate Condos
+			Sunridge
+			Sunrise Creek Flg #3
+			Sunrise Mesa
+			Sunrise Park
+			Sunrise Ranchette
+			Sunrise Ridge
+			Sunrise Ridge Ranch
+			Sunrise Terrace
+			Sunrise Townhomes
+			Sunrise Townhomes at Gleneagle
+			Sunset
+			Sunset Meadows
+			Sunset Mesa
+			Sunset Park
+			Sunset Ridge
+			Sunset Strip
+			Sunset Townhomes
+			Sunset View
+			Sunset Village
+			Sunshine Acres
+			Sunshine Meadows
+			Sunshine Sub
+			Sunstone
+			Sunstone Village at Terrain
+			Surrey Ridge
+			Sutherland Creek
+			Swallows Sub
+			Swan
+			Sweet
+			Sweetwater Ranch
+			Sweetwater Ridge
+			Swink
+			Swinks
+			Swiss Chalet
+			Swope
+			Sybo
+			Sydnis
+			Syler
+			Sylvan Meadows
+			Sylvanhurst
+			T & J
+			T J Sub
+			T M West Rezone
+			T Macon
+			T V Hills
+			Tabernash
+			Tabernash Condos
+			Tabernash Ej Vulgamotts
+			Tabernash Village West
+			Table Mountain Heights In Van Bibber Crk
+			Table Rock at Peregrine
+			Table Rock Ranch
+			Tabone
+			Tabor Place
+			Tahawus Terrace
+			Tailwind Village
+			Talamine
+			Talamine Bus Center
+			Talbert
+			Tall Pine Estates
+			Tall Pines Ranch
+			Tallahassee
+			Tallent Sub
+			Tallgrass At The Ranch
+			Tallman Gulch
+			Tallyns Reach Sub
+			Talon Ridge at Peregrine
+			Talon Ridge Townhomes
+			Tamarac Tech Park
+			Tamarack
+			Tamarack Acres
+			Tamarack South
+			Tamarisk Estates
+			Tamaron Condo
+			Tamarron
+			Tamarron at Rockrimmon
+			Tamarron South
+			Tanglewood
+			Tanglewood Village
+			Tanner Ranch
+			Taos Of Lone Tree
+			Taos Village Condominiums
+			Tapestry at Wolf Ranch
+			Tara Vista Estates
+			Tarryall
+			Tarryall Gate
+			Tarryall River Estates
+			Tasha
+			Tay Lor
+			Taylor
+			Taylor & Robinsons
+			Taylor Acres
+			Taylor Creek Highlands
+			TCD North
+			Teaspoon Ranch
+			Tee Pee Inc Exemption
+			Temple Acres
+			Templeton Gap Acres
+			Templeton Gap Add
+			Templeton Gap Heights
+			Templeton Gap Sub
+			Templeton Heights
+			Tempo Townhomes
+			Ten Mile Creek Condo
+			Tenderfoot Hill
+			Terleps
+			Terra Monte
+			Terra Ridge
+			Terra Ridge North
+			Terra Vista
+			Terrace
+			Terrace at Green Mountain
+			Terrace Park
+			Terrain
+			Territory North
+			Terrys West
+			Tesker
+			Tessa Mesa
+			Thal
+			Thatcher & Thomas
+			Thatcher Heights
+			The Abbey
+			The Aspens
+			The Beach At Woodmoor
+			The Bijou Condo
+			The Bijou Condos
+			The Bluffs
+			The Bluffs at Spring Creek
+			The Boulders
+			The Boulders Broadmoor
+			The Bridge Parcels
+			The Broadlands
+			The Broadmoor West Residence Condo
+			The Canyons
+			The Canyons Legacy Ranch
+			The Carriages At Charleston Place
+			The Cascades At Springs Ranch
+			The Centennial
+			The Coachman
+			The Colorado Springs Ranch
+			The Commons
+			The Commons at Victory Ridge
+			The Conservatory
+			The Cottages at Woodmen Heights
+			The Courtyard
+			The Cove at Cottonwood Creek
+			The Cove At Woodmoor
+			The Cree
+			The Dam
+			The Dunes
+			The Dunes at Woodmoor
+			The East Ranch Townhomes
+			The Enclave at Bayfield
+			The Enclave at DTC
+			The Estates At Log Hollow
+			The Estates At Middle Creek
+			The Estates at MT Princeton
+			The Estates At Rolling Hills Ranch
+			The Fairways
+			The Fairways at Kissing Camels Estates
+			The Fairways at Springs Ranch
+			The Farm
+			The Gardens
+			The Gardens at North Carefree
+			The Glen At Sand Creek
+			The Glen At Widefield
+			The Glenn Oaks Condos
+			The Greens at Kissing Camels Estates
+			The Grove
+			The Grove at Spruce Haven
+			The Haven At Paradise
+			The Haven At York Street
+			The Heights At Cross Creek
+			The Heights at Jackson Creek
+			The Heights At Springs Ranch
+			The High Caliber
+			The Highbrook
+			The Highlands 460
+			The Highlands at Springs Ranch
+			The Highlands in Paradise
+			The Hills At Cherry Creek
+			The Hills at Lorson Ranch
+			The Homes at Brecken Heights
+			The Intermill
+			The Island At Springs Ranch
+			The Knolls
+			The Knolls At Plum Creek Condos
+			The Knolls at Springs Ranch
+			The Knolls West
+			The Lakes
+			The Landing at Cherry Creek Condo
+			The Landings Of Denmark
+			The Lofts At Mirrillion
+			The Logs
+			The Manitou Townhomes
+			The Marquette
+			The Meadows
+			The Meadows at Holland Park Condo
+			The Meadows at Legacy Ranch
+			The Meadows At Lorson Ranch
+			The Met South Condo
+			The Mews
+			The Nook at Shiloh Mesa
+			The Oaks
+			The Oaks at Popes Bluff
+			The Outback At Cedar Heights
+			The Overlook At Wolf Ranch
+			The Park At Kissing Camels Estates
+			The Peacock Farm
+			The Pinery
+			The Pines
+			The Pines At Erindale
+			The Pines at Forest Meadows
+			The Pines Village
+			The Pinnacle at Highline Condo
+			The Pointe At Cheyenne Mountain Ranch
+			The Preserve At Cottonwood Creek
+			The Ranch at Coyote Ridge
+			The Range
+			The Range At Springs Ranch
+			The Refuge At Stetson Hills
+			The Reserve at Bridlewood
+			The Reserve At Broadmoor Glen
+			The Reserve at Cottonwood Creek
+			The Reserve at Indigo Ranch
+			The Reserve At North Creek
+			The Residence at Stratmoor Twnhms
+			The Residences at Monument Creek
+			The Retreat At Kissing Camels Estates
+			The Retreat At Rockrimmon
+			The Ridge
+			The Ridge At Cumbre Vista
+			The Ridge At Fox Run
+			The Ridge At Garden of the Gods
+			The Ridge At Lorson Ranch
+			The Ridge At Sand Creek
+			The Rockrimmon Condo
+			The Sanctuary at Meridian Ranch
+			The Sanctuary at Peregrine
+			The Sands
+			The Seasons
+			The Seasons On Paseo
+			The Second Timbers Condo
+			The Seventh Tee
+			The Shores
+			The Spires Broadmoor
+			The Summit
+			The Summit at Vista Mesa
+			The Territory
+			The Third Timbers Condos
+			The Three Eagles
+			The Timber
+			The Townes at Cumbre Vista
+			The Townes at Wolf Ranch
+			The Townes At Woodmen Heights
+			The Townhome At Rockrimmon
+			The Townhomes at Bradley Crossroads
+			The Townhomes at Rockrimmon
+			The Trails
+			The Trails at Aspen Ridge
+			The Turtle Creek Condominiums
+			The Valley
+			The Village
+			The Village at Bear Dance
+			The Village at Moor-Wood
+			The Village at Peregrine
+			The Village At Springs Ranch Condo
+			The Village At Stone Manor
+			The Village Green at Walking Stick
+			The Village Place
+			The Villages At Buffalo Run East
+			The Villages At Raccoon Creek Denver
+			The Villages at Sand Creek
+			The Villas at Briargate
+			The Villas At Chestnut Glen
+			The Villas At Great Plains Park Condos
+			The Villas At Log Hollow
+			The Vista
+			The Vistas At Meridian Ranch
+			The Vistas at Norwood
+			The Vistas At Spring Creek
+			The Vistas At West Mesa
+			The Westside Tennis, Trampoline & Squash Club
+			The Winters
+			The Woodlands
+			The Woods At Gem Mountain
+			Thomas
+			Thomas Macon's
+			Thompson
+			Thompsons Add Manitou
+			Thompsons Lakeside
+			Thompsons Resub
+			Thorncreek Village Condo
+			Thornton
+			Thornton Meadows
+			Thornton Ridge
+			Thorp
+			Thousand Peaks
+			Thousand Peaks Ranch
+			Three Eagles
+			Three Elk Creek
+			Three Fountains Condos
+			Three Pine Ridge
+			Three Sisters
+			Three Streams Ranch
+			Thunder Butte
+			Thunder Hill
+			Thunderbird Estates
+			Thunderridge Ranch
+			Tiara
+			Tiboria Estates
+			Tierra Del Sol
+			Tierra Iliff
+			Tierra Mia
+			Tiffany Park
+			Tiger Run Resort Park
+			Timber Canyon
+			Timber Cove Amd Condo
+			Timber Creek Estates
+			Timber Lake Estates
+			Timber Mesa
+			Timber Pointe
+			Timber Ridge
+			Timber Ridge Estates
+			Timberedge
+			Timbers Estates
+			Timberview
+			Tindell
+			Tioga Ranch
+			Todd Creek Farms
+			Todd Estates
+			Tollgate Crossing
+			Tollgate Village
+			Toms Ranch
+			Tony Cruz
+			Top O The Hill
+			Top O The Moor
+			Top O The Town
+			Top Of Skyway
+			Top Of Skyway West
+			Top Rail Ranch Estates
+			Topaz at the Mall
+			Topaz On Academy
+			Tordal Estates
+			Torrence
+			Torres
+			Torrey Peaks
+			Toscano
+			Tourist City
+			Tower 160
+			Tower Park
+			Town And Country
+			Town Center Terrace At Hampden Town Center
+			Town Center Villas 97 Condominium
+			Town Center Villas 98 Condominium
+			Town of Cascade
+			Town of Lake George
+			Town of Peyton
+			Town of Rosita
+			Town Of Swansea
+			Town of Westcliffe
+			Towne Centre
+			Townes at Gold Hill Mesa
+			Townes At Kettle Creek
+			Townes II at Wolf Ranch
+			Townhomes At Jetwing
+			Townhomes At Lorson Ranch
+			Townhomes At The Ranch
+			Townhomes At Western
+			Townhomes at Wolf Ranch
+			Townhomes II At Wolf Ranch
+			Townhouse Sub
+			Towns at Wolf Ranch
+			Townsends Add
+			Township at Dakota
+			Toy Ranches
+			Traditions Sub
+			Trafalger Point
+			Trafton Heights
+			Trail Head
+			Trail Ridge
+			Trail Ridge At Northgate
+			Trail Ridge South
+			Trail Ridge South at Northgate
+			Trail West
+			Trailmark
+			Trailridge
+			Trails At Coal Creek
+			Trails At Crowfoot
+			Trails At Forest Meadows
+			Trails East
+			Trails End
+			Trails End Ranch
+			Trails End-Monument
+			Trailside
+			Trailside at Cottonwood Creek
+			Trailside Manor Condominiums
+			Trani Estates
+			Tranquil Acres
+			Tranquil Place Townhomes
+			Trappers Glen
+			Treasure Hills
+			Treasured Acres
+			Treece
+			Trenary
+			Tres Valles
+			Trester Jr
+			Tresters
+			Trestle
+			Tri-Lakes
+			Trianon Estates
+			Trinidad Lake Ranches
+			Trinity
+			Trinity South
+			Triple B
+			Triple Crown At Haskin Park
+			Triple R J T
+			Triple T Ranches
+			Triple-J
+			Trout Creek
+			Trout Creek Ranch
+			Trout Haven
+			TRU Southern Colorado Building Inc
+			True Mountain Estates
+			True Sub
+			True West Ranch At Miramonte
+			Trues Mill
+			Trumbull
+			Tubbs
+			Turkey Canon Ranch Estates
+			Turkey Creek Ranch
+			Turkey Ridge Ranch
+			Turkey Rock Ranch Estates
+			Turnberry
+			Turner Gulch
+			Turquoise
+			Tuscan Foothills Village
+			Tuscany Heights At Peregrine
+			Tuscany Ridge At Mesa Village
+			Tuscany Villas
+			Twelve Mile
+			Twilight Village
+			Twin Acres
+			Twin Birch
+			Twin Butte Estates
+			Twin Creek Ranches
+			Twin Lake Ranches
+			Twin Lakes
+			Twin Oaks
+			Twin Pines Sub
+			Twin Rocks
+			Twinkling Star
+			Twins Sub
+			Two Duck
+			Two Pines At Outlook
+			Two Rivers Commons
+			Two-Eight Condominiums
+			Tysland
+			Uintah
+			Uintah Bluffs
+			Uintah Manor
+			Ula Prairie
+			Union
+			Union Bluffs
+			Union Historical
+			United Oil Co First
+			United Oil CO Industrial
+			University Bluffs
+			University Heights
+			University Hills
+			University Park
+			University Park Sub 10th
+			University Terrace
+			University Village
+			Unknown
+			Uplands Park
+			Urban Collection at Palmer Village
+			Ute Lakes Club #1&2
+			Ute Mesa
+			Ute Pass
+			Ute Pass Land
+			Ute Pass Summer Homes
+			Ute-Paona
+			V & M Sub
+			V P
+			Vada Heights
+			Val Moritz Village
+			Valdez Park
+			Valens Mountain
+			Valentia Court
+			Valerie Acres
+			Valerosa Village
+			Valle Del Rio
+			Valley At Erindale
+			Valley Hi
+			Valley Hi Mountain Estate
+			Valley Hi Mountain Estates
+			Valley Of The Sun
+			Valley Park
+			Valley Peak Village Townhomes
+			Valley Ranch
+			Valley Ranchettes
+			Valley Ridge
+			Valley View
+			Valley Vista
+			Valli Farms
+			Valument
+			Valverde
+			Van Aire
+			Van Aukens
+			Van Bibber Bus Park
+			Van Bibber Park Condos
+			Van Bibber Valley Estates
+			Van Buren Townhomes
+			Van Deel Heritage Water Sub
+			Van Keuren & Vassault
+			Van Teylingen
+			Vantage Heights
+			Vantage Heights at Mountain Shadows
+			Vantage Pointe Lofts
+			Vauxhall Place
+			Veghte
+			Venman Sub
+			Ventana
+			Venture
+			Verde Valley Ranch
+			Vernon Place
+			Verona Heights
+			Versailles Townhomes
+			Veteran Heights
+			Veuthey
+			Via Vallecito Estados Hennings
+			Viaduct
+			Vic's Creek
+			Victor Add
+			Victor City View Add
+			Victor City View Out
+			Victor Cunningham Add
+			Victor First Add
+			Victor Golconda
+			Victor Hartford Add
+			Victor Little Montana
+			Victor Mc K
+			Victor Orig
+			Victor Providence
+			Victor Spicer
+			Victoria Crossing
+			Victoria Park
+			Victoria Place
+			Victoria Station
+			Victoria Village
+			Victorian Heights
+			Victory Ridge
+			View Estates
+			Viewpoint Estates
+			Vigil
+			Villa Bella
+			Villa Casitas
+			Villa De Mesa
+			Villa Del Sol
+			Villa Del Sol Sub
+			Villa Homes
+			Villa Loma
+			Villa Loma Heights
+			Villa Mirage
+			Villa Pourtales
+			Villa Rosa
+			Villa Sierra
+			Village At Cheyenne Creek
+			Village at Littleton
+			Village at Monument
+			Village at Skyline
+			Village At Springs Ranch Condos
+			Village At Stratton Preserve
+			Village Center
+			Village Center at Woodmoor
+			Village East
+			Village East Community
+			Village East Farm Sub
+			Village East Townhomes
+			Village Estates at Riva Chase
+			Village Gardens
+			Village Heights
+			Village North
+			Village of Five Parks
+			Village On The Green
+			Village On Uintah
+			Village Park
+			Village Pines
+			Village Seven
+			Villages
+			Villages at Castle Rock
+			Villages at Raccoon Creek
+			Villages At Rockrimmon
+			Villages at Sand Creek
+			Villages At Sandcreek
+			Villages at Sterling Ranch
+			Villages at Wolf Ranch
+			Villages Of Parker
+			Villages Of Sand Creek
+			Villages Of Yorkshire
+			Villani Indust Park
+			Villani Industrial Park
+			Villas At Bear Creek
+			Villas At Briargate
+			Villas At Cherry Creek
+			Villas at Cheyenne Meadows
+			Villas at Claremont Ranch
+			Villas at Eagleridge
+			Villas at Mesa Park
+			Villas at Northgate
+			Villas at River Oaks Condo
+			Villas at Skyway Townhomes
+			Villas at University Park
+			Villas At Vallagio
+			Villas at Walking Stick
+			Vincents East
+			Vinewood
+			Vintage Villas PUD Sub
+			Viola Sub
+			Violet
+			Virginia Homes
+			Virginia Kay
+			Virginia Park
+			Virginia Vale
+			Virginia Village
+			Vista Clara Villas
+			Vista De La Montana
+			Vista De La Paciencia
+			Vista Del Sol
+			Vista Grande
+			Vista Grande Estates
+			Vista Grande Terrace
+			Vista Grande West
+			Vista Hills
+			Vista Mesa
+			Vista Ridge
+			Vista Ridge At Pinecliff
+			Vista Verde Estates
+			Vista View
+			Vista Villa
+			Vistas
+			Vivienda Parque
+			Vondelpark Condominiums
+			W & B
+			W & W
+			W D B Land
+			W H Terrys Resub of Lots 4
+			W N Smiths Sub
+			Wadsworth Heights
+			Wagon Tongue
+			Wagon Trails
+			Wagon Wheel
+			Wagons West
+			Wah Keeney Park
+			Wakefield Hills
+			Wakonda Hills
+			Walden East
+			Walden III
+			Walden Pines
+			Walden Preserve
+			Walker Estates
+			Walker Private Ranchettes
+			Walker Reserve
+			Walkers
+			Walking Stick Estates
+			Walking Stick Vista
+			Walnut
+			Walnut Hill
+			Walnut Hills
+			Walsen
+			Walsenburg
+			Walson Ranch
+			Walters Commons
+			Walton Heath
+			Wamboldt
+			Wandcrest Park
+			Wanees
+			Ward
+			Warm Springs
+			Warner
+			Warner Lewis
+			Warren
+			Warriors Mark West
+			Washburn
+			Washington Heights
+			Washington Park
+			Wasson
+			Waterbarrel Estate
+			Waterstone
+			Waterstone Estates
+			Waterstone Nupud
+			Watersville
+			Watson-McCloud
+			Waugh Mountain Ranch
+			Waverton Ranch
+			Waycotts
+			Wayts Sub
+			Weatherwood
+			Weaver Court
+			Weavers Addition
+			Webber Park
+			Wedgewood
+			Wedgewood At Briargate
+			Wedgewood Park
+			Wegeman
+			Welby Hill Condo
+			Welby Hill I Condo
+			Welch
+			Welch West
+			Welchester Estates
+			Welchs Colfax Ave
+			Welchs Hilltop Acres
+			Weldon Creek
+			Wellers
+			Wellington Park
+			Wells
+			Welshs
+			Wemmer Sub
+			Werner
+			Werners Acres
+			West Bluff
+			West Colorado Springs
+			West Cucharras Street
+			West Elmwood Plaza
+			West End
+			West End Heights
+			West Lee Hills
+			West Meadows
+			West Monument
+			West Oak Ridge
+			West Park
+			West Point
+			West Side
+			West Side Add
+			West T Bone Ranch
+			West Three Block
+			West Valley Estates
+			West View Add
+			West Vista
+			West Woods Ranch
+			West Woods Townhomes
+			Westacres Sub
+			Westaire
+			Westbury Farms at Apple Valley North
+			Westcliffe
+			Westcreek
+			Westcreek At Wolf Ranch
+			Westcreek Lakes
+			Westcreek Ranches
+			Westdale
+			Western Country Ranches
+			Western Gardens
+			Western Heights
+			Western Hills
+			Western Hills Ranch Ests
+			Western Horizons
+			Western Meadows
+			Western States
+			Western Sun
+			Western Union Ranch
+			Westerra
+			Westgate
+			Westgate Condo
+			Westgate Office Park
+			Westgate on the Boulevard
+			Westgate Park
+			Westgate Plaza West Condos
+			Westgate Square Townhomes
+			Westgold Meadows
+			Westhaven Sub
+			Westlake Townhomes
+			Westlake Village
+			Westlink
+			Westmark
+			Westmeadow
+			Westminster Hills
+			Westminster Homes
+			Westmoor Estates
+			Westmoor Park
+			Westridge
+			Westridge Twnhms
+			Westside Add
+			Westside Meadows
+			Westside Village
+			Westview
+			Westview at Woodmoor
+			Westview Estates
+			Westwinds
+			Westwood Lakes
+			Westwood Townhomes
+			Westwood Village
+			Westwoods Shopping Center
+			Wetmore
+			Wetzels
+			Whale
+			Wheatlands
+			Wheelers
+			Whiskey Park
+			Whisper Village
+			Whispering Hills Estates
+			Whispering Pines
+			Whispering Springs
+			Whispering Winds
+			Whispering Wood
+			Whitchurch
+			White
+			White + Pages
+			White Fence Farm
+			White Fir Estates
+			Whites
+			Whites Calhan
+			Whitlock
+			Whitmers
+			Whitney
+			Widefield Country Club Estates
+			Widefield Country Club Heights
+			Widefield Heights
+			Widefield Homes
+			Wien
+			Wiese
+			Wigton Acres
+			Wilcox & Moore
+			Wild Oak Farms
+			Wild Pointe
+			Wild Sage
+			Wilder
+			Wilderness Heights
+			Wilderness Valley
+			Wildernest Sub
+			Wildflower
+			Wildflower at Old Farm
+			Wildflower at Pine Creek
+			Wildgrass
+			Wildhorn
+			Wildridge
+			Wildstone Ranch
+			Wildwing
+			Wildwood
+			Wildwood at Northgate
+			Wildwood At Winter Park Ranch
+			Wildwood Ranch Estates
+			Wildwood Rec Village
+			Wildwood Recreational Village
+			Wildwood Ridge
+			Wildwood Ridge at Northgate
+			Wildwood Village
+			Wiley & Chamberlin Pueblo Gardens
+			Wiley & Chamberlins Sub
+			Wiley Gardens
+			Wiley Park Heights
+			Wilkerson Pass Estates
+			Wilkinson/Caffery
+			Will O Wisp
+			Willamette Place
+			Williams
+			Williams Park
+			Williamsburg Cfi Co
+			Williamsburg Rmf Co
+			Willis Heights
+			Willmoor Park
+			Willow Bend
+			Willow Brook
+			Willow Creek
+			Willow Creek Estates
+			Willow Creek Minor Sub
+			Willow Hill
+			Willow Park
+			Willow Ranch Condos
+			Willow Ridge
+			Willow Run
+			Willow Spgs Estates
+			Willow Spgs Ranch
+			Willow Street Lofts
+			Willowbrook Gardens
+			Willowind at Stetson Hills
+			Willownook Ranches
+			Willowstone Chalets At Southpark
+			Willsons
+			Wilmont Park
+			Wilshire
+			Wilson Lake Estates
+			Wilsons Gardens
+			Wilsons Widefield
+			Wilsons Woods
+			Winchester
+			Windcreek Condo
+			Windermere
+			Windermere Gallups
+			Windermere Gardens
+			Windermere Homes
+			Windermere Parks
+			Windermere Ridge
+			Windermere Trail
+			Windingwalake
+			Windingwalk At Meridian Ranch
+			Windjammer
+			Windjammer at Briargate
+			Windjammer Point
+			Windjammer Pointe
+			Windmill Creek
+			Windmill Flats
+			Windmill Mesa
+			Windmill Ranch
+			Windmill Ridge
+			Windmill Tracts
+			Windridge Estates
+			Windsong
+			Windsor Gardens
+			Windward Corner
+			Windy Hills
+			Winewood Village
+			Winfield Acres
+			Wingate South
+			Winnecunnet
+			Winsome
+			Winterland
+			Winters Add
+			Wirweitzki
+			Wissler Ranch
+			Wolf Creek
+			Wolf Creek Ranches
+			Wolf Park
+			Wolf Ranch
+			Wolf Ranch East
+			Wolf Ranch North
+			Wolfe + Whites
+			Wolfe Sub
+			Wolfes
+			Wolff Place
+			Wolverine Acres
+			Wonder Trail
+			Wood
+			Wood Ave Add
+			Wood Creek
+			Wood Terrace
+			Wood-Monroe
+			Woodbox Condominiums
+			Woodbridge
+			Woodburn
+			Woodcrest
+			Wooded Glen
+			Woodford
+			Woodgate
+			Woodglen
+			Woodhaven
+			Woodlake
+			Woodlake Hills
+			Woodland
+			Woodland Acres
+			Woodland Creek
+			Woodland Hills
+			Woodland Hills Village
+			Woodland Park
+			Woodland Valley
+			Woodland Valley Ranch
+			Woodland West
+			Woodlands
+			Woodlands The
+			Woodmar Village
+			Woodmen Estates
+			Woodmen Forest
+			Woodmen Hills
+			Woodmen Manor
+			Woodmen Mesa
+			Woodmen Oaks
+			Woodmen Pointe
+			Woodmen Valley
+			Woodmen Vistas
+			Woodmoor
+			Woodmoor Country Club
+			Woodmoor Forest
+			Woodmoor Greens
+			Woodmoor Highlands
+			Woodmoor Highlands I
+			Woodmoor Highlands II
+			Woodmoor Highlands III
+			Woodmoor Hills
+			Woodmoor Lode
+			Woodmoor Meadows
+			Woodmoor Mountain
+			Woodmoor Nugget
+			Woodmoor Oaks
+			Woodmoor Ridge
+			Woodmoor Summit
+			Woodmoor Vista
+			Woodrim
+			Woodrings
+			Woodrock
+			Woodruff Hgt
+			Woods
+			Woods at Buck Mountain
+			Woods at Gem Mountain
+			Woodside
+			Woodside At Briargate
+			Woodside Park
+			Woodstone
+			Woodstone at Regency Park
+			Woodstream Falls Condos
+			Woodward Minor
+			WP Central Area
+			Wp Northeast Area
+			Wright
+			Wymans
+			Wyndham Hill
+			Wyoming Estates
+			X Bar V
+			Yale Condo
+			Yale Lakes Estates
+			Yale Manor
+			Ybarra
+			Yellow Pine Ranch
+			Yellowstone Creek Ranch
+			Yonker
+			York Village
+			Yorkshire
+			Yorkshire Commons
+			Yorkshire Commons Condos
+			Yorkshire Estates
+			Youngs Addition
+			Yousse Amd
+			Yucca Estates
+			Yucca Valley
+			Yuma Heights
+			Yuma Street
+			Yvonne
+			Zalewski
+			Zamy
+			Zarkovacki
+			Zebulon
+			Zellers
+			Zercher Ranch
+			Zindorf
+			Zinnos Sub
+			Zook
+			Zurcher
+			Zytka-King
+			
+			
+			
+			OrNot
+			Legal Description  Property Desc RemarksPrice (000s)  _______________________  MLS #  _______________________  Year Built _______________________  Total Sqft (Res only) _______________________  Zoning
+						A
+						A-1
+						A-2
+						A-3
+						A-4
+						A-5
+						A-35
+						A-T
+						A1
+						AE
+						AF
+						AFR
+						AG
+						AIP
+						AL
+						AMU
+						AO
+						AO-CAD
+						APD
+						APZ1
+						APZ2
+						AR
+						AS
+						B
+						B-1
+						B-2
+						B-3
+						B-4
+						BB
+						BE
+						BP
+						C
+						C-1
+						C-2
+						C-5
+						C-6
+						C-MX-5
+						C-MX-8
+						C-MX-12
+						C1
+						C2
+						C5
+						CAD-O
+						CB
+						CBD
+						CBD-R
+						CC
+						CC-A
+						CCMOD
+						CG
+						CH-1
+						CH-2
+						CH-3
+						CHB
+						CMU
+						CN
+						CO
+						CPUD
+						CR
+						CR P
+						CS
+						CTY
+						CU
+						D-C
+						DB
+						DF
+						DFOZ
+						DIO
+						DIR
+						DRA
+						DRB
+						DRC
+						DREC
+						DRR
+						DWTN
+						E
+						E-SU-B
+						E-SU-DX
+						E-SU-G
+						E-TU-B
+						E-TU-C
+						EHC
+						EHO
+						ER
+						ER 1
+						ER 2
+						ER 3
+						ESCI
+						ETC
+						F
+						F-5
+						F-C
+						F-P
+						FA1
+						FB2
+						FBZ-CEN
+						FBZ-COR
+						FBZ-T1
+						FBZ-T2A
+						FBZ-T2B
+						FC
+						FP
+						FPO
+						G-MU-3
+						G-MU-5
+						G-MU-8
+						G-MU-12
+						GA-O
+						GD
+						GI
+						GR
+						H
+						HB
+						HC
+						HDR
+						HI
+						HLDR
+						HO
+						HP
+						HR
+						HR-O
+						HS
+						HSCLI
+						I
+						I-1
+						I-2
+						I-3
+						I-4
+						IP
+						K
+						KR-1
+						LDR
+						LI
+						LLR
+						LRR
+						LSB
+						M
+						M-1
+						M-2
+						M1
+						MB-1
+						MDR
+						MF
+						MFR
+						MFS
+						MFU
+						MH
+						MH-1
+						MH-2
+						MHP
+						MHP-R
+						MHPS
+						MHS
+						MI
+						MR
+						MR-3
+						MU
+						MU-CC
+						MU-NC
+						MU-R/EC
+						MU-R3B
+						MX-I
+						MX-L
+						MX-M
+						MX-N
+						MX-T
+						N-P
+						NB
+						NBD
+						NC
+						NNA-O Central
+						NNA-O North
+						NNA-O South
+						NOT AVAILABLE
+						NP
+						O
+						O-1
+						O-A
+						O-FP
+						O-HR
+						O1
+						OA
+						OA-G
+						OC
+						OG
+						OR
+						OS
+						OS-R
+						OTHER
+						P
+						P P
+						P-8
+						P/SPL
+						PBC
+						PBD
+						PBP
+						PCD
+						PCDH
+						PCR
+						PD
+						PDNU
+						PDU
+						PDZ
+						PDZ HS
+						PF
+						PHID
+						PI
+						PIC
+						PID
+						PIP-1
+						PIP-2
+						PK
+						PL
+						PL-1
+						PNF
+						POC
+						POS
+						PRD
+						PRD-2
+						PRD-4
+						PRD-6
+						PRD10
+						PUD
+						PUD AO
+						PUD HS
+						PUD P AO
+						PUD-BEARPAW
+						PUD-SUMO
+						PZ
+						PZ-R
+						R
+						R  D
+						R HS
+						R-1
+						R-1 (H)
+						R-1 (L)
+						R-1 5-Acre
+						R-1 5000
+						R-1 10000
+						R-1 20000
+						R-1-6000
+						R-1-9000
+						R-1A
+						R-1M
+						R-2
+						R-2-A
+						R-2U
+						R-3
+						R-4
+						R-5
+						R-6
+						R-7
+						R-8
+						R-20
+						R-35
+						R-A
+						R-B
+						R-E
+						R-Flex High
+						R-Flex Low
+						R-Flex Medium
+						R-MH
+						R-MU-30
+						R-PSF
+						R-T
+						R-TH
+						R-ZU
+						R001
+						R1
+						R1-6
+						R1-6
+						R1-9
+						R1E
+						R2
+						R3
+						R3E
+						R4
+						R5
+						R11(L)
+						R16
+						R19
+						R10000
+						RA
+						RA-1
+						RA-2
+						RAD-1
+						RC
+						RFLB
+						RHB
+						RL
+						RLU
+						RLUP-O
+						RM
+						RM-12
+						RM-30
+						RMU
+						RN-4
+						RN-6.
+						RN-7.5
+						RN-12.5
+						RN-32.5
+						RN-D
+						RPCZD
+						RPD
+						RR
+						RR-0.5
+						RR-2.5
+						RR-5
+						RR2
+						RR3
+						RS
+						RS-5000
+						RS-6000
+						RS-20000
+						RVC
+						RVP
+						RVS
+						S
+						S-1
+						S-2
+						S-3
+						S-4
+						S-5
+						S-SU-D
+						S-SU-F1
+						S-TH-2.5
+						SC
+						SF
+						SF-B
+						SFA
+						SFD-1
+						SFD-2
+						SFR
+						SO
+						SR
+						SR-2
+						SS
+						SU
+						TND
+						TTP  CG
+						U-1
+						U-MS-3
+						U-SU-A1
+						U-SU-B1
+						U-SU-C
+						U-TU-B
+						U-TU-C
+						UNKNOWN
+						UNZONED
+						UR
+						UV
+						VC
+						WP
+						Zone 1
+						Zone 2
+						Zone 3
+						Zone 4
+						
+						
+						
+						
+						AndOrNot
+						  
+						
+					
+						
+
+
+	
+		
+		
+			
+				
+					 Clear
+				
+			
+		
+		
+		
+			
+				4
+ matches
+			
+		
+						
+		
+		
+			Map
+		
+						
+		
+			Results
+		
+						
+		
+	
+
+
+					
+				
+				
+	 
+	
+		Additional Fields 
+		Add/Remove
+	
+
+
+
+							
+	
+							Bedrooms Total  Total Baths  Show/Agent Remarks  HOA 1 Dues $  HOA Name  Selling Agent Name  Basement SqFt  Above Grade Sq Ft  Lot Sq Ft  Garage Spaces  Stories  Days on Market  CDOM  Assumable Loan  
+											
+											Yes
+											No
+
+										Zip Code  Terms Offered  
+											Assumable
+											Bond
+											Builder Leaseback
+											Cash
+											Conventional
+											CTL/Qualify
+											Farm Credit Services
+											FHA
+											FHA203K
+											Lease/Option
+											Other
+											Owner Carry
+											Owner Pay Points
+											Trade/Exchange
+											USDA
+											VA
+											VA Vendee
+											See Show/Agent Remarks
+											1031 Exchange
+											Auction
+											Government
+											Chattel
+											Subordinate to Construction
+											Subordinate First Loan
+											Owner Financing
+											Seller Subj. to FIRPTA
+											Short Pay
+											Short Sale Pending Lender Approval
+											
+											
+											
+											
+											AndOrNot
+											List Agent NRDS ID  Selling Agent NRDS ID  Payment  Finished Sq Ft  Miscellaneous Items  
+													Attic Storage
+													Auto Sprinkler System
+													Breakfast Bar
+													Central Vacuum
+													Dry Bar
+													Electric Gate
+													High Speed Internet Avail.
+													HOA Required $
+													HOA Voluntary $
+													Home Theatre
+													Home Warranty
+													Horses (Zoned)
+													Horses(Zoned for 2 or more)
+													Horses(Zoned for only 1)
+													Hot Tub/Spa
+													Humidifier
+													Intercom
+													Kitchen Pantry
+													Laundry Chute
+													Manned Gate
+													Manual Sprinkler System
+													Other
+													Pool
+													Radon System
+													RV Parking
+													Sauna
+													Secondary Suite w/in Home
+													Security System
+													See Prop Desc Remarks
+													Smart Home Door Locks
+													Smart Home Lighting
+													Smart Home Media
+													Smart Home Security System
+													Smart Home Thermostat
+													Sump Pump
+													Tennis Court
+													Water Softener
+													Wet Bar
+													Window Coverings
+													Workshop
+													
+													
+													
+													
+													AndOrNot
+													Assumable Loan Gap $  Assumable Loan Type  
+													Escalate
+													Fee
+													Non-Qual Fee
+													Private
+													Substitution Required
+													None
+													Other
+													See Show/Agent Remarks
+													
+													
+													
+													
+													OrNot
+													
+													
+
+	
+
+												
+
+				
+			
+											
+			
+		
+										
+	
+									
+
+
+	
+	
+										
+			
+		
+									
+	
+										
+			
+				
+			
+		
+									
+	
+										
+			
+		
+									
+
+
+	
+	
+										
+			
+		
+									
+
+
+
+
+										
+		
+		
+			
+				
+					
+						
+							Charts
+						
+						
+							Tabular
+						
+					
+				
+			
+		
+	
+									
+
+
+										
+		
+	
+									
+
+
+
+
+
+  
+
+  
+
+  
+  
+
+	©2026 Pikes Peak REALTOR® Services Corp. All rights reserved. Information herein deemed reliable but not guaranteed.
+		
+			Matrix v12.7. Copyright © 2026 Cotality. All rights reserved. Terms of Use.
+	
+
+  
+  
+	
+	
+	
+
+
+									
+
+//<![CDATA[
+var TimeOutWarning = new SessionTimeOutWarning({
+					SessionExpireMinute: 'Your session will expire in 1 minute.',
+					SessionExpireMinutes: 
+function(extra, rec)
+{
+	var MEParam = typeof MatrixExpression !== 'undefined' ? MatrixExpression : null;
+	var recParam = rec !== undefined ? rec : null;
+	var result = function(rec,ME){return 'Your session will expire in '+extra.expiremin+' minutes.';}(recParam, MEParam);
+	return  result;
+}
+
+				}, function(){__doPostBack('ctl01$m_SessionTimeoutWarningDiv$m_btnTriggerSessionTouch','')}, '/Matrix/Logout.aspx', {
+					Warning: 'ctl01_m_SessionTimeoutWarningDiv_m_divErrorPopUpWarn',
+					Error: 'ctl01_m_SessionTimeoutWarningDiv_m_divErrorPopUpExpired'
+				}, '/Matrix/Login.aspx?r=1&ReturnUrl=%2fMatrix%2fResults.aspx');new GeocodeAddressClass({base:'m_ga', tb:'m_ga_m_tb', hfLat:'m_ga_m_hfLat', hfLong:'m_ga_m_hfLong'}, 'AtmMylOwdOQG4NWGfiM7G1EsIkDI42JQuufWW9tF9PE8gKv2A77HyRzj4xEGEfqP', '36.8896630305952,-109.150291085332,41.0722520779008,-101.921287179082', '/Matrix/Public/LocationList/GetLocations.ashx?L=1&u=24363', 0);new GeocodeAddressClass({base:'m_ucIMap_m_ucDriveTime_m_tbLoc', tb:'m_ucIMap_m_ucDriveTime_m_tbLoc_m_tb', hfLat:'m_ucIMap_m_ucDriveTime_m_tbLoc_m_hfLat', hfLong:'m_ucIMap_m_ucDriveTime_m_tbLoc_m_hfLong'}, 'AtmMylOwdOQG4NWGfiM7G1EsIkDI42JQuufWW9tF9PE8gKv2A77HyRzj4xEGEfqP', '36.8896630305952,-109.150291085332,41.0722520779008,-101.921287179082', '/Matrix/Public/LocationList/GetLocations.ashx?L=1&u=24363', 1);ResultsJs.initialize({display:(function(arg) { __doPostBack('m_DisplayCore','P-Display|' + arg);}), pageSize:(function(arg) { __doPostBack('m_DisplayCore','P-PageSize|' + arg);}), shapes:MakePostBackFromStrictModeCodeFirefoxSafe((function(arg) { __doPostBack('m_DisplayCore','P-Shapes|' + arg);})), movemap:MakePostBackFromStrictModeCodeFirefoxSafe((function(arg) { __doPostBack('m_DisplayCore','P-MoveMap|' + arg);})), showUnmappable:(function(arg) { __doPostBack('m_DisplayCore','P-ShowUnmappable|' + arg);})},{noPinsVisible:
+function(extra, rec)
+{
+	var MEParam = typeof MatrixExpression !== 'undefined' ? MatrixExpression : null;
+	var recParam = rec !== undefined ? rec : null;
+	var result = function(rec,ME){return 'No visible pins to check.';}(recParam, MEParam);
+	return  result;
+}
+, noResults:
+function(extra, rec)
+{
+	var MEParam = typeof MatrixExpression !== 'undefined' ? MatrixExpression : null;
+	var recParam = rec !== undefined ? rec : null;
+	var result = function(rec,ME){return 'No items to check.';}(recParam, MEParam);
+	return  result;
+}
+, setTooBig:
+function(extra, rec)
+{
+	var MEParam = typeof MatrixExpression !== 'undefined' ? MatrixExpression : null;
+	var recParam = rec !== undefined ? rec : null;
+	var result = function(rec,ME){return 'Too many items to check (max '+(''+((rec || (() => undefined))('MaxSetSize') || '5000'))+')';}(recParam, MEParam);
+	return  result;
+}
+, checkAll:
+function(extra, rec)
+{
+	var MEParam = typeof MatrixExpression !== 'undefined' ? MatrixExpression : null;
+	var recParam = rec !== undefined ? rec : null;
+	var result = function(rec,ME){return 'Check All';}(recParam, MEParam);
+	return  result;
+}
+});
+var ResultsMenu = new TabbedMenuClass('m_hfMenuState', {m_liActionsTab:{strID:'m_liActionsTab', strHFVal:'Actions', strSubMenuID:'m_tblActionMenu'},m_liResultsTab:{strID:'m_liResultsTab', strHFVal:'Results', strSubMenuID:'m_tblRefineMenu'},m_liSaveAsTab:{strID:'m_liSaveAsTab', strHFVal:'SaveAs', strSubMenuID:'m_tblSaveAsMenu'},m_liCartsTab:{strID:'m_liCartsTab', strHFVal:'Carts', strSubMenuID:'m_ucCartControl'}}, 'div.resultsMenu');
+SearchJs.wireUpCount('tid=9&qn=-1&sid=1');
+$('ul.sf-menu:not(.sf-click-menu)').supersubs().superfish();$('ul.sf-click-menu').supersubs().superclick();
+RegisterPostbackOnClick('ctl01_m_tdMenu','ctl01$m_pbtRedirect');
+ConfirmationMessage.confirmationMessage = new ConfirmationMessage('ctl01_ctl00_m_lblConf', 'ctl01_ctl00_m_divConf');
+TimeOutWarning.RefreshTimers(298.917354498333, 10);var gridSaveLinks = new GridSaveLinksJsClass({displayName:'#m_ucGridSaveLinks_m_tbNewDisplayName',save:'#m_ucGridSaveLinks_m_lbSave',saveAs:'#m_ucGridSaveLinks_m_lbSaveAs'}, {BlankDisplayName:
+function(extra, rec)
+{
+	var MEParam = typeof MatrixExpression !== 'undefined' ? MatrixExpression : null;
+	var recParam = rec !== undefined ? rec : null;
+	var result = function(rec,ME){return 'The Display Name cannot be blank. No changes are saved.';}(recParam, MEParam);
+	return  result;
+}
+});gridSaveLinks.init();LBX_Control.wireUpControls();
+$(SearchJs.onFormLoad);
+SearchJs.setCountOnTheFlyLabel('m_ucSearchButtons_m_clblCount');
+ResultsJs.bindSearch();
+ResultsJs.bindSubHeader();
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"m_ucTitle_m_ucMarketWatch_m_upContent","displayAfter":0,"dynamicLayout":true}, null, null, $get("m_ucTitle_m_ucMarketWatch_m_ucHeader_m_spnUpdateSpinner"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"m_upDisplayCore","displayAfter":1000,"dynamicLayout":true}, null, null, $get("ctl13"));
+});
+//]]>
+
+
+
+

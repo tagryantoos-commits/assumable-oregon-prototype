@@ -1,0 +1,23 @@
+title = "assumableguy.com secret scanner"
+
+[[rules]]
+id = "generic-api-key"
+description = "Hardcoded API key"
+regex = '''(?i)(api[_-]?key|apikey|secret|token|password)\s*[=:]\s*['"][a-zA-Z0-9_\-]{20,}['"]'''
+tags = ["key", "api"]
+
+[[rules]]
+id = "anthropic-key"
+description = "Anthropic API key"
+regex = '''sk-ant-[a-zA-Z0-9_\-]{40,}'''
+tags = ["anthropic"]
+
+[[rules]]
+id = "supabase-service-role"
+description = "Supabase service role key in source"
+regex = '''eyJ[a-zA-Z0-9_\-]+\.eyJ[a-zA-Z0-9_\-]+\.[a-zA-Z0-9_\-]+'''
+paths = ["app/", "lib/", "components/"]
+tags = ["supabase"]
+
+[allowlist]
+paths = [".env.local", ".env", ".env.example"]

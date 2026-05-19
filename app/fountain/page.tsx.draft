@@ -1,0 +1,249 @@
+import { Metadata } from 'next';
+import Link from 'next/link';
+import { getListingsByCity } from '../../lib/listings';
+import ListingCardWrapper from '../ListingCardWrapper';
+import LeadCaptureForm from '../../components/LeadCaptureForm';
+import { getRelatedPostsForCity } from '../../lib/blog';
+
+export function generateMetadata(): Metadata {
+ const cityListings = getListingsByCity('Fountain');
+ const count = cityListings.length;
+ const minRate = count > 0 ? Math.min(...cityListings.map(l => l.assumableRate)).toFixed(2) : '2.25';
+ const slugStr = 'fountain';
+ const cityName = 'Fountain';
+
+ return {
+ title: `${cityName} Assumable Mortgages | ${count}+ Homes | ${minRate}% Rate | The Assumable Guy`,
+ description: `Browse ${count} assumable mortgage listings in ${cityName}, CO. Rates as low as ${minRate}%. Save $500-$1,400/month vs new loans at 6.5%. FHA and VA loans available.`,
+ alternates: { canonical: `https://assumableguy.com/${slugStr}` },
+ openGraph: {
+ title: `${cityName} Assumable Mortgages | ${minRate}% Rate | The Assumable Guy`,
+ description: `${count} homes in ${cityName} with assumable loans. Rates from ${minRate}%. Save hundreds per month.`,
+ type: 'website',
+ url: `https://assumableguy.com/${slugStr}`,
+ images: [{ url: 'https://assumableguy.com/images/ryan-headshot.png', width: 1200, height: 630, alt: `${cityName} Assumable Mortgages` }],
+ },
+ twitter: {
+ card: 'summary_large_image',
+ title: `${cityName} Assumable Mortgages | ${minRate}% Rate`,
+ description: `${count} homes with assumable loans in ${cityName}. Rates from ${minRate}%.`,
+ images: ['https://assumableguy.com/images/ryan-headshot.png'],
+ },
+ };
+}
+
+export default function FountainPage() {
+ const fountainListings = getListingsByCity('Fountain');
+ const featured = fountainListings
+ .sort((a, b) => b.monthlySavings - a.monthlySavings)
+ .slice(0, 6);
+
+ const avgRate = fountainListings.length > 0
+ ? (fountainListings.reduce((sum, l) => sum + l.assumableRate, 0) / fountainListings.length).toFixed(2)
+ : '2.75';
+
+ const minRate = fountainListings.length > 0
+ ? Math.min(...fountainListings.map(l => l.assumableRate)).toFixed(2)
+ : '2.25';
+
+ const maxSavings = fountainListings.length > 0
+ ? Math.max(...fountainListings.map(l => l.monthlySavings))
+ : 1200;
+
+ const relatedPosts = getRelatedPostsForCity('Fountain');
+
+ return (
+ <main className="w-full">
+ {/* Hero Section */}
+ <section className="bg-gradient-to-r from-blue-900 to-blue-800 text-white py-16 px-4 md:py-24">
+ <div className="max-w-6xl mx-auto">
+ <h1 className="text-4xl md:text-5xl font-bold mb-6">Assumable Mortgages in Fountain, CO</h1>
+ <p className="text-xl md:text-2xl mb-4">Buy a home with rates as low as {minRate}%. Save up to ${maxSavings}/month.</p>
+ <p className="text-lg text-blue-100 mb-8">Skip the lender process. Assume an existing loan and close faster.</p>
+ <div className="flex flex-col sm:flex-row gap-4">
+ <Link href="#listings" className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg transition">
+ View {fountainListings.length}+ Listings
+ </Link>
+ <Link href="#contact" className="bg-white hover:bg-gray-100 text-blue-900 font-bold py-3 px-6 rounded-lg transition">
+ Get Started
+ </Link>
+ </div>
+ </div>
+ </section>
+
+ {/* Key Stats */}
+ <section className="bg-gray-50 py-12 px-4">
+ <div className="max-w-6xl mx-auto">
+ <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+ <div className="text-center">
+ <div className="text-4xl font-bold text-blue-900 mb-2">{fountainListings.length}+</div>
+ <p className="text-gray-700">Assumable Homes</p>
+ </div>
+ <div className="text-center">
+ <div className="text-4xl font-bold text-blue-900 mb-2">{minRate}%</div>
+ <p className="text-gray-700">Lowest Rate</p>
+ </div>
+ <div className="text-center">
+ <div className="text-4xl font-bold text-blue-900 mb-2">${maxSavings}</div>
+ <p className="text-gray-700">Max Monthly Savings</p>
+ </div>
+ <div className="text-center">
+ <div className="text-4xl font-bold text-blue-900 mb-2">{avgRate}%</div>
+ <p className="text-gray-700">Average Rate</p>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ {/* About Fountain */}
+ <section className="py-12 px-4">
+ <div className="max-w-6xl mx-auto">
+ <h2 className="text-3xl font-bold text-gray-900 mb-8">About Fountain, Colorado</h2>
+ <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+ <div>
+ <p className="text-gray-700 mb-4">
+ Fountain is a rapidly growing community in El Paso County, just south of Colorado Springs. Known for its family-friendly atmosphere and strong military connections, Fountain offers excellent schools, outdoor recreation, and an affordable lifestyle compared to surrounding areas.
+ </p>
+ <p className="text-gray-700 mb-4">
+ The city has experienced steady population growth over the past decade, making it an attractive market for homebuyers. Fort Carson, one of the nation's largest Army installations, is nearby, creating a significant population of military families and active-duty personnel.
+ </p>
+ <p className="text-gray-700">
+ Fountain's real estate market offers opportunities for both FHA and VA loan assumptions, particularly beneficial for military families transitioning to civilian life or relocating.
+ </p>
+ </div>
+ <div>
+ <h3 className="text-xl font-bold text-gray-900 mb-4">Why Fountain?</h3>
+ <ul className="space-y-3 text-gray-700">
+ <li className="flex items-start">
+ <span className="text-orange-500 font-bold mr-3">+</span>
+ <span>Strong military community with VA loan availability</span>
+ </li>
+ <li className="flex items-start">
+ <span className="text-orange-500 font-bold mr-3">+</span>
+ <span>Growing neighborhoods with excellent schools</span>
+ </li>
+ <li className="flex items-start">
+ <span className="text-orange-500 font-bold mr-3">+</span>
+ <span>Lower average home prices than Colorado Springs</span>
+ </li>
+ <li className="flex items-start">
+ <span className="text-orange-500 font-bold mr-3">+</span>
+ <span>Close proximity to outdoor recreation and attractions</span>
+ </li>
+ <li className="flex items-start">
+ <span className="text-orange-500 font-bold mr-3">+</span>
+ <span>Access to Fort Carson and employment opportunities</span>
+ </li>
+ </ul>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ {/* Assumable Mortgage Benefits */}
+ <section className="bg-blue-50 py-12 px-4">
+ <div className="max-w-6xl mx-auto">
+ <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Benefits of Assuming a Mortgage in Fountain</h2>
+ <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+ <div className="bg-white p-6 rounded-lg shadow">
+ <h3 className="text-xl font-bold text-blue-900 mb-3">Lower Interest Rates</h3>
+ <p className="text-gray-700">
+ Lock in rates as low as {minRate}%, significantly below current market rates of 6.5% or higher. This can save you hundreds of dollars every month.
+ </p>
+ </div>
+ <div className="bg-white p-6 rounded-lg shadow">
+ <h3 className="text-xl font-bold text-blue-900 mb-3">Faster Closing</h3>
+ <p className="text-gray-700">
+ Skip traditional lender underwriting. Assuming a mortgage typically closes in 2-3 weeks instead of 30-45 days, getting you into your home sooner.
+ </p>
+ </div>
+ <div className="bg-white p-6 rounded-lg shadow">
+ <h3 className="text-xl font-bold text-blue-900 mb-3">Lower Closing Costs</h3>
+ <p className="text-gray-700">
+ Avoid origination fees, points, and many other lender charges. Assumable loans come with significantly reduced closing costs.
+ </p>
+ </div>
+ <div className="bg-white p-6 rounded-lg shadow">
+ <h3 className="text-xl font-bold text-blue-900 mb-3">VA and FHA Options</h3>
+ <p className="text-gray-700">
+ Many assumable loans in Fountain are FHA or VA loans, offering flexibility for military families and first-time homebuyers.
+ </p>
+ </div>
+ <div className="bg-white p-6 rounded-lg shadow">
+ <h3 className="text-xl font-bold text-blue-900 mb-3">Predictable Payments</h3>
+ <p className="text-gray-700">
+ Assuming a fixed-rate mortgage means your payment never changes, providing stability and budget certainty for years to come.
+ </p>
+ </div>
+ <div className="bg-white p-6 rounded-lg shadow">
+ <h3 className="text-xl font-bold text-blue-900 mb-3">Less Competition</h3>
+ <p className="text-gray-700">
+ Fewer buyers pursue assumable mortgages, meaning you face less competition and stronger negotiating power with sellers.
+ </p>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ {/* Featured Listings */}
+ <section id="listings" className="py-12 px-4">
+ <div className="max-w-6xl mx-auto">
+ <h2 className="text-3xl font-bold text-gray-900 mb-4">Featured Assumable Homes in Fountain</h2>
+ <p className="text-gray-700 mb-8">
+ Browse homes with assumable mortgages available now. All listings show your potential monthly savings compared to a new loan at 6.5%.
+ </p>
+ {featured.length > 0 ? (
+ <ListingCardWrapper listings={featured} />
+ ) : (
+ <div className="bg-gray-100 p-8 rounded-lg text-center">
+ <p className="text-gray-700 text-lg">No listings currently available. We update our inventory regularly. Check back soon or contact us to be notified.</p>
+ </div>
+ )}
+ </div>
+ </section>
+
+ {/* Lead Capture */}
+ <section id="contact" className="bg-gradient-to-r from-blue-900 to-blue-800 py-12 px-4">
+ <div className="max-w-2xl mx-auto">
+ <LeadCaptureForm
+ source="fountain-landing"
+ title="Ready to Buy in Fountain?"
+ subtitle="Get connected with The Assumable Guy team. We'll help you find the right assumable mortgage and close faster."
+ compact={false}
+ />
+ </div>
+ </section>
+
+ {/* How It Works */}
+ <section className="py-12 px-4 bg-gray-50">
+ <div className="max-w-6xl mx-auto">
+ <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">How Assumable Mortgages Work</h2>
+ <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+ <div className="text-center">
+ <div className="bg-blue-900 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
+ <h3 className="text-lg font-bold text-gray-900 mb-2">Find Your Home</h3>
+ <p className="text-gray-700">Browse available assumable listings in Fountain with rates and terms displayed upfront.</p>
+ </div>
+ <div className="text-center">
+ <div className="bg-blue-900 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
+ <h3 className="text-lg font-bold text-gray-900 mb-2">Make an Offer</h3>
+ <p className="text-gray-700">Negotiate directly with the seller. Your offer takes the existing loan into account.</p>
+ </div>
+ <div className="text-center">
+ <div className="bg-blue-900 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
+ <h3 className="text-lg font-bold text-gray-900 mb-2">Get Approved</h3>
+ <p className="text-gray-700">Lender reviews your credit and finances. VA and FHA loans qualify borrowers with more flexibility.</p>
+ </div>
+ <div className="text-center">
+ <div className="bg-blue-900 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">4</div>
+ <h3 className="text-lg font-bold text-gray-900 mb-2">Close in Weeks</h3>
+ <p className="text-gray-700">Sign documents and assume the loan. Most assumptions close in 2-3 weeks.</p>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ {/* FAQ */}
+ <section className="py-12 px-4">
+ <div className="max-w-4xl mx-auto">
+ <h2 className="text-3xl font-bold text-gray-900 mb-8">

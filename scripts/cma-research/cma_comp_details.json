@@ -1,0 +1,1007 @@
+{
+  "research_date": "2026-04-11",
+  "properties": [
+    {
+      "address": "10 Desert Inn Way",
+      "zip": "80921",
+      "sources_checked": [
+        "ppar-mls",
+        "assessor",
+        "pprbd"
+      ],
+      "basement": {
+        "total_sqft": 2088,
+        "finished_sqft": 2004,
+        "walkout": false,
+        "notes": "Full Basement"
+      },
+      "heating": {
+        "type": "Baseboard",
+        "fuel": "Hot Water (boiler)"
+      },
+      "cooling": {
+        "has_ac": false,
+        "type": "Ceiling Fan(s)"
+      },
+      "fireplace": {
+        "count": 1,
+        "type": "Gas"
+      },
+      "style": "Ranch",
+      "exterior": "Stucco",
+      "roof": "Composition",
+      "condition_notes": "Finished basement",
+      "lot_features": "Corner lot",
+      "extras": [
+        "Patio",
+        "Hot Tub",
+        "Vaulted Ceilings",
+        "9ft+ Ceilings",
+        "Great Room",
+        "2-Car Attached Garage",
+        "Sunroom",
+        "Kitchen Pantry"
+      ],
+      "permits": [
+        {
+          "type": "Other",
+          "permit_number": "C17596",
+          "description": "PIONEER IRRIG & LANDSCAPNG INC",
+          "issued": "11/5/2021"
+        },
+        {
+          "type": "Mechanical/HVAC",
+          "permit_number": "N80589",
+          "description": "AIRTECH MECHANICAL, INC.",
+          "issued": "11/5/2021"
+        },
+        {
+          "type": "Roofing",
+          "permit_number": "I90583",
+          "description": "NORTH WEST ROOFING",
+          "issued": "9/21/2013"
+        },
+        {
+          "type": "Building - Addition/Remodel",
+          "permit_number": "D81647",
+          "description": "SUNROOM ADD TO RES",
+          "issued": "9/6/2000"
+        },
+        {
+          "type": "Other",
+          "permit_number": "C52240",
+          "description": "PIONEER IRRIG & LANDSCAPNG INC",
+          "issued": "6/13/1995"
+        }
+      ],
+      "listing_description": "Welcome to a stunning ranch home in the highly sought-after Gleneagle community! This spacious 5-bedroom, 4-bath residence sits on a generous .39-acre corner lot and offers 4,197 sq. ft. of living space with a 2-car garage. Enjoy the ease of main-level living with open and bright spaces designed for comfort and functionality. The inviting floor plan flows seamlessly from the living and dining areas to a well-appointed kitchen, perfect for family gatherings and entertaining. A beautiful sunroom with a private hot tub provides year-round relaxation overlooking the landscaped yard. The primary suite offers a peaceful retreat, and the fully finished lower level provides plenty of room for guests or a home office. Located just 7 minutes from Air Force Academy games, 9 minutes from the Ford Amphitheater, and within the top-rated District 20 schools, this Gleneagle ranch combines space, style, and convenience. Don’t miss your chance to own this exceptional home in one of the area’s most desirable neighborhoods! Seller is also open to renting. Please contact the listing agent with any questions. TERMS Terms Offered: Cash, Conventional, FHA, VA 1st Right of Refusal: Possession Terms: DOD Possession Date: Earnest Money: $6500 Earnest Money Holder: WFG National Title Company EM Promissory Note Accepted: N Title Company: WFG National Title Company Title Evidence: Title Insurance Current Appraisal: Assumable Loan: No Current Financing: Assumption Info: 2nd Mortgage: Notices: Not Applicable CONTACT/SHOWING DETAILS Listing Office: Keller Williams Premier Realty Office Ph: 719-445-0234 Office Fax: Listing Agent: Jeffrey Johnson jeffjohnson@thejohnsonteam.net Listing Agent Ph: 719-930-5169 Listing Agent Fax: Listing Agent Add'l Ph: Co-List Agent: Tyrone Moore tyrone@thejohnsonteam.net Co-List Agent Ph: 719-922-6968 Co-List Agent Fax: Co-List Agent Add'l Ph: Type Agreement: ERS Service Level: Full Service Photo: AGR VOW: Yes Elec Adv: Yes Blog: No AVM: No Display Address: Yes Virtual",
+      "data_confidence": "high",
+      "gaps": []
+    },
+    {
+      "address": "14185 Candlewood Court",
+      "zip": "80921",
+      "sources_checked": [
+        "ppar-mls",
+        "assessor",
+        "pprbd"
+      ],
+      "basement": {
+        "total_sqft": 1289,
+        "finished_sqft": 1212,
+        "walkout": false,
+        "notes": "Full Basement"
+      },
+      "heating": {
+        "type": "Forced Air",
+        "fuel": ""
+      },
+      "cooling": {
+        "has_ac": false,
+        "type": "Ceiling Fan(s)"
+      },
+      "fireplace": {
+        "count": 1,
+        "type": ""
+      },
+      "style": "Two-Story",
+      "exterior": "Stucco",
+      "roof": "Metal",
+      "condition_notes": "",
+      "lot_features": "Backs to open space, Cul-de-sac, Mountain views, Golf course",
+      "extras": [
+        "Patio",
+        "3-Car Attached Garage"
+      ],
+      "permits": [
+        {
+          "type": "Other",
+          "permit_number": "C27117",
+          "description": "WHOLE HOUSE REPLUMB POLYBUTYLENE TO PEX",
+          "issued": "11/4/2025"
+        },
+        {
+          "type": "Other",
+          "permit_number": "Q14500",
+          "description": "REEVES HEATING & INDOOR COMFORT, INC.",
+          "issued": "11/4/2025"
+        },
+        {
+          "type": "Other",
+          "permit_number": "L23748",
+          "description": "WHOLE HOUSE REPLUMB POLYBUTYLENE TO PEX",
+          "issued": "11/7/2017"
+        },
+        {
+          "type": "Roofing",
+          "permit_number": "I60390",
+          "description": "LIANRO METAL ROOFS, INC.",
+          "issued": "1/25/2013"
+        },
+        {
+          "type": "Plumbing",
+          "permit_number": "H73842",
+          "description": "REPLACE WATER HEATER",
+          "issued": "4/1/2011"
+        },
+        {
+          "type": "Mechanical/HVAC",
+          "permit_number": "H62705",
+          "description": "FURNACE REPLACEMENT WITH VENT",
+          "issued": "12/13/2010"
+        },
+        {
+          "type": "Other",
+          "permit_number": "F16998",
+          "description": "CIMARRON ELECTRIC CORP",
+          "issued": "10/5/2004"
+        }
+      ],
+      "listing_description": "BUILT IN EQUITY in this Gleneagle property. D20 schools, open space all around on a cul-de-sac, mountain views, and a large backyard with 3700 sqft is waiting for you! This well maintained home has 4 bedrooms with an unfinished 5th bedroom space in the basement, 4 baths, a 3 car garage, and mountain views. Spacious and open this home has plenty of space for everyone including a large fenced backyard with a composite deck that backs to a 5 acre home parcel with trees and native grasses. The exterior is stucco and brick with a metal roof. Main bedroom has incredible mountain views as does the large living room. The family room has large windows with natural light combined with a vaulted ceiling creating the great room feel adjoining the dining area. The kitchen boasts plenty of storage and granite counters. Ceiling fans in all bedrooms, main level laundry room right off of the garage with a counter and sink, lots of additional parking round out this incredible home. The former Gleneagle golf course is an open space trail system which you can access right across the street to bike, run, or take the dog out for a walk. TERMS Terms Offered: Cash, Conventional, FHA, VA 1st Right of Refusal: Possession Terms: DOD Possession Date: Earnest Money: $7000 Earnest Money Holder: Land Title EM Promissory Note Accepted: N Title Company: Title Evidence: Title Insurance Current Appraisal: Assumable Loan: No Current Financing: Assumption Info: 2nd Mortgage: Notices: Not Applicable CONTACT/SHOWING DETAILS Listing Office: Harman Real Estate Group Office Ph: (719) 314-7635 Office Fax: Listing Agent: Elias Harman Eliharman719@gmail.com Listing Agent Ph: 719-314-7635 Listing Agent Fax: Listing Agent Add'l Ph: Co-List Agent: Deborah Hudson debbiehudson18@outlook.com Co-List Agent Ph: 719-510-6471 Co-List Agent Fax: Co-List Agent Add'l Ph: Type Agreement: ERS Service Level: Full Service Photo: AGR VOW: Yes Elec Adv: Yes Blog: No AVM: No Display Address: Yes Virtually Staged: No Occupied: Own",
+      "data_confidence": "high",
+      "gaps": []
+    },
+    {
+      "address": "14430 Bermuda Dunes Way",
+      "zip": "80921",
+      "sources_checked": [
+        "ppar-mls",
+        "assessor",
+        "pprbd"
+      ],
+      "basement": {
+        "total_sqft": 1038,
+        "finished_sqft": 882,
+        "walkout": true,
+        "notes": "Full Basement, Garden Level, Walk Out"
+      },
+      "heating": {
+        "type": "Baseboard",
+        "fuel": ""
+      },
+      "cooling": {
+        "has_ac": false,
+        "type": "Ceiling Fan(s)"
+      },
+      "fireplace": {
+        "count": 3,
+        "type": "Gas"
+      },
+      "style": "Two-Story",
+      "exterior": "Wood",
+      "roof": "Composition",
+      "condition_notes": "",
+      "lot_features": "Mountain views, Corner lot",
+      "extras": [
+        "Patio",
+        "Great Room",
+        "2-Car Attached Garage"
+      ],
+      "permits": [
+        {
+          "type": "Other",
+          "permit_number": "B18154",
+          "description": "ALL INCLUSIVE CONSTRUCTION AND HANDYMAN SERVICES",
+          "issued": "9/9/2019"
+        },
+        {
+          "type": "Other",
+          "permit_number": "M49591",
+          "description": "ALL INCLUSIVE CONSTRUCTION AND HANDYMAN SERVICES",
+          "issued": "9/9/2019"
+        },
+        {
+          "type": "Plumbing",
+          "permit_number": "L09941",
+          "description": "WATER HEATER REPLACEMENT",
+          "issued": "8/7/2017"
+        },
+        {
+          "type": "Roofing",
+          "permit_number": "J97519",
+          "description": "CHEYENNE MOUNTAIN ROOFING LLC",
+          "issued": "1/5/2016"
+        },
+        {
+          "type": "Other",
+          "permit_number": "F19034",
+          "description": "14430 BERMUDA DUNES WAY",
+          "issued": "9/9/2004"
+        },
+        {
+          "type": "Plumbing",
+          "permit_number": "D30732",
+          "description": "AAAA HTG/WATER HEATER PROS",
+          "issued": "7/24/1998"
+        },
+        {
+          "type": "Other",
+          "permit_number": "B33024",
+          "description": "14430 BERMUDA DUNES WAY",
+          "issued": "7/25/1989"
+        },
+        {
+          "type": "Other",
+          "permit_number": "B18984",
+          "description": "14430 BERMUDA DUNES WAY",
+          "issued": "6/15/1988"
+        }
+      ],
+      "listing_description": "Wanting something that feels like home? Cozy? Inviting? Spacious? Look no further. 6 generously sized bedrooms and 4 bathrooms provide ample room for family living and entertaining. Located on .37 of an acre, this corner lot has many wonderful areas for play! South facing deck to enjoy coffee or sunset cocktails. On the main level, take advantage of one bedroom and two living areas that invoke comfort. This home boasts sleek new stone countertops, offering a stylish and functional kitchen and bathrooms. Upstairs enjoy a great jack and jill bathroom with bluetooth speakers within the lighting! The four bedrooms upstairs each have built in shelving too! Enjoy the elegance of newly refinished floors and tastefully painted walls throughout. Three beautiful gas fireplaces enhance the home's cozy, welcoming atmosphere. The downstairs walkout basement is where the fun begins! Large recreation area with LVP and an office and bedroom with ample storage. Step outside to find mature landscaping and an inviting outdoor space perfect for relaxation or entertaining. Close to the Air Force Academy, shopping, trails and I-25. This truly is one of those homes when you walk in, your heart is happy. TERMS Terms Offered: Cash, Conventional, VA 1st Right of Refusal: Possession Terms: Negotiable/TBD Possession Date: Earnest Money: $8000 Earnest Money Holder: Capital Title EM Promissory Note Accepted: Assumable Loan: No Current Financing: Assumption Info: 2nd Mortgage: Notices: Not Applicable CONTACT/SHOWING DETAILS Listing Office: The Platinum Group Office Ph: 719-536-4444 Office Fax: 719-536-4451 Listing Agent: Marnie Terry marniedterry@gmail.com Listing Agent Ph: 303-883-7174 Listing Agent Fax: 719-536-4451 Listing Agent Add'l Ph: Type Agreement: ERS Service Level: Full Service Photo: AGR VOW: Yes Elec Adv: Yes Blog: No AVM: No Display Address: Yes Virtually Staged: No Showing Instructions: Appointment Only Key: SentriLock Key Box Appointment Contact: Marnie Terry at 303-883-7174 or sh",
+      "data_confidence": "high",
+      "gaps": []
+    },
+    {
+      "address": "14925 Pristine Drive",
+      "zip": "80921",
+      "sources_checked": [
+        "ppar-mls",
+        "assessor",
+        "pprbd"
+      ],
+      "basement": {
+        "total_sqft": 1993,
+        "finished_sqft": 1335,
+        "walkout": false,
+        "notes": "Full Basement, Garden Level"
+      },
+      "heating": {
+        "type": "Forced Air",
+        "fuel": "Natural Gas"
+      },
+      "cooling": {
+        "has_ac": true,
+        "type": "Central AC"
+      },
+      "fireplace": {
+        "count": 1,
+        "type": "Gas"
+      },
+      "style": "Ranch",
+      "exterior": "Stucco",
+      "roof": "Composition",
+      "condition_notes": "New roof",
+      "lot_features": "Mountain views",
+      "extras": [
+        "Patio",
+        "Deck",
+        "Sprinklers",
+        "Great Room",
+        "3-Car Attached Garage",
+        "Kitchen Pantry"
+      ],
+      "permits": [
+        {
+          "type": "Other",
+          "permit_number": "D12406",
+          "description": "SCHAUER CONSTRUCTION CO INC",
+          "issued": "7/23/2025"
+        },
+        {
+          "type": "Roofing",
+          "permit_number": "P96626",
+          "description": "MD ROOFING AND SOLAR",
+          "issued": "7/23/2025"
+        }
+      ],
+      "listing_description": "Step Into This Spectacular Custom Home in Gleneagle w Stunning Mountain Views! Spacious & Inviting Entry Welcomes You Home. Open Great Room is the Heart of the Home w Gas Fireplace & Raised Hearth & Mountain & Air Force Academy Views & Walk Out to Oversized Covered Deck. Bask in Abundant Natural Light thru Wood Clad Awning Windows. Entertain w Ease in Formal Dining Area. Move Into the Large Kitchen Complete w Center Island, New Double Oven Range & Built-in Microwave, Refrigerator, Tons of Cabinet & Counter Space w Pull Out Shelves, 2 Pantries, Tile Flooring, Casual Dining Area Framed w Sunshine & Walk Out to Deck. Main Level Laundry Room Has a Closet, Cabinets & Folding Counter Turning a Chore into Pleasure. Oversized Primary Bedroom is a Dream w Large Windows to Enjoy the Views, Walk-in Closet Plus Two Additional Closets, Dressing Area w Vanity & Large Adjoining Bathroom w Jetted Tub & Shower. Two Additional Main Level Bedrooms w Deep Closets & Share a Full Bath w Linen Closet. A Half Bath Completes the Main Level. Garden Level Basement Includes a Large Family Room w Potential Office Space w Built-in Cabinets, Shelves & Desk. Storage Closets. Two Unfinished Areas are Primed & Plumbed for 2-3 Additional Bedrooms & Bathrooms or Whatever Fits Your Lifestyle. Other Features Include Large Covered Front Porch & Back Deck, Blinds, Finished Oversized 3-Car Garage w Shelving, Workbench, Service Door & 30 Amp RV Outlet, Brand New Roof, Exterior Soffits Painted, Gas Outlet on Deck, Interior Paint Refreshed, Brand New Double Oven Range & Built-in Microwave, Solid Wood Interior Doors, All Ducts & Carpets Professionally Cleaned, Furnace, A/C & Water Heater Inspected, Sump Pump, Gas Outlets in Laundry Rm & Basement, Landscaped Yard on .4918 Acres w Auto Sprinklers & So Much More! Located Near D20 Schools, Shopping, I-25, Denver, Military Bases & Hospitals. This Home Offers the Best of Colorado Living – Space, Comfort & Unforgettable Mountain Views! TERMS Terms Offered: Cash, Conv",
+      "data_confidence": "high",
+      "gaps": []
+    },
+    {
+      "address": "14595 Westchester Drive",
+      "zip": "80921",
+      "sources_checked": [
+        "ppar-mls",
+        "assessor",
+        "pprbd"
+      ],
+      "basement": {
+        "total_sqft": 1409,
+        "finished_sqft": 1113,
+        "walkout": false,
+        "notes": "Walk Out"
+      },
+      "heating": {
+        "type": "Forced Air",
+        "fuel": "Natural Gas"
+      },
+      "cooling": {
+        "has_ac": true,
+        "type": "Central AC"
+      },
+      "fireplace": {
+        "count": 1,
+        "type": "Gas"
+      },
+      "style": "Two-Story",
+      "exterior": "Stucco",
+      "roof": "Tile",
+      "condition_notes": "",
+      "lot_features": "Mountain views, Corner lot",
+      "extras": [
+        "Patio",
+        "Sprinklers",
+        "9ft+ Ceilings",
+        "3-Car Attached Garage",
+        "Kitchen Pantry"
+      ],
+      "permits": [
+        {
+          "type": "Mechanical/HVAC",
+          "permit_number": "C00745",
+          "description": "FURNACE REPLACEMENT WITH VENT, ADD HEAT PUMP",
+          "issued": "9/23/2011"
+        },
+        {
+          "type": "Plumbing",
+          "permit_number": "H96342",
+          "description": "REPLACE GAS WATER HEATER.",
+          "issued": "9/23/2011"
+        },
+        {
+          "type": "Other",
+          "permit_number": "H62320",
+          "description": "14595 WESTCHESTER DR",
+          "issued": "12/10/2010"
+        },
+        {
+          "type": "Mechanical/HVAC",
+          "permit_number": "H62129",
+          "description": "FURNACE REPLACEMENT WITH VENT, ADD HEAT PUMP",
+          "issued": "12/10/2010"
+        },
+        {
+          "type": "Other",
+          "permit_number": "G38317",
+          "description": "14595 WESTCHESTER DR",
+          "issued": "9/10/2007"
+        },
+        {
+          "type": "Other",
+          "permit_number": "G38318",
+          "description": "14595 WESTCHESTER DR",
+          "issued": "9/10/2007"
+        },
+        {
+          "type": "Other",
+          "permit_number": "F34929",
+          "description": "14595 WESTCHESTER DR",
+          "issued": "1/10/2005"
+        },
+        {
+          "type": "Other",
+          "permit_number": "E53811",
+          "description": "TEKOTA ELECTRIC, INC.",
+          "issued": "11/6/2002"
+        },
+        {
+          "type": "Other",
+          "permit_number": "E32855",
+          "description": "ATTACHED GARAGE 10 X 22",
+          "issued": "4/8/2002"
+        },
+        {
+          "type": "Building - Addition/Remodel",
+          "permit_number": "E25290",
+          "description": "GARAGE ADDITION AND MOVE ELECTRICAL METER",
+          "issued": "12/22/2001"
+        },
+        {
+          "type": "Other",
+          "permit_number": "C01951",
+          "description": "SMITH BROTHERS ELECTRIC, INC.",
+          "issued": "6/15/1993"
+        }
+      ],
+      "listing_description": "Fall in love with the views in this warm and inviting Gleneagle home. Perfectly positioned on a large corner lot, this 5 bedroom, 4 bath residence captures breathtaking Front Range and Pikes Peak views from its expansive 25x50 wraparound deck. Ideal for morning coffee, al fresco dining, and unforgettable Colorado sunsets. This two story floorplan blends elegance and comfort throughout. The heart of the home is the gourmet kitchen, featuring granite countertops, abundant cabinetry, upgraded stainless steel appliances and a bright dining area that opens directly to the deck, creating effortless indoor-outdoor living and entertaining. The adjoining family room welcomes you with a cozy gas fireplace, custom built-ins, and a wall of windows framing the stunning mountain vistas. Formal living and dining rooms offer versatile spaces for gatherings, celebrations, or quiet evenings at home. Upstairs, retreat to the luxurious primary suite complete with a private sitting area, large walk-in closet, and 5 piece bath with soaking tub and dual vanities. Three additional bedrooms and a full bath complete the upper level. The walkout lower level is an entertainer’s dream—boasting a spacious recreation room, private guest suite with full bath, a convenient snack bar, and a workshop area perfect for hobbies or storage. Step outside to mature landscaping, lush grassy areas, and multiple outdoor entertaining spaces designed for true Colorado living. Additional highlights include central air conditioning, main level laundry, an insulated oversized 3-car garage, and a durable Class 4 composite steel tile roof that’s both stylish and insurance friendly. Located within top rated District 20 schools, this exceptional property offers quick access to I-25, Denver, the Air Force Academy, and premier shopping, dining, and entertainment options in Northgate. Experience comfort, functionality, and spectacular views in one of Northern Colorado Springs’ most sought after neighborhoods. TERMS Terms",
+      "data_confidence": "high",
+      "gaps": []
+    },
+    {
+      "address": "15949 Midland Valley Way",
+      "zip": "80921",
+      "sources_checked": [
+        "ppar-mls",
+        "assessor",
+        "pprbd"
+      ],
+      "basement": {
+        "total_sqft": 1233,
+        "finished_sqft": 1173,
+        "walkout": null,
+        "notes": ""
+      },
+      "heating": {
+        "type": "",
+        "fuel": ""
+      },
+      "cooling": {
+        "has_ac": true,
+        "type": "Central AC (per permit)"
+      },
+      "fireplace": {
+        "count": null,
+        "type": ""
+      },
+      "style": "",
+      "exterior": "",
+      "roof": "",
+      "condition_notes": "",
+      "lot_features": "",
+      "extras": [
+        "Patio"
+      ],
+      "permits": [
+        {
+          "type": "Mechanical/HVAC",
+          "permit_number": "J48750",
+          "description": "15949 MIDLAND VALLEY WAYMONUMENT80132                                                                                            J72848                                        0434NEW A/C7/15/201550250FJ2D ELECTRIC, INC.EJ728480015949MIDLAND VALLEYWAY6130315108015949 MIDLAND VALLEY WAYMONUMENT80132                                                                                            J72848                                        0434NEW A/C7/2/2015501900FREGIONAL HEATING AND AIR CONDITIONING, INC.HJ728480015949MIDLAND VALLEYWAY6130315108015949 MIDLAND VALLEY WAYMONUMENT80132                                                                                            J48897                                        0434TEMP SERVICE12/12/201450175FFOUNTAIN VALLEY ELECTRICAL, LLCEJ488970015949MIDLAND VALLEYWAY6130315108015949 MIDLAND VALLEY WAYMONUMENT80132                                                                                            J48750                                        PDF07/10/2015101RESIDENCE12/11/2014814497922FELITE PROPERTIES OF AMERICA, INC.BJ48750M631.1631.115949MIDLAND VALLEYWAY6130315108631_1_ELITE PROP OF AMERICA INC_MP_10242014_1253.pdf0",
+          "issued": "7/15/2015"
+        },
+        {
+          "type": "Other",
+          "permit_number": "J72848",
+          "description": "15949 MIDLAND VALLEY WAY",
+          "issued": "7/15/2015"
+        },
+        {
+          "type": "Electrical",
+          "permit_number": "J48897",
+          "description": "FOUNTAIN VALLEY ELECTRICAL, LLC",
+          "issued": "12/12/2014"
+        }
+      ],
+      "listing_description": "",
+      "data_confidence": "low",
+      "gaps": [
+        "basement_walkout",
+        "heating_type",
+        "fireplace_count",
+        "style",
+        "exterior",
+        "roof",
+        "lot_features"
+      ]
+    },
+    {
+      "address": "240 Mission Hill Way",
+      "zip": "80921",
+      "sources_checked": [
+        "ppar-mls",
+        "assessor",
+        "pprbd"
+      ],
+      "basement": {
+        "total_sqft": 1944,
+        "finished_sqft": 1750,
+        "walkout": false,
+        "notes": "Garden Level"
+      },
+      "heating": {
+        "type": "Forced Air",
+        "fuel": "Natural Gas"
+      },
+      "cooling": {
+        "has_ac": true,
+        "type": "Central AC"
+      },
+      "fireplace": {
+        "count": 1,
+        "type": "Gas"
+      },
+      "style": "Ranch",
+      "exterior": "Stucco",
+      "roof": "Tile",
+      "condition_notes": "",
+      "lot_features": "Backs to open space, Cul-de-sac, Mountain views",
+      "extras": [
+        "Patio",
+        "Sprinklers",
+        "9ft+ Ceilings",
+        "Great Room",
+        "3-Car Attached Garage",
+        "Kitchen Pantry"
+      ],
+      "permits": [
+        {
+          "type": "Other",
+          "permit_number": "C97432",
+          "description": "WESTERN FIREPLACE SUPPLY, INC.",
+          "issued": "2/9/2007"
+        },
+        {
+          "type": "Other",
+          "permit_number": "G16569",
+          "description": "WESTERN FIREPLACE SUPPLY, INC.",
+          "issued": "2/9/2007"
+        },
+        {
+          "type": "Mechanical/HVAC",
+          "permit_number": "F54415",
+          "description": "REPLACE FURNACE NEW AC",
+          "issued": "6/23/2005"
+        }
+      ],
+      "listing_description": "Rare opportunity to own a beautiful, updated home featuring many upgrades with direct access to over 100 acres of open space and mountain views. Enjoy an open concept kitchen filled with natural light from skylights and equipped with stainless steel appliances. Granite countertops, a travertine backsplash, an island with a prep sink, and an induction cooktop create a chef’s dream workspace. Soft-close cabinets with custom pullouts, a large pantry, and abundant storage make this kitchen both beautiful and functional. Step into the spacious, serene primary bedroom with an attached five-piece bath and an oversized walk-in closet. The main level also features a large living room with a gas fireplace, formal dining room with a wine cooler, another bedroom which can also be used as an office, oak hardwood floors, nine-foot ceilings, tile, and new carpet, plus a laundry room with washer and dryer included. Downstairs, the generous family room welcomes you with stone accents and a convenient kitchenette, perfect for entertaining or relaxing nights in. Three additional bedrooms, a bath with double sinks, a game room/flex space, and a utility room with extra storage ensure there is room for everyone. Outdoors, the expansive lot is beautifully landscaped, offering plenty of space to play, garden, or unwind. The attached three-car garage provides even more storage. From your private deck, spend evenings enjoying breathtaking sunsets or watch the Thunderbird jets soar overhead during the Air Force Academy graduation. This peaceful Gleneagle home is minutes from the Air Force Academy and I-25, with shopping, restaurants, and entertainment in nearby Northgate and Monument. It is a unique blend of tranquility, convenience, and outdoor adventure with an unmatched lifestyle in a sought-after community. Please watch the 3D Matterport. Schedule your showing soon so you don't miss out on this gorgeous home! TERMS Terms Offered: Cash, Conventional, FHA, VA 1st Right of Refusal: Possessio",
+      "data_confidence": "high",
+      "gaps": []
+    },
+    {
+      "address": "15848 Woodmeadow Court",
+      "zip": "80921",
+      "sources_checked": [
+        "ppar-mls",
+        "assessor",
+        "pprbd"
+      ],
+      "basement": {
+        "total_sqft": 1338,
+        "finished_sqft": 1311,
+        "walkout": false,
+        "notes": "Full Basement, Garden Level"
+      },
+      "heating": {
+        "type": "Forced Air",
+        "fuel": "Natural Gas"
+      },
+      "cooling": {
+        "has_ac": true,
+        "type": "Central AC"
+      },
+      "fireplace": {
+        "count": 2,
+        "type": ""
+      },
+      "style": "Two-Story",
+      "exterior": "Wood",
+      "roof": "Composition",
+      "condition_notes": "Finished basement",
+      "lot_features": "Backs to open space, Cul-de-sac",
+      "extras": [
+        "Patio",
+        "Wet Bar",
+        "Sprinklers",
+        "Vaulted Ceilings",
+        "9ft+ Ceilings",
+        "3-Car Attached Garage",
+        "Kitchen Pantry"
+      ],
+      "permits": [
+        {
+          "type": "Other",
+          "permit_number": "D48623",
+          "description": "468_2_KELLER HOMES INC_MP_7122011_11527.pdf",
+          "issued": "2/9/2026"
+        },
+        {
+          "type": "Other",
+          "permit_number": "Q27235",
+          "description": "15848 WOODMEADOW CT",
+          "issued": "2/9/2026"
+        },
+        {
+          "type": "Roofing",
+          "permit_number": "Q20779",
+          "description": "MD ROOFING AND SOLAR",
+          "issued": "12/17/2025"
+        },
+        {
+          "type": "Other",
+          "permit_number": "J84318",
+          "description": "PERRY & SONS CONSTRUCTION, INC.",
+          "issued": "9/17/2015"
+        },
+        {
+          "type": "Mechanical/HVAC",
+          "permit_number": "I75955",
+          "description": "A/C COIL & CONDENSING UNIT INSTALLATION",
+          "issued": "6/20/2013"
+        },
+        {
+          "type": "Other",
+          "permit_number": "G92330",
+          "description": "INSPECTION PRO'S, INC.",
+          "issued": "4/20/2009"
+        },
+        {
+          "type": "Other",
+          "permit_number": "E89632",
+          "description": "A & D ELECTRIC, INC.",
+          "issued": "12/8/2003"
+        },
+        {
+          "type": "Other",
+          "permit_number": "E63656",
+          "description": "15848 WOODMEADOW CT",
+          "issued": "3/7/2003"
+        },
+        {
+          "type": "Other",
+          "permit_number": "D48608",
+          "description": "468_2_KELLER HOMES INC_MP_7122011_11527.pdf",
+          "issued": "10/18/1999"
+        }
+      ],
+      "listing_description": "Located in the serene and desirable Fox Run Park area of Colorado Springs, this stunning two-story home offers the perfect blend of privacy, space, and thoughtful updates. Nestled on nearly half an acre surrounded by mature trees and natural landscaping, the property provides a tranquil, park-like setting while still being conveniently close to amenities and top-rated schools. With over 4,000 square feet of comfortable living space, this five-bedroom, four-bathroom home is ideal for both everyday living and entertaining. The main level features a formal dining room, formal living room, a dedicated office, a cozy family room with a fireplace, and brand-new carpet throughout. The newly stained hardwood floors add warmth and elegance, while fresh interior paint brightens every room. The kitchen opens to the main living spaces, making hosting effortless and inclusive. A brand-new iron rod staircase railing adds a stylish architectural statement, leading to four spacious bedrooms upstairs, including a generous primary suite. Upstairs, the second-floor bathroom has been tastefully updated, and the new carpet continues throughout for a fresh, cohesive feel. Downstairs, the fully finished basement offers excellent flexibility with a large family room, a fifth bedroom with a walk-in layout, and a full bathroom, perfect for guests or a private retreat. Step outside and take in Colorado’s beauty from the oversized 21 x 18 composite deck, ideal for entertaining, relaxing, or enjoying peaceful evenings under the stars. The private backyard offers room to garden, play, or simply unwind in nature. Additional highlights include a three-car garage, two fireplaces, and a brand-new hot water heater. Located just minutes from the trails and scenic vistas of Fox Run Park, and a short drive to shopping, dining, and I-25 access, this home truly offers the best of Colorado living. TERMS Terms Offered: Assumable, Cash, Conventional, VA 1st Right of Refusal: Possession Terms: DOD Possession ",
+      "data_confidence": "high",
+      "gaps": []
+    },
+    {
+      "address": "15595 Falcon Ridge Court",
+      "zip": "80921",
+      "sources_checked": [
+        "ppar-mls",
+        "assessor",
+        "pprbd"
+      ],
+      "basement": {
+        "total_sqft": 1739,
+        "finished_sqft": 1739,
+        "walkout": true,
+        "notes": "Full Basement"
+      },
+      "heating": {
+        "type": "Forced Air",
+        "fuel": ""
+      },
+      "cooling": {
+        "has_ac": true,
+        "type": "Central AC"
+      },
+      "fireplace": {
+        "count": 1,
+        "type": ""
+      },
+      "style": "Two-Story",
+      "exterior": "Hardboard/Fiber Cement",
+      "roof": "Composition",
+      "condition_notes": "",
+      "lot_features": "Backs to open space, Cul-de-sac",
+      "extras": [
+        "Patio",
+        "Deck",
+        "Vaulted Ceilings",
+        "9ft+ Ceilings",
+        "Great Room",
+        "2-Car Attached Garage",
+        "Kitchen Pantry"
+      ],
+      "permits": [
+        {
+          "type": "Other",
+          "permit_number": "D10293",
+          "description": "EQUITY MANAGEMENT ASSOC INC",
+          "issued": "5/29/1998"
+        },
+        {
+          "type": "Other",
+          "permit_number": "D10266",
+          "description": "EQUITY MANAGEMENT ASSOC INC",
+          "issued": "5/29/1998"
+        }
+      ],
+      "listing_description": "This elegant 5 bedroom, 4 bath residence is located in the prestigious Ridge at Fox Run community in North Colorado Springs, offering a harmonious blend of comfort, sophistication, and natural surroundings. Upon entry, abundant natural light illuminates the spacious living room that is complimented by the cozy fireplace. Well-appointed kitchen boasts a breakfast nook, ample cabinet and counter space, huge island, stainless appliances and pantry. Main level master suite features a sizable walk-in closet and a luxurious bathroom with a standalone soaking tub to take in the serene views of the property. Separate office, half bath and formal dining area complete the main level. The upper level includes two well-proportioned bedrooms and a full bathroom, ensuring ample accommodation for family or guests. The walk-out basement offers an additional living area as well as two more bedrooms and extra storage space for increased versatility. With its refined design, prime location and generous floor plan, this property truly is one of a kind. TERMS Terms Offered: Cash, Conventional, FHA, VA 1st Right of Refusal: Possession Terms: DOD Possession Date: Earnest Money: $9000 Earnest Money Holder: Core Title EM Promissory Note Accepted: Title Company: Core Title Group LLC Title Evidence: Current Appraisal: Assumable Loan: No Current Financing: Assumption Info: 2nd Mortgage: Notices: Not Applicable CONTACT/SHOWING DETAILS Listing Office: RE/MAX Real Estate Group LLC Office Ph: 719-534-7900 Office Fax: 719-594-4573 Listing Agent: Jake Wade jakewadeteam@gmail.com Listing Agent Ph: 719-205-0372 Listing Agent Fax: 719-594-4573 Listing Agent Add'l Ph: Co-List Agent: Lorian Ducharme lorian@prosalesproperties.com Co-List Agent Ph: (719) 930-8622 Co-List Agent Fax: Co-List Agent Add'l Ph: Type Agreement: ERS Service Level: Full Service Photo: AGR VOW: Yes Elec Adv: Yes Blog: Yes AVM: Yes Display Address: Yes Virtually Staged: No Occupied: Owner Showing Instructions: 24 Hour Notice, Appoint",
+      "data_confidence": "high",
+      "gaps": []
+    },
+    {
+      "address": "15935 Woodmeadow Court",
+      "zip": "80921",
+      "sources_checked": [
+        "ppar-mls",
+        "assessor",
+        "pprbd"
+      ],
+      "basement": {
+        "total_sqft": 1846,
+        "finished_sqft": 1403,
+        "walkout": true,
+        "notes": "Full Basement, Walk Out"
+      },
+      "heating": {
+        "type": "Forced Air",
+        "fuel": "Natural Gas"
+      },
+      "cooling": {
+        "has_ac": true,
+        "type": "Central AC"
+      },
+      "fireplace": {
+        "count": 3,
+        "type": "Gas"
+      },
+      "style": "Ranch",
+      "exterior": "Brick",
+      "roof": "Composition",
+      "condition_notes": "",
+      "lot_features": "",
+      "extras": [
+        "Patio",
+        "3-Car Attached Garage"
+      ],
+      "permits": [
+        {
+          "type": "Other",
+          "permit_number": "D42960",
+          "description": "ALL INCLUSIVE CONSTRUCTION AND HANDYMAN SERVICES",
+          "issued": "2/5/2022"
+        },
+        {
+          "type": "Plumbing",
+          "permit_number": "N94481",
+          "description": "MISSION PLUMBING & HEATING",
+          "issued": "2/5/2022"
+        },
+        {
+          "type": "Other",
+          "permit_number": "N26745",
+          "description": "AMERICAN VETERAN HEATING & AIR",
+          "issued": "12/31/2020"
+        },
+        {
+          "type": "Other",
+          "permit_number": "M18085",
+          "description": "15935 WOODMEADOW CT",
+          "issued": "3/21/2019"
+        },
+        {
+          "type": "Roofing",
+          "permit_number": "L68421",
+          "description": "RIDGELINE ROOFING & CONSULTING LLC",
+          "issued": "8/3/2018"
+        },
+        {
+          "type": "Other",
+          "permit_number": "L19907",
+          "description": "ALL INCLUSIVE CONSTRUCTION AND HANDYMAN SERVICES",
+          "issued": "10/12/2017"
+        },
+        {
+          "type": "Other",
+          "permit_number": "G99585",
+          "description": "INSPECTION PRO'S, INC.",
+          "issued": "7/9/2009"
+        },
+        {
+          "type": "Other",
+          "permit_number": "D52386",
+          "description": "15935 WOODMEADOW CT",
+          "issued": "6/25/1999"
+        },
+        {
+          "type": "Electrical",
+          "permit_number": "D43231",
+          "description": "ELECTRICAL TEMPORARY SERVICE",
+          "issued": "2/16/1999"
+        }
+      ],
+      "listing_description": "Welcome to this stunning ranch-style home, perfectly situated among the majestic Tall Pines of the highly desirable Fox Run community! With beautiful curb appeal, this light and bright residence greets you with gleaming hardwood floors and soaring ceilings, creating a warm and inviting atmosphere from the moment you step inside. This move-in ready home truly has it all! The main-floor primary suite is a retreat, complete with a gas fireplace, a luxurious 5-piece ensuite bath, and a spacious walk-in closet. The thoughtful layout also includes a formal dining room, main-floor laundry, an additional bedroom, plus a designated study with closet so it can serve as a 5th bedroom! The kitchen is perfect for entertaining with a nook, large center island and stainless steel appliances that opens to the great room. Step outside to enjoy Colorado living at its finest on the large extended deck, or unwind in the private hot tub under the stars. Head downstairs to the walk-out basement, where you'll find a generous gathering space, yet another fireplace, a wet bar, two additional bedrooms, and a full bathroom, perfect for guests or multi-generational living. And don’t miss the \"secret\" room hidden behind the bookcase, a fun and functional space perfect for crafting, homeschooling, or simply hanging out. This one-of-a-kind home offers the perfect blend of comfort, style, and functionality, all set in a peaceful wooded setting. Don’t miss your opportunity to make it yours! Located just minutes to shopping, dining, and I-25, this home truly has it all! TERMS Terms Offered: Cash, Conventional, FHA, VA 1st Right of Refusal: Possession Terms: DOD Possession Date: Earnest Money: $10000 Earnest Money Holder: Land Title EM Promissory Note Accepted: Assumable Loan: No Current Financing: Assumption Info: 2nd Mortgage: Notices: Not Applicable CONTACT/SHOWING DETAILS Listing Office: Keller Williams Realty DTC LLC Office Ph: (303) 771-7500 Office Fax: (303) 771-1116 Listing Agent: Gaye Ribble",
+      "data_confidence": "high",
+      "gaps": [
+        "lot_features"
+      ]
+    },
+    {
+      "address": "14810 Pristine Drive",
+      "zip": "80921",
+      "sources_checked": [
+        "ppar-mls",
+        "assessor",
+        "pprbd"
+      ],
+      "basement": {
+        "total_sqft": 2086,
+        "finished_sqft": 2086,
+        "walkout": true,
+        "notes": "Full Basement, Slab, Walk Out"
+      },
+      "heating": {
+        "type": "Forced Air",
+        "fuel": "Natural Gas"
+      },
+      "cooling": {
+        "has_ac": true,
+        "type": "Central AC"
+      },
+      "fireplace": {
+        "count": 2,
+        "type": "Gas"
+      },
+      "style": "Ranch",
+      "exterior": "Stucco",
+      "roof": "Composition",
+      "condition_notes": "",
+      "lot_features": "Backs to open space, Mountain views",
+      "extras": [
+        "Patio",
+        "Wet Bar",
+        "Central Vacuum",
+        "Sprinklers",
+        "Vaulted Ceilings",
+        "9ft+ Ceilings",
+        "Great Room",
+        "3-Car Attached Garage",
+        "Kitchen Pantry"
+      ],
+      "permits": [
+        {
+          "type": "Other",
+          "permit_number": "D26557",
+          "description": "113_2_ALLURE HOMES LTD_MP_4292011_145157.pdf",
+          "issued": "3/17/2026"
+        },
+        {
+          "type": "Electrical",
+          "permit_number": "Q32423",
+          "description": "ABSOLUTE ELECTRICAL, HEATING & COOLING, LLC",
+          "issued": "3/17/2026"
+        },
+        {
+          "type": "Other",
+          "permit_number": "P78898",
+          "description": "R198905_RP_3252025_143919.pdf",
+          "issued": "3/26/2025"
+        },
+        {
+          "type": "Roofing",
+          "permit_number": "O69426",
+          "description": "WILCOX ROOFING, INC.",
+          "issued": "6/24/2023"
+        },
+        {
+          "type": "Other",
+          "permit_number": "L73494",
+          "description": "PREMIER CUSTOM DECKS LLC",
+          "issued": "8/22/2018"
+        },
+        {
+          "type": "Other",
+          "permit_number": "L62833",
+          "description": "R108829_RP_7182018_101136.pdf",
+          "issued": "7/18/2018"
+        },
+        {
+          "type": "Mechanical/HVAC",
+          "permit_number": "J77100",
+          "description": "REPLACE AIR CONDITIONER AND REPLACE FURNACE",
+          "issued": "7/30/2015"
+        },
+        {
+          "type": "Plumbing",
+          "permit_number": "I78291",
+          "description": "WATER HEATER REPLACEMENT",
+          "issued": "6/24/2013"
+        },
+        {
+          "type": "Other",
+          "permit_number": "H01000",
+          "description": "ADD POWER FOR JETTED TUB IN BATHROOM.",
+          "issued": "7/23/2009"
+        },
+        {
+          "type": "Other",
+          "permit_number": "D43891",
+          "description": "14810 PRISTINE DR",
+          "issued": "4/6/1999"
+        }
+      ],
+      "listing_description": "Custom Home in Gleneagle! Stunning Mountain Views, Vaulted Ceilings, Oversized Deck(s), Main-Level Living, and Well Maintained. Enjoy this unique Colorado Springs home nestled against peaceful open space, gorgeous mountain views, a scenic creek, and miles of trails throughout the neighborhood.Thoughtfully designed main level w/vaulted ceilings provides effortless everyday living, highlighted by a spacious primary suite featuring a five-piece bath, walk-in closet and jetted tub, plus direct access to the large composite deck with hot tub connection, creating a private retreat. Two additional bedrooms, a dedicated office with Front Range views, a main level laundry room, and an updated open-concept kitchen w/butlers pantry complete this level, making both daily life and entertaining seamless. Designed with efficiency the home includes a central vacuum system with sweep inlets, a backup generator, A/C, Remote control rectractable awnings, stainless steel appliances, gas stove top/oven, and an oversized three-car garage, offering ample space for vehicles, storage, and outdoor gear. The walk-out basement expands the living and entertaining options with another approx 2,000 sq ft of space, 10' ceilings, a pool hall, and full bar, an additional bedroom, and a flex space ideal for a home gym, movie room, or extra storage—easily adapting to your lifestyle needs. This home is well maintained, has tons of up-grades, plus a southwest-facing driveway that delivers excellent sun exposure—something neighbors will definitely envy after a snowfall. As a fun and unique bonus, enjoy free, front-row views of USAFA graduation flyovers.This .48 acre lot property borders open space, D-20 Schools, near Fox Run Park, Dining, Shopping, Entertainment, and Low HOA! TERMS Terms Offered: Cash, Conventional, FHA, VA 1st Right of Refusal: Possession Terms: DOD Possession Date: Earnest Money: $10000 Earnest Money Holder: WFG Title EM Promissory Note Accepted: Title Company: WFG National Title Compa",
+      "data_confidence": "high",
+      "gaps": []
+    },
+    {
+      "address": "440 Picasso Court",
+      "zip": "80921",
+      "sources_checked": [
+        "ppar-mls",
+        "assessor",
+        "pprbd"
+      ],
+      "basement": {
+        "total_sqft": 1040,
+        "finished_sqft": 520,
+        "walkout": false,
+        "notes": "Full Basement, Walk Out"
+      },
+      "heating": {
+        "type": "Forced Air",
+        "fuel": ""
+      },
+      "cooling": {
+        "has_ac": false,
+        "type": "None"
+      },
+      "fireplace": {
+        "count": 1,
+        "type": ""
+      },
+      "style": "Two-Story",
+      "exterior": "Masonite Type",
+      "roof": "Composition",
+      "condition_notes": "Updated kitchen; New roof; New flooring; New HVAC; Finished basement",
+      "lot_features": "Cul-de-sac",
+      "extras": [
+        "Patio",
+        "Deck",
+        "Wet Bar",
+        "Sprinklers",
+        "2-Car Attached Garage",
+        "Kitchen Pantry"
+      ],
+      "permits": [
+        {
+          "type": "Other",
+          "permit_number": "A88934",
+          "description": "TOP GUN CLEANING & RESTORATION, INC.",
+          "issued": "8/25/2023"
+        },
+        {
+          "type": "Other",
+          "permit_number": "O81201",
+          "description": "R179978_RP_8232023_115512.pdf",
+          "issued": "8/25/2023"
+        },
+        {
+          "type": "Other",
+          "permit_number": "N76860",
+          "description": "PATRIOT ENTERPRISES, INC.",
+          "issued": "10/14/2021"
+        },
+        {
+          "type": "Other",
+          "permit_number": "N18167",
+          "description": "TOP GUN CLEANING & RESTORATION, INC.",
+          "issued": "11/5/2020"
+        },
+        {
+          "type": "Plumbing",
+          "permit_number": "M67193",
+          "description": "WATER HEATER REPLACEMENT",
+          "issued": "1/9/2020"
+        },
+        {
+          "type": "Other",
+          "permit_number": "E89532",
+          "description": "INSPECTION PRO'S, INC.",
+          "issued": "11/25/2003"
+        },
+        {
+          "type": "Building - Basement Finish",
+          "permit_number": "B09014",
+          "description": "FINISH BASEMENT-PARTIAL",
+          "issued": "8/17/1987"
+        },
+        {
+          "type": "Landscaping/Other",
+          "permit_number": "B04805",
+          "description": "HANSON SPRINKLER",
+          "issued": "5/12/1987"
+        }
+      ],
+      "listing_description": "Discover the comfort and convenience of this charming home located in the desirable Gleneagle neighborhood. This lovely property features four bedrooms and 3.5 baths on almost a half-acre lot. The home boasts a spacious owner's suite, perfect for unwinding after a long day. The main level has been updated with a brand-new kitchen, featuring beautiful granite countertops, eat in nook, and modern appliances. The bathrooms have also been refreshed with new flooring. The finished basement includes a convenient kitchenette, providing additional space for entertaining or accommodating guests. Don't miss the opportunity to make this cozy home yours. *New Roof & Water Heater in 2020, New Furnace in 2022, New Granite and Cabinets professionally painted in 2023, New Carpet and Bathroom Flooring in 2023. Schedule a showing today and experience the warmth and comfort this home has to offer in Gleneagle. TERMS Terms Offered: Cash, Conventional, FHA, VA 1st Right of Refusal: Possession Terms: Negotiable/TBD Possession Date: Earnest Money: $6300 Earnest Money Holder: Empire Title EM Promissory Note Accepted: Assumable Loan: No Current Financing: Assumption Info: 2nd Mortgage: Notices: Not Applicable CONTACT/SHOWING DETAILS Listing Office: The Cutting Edge Office Ph: (719) 999-5067 Office Fax: Listing Agent: Amy Kunce-Martinez amy@TheCuttingEdgeRealtors.com Listing Agent Ph: (719) 661-1199 amy.TheCuttingEdgeRealtors.com Listing Agent Fax: Listing Agent Add'l Ph: Type Agreement: EAG Service Level: Full Service Photo: AGR VOW: Yes Elec Adv: Yes Blog: No AVM: No Display Address: Yes Virtually Staged: No Occupied: Owner Showing Instructions: Appointment Only, See Show/Agent Remarks Key: Other Box Appointment Contact: ShowingTime SHOW/AGENT REMARKS One hour notice for showings, showings available between 10am-7pm. Please use Showingtime to schedule an appointment. Call co-listing agent Katie Jefferson @ 719-491-5852 with any question or concerns. Lockbox located on front door. SOLD INFO",
+      "data_confidence": "high",
+      "gaps": []
+    }
+  ]
+}

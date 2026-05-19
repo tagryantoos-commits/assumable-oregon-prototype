@@ -1,0 +1,15 @@
+{
+  "name": "cma-research",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "research": "node cma-research.mjs",
+    "research:no-mls": "node cma-research.mjs --no-mls",
+    "test-one": "node cma-research.mjs --test",
+    "test-one:no-mls": "node cma-research.mjs --test --no-mls"
+  },
+  "dependencies": {
+    "playwright": "^1.58.0"
+  }
+}

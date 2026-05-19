@@ -1,0 +1,5301 @@
+
+	
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47351304-1', 'mlsmatrix.com');
+  ga('send', 'pageview');
+
+ 
+
+
+
+	
+	if (typeof Object.assign != 'function') {
+	  Object.assign = function(target) {
+		'use strict';
+		if (target == null) {
+		  throw new TypeError('Cannot convert undefined or null to object');
+		}
+		target = Object(target);
+		for (var index = 1; index < arguments.length; index++) {
+		  var source = arguments[index];
+		  if (source != null) {
+			for (var key in source) {
+			  if (Object.prototype.hasOwnProperty.call(source, key)) {
+				target[key] = source[key];
+			  }
+			}
+		  }
+		}
+		return target;
+	  };
+	}
+	
+
+
+
+// ForeSee Production Embed Script v2.01
+// DO NOT MODIFY BELOW THIS LINE *****************************************
+;(function (g) {
+  var d = document, am = d.createElement('script'), h = d.head || d.getElementsByTagName("head")[0], fsr = 'fsReady',
+  aex = {
+    "src": "//gateway.foresee.com/sites/mlsmatrix/production/gateway.min.js",
+    "type": "text/javascript",
+    "async": "true",
+    "data-vendor": "fs",
+    "data-role": "gateway"
+  };
+  for (var attr in aex) { am.setAttribute(attr, aex[attr]); } h.appendChild(am); g[fsr] || (g[fsr] = function () { var aT = '__' + fsr + '_stk__'; g[aT] = g[aT] || []; g[aT].push(arguments); });
+})(window);
+// DO NOT MODIFY ABOVE THIS LINE *****************************************
+
+fsReady(function() {
+  FSR.CPPS.set('MLSSystem','PPAR'); 
+  FSR.run();
+});
+
+	
+
+
+	
+	
+		
+			
+				Help
+			
+			
+				
+					
+				
+			
+		
+		
+			
+		
+		
+			Close
+		
+	
+
+
+
+
+
+	
+		
+			
+				
+					
+						Loading...
+					
+				
+			
+			
+			
+		
+	
+
+
+
+	
+		
+			
+				
+					
+						Loading...
+					
+				
+			
+			
+			
+		
+	
+
+
+
+	
+		
+			
+	
+		
+	
+	
+		
+	
+
+
+
+	
+		
+			
+				Range
+			
+			
+		
+			
+				Calendar
+			
+		
+	
+
+	
+		
+			
+			
+				
+					Today
+				
+				
+					Last 7 Days
+				
+				
+					Last 2 Weeks
+				
+				
+					Last Month
+				
+				
+					Last 3 Months
+				
+				
+					Last 6 Months
+				
+			
+		
+		
+			
+			
+				
+					
+						
+							
+						
+						
+						
+							
+						
+					
+
+					
+						
+							
+								
+									
+										SUN
+										MON
+										TUE
+										WED
+										THU
+										FRI
+										SAT
+									
+								
+								
+							
+						
+					
+				
+			
+		
+	
+
+
+
+	
+		Cancel
+	
+	
+		Apply
+	
+
+
+		
+	
+
+
+
+	
+		
+			
+	
+		
+	
+	
+		
+	
+
+
+	
+		
+		
+			Title
+			
+				
+				
+				
+			
+			Title is required
+			
+				Share Link
+				
+					
+						
+					
+					
+						
+							
+						
+						
+							
+						
+					
+				
+			
+		
+	
+
+	
+		
+			Close
+		
+		
+			Generate Link
+		
+	
+
+
+		
+	
+
+
+
+	
+		
+		
+	
+
+
+	
+		
+			
+				
+				
+					
+				
+			
+			
+			
+				
+					
+					
+				
+			
+		
+	
+
+
+
+	
+		
+			
+				
+					
+						Loading...
+					
+				
+			
+			
+			
+		
+	
+
+
+
+
+	
+		
+			
+				
+					 
+				
+				
+					
+				
+			
+			
+				 
+			
+			
+				 
+			
+		
+	
+
+
+
+
+	
+		
+	
+
+
+
+
+	
+		
+			
+				
+				Loading...
+			
+		
+	
+
+
+
+	
+		
+			Recent Searches
+		
+		
+			
+			
+		
+	
+	
+		
+	
+
+
+
+	
+		
+			
+				 
+			
+			
+				 
+			
+			
+				 
+			
+		
+	
+
+
+
+	
+		
+			
+				
+			
+			Oops!
+			
+				X
+			
+		
+		
+			Please correct your search
+		
+	
+
+
+
+
+
+
+
+
+	var modelVars_TopMenu = {
+		prefix: 'topMenu',
+		url_switchLanguage: '/Matrix/home/SwitchLanguage',
+		url_switchTeams: '/Matrix/home/SwitchTeams',
+		url_setHeaderState: '/Matrix/home/SetHeaderState',
+		url_changeFontSize: '/Matrix/home/ChangeFontSize',
+		msg_4779: 'You will lose the unsaved changes on this page. Are you sure you want to change language?',
+		currentUIVersion: 'Responsive',
+	};
+	$(function () {
+		mtrxTopMenu.Init(modelVars_TopMenu);
+	});
+
+
+
+
+
+	
+		
+Hello, Ryan		
+		
+			
+			
+		
+	
+	
+		
+		
+				
+						
+							My Matrix
+						
+						
+							
+								
+									
+										My Matrix
+									
+								
+
+
+										
+											
+												Dashboard
+											
+										
+										
+											
+												Summary
+											
+										
+										
+											
+												Contacts
+											
+										
+										
+											
+												My Listings
+											
+										
+										
+											
+												Saved Searches
+											
+										
+										
+											
+												My CMAs
+											
+										
+										
+											
+												Sent Email
+											
+										
+										
+											
+												Auto Emails
+											
+										
+										
+											
+												Reverse Prospect Email History
+											
+										
+							
+						
+				
+				
+						
+							Search
+						
+						
+							
+								
+									
+										Search
+									
+								
+
+
+										
+											
+												Search(New!)
+											
+										
+										
+											
+												Residential
+											
+											
+												
+													
+														
+															Residential
+														
+													
+														
+															
+																Resi Default Search
+															
+														
+														
+															
+																MLS # Search
+															
+														
+														
+															
+																Custom Search
+															
+														
+												
+											
+										
+										
+											
+												Rental Beast
+											
+										
+										
+											
+												Income
+											
+											
+												
+													
+														
+															Income
+														
+													
+														
+															
+																Income Default Search
+															
+														
+														
+															
+																MLS # Search
+															
+														
+														
+															
+																Custom Search
+															
+														
+												
+											
+										
+										
+											
+												Land
+											
+											
+												
+													
+														
+															Land
+														
+													
+														
+															
+																Land Default Search
+															
+														
+														
+															
+																MLS # Search
+															
+														
+														
+															
+																Custom Search
+															
+														
+												
+											
+										
+										
+											
+												Farm
+											
+											
+												
+													
+														
+															Farm
+														
+													
+														
+															
+																Farm Default Search
+															
+														
+														
+															
+																MLS # Search
+															
+														
+														
+															
+																Custom Search
+															
+														
+												
+											
+										
+										
+											
+												Commercial
+											
+											
+												
+													
+														
+															Commercial
+														
+													
+														
+															
+																Comm Default Search
+															
+														
+														
+															
+																MLS # Search
+															
+														
+														
+															
+																Custom Search
+															
+														
+												
+											
+										
+										
+											
+												Business
+											
+											
+												
+													
+														
+															Business
+														
+													
+														
+															
+																Business Default Search
+															
+														
+														
+															
+																MLS # Search
+															
+														
+														
+															
+																Custom Search
+															
+														
+												
+											
+										
+										
+											
+												Built On Owners Lot
+											
+										
+										
+											
+												Rental
+											
+											
+												
+													
+														
+															Rental
+														
+													
+														
+															
+																Rent Default Search
+															
+														
+														
+															
+																MLS # Search
+															
+														
+														
+															
+																Custom Search
+															
+														
+												
+											
+										
+										
+											
+												Cross Property
+											
+											
+												
+													
+														
+															Cross Property
+														
+													
+														
+															
+																Default Search
+															
+														
+														
+															
+																MLS # Search
+															
+														
+														
+															
+																Custom Search
+															
+														
+												
+											
+										
+										
+											
+												Default Search
+											
+										
+										
+											
+												MLS # Search
+											
+										
+										
+											
+												Agent
+											
+										
+										
+											
+												Open House
+											
+										
+										
+											
+												More...
+											
+										
+							
+						
+				
+				
+						
+							Stats
+						
+						
+							
+								
+									
+										Stats
+									
+								
+
+
+										
+											
+												Residential
+											
+										
+										
+											
+												Land
+											
+										
+										
+											
+												Cross Property
+											
+										
+							
+						
+				
+				
+						
+							Tax
+						
+						
+							
+								
+									
+										Tax
+									
+								
+
+
+										
+											
+												Public Record Search
+											
+										
+										
+											
+												Realist Tax
+											
+										
+							
+						
+				
+				
+						
+							Links
+						
+				
+				
+						
+							Finance
+						
+						
+							
+								
+									
+										Finance
+									
+								
+
+
+										
+											
+												Seller's Estimated Net Proceeds
+											
+										
+										
+											
+												Buyer's Closing Costs
+											
+										
+										
+											
+												New Calculators
+											
+										
+							
+						
+				
+				
+						
+							Add/Edit
+						
+						
+							
+								
+									
+										Add/Edit
+									
+								
+
+
+										
+											
+												Add/Edit
+											
+										
+										
+											
+												Add/Edit Rental
+											
+										
+							
+						
+				
+				
+						
+							Market Reports
+						
+				
+				
+						
+							Data Partners
+						
+						
+							
+								
+									
+										Data Partners
+									
+								
+
+
+										
+											
+												CANOPY MLS (NC)
+											
+										
+										
+											
+												First MLS (GA)
+											
+										
+										
+											
+												HMLSD - Heartland MLS (KS)
+											
+										
+										
+											
+												Longleaf Pines MLS (Fayetteville) (DD) (NC)
+											
+										
+										
+											
+												Northwest MLS (WA)
+											
+										
+										
+											
+												OMNI (Mexico & South Amerca)
+											
+										
+										
+											
+												WARDEX (Western Arizona)
+											
+										
+							
+						
+				
+
+			
+			
+				
+				Recent Searches
+			
+				
+					
+						
+							
+						
+						Classic Mode
+					
+				
+
+			
+				
+					
+						Settings
+					
+				
+				
+					
+						Manage Branding
+					
+				
+				
+					
+						Help
+					
+				
+				
+					
+						Mobile
+					
+				
+
+			
+
+			
+
+			
+
+			
+			
+				
+				
+					Logout
+				
+			
+
+		
+	
+
+
+
+
+
+
+
+
+	
+		
+		
+			
+				
+			
+		
+
+		
+			
+			
+						
+								My Matrix
+								
+											
+												Dashboard
+											
+											
+												Summary
+											
+											
+												Contacts
+											
+											
+												My Listings
+											
+											
+												Saved Searches
+											
+											
+												My CMAs
+											
+											
+												Sent Email
+											
+											
+												Auto Emails
+											
+											
+												Reverse Prospect Email History
+											
+								
+						
+							
+						
+								Search
+								
+											
+												Search(New!)
+											
+											
+												Residential
+												
+														
+															Resi Default Search
+														
+														
+															MLS # Search
+														
+														
+															Custom Search
+														
+												
+											
+											
+												Rental Beast
+											
+											
+												Income
+												
+														
+															Income Default Search
+														
+														
+															MLS # Search
+														
+														
+															Custom Search
+														
+												
+											
+											
+												Land
+												
+														
+															Land Default Search
+														
+														
+															MLS # Search
+														
+														
+															Custom Search
+														
+												
+											
+											
+												Farm
+												
+														
+															Farm Default Search
+														
+														
+															MLS # Search
+														
+														
+															Custom Search
+														
+												
+											
+											
+												Commercial
+												
+														
+															Comm Default Search
+														
+														
+															MLS # Search
+														
+														
+															Custom Search
+														
+												
+											
+											
+												Business
+												
+														
+															Business Default Search
+														
+														
+															MLS # Search
+														
+														
+															Custom Search
+														
+												
+											
+											
+												Built On Owners Lot
+											
+											
+												Rental
+												
+														
+															Rent Default Search
+														
+														
+															MLS # Search
+														
+														
+															Custom Search
+														
+												
+											
+											
+												Cross Property
+												
+														
+															Default Search
+														
+														
+															MLS # Search
+														
+														
+															Custom Search
+														
+												
+											
+											
+												Default Search
+											
+											
+												MLS # Search
+											
+											
+												Agent
+											
+											
+												Open House
+											
+											
+												More...
+											
+								
+						
+							
+						
+								Stats
+								
+											
+												Residential
+											
+											
+												Land
+											
+											
+												Cross Property
+											
+								
+						
+							
+						
+								Tax
+								
+											
+												Public Record Search
+											
+											
+												Realist Tax
+											
+								
+						
+							
+						
+								Links
+						
+							
+						
+								Finance
+								
+											
+												Seller's Estimated Net Proceeds
+											
+											
+												Buyer's Closing Costs
+											
+											
+												New Calculators
+											
+								
+						
+							
+						
+								Add/Edit
+								
+											
+												Add/Edit
+											
+											
+												Add/Edit Rental
+											
+								
+						
+							
+						
+								Market Reports
+						
+							
+						
+								Data Partners
+								
+											
+												CANOPY MLS (NC)
+											
+											
+												First MLS (GA)
+											
+											
+												HMLSD - Heartland MLS (KS)
+											
+											
+												Longleaf Pines MLS (Fayetteville) (DD) (NC)
+											
+											
+												Northwest MLS (WA)
+											
+											
+												OMNI (Mexico & South Amerca)
+											
+											
+												WARDEX (Western Arizona)
+											
+								
+						
+
+				
+					More
+					
+					
+				
+			
+		
+
+		
+			
+			
+				
+					Aa
+				
+			
+			
+			
+
+			
+				
+				
+					
+						
+					
+				
+				
+				
+					
+						Notifications
+					
+						
+							
+								There are no notifications. You have nothing to worry about.
+							
+						
+				
+			
+			
+			
+			
+				
+Hello, Ryan				
+				
+						
+							
+								
+									
+								
+								Classic Mode
+							
+						
+																		Settings
+								Manage Branding 
+								Help
+								Mobile
+										
+					Logout
+				
+			
+			
+
+			
+				
+			
+			
+			
+			
+				
+				
+			
+			
+				
+					
+				
+				
+					
+				
+			
+		
+
+	
+
+
+
+	
+		
+			
+				
+					Switching to Classic Mode
+				
+				
+					
+				
+			
+			
+				
+					You are switching to the classic user experience. You can switch back to the new user experience at any time.
+				
+			
+			
+				
+
+				
+				
+					Cancel
+				
+				
+					Go to Classic Dashboard
+				
+			
+		
+	
+
+
+
+	function UIVersionSwitchPost()
+	{
+		var dataToSend = {
+			uiVersion: $('#mtrxUIVersionInput').val(),
+			__RequestVerificationToken: $("[name='__RequestVerificationToken']").val()
+		};
+
+		$.ajax({
+			url: '/Matrix/home/ChangeUIVersion',
+			type: 'POST',
+			data: dataToSend,
+			success: (function (result)
+			{
+				if (result.hasOwnProperty('target')) {
+					window.location.href = result.target;
+				}
+				else if (result.hasOwnProperty('errorMessage')) {
+					alert(result.errorMessage);
+				}
+				else {
+					alert('UnExpected - ' + result);
+				}
+			})
+		});
+	}
+
+
+
+
+	var SessionTimeOutWarning = function (ml, fTouchSession, strLogoutLoc, dom, strLoginLoc) {
+		this.m_strSessionExpireMsg = ml.SessionExpiredMsg;
+		this.m_strMLMinute = ml.SessionExpireMinute;
+		this.m_fMLMinutes = ml.SessionExpireMinutes;
+
+		this.m_$warnDiv = $("#" + dom.Warning);
+		this.m_$errorDiv = $("#" + dom.Error);
+
+		this.m_strLocalStorageKey = 'matrix-session-channel';
+		this.touchSession = fTouchSession;
+		this.m_strLogoutLocation = strLogoutLoc;
+		this.m_strLoginLocation = strLoginLoc;
+
+		var strGeneratedId = '';
+		var strValidCharacters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+
+		for (var i = 0; i < 10; i++) {
+			strGeneratedId += strValidCharacters.charAt(Math.floor(Math.random() * strValidCharacters.length));
+		}
+
+		this.m_strSignalerId = strGeneratedId;
+
+		//bind the storage event handler - fired when localstorage changes
+		if (!!window.localStorage) {
+			var t = this;
+
+			$(window).on('storage.sessiontimeout', function (e) {
+				var evt = e.originalEvent;
+
+				if (evt.key == t.m_strLocalStorageKey) {
+					t.HandleStorageEvent(JSON.parse(evt.newValue));
+				}
+			});
+		}
+	};
+
+	SessionTimeOutWarning.prototype.FireStorageEvent = function (event, data) {
+		if (!!localStorage && !!window.JSON) {
+			localStorage.setItem(this.m_strLocalStorageKey, JSON.stringify({
+				'strSignalerId': this.m_strSignalerId,
+				'event': event,
+				'event_data': data,
+				'event_timeStamp': Math.round(new Date().getTime() / 1000)
+			}));
+		}
+	};
+
+	SessionTimeOutWarning.prototype.HandleStorageEvent = function (evt) {
+		if (typeof (evt) !== 'undefined') {
+			switch (evt.event) {
+				case 'rebind':
+					this.BindTimers(evt);
+					break;
+				case 'abandon':
+					this.SessionOver(evt);
+					break;
+			}
+		}
+		else {
+			return false;
+		}
+	};
+
+	SessionTimeOutWarning.prototype.RefreshTimers = function (nTimeout, nWarning) {
+		this.RefreshSession(nTimeout, nWarning);
+		this.FireStorageEvent('rebind', nTimeout + "|" + nWarning);
+	};
+
+	SessionTimeOutWarning.prototype.BindTimers = function (evt) {
+		if (evt && evt.strSignalerId != this.m_strSignalerId) {
+			var data = evt.event_data.split('|');
+			if (data.length == 2) {
+				this.RefreshSession(parseInt(data[0], 10), parseInt(data[1], 10));
+			}
+		}
+	};
+
+	SessionTimeOutWarning.prototype.SessionOver = function (evt) {
+		if (!evt || evt.strSignalerId != this.m_strSignalerId) {
+			this.HideMessage();
+			this.m_$errorDiv.show();
+		}
+	};
+
+	SessionTimeOutWarning.prototype.RefreshSession = function (nTimeout, nWarning) {
+		localStorage.setItem('matrix-session-land', new Date().toGMTString());
+		this.HideMessage();
+		window.clearTimeout(this.m_oCheckHandle);
+		window.clearTimeout(this.m_oWarnHandle);
+
+		var self = this;
+		this.m_oCheckHandle = window.setTimeout(function () {
+			self.SessionOver.call(self);
+		}, nTimeout * 60 * 1000 - 20 * 1000); //show session-over 20s before the session actually dies
+		if (nWarning > 0) {
+			if (nTimeout - nWarning > 0) {
+				this.m_oWarnHandle = window.setTimeout(function () {
+					self.ShowWarning.call(self, nTimeout);
+				}, (nTimeout - nWarning) * 60 * 1000);
+			}
+			else {
+				this.ShowWarning(nTimeout);
+			}
+		}
+	};
+
+	SessionTimeOutWarning.prototype.ShowWarning = function (nSessionMaxLength) {
+		var dtStoredStamp = new Date(localStorage.getItem('matrix-session-land'));
+		var self = this;
+		var fUpdate = function () {
+			var dtCurrentTime = new Date();
+			var nTimeLeft = (dtStoredStamp.getTime() + parseInt(nSessionMaxLength * 60000, 10)) - dtCurrentTime.getTime();
+			var nMinLeft = Math.round((nTimeLeft / 60000));
+
+			var strMessage = nMinLeft === 1 ? self.m_strMLMinute : self.m_fMLMinutes({ expiremin: nMinLeft });
+			if (nMinLeft > 0) {
+				self.m_$warnDiv.find('span.message').text(strMessage);
+			}
+		};
+		fUpdate();
+		this.m_oWarnInterval = setInterval(fUpdate, 20 * 1000);
+		this.m_$warnDiv.show();
+	};
+
+	SessionTimeOutWarning.prototype.HideMessage = function () {
+		clearInterval(this.m_oWarnInterval);
+		this.m_$warnDiv.find('span.message').text('');
+		this.m_$warnDiv[0].style.display = "none";
+	};
+
+	SessionTimeOutWarning.prototype.PokeSession = function () {
+		this.touchSession();
+	};
+
+	SessionTimeOutWarning.prototype.LogOut = function () {
+		this.FireStorageEvent('abandon', '');
+		if (!!this.m_strLogoutLocation) {
+			window.location.replace(this.m_strLogoutLocation);
+		}
+	};
+
+	SessionTimeOutWarning.prototype.Login = function () {
+		if (!!this.m_strLoginLocation) {
+			window.location.replace(this.m_strLoginLocation);
+		}
+	};
+
+
+
+	var TimeOutWarning;
+	$(document).ready(function () {
+		var mlcvSessionExpireMsg = 
+function(extra, rec)
+{
+	var MEParam = typeof MatrixExpression !== 'undefined' ? MatrixExpression : null;
+	var recParam = rec !== undefined ? rec : null;
+	var result = function(rec,ME){return 'Your session will expire in '+extra.expiremin+' minutes.';}(recParam, MEParam);
+	return  result;
+}
+;
+		var ml = {
+			SessionExpireMinute: 'Your session will expire in 1 minute.',
+			SessionExpireMinutes: mlcvSessionExpireMsg
+		};
+		var fTouchSession = function () {
+			$.ajax({
+				url: '/Matrix/home/RefreshSession',
+				type: 'GET',
+				timeout: 5000,
+				success: (function (result) {
+					if (result == "Session Refreshed!") {
+						TimeOutWarning.RefreshTimers(299.253979986667, 10);
+					}
+					else {
+						location.reload();
+					}
+				}),
+				error: function (xhr, status, errorThrown) {
+					var respondError = errorThrown;
+					$("#m_divRefreshError").html(respondError);
+					$("#m_divRefreshError").show();
+				}
+			});
+		};
+		var strLogoutLoc = '/Matrix/Logout.aspx';
+		var dom = {
+			Warning: 'm_divErrorPopUpWarn',
+			Error: 'm_divErrorPopUpExpired'
+		};
+		var strLoginLoc = '/Matrix/Login.aspx?r=1&amp;ReturnUrl=%2fMatrix%2fHome';
+		TimeOutWarning = new SessionTimeOutWarning(ml, fTouchSession, strLogoutLoc, dom, strLoginLoc);
+		TimeOutWarning.RefreshTimers(299.253979986667, 10);
+	});
+
+
+
+	/*TODO - Styling changes after discussion with Product*/
+	.sessionWarning {
+		border: 1px solid;
+		margin: 2px 0;
+		padding: 15px 10px 15px 50px;
+		background-repeat: no-repeat;
+		background-position: 10px center;
+		color: #9F6000;
+		background-color: #FEEFB3;
+		background-image: url("/Matrix/images/icons/important.png");
+	}
+	.sessionRefreshError{
+		/*Matt - I don't know the default style for this and it is very less likely to be shown */
+	}
+
+
+
+	
+		
+		  
+		Refresh
+		   
+		Log Out
+	
+	
+		Your Session has Expired. Please login again.
+			Login
+	
+	
+	
+
+
+	
+		
+				
+					
+				
+		
+		
+			
+				
+									
+				
+				
+				
+					
+				
+			
+		
+		
+		
+			
+				Recent Searches 
+				
+			
+		
+	
+
+	$(function ()
+	{
+		speedbarInit();
+	});
+
+	/* Enables re-initialize of all elements of this partial after insertion into DOM. */
+	function speedbarInit() {
+		$('#speedbarHelp, #speedbarAdditionalCriteria, #speedbarRecentSearchesIcon').tooltip();
+		mtrxInputClear.Setup('QueryText');
+		$('#recentSearchesModal').on('shown.bs.offcanvas', function (ev)
+		{
+			mtrxLoading.Show('recentSearchesModalContent');
+			$.ajax({
+				type: "GET",
+				url: '/Matrix/r/RecentSearches?id=0',
+				success: function (result) {
+					mtrxLoading.Hide('recentSearchesModalContent');
+					$("#recentSearchesModalContent").html(result);
+				}
+			});
+		});
+
+		var queryText = $("#QueryText");
+		queryText.on("input focus", function (eventargs) {
+			if ((queryText.val() == "" && eventargs.type == "focus") || eventargs.type == "input" ) {
+				$('#speedbar .mtrx-speedbar-error').addClass("d-none");
+				queryText.removeClass("input-validation-error");
+			}
+		});
+		speedbarToggle();
+	}
+
+	function speedbarToggle() {
+		let isExpanded = $(".topHtmlContainer").hasClass("mtrx-header-expanded");
+		$("#speedbar").toggleClass("d-md-block", isExpanded);
+	}
+
+
+
+
+
+	<div class="alert alert-{kind} alert-dismissible {iconclass} fade show" role="alert">
+		{icon}
+		{message}
+		{view}
+		{undo}
+		<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+	</div>
+
+
+	$('#confirmationContainer').on('mtrx.confirmation', function (ev, data)
+	{
+		function kind2alert(kind)
+		{
+			switch (kind)
+			{
+				case 0: return 'primary';
+				case 1: return 'success';
+				case 2: return 'warning';
+				case 3: return 'danger';
+			}
+		}
+		function kindoficon(kind)
+		{
+			switch (kind)
+			{
+				case 0: return '';
+				case 1: return '<i class="h3 far fa-check-circle"></i>';
+				case 2: return '<i class="h3 far fa-exclamation-triangle"></i>';
+				case 3: return '<i class="h3 far fa-exclamation-circle"></i>';
+			}
+		}
+		var conf = $('#confirmationTemplate').html();
+		const kind = kind2alert(data.Kind);
+		conf = conf.replace("{kind}", kind)
+			.replace("{message}", data.Message)
+			.replace("{view}", data.View ? '<a href="'+data.View+'">'+data.ViewText+'</a>' : '')
+			.replace("{undo}", data.Undo ? '<a href="' + data.Undo + '">' + data.UndoText + '</a>' : '')
+			.replace("{icon}", kindoficon(data.Kind))
+			.replace("{iconclass}", kind2alert(data.Kind) == 'primary' ? '' : 'mtrx-alert--withIcon')
+		$('#confirmationContainer').html(conf);
+		if(data.autoCloseForAll)
+		{
+			setTimeout(() => {$(`.alert-${kind}`).alert('close');}, data.Duration || 10000);
+		}
+		else
+		{
+			setTimeout(() => {$(".alert-success").alert('close');}, data.Duration || 10000);
+		}
+	});
+
+
+
+
+
+
+
+
+	
+		
+			Edit Dashboard
+		
+		
+			
+			
+		
+	
+	
+		Add, remove, and reorder items left to right on your dashboard
+	
+	
+		
+						
+
+							
+								
+								
+							
+
+							News & Alerts
+								
+									
+								
+						
+						
+
+							
+								
+								
+							
+
+							Matrix Learning Lab
+								
+									
+								
+						
+						
+
+							
+								
+								
+							
+
+							OneHome Agent Portal
+								
+									
+								
+						
+						
+
+							
+								
+								
+							
+
+							MLS-Touch
+								
+									
+								
+						
+						
+
+							
+								
+								
+							
+
+							My Carts
+								
+									
+								
+						
+						
+
+							
+								
+								
+							
+
+							Hot Sheets
+								
+									
+								
+						
+						
+
+							
+								
+								
+							
+
+							My Listings
+								
+									
+								
+						
+						
+
+							
+								
+								
+							
+
+							Search
+								
+									
+								
+						
+						
+
+							
+								
+								
+							
+
+							My Favorite Searches
+								
+									
+								
+						
+						
+
+							
+								
+								
+							
+
+							Market Watch
+								
+									
+								
+						
+						
+
+							
+								
+								
+							
+
+							Recent OneHome Visitors
+								
+									
+								
+						
+						
+
+							
+								
+								
+							
+
+							My Stats
+								
+									
+								
+						
+						
+
+							
+								
+								
+							
+
+							Recent Use Contacts
+								
+									
+								
+						
+						
+
+							
+								
+								
+							
+
+							Contact Requests
+								
+									
+								
+						
+						
+
+							
+								
+								
+							
+
+							External Links
+								
+									
+								
+						
+
+
+		
+	
+
+
+
+
+	
+		
+		
+
+
+
+	var modelVars_Timeline = {
+		prefix: 'Timeline',
+		parentPrefix: 'widgets',
+		saveTimelineDrawerStateUrl: '/Matrix/timeline/SaveTimelineDrawerState',
+		loadNotificationsUrl: '/Matrix/timeline/GetNotificationsList',
+		loadTimelineSettingsUrl: '/Matrix/timeline/GetTimelineSettings',
+		imageGalleryUrl: '/Matrix/r/ImageGallery',
+		replyToNoteUrl: '/Matrix/r/ListingNotes/AddListingNote',
+		getListingNotesUrl: '/Matrix/r/ListingNotes/GetListingNotes',
+		msg_MorningGreeting: 'Good Morning',
+		msg_AfternoonGreeting: 'Good Afternoon',
+		msg_EveningGreeting: 'Good Evening',
+	};
+	$(function () {
+		mtrxAgentTimeline.Init(modelVars_Timeline);
+		mtrxTimelineNotificationsList.Init(modelVars_Timeline);
+	});
+
+
+	
+		Good Afternoon
+		
+			
+				
+			
+			
+				
+			
+			
+				
+				
+			
+		
+	
+
+
+
+
+
+
+	
+		View All
+	
+
+
+		
+		
+			
+			
+				
+					
+				
+
+				
+					
+						
+							Dashboard
+						
+					
+				
+
+				
+					
+						Edit Dashboard
+					
+					
+						
+					
+				
+
+			
+
+			
+				
+					
+					
+								
+									
+	
+		News & Alerts
+	
+
+	
+
+			
+					
+						
+							Apr 9 - Contacts, AutoEmail, & OneHome
+						
+					
+					
+						
+							Apr 7 - Protect Your Listings. Protect Your Clients.
+						
+					
+					
+						
+							Apr 2 - Rental Exchange Launching in elevateMLS
+						
+					
+			
+	
+
+
+
+
+
+	var mtrxNewsWidget = (function () {
+		//********************************************************************************
+		//	News Widget
+		function showModalFirstTime() {
+		}
+
+		//****************************************************************************
+		//	Show selected news item details in a modal.
+		function newsItemClick(i) {
+			var url = '/Matrix/home/NewsModalContent' + '?selectedIndex=' + i;
+			if (!$("#mtrxNewsModal").hasClass("show")) {
+				//$('#mtrxNewsModal').modal({keyboard: false, backdrop: 'static'});
+				$('#mtrxNewsModal').modal('show');
+				mtrxLoading.Show("mtrxNewsModalContent");
+			}
+
+			$.ajax({
+				url: url,
+				type: 'GET',
+				success: function (data, status, xhr) {
+					$('#mtrxNewsModalContent').html(data);
+					mtrxLoading.Hide("mtrxNewsModalContent");
+				},
+				error: function (data, status, xhr) {
+					mtrxForm.Failure(data, status, xhr);
+				}
+			});
+		}
+
+		//****************************************************************************
+		//	Handle news item print button click.
+		function handleNewsPrint() {
+			var strNewsPrintHTML = $('#mtrxNewsModalHeader').html() + $("#NewsMainContent").html();
+
+			if ($('#NewsDetailForPrint').length <= 0) {
+				var $newsDetailForPrint = $('<DIV>', {
+					'id': 'NewsDetailForPrint',
+					'class': 'mtrx-modalPrintHelper',
+					'html': strNewsPrintHTML
+				});
+				$('.mtrx-body').addClass("mtrx-modalNoPrint").append($newsDetailForPrint);
+
+				// Clean up when modal closes.
+				$('#newsModal').on('hide.bs.modal', function (e) {
+					$newsDetailForPrint.detach();
+					$(".mtrx-body").removeClass("mtrx-modalNoPrint");
+				});
+			}
+			else {
+				// This condition is when switching news items while the modal is already open.
+				$('#NewsDetailForPrint').html(strNewsPrintHTML);
+			}
+
+			window.print();
+		}
+
+		//****************************************************************************
+		//	Public.
+		return {
+			NewsItemClick: newsItemClick,
+			HandleNewsPrint: handleNewsPrint,
+			ShowModalFirstTime: showModalFirstTime
+		};
+	})();
+
+
+								
+								
+									
+
+	
+		
+			
+				
+			
+			Matrix Learning Lab
+		
+		
+
+
+	
+	
+		
+			
+		
+	
+	
+		
+			
+				Collapse
+			
+		
+		
+			
+				Expand
+			
+		
+		
+			
+				Hide
+			
+		
+	
+
+
+	
+		
+			
+			
+		
+
+
+								
+								
+									
+
+	
+		
+			
+				
+			
+			OneHome Agent Portal
+		
+		
+
+
+	
+	
+		
+			
+		
+	
+	
+		
+			
+				Collapse
+			
+		
+		
+			
+				Expand
+			
+		
+		
+			
+				Hide
+			
+		
+	
+
+
+	
+		
+			
+			
+		
+
+
+								
+								
+									
+
+	
+		
+			
+				
+			
+			MLS-Touch
+		
+		
+
+
+	
+	
+		
+			
+		
+	
+	
+		
+			
+				Collapse
+			
+		
+		
+			
+				Expand
+			
+		
+		
+			
+				Hide
+			
+		
+	
+
+
+	
+		
+			
+			
+		
+
+
+								
+								
+									
+	
+		
+			
+				
+			
+			My Carts
+		
+		
+
+
+	
+	
+		
+			
+		
+	
+	
+		
+			
+				Collapse
+			
+		
+		
+			
+				Expand
+			
+		
+		
+			
+				Hide
+			
+		
+	
+
+
+	
+		
+
+				
+						
+							
+								
+									Thomson, Ryan - 440 Picasso FINAL comps
+								
+							
+							
+								13
+							
+						
+						
+							
+								
+									Thomson, Ryan - 440 Picasso Ct Comps
+								
+							
+							
+								21
+							
+						
+						
+							
+								
+									Thomson, Ryan - VA Loan Assumable 4
+								
+							
+							
+								145
+							
+						
+						
+							
+								
+									Thomson, Ryan - Hannah and Taylor Showing
+								
+							
+							
+								1
+							
+						
+						
+							
+								
+									Thomson, Ryan - Ryan - FHA Assumable
+								
+							
+							
+								189
+							
+						
+						
+							
+								
+									Thomson, Ryan - 7225 Franconia Dr Comps
+								
+							
+							
+								5
+							
+						
+						
+							
+								
+									Thomson, Ryan - 1903 W Colorado AV Comps
+								
+							
+							
+								4
+							
+						
+						
+							
+								
+									Thomson, Ryan - 2202 Greenwich Cir Comps
+								
+							
+							
+								8
+							
+						
+						
+							
+								
+									1033 E Costilla Comps
+								
+							
+							
+								53
+							
+						
+						
+							
+								
+									Thomson, Ryan - 6710 Snowbird Dr Comps
+								
+							
+							
+								6
+							
+						
+				
+		
+			
+				
+					All Carts
+				
+			
+
+
+								
+								
+									
+
+	
+		
+		
+			
+				
+					
+						
+					
+					Hot Sheets
+				
+
+				
+					
+						
+					
+
+						
+							
+						
+					
+
+
+	
+	
+		
+			
+		
+	
+	
+		
+			
+				Collapse
+			
+		
+		
+			
+				Expand
+			
+		
+		
+			
+				Hide
+			
+		
+	
+
+
+				
+			
+				
+						
+								
+									
+										Residential
+									
+								
+								
+									
+										Income
+									
+								
+								
+									
+										Land
+									
+								
+								
+									
+										Farm
+									
+								
+								
+									
+										Commercial
+									
+								
+								
+									
+										Business
+									
+								
+								
+									
+										Rental
+									
+								
+								
+									
+										Cross Property
+									
+								
+						
+				
+				
+					
+						Timeframe
+						
+New OnlyThis Session24 HourToday3 Day7 DayCustom						
+					
+				
+		
+		
+		
+			
+			
+				
+					Hot Sheets
+				
+				
+					
+						
+					
+
+
+							
+						
+					
+				
+			
+
+			
+				
+					
+						
+								
+									Residential
+								
+								
+									Income
+								
+								
+									Land
+								
+								
+									Farm
+								
+								
+									Commercial
+								
+								
+									Business
+								
+								
+									Rental
+								
+								
+									Cross Property
+								
+						
+					
+
+					
+						
+							
+							
+								Select a date from which to run:
+							
+						
+						
+							
+							
+								Or select a time range (for today):
+							
+						
+					
+
+					
+						
+						
+						This date must be no more than 30 days in the past.
+					
+
+					
+						
+							From: 
+							
+								
+							
+							
+								
+									
+									
+									
+									
+										AM
+										PM
+									
+								
+							
+						
+						
+							To: 
+							
+								
+							
+							
+								
+									
+									
+									
+									
+										AM
+										PM
+									
+								
+							
+							You may leave the “To” field blank.
+						
+					
+				
+			
+			
+				
+					Run
+				
+				
+					Cancel
+				
+			
+			
+			
+				
+					
+						Manage Hot Sheets
+					
+					
+						
+							
+						
+					
+				
+				
+					
+								
+									
+										
+											
+												
+													
+												
+												Residential
+											
+											
+												
+													
+												
+											
+										
+									
+								
+								
+									
+										
+											
+												
+													
+												
+												Income
+											
+											
+												
+													
+												
+											
+										
+									
+								
+								
+									
+										
+											
+												
+													
+												
+												Land
+											
+											
+												
+													
+												
+											
+										
+									
+								
+								
+									
+										
+											
+												
+													
+												
+												Farm
+											
+											
+												
+													
+												
+											
+										
+									
+								
+								
+									
+										
+											
+												
+													
+												
+												Commercial
+											
+											
+												
+													
+												
+											
+										
+									
+								
+								
+									
+										
+											
+												
+													
+												
+												Business
+											
+											
+												
+													
+												
+											
+										
+									
+								
+								
+									
+										
+											
+												
+													
+												
+												Rental
+											
+											
+												
+													
+												
+											
+										
+									
+								
+								
+									
+										
+											
+												
+													
+												
+												Cross Property
+											
+											
+												
+													
+												
+											
+										
+									
+								
+					
+				
+				
+					
+						Restore System Defaults
+					
+				
+			
+		
+
+	
+
+
+
+	$(function () {
+		mtrxDragDrop.Init("", mtrxHotSheetsWidget.SaveHotsheetsState);
+		mtrxWidgets.HandleDragDropSetup($('#widgetHotsheet').find(".mtrx-card-header-dragdrop-icon"));
+	});
+	//********************************************************************************
+	//	Hot Sheets
+	//
+	//	Functions for option change and validate & run Hot sheets.
+	//********************************************************************************
+	var mtrxHotSheetsWidget = (function () {
+		var htmlFieldPrefix = 'widgetHotSheets_';
+
+		function hotsheetsDragDrop(event) {
+			mtrxDragDrop.Init("", mtrxHotSheetsWidget.SaveHotsheetsState);
+			mtrxDragDrop.HandleDragStart(event);
+		}
+
+		//****************************************************************************
+		//	Handle Date Range option change.
+		function handleCustomDateRangeOption() {
+			var dateOrTime = $('input[name="widgetHotsheetCustomDateRange"]:checked').val();
+			$("#widgetHotsheetDate").toggleClass('d-none', dateOrTime != "1");
+			$("#widgetHotsheetTime").toggleClass('d-none', dateOrTime != "2");
+		}
+
+		//****************************************************************************
+		//	Run Hot Sheet for given ID.
+		function runHotsheet(hotsheetID) {
+			$("#widgetHotsheetTypes").val(hotsheetID);
+
+			//IF "custom" is selected from the front, flip to show the custom options.
+			if ($('#' + htmlFieldPrefix + 'm_ddlPeriod').val() == 6) {
+				$('#widgetHotsheet').toggleClass('mtrx-is-flipped');
+				$('#widgetHotsheetManageMode').addClass('d-none');
+				$('#widgetHotsheetCustomTime').removeClass('d-none');
+			}
+			else {
+				mtrxLoading.Show();
+				var runURL = '/Matrix/Widgets/HotSheets/Run';
+				window.location.href = window.location.origin + runURL + '?hotsheetID=' + $("#widgetHotsheetTypes").val() + '&periodID=' + $('#' + htmlFieldPrefix + 'm_ddlPeriod').val();
+			}
+		}
+
+		//****************************************************************************
+		//	Validate user input for custom date range and then send it to server for further validation.
+		//	If server side validations are passed then run the hotsheet with custom date range,
+		//	Otherwise show validation error(s) to user.
+		function runCustomHotsheet() {
+			var getCustomDateURL = '/Matrix/Widgets/HotSheets/GetCustomDate' + '?hotsheetID=' + $("#widgetHotsheetTypes").val() + '&periodID=' + $('#' + htmlFieldPrefix + 'm_ddlPeriod').val();
+			var dateOrTime = $('input[name="widgetHotsheetCustomDateRange"]:checked').val();
+
+			//Gather date or time parameters based on current choice.
+			if (dateOrTime == "1") {
+				if ($("#" + htmlFieldPrefix + "HotSheetDateRange").val() == "") {
+					$("#" + htmlFieldPrefix + "HotSheetDateRange").addClass("input-validation-error");
+					return;
+				}
+
+				getCustomDateURL += '&date=' + $("#" + htmlFieldPrefix + "HotSheetDateRange").val();
+			}
+			else {
+				if ($("#" + htmlFieldPrefix + "HotSheetFromTime").val() == "") {
+					$("#" + htmlFieldPrefix + "HotSheetFromTime").addClass("input-validation-error");
+					return;
+				}
+
+				var fromAMPM = ($("#" + htmlFieldPrefix + "fromAMPM").is(":checked")) ? "AM" : "PM";
+				var toAMPM = ($("#" + htmlFieldPrefix + "toAMPM").is(":checked")) ? "AM" : "PM";
+				getCustomDateURL += '&from=' + $("#" + htmlFieldPrefix + "HotSheetFromTime").val()
+					+ '&fromAMPM=' + fromAMPM
+					+ '&to=' + $("#" + htmlFieldPrefix + "HotSheetToTime").val()
+					+ '&toAMPM=' + toAMPM;
+			}
+
+			mtrxLoading.Show();
+			$.get(window.location.origin + getCustomDateURL, null, function (data) {
+				var data = JSON.parse(data);
+				if (data.success) {
+					var runURL = '/Matrix/Widgets/HotSheets/Run';
+					window.location.href = window.location.origin + runURL + '?hotsheetID=' + $("#widgetHotsheetTypes").val() + '&periodID=' + $('#' + htmlFieldPrefix + 'm_ddlPeriod').val() + '&date=' + encodeURIComponent(data.date);
+				}
+				else {
+					mtrxLoading.Hide();
+					//TODO: use model validation?
+					if (data.badDate) {
+						$("#" + htmlFieldPrefix + "HotSheetDateRange").addClass("input-validation-error");
+					}
+					if (data.badFrom) {
+						$("#" + htmlFieldPrefix + "HotSheetFromTime").addClass("input-validation-error");
+					}
+					if (data.badTo) {
+						$("#" + htmlFieldPrefix + "HotSheetToTime").addClass("input-validation-error");
+					}
+					if (data.alert) {
+						$error = $('<div>', { 'class': 'alert alert-danger mtrx-alert--withIcon alert-dismissible fade show', 'role': 'alert' });
+						$error.html('<i class="h2 far fa-exclamation-circle"></i>' + data.alert + '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>');
+						$("#widgetHotsheet .mtrx-flipper-back .card-body").prepend($error);
+					}
+				}
+			});
+		}
+		//****************************************************************************
+
+
+		function saveHotsheetsState() {
+			var newOrder = '';
+			var count = 0;
+
+			$("[id=widgetHotSheets_selectedList] li").each(function()
+			{
+				var id = $(this).attr("id");
+				if(id && id != "dropPlaceholder")
+				{
+					newOrder += (count > 0 ? "," : "") + id.replace(htmlFieldPrefix + "selected_", "");
+					count++;
+				}
+			})
+			$.ajax({
+				url: '/Matrix/r/HotSheets/RearrangeHotSheets',
+				type: "POST",
+				data: {order: newOrder},
+				success: (function(partialViewResult) {
+					$("#widgetHotsheet").html(partialViewResult);
+					$('#widgetHotsheetCustomTime').addClass('d-none');
+				})
+			});
+		}
+
+		var msgDeleteConfirmation = 
+function(extra, rec)
+{
+	var MEParam = typeof MatrixExpression !== 'undefined' ? MatrixExpression : null;
+	var recParam = rec !== undefined ? rec : null;
+	var result = function(rec,ME){return 'Are you sure you would like to delete the hot sheet \''+extra.name+'\'?';}(recParam, MEParam);
+	return  result;
+}
+;
+
+		//	Delete Hot Sheet for given ID.
+		function deleteHotsheet(hotsheetID, hotsheetName) {
+			var msg = "Are you sure you would like to delete the hot sheet ''?";
+			var result = confirm(msgDeleteConfirmation({name: hotsheetName}));
+			if(result) {
+				$.ajax({
+						url: '/Matrix/r/HotSheets/DeleteHotSheet',
+						type: "POST",
+					data: {id: hotsheetID},
+					success: (function(partialViewResult) {
+						$("#widgetHotsheet").html(partialViewResult);
+						$('#widgetHotsheetCustomTime').addClass('d-none');
+					})
+				 });
+			}
+}
+		//****************************************************************************
+
+		//	Reestore the hotsheets to default settings
+		function restoreHotsheets() {
+			var restoreConfirmationMessage ='Are you sure you would like to reset your hot sheets to the system defaults? This will delete all your custom criteria.';
+			var result = confirm(restoreConfirmationMessage);
+			if(result) {
+				$.ajax({
+					url: '/Matrix/r/HotSheets/RestoreToDefault',
+					type: "POST",
+					success: (function(partialViewResult) {
+						$("#widgetHotsheet").html(partialViewResult);
+						$('#widgetHotsheetCustomTime').addClass('d-none');
+					})
+				});
+			}
+		}
+		//****************************************************************************
+
+		return {
+			HandleCustomDateRangeOption: handleCustomDateRangeOption,
+			RunHotsheet: runHotsheet,
+			RunCustomHotsheet: runCustomHotsheet,
+			SaveHotsheetsState: saveHotsheetsState,
+			DeleteHotsheet: deleteHotsheet,
+			RestoreHotsheets: restoreHotsheets,
+			HotsheetsDragDrop: hotsheetsDragDrop
+		};
+	})();
+
+
+								
+								
+									
+	
+		
+		
+			
+				
+					
+						
+					
+					My Listings
+				
+				
+				
+						
+							
+						
+					
+						
+					
+					
+
+
+	
+	
+		
+			
+		
+	
+	
+		
+			
+				Collapse
+			
+		
+		
+			
+				Expand
+			
+		
+		
+			
+				Hide
+			
+		
+	
+
+
+				
+			
+
+					
+						
+									
+										
+My Incomplete Listings										
+										
+											0
+										
+									
+									
+										
+												
+													My Active Listings
+												
+										
+										
+											1
+										
+									
+									
+										
+My Coming Soon Listings										
+										
+											0
+										
+									
+									
+										
+My Pending Listings										
+										
+											0
+										
+									
+									
+										
+My Withdrawn Listings										
+										
+											0
+										
+									
+									
+										
+My Listings with No Photos										
+										
+											0
+										
+									
+									
+										
+My Leased Listings Within 6 months										
+										
+											0
+										
+									
+									
+										
+												
+													My Sold Within 6 months Listings
+												
+										
+										
+											1
+										
+									
+						
+					
+						
+							
+View All							
+						
+		
+
+		
+		
+			
+				My Listings
+				
+					
+						
+					
+				
+			
+
+				
+						
+							
+								You may select up to 8 default items
+							
+								
+									
+										My Incomplete Listings
+									
+									
+										
+									
+								
+								
+									
+										My Active Listings
+									
+									
+										
+									
+								
+								
+									
+										My Coming Soon Listings
+									
+									
+										
+									
+								
+								
+									
+										My Pending Listings
+									
+									
+										
+									
+								
+								
+									
+										My Withdrawn Listings
+									
+									
+										
+									
+								
+								
+									
+										My Listings with No Photos
+									
+									
+										
+									
+								
+								
+									
+										My Leased Listings Within 6 months
+									
+									
+										
+									
+								
+								
+									
+										My Sold Within 6 months Listings
+									
+									
+										
+									
+								
+								
+									
+										My Expiring Within 14 days Listings
+									
+									
+										
+									
+								
+								
+									
+										My Hit Counters
+									
+									
+										
+									
+								
+						
+				
+
+			
+	
+
+
+
+	var mtrxMyListingsWidget = (function () {
+		var isDisplayedAll = false;
+		var maxDisplayedQueries = 8;
+		var initialSelectedIds;
+
+		function refresh() {
+			reloadWidget(isDisplayedAll, true);
+		}
+
+		function toggleDisplayAll() {
+			reloadWidget(!isDisplayedAll, false);
+		}
+
+		function updateSettingsState() {
+			var checkboxes = $("#widgetMyListingsSettings input[type='checkbox']");
+			if (checkboxes.filter(":checked").length < maxDisplayedQueries)
+			{
+				checkboxes.removeAttr("disabled");
+			}
+			else
+			{
+				checkboxes.not(":checked").attr("disabled", true);
+			}
+		}
+
+		function flipToSettings() {
+			flip();
+			updateSettingsState();
+			initialSelectedIds = getSelectedIds();
+		}
+
+		function flipToList() {
+			var currentSelectedIds = getSelectedIds();
+			if (areIdArraysEqual(initialSelectedIds, currentSelectedIds)) {
+				flip();
+			}
+			else {
+				$.ajax({
+					type: 'POST',
+					url: '/Matrix/Widgets/MyListings/SaveUserQueries',
+					data: { queriesIds: currentSelectedIds },
+					beforeSend: mtrxLoading.Show('widgetMyListings'),
+					success: function () {
+						flip();
+						refresh();
+					},
+					error: function (data, status, xhr) {
+						mtrxForm.Failure(data, status, xhr);
+					}
+				});
+			}
+		}
+
+		function flip() {
+			$('#widgetMyListings').toggleClass('mtrx-is-flipped')
+		}
+
+		function reloadWidget(displayAll, ignoreCache) {
+			$.ajax({
+				type: 'GET',
+				url: '/Matrix/Widgets/MyListings/Reload',
+				data: { displayAll: displayAll, ignoreCache: ignoreCache },
+				beforeSend: mtrxLoading.Show('widgetMyListings'),
+				success: function (data) {
+					mtrxLoading.Hide('widgetMyListings');
+					$('#widgetMyListings').html(data);
+					mtrxWidgets.HandleDragDropSetup($('#widgetMyListings').find(".mtrx-card-header-dragdrop-icon"));
+					if (displayAll){
+						mtrxWidgets.AutoResizeWidgetHeight('widget_MyListings');
+					}
+					else{
+						mtrxWidgets.ForceWidgetResize('widget_MyListings');
+					}
+				},
+				error: function (data, status, xhr) {
+					mtrxForm.Failure(data, status, xhr);
+				}
+			});
+		}
+
+		function getSelectedIds() {
+			var selectedIds = [];
+			$("#widgetMyListingsSettings input[type='checkbox']:checked")
+				.each(function () {
+					var idParts = this.id.split("_");
+					selectedIds.push(idParts[1]);
+				});
+
+			return selectedIds;
+		}
+
+		function areIdArraysEqual(ids1, ids2) {
+			if (ids1.length != ids2.length) {
+				return false;
+			}
+
+			var i = ids1.length;
+			while (i--) {
+				if (ids1[i] !== ids2[i]) {
+					return false;
+				}
+			}
+
+			return true;
+		}
+
+
+		//****************************************************************************
+		//	Public.
+		return {
+			Refresh: refresh,
+			ToggleDisplayAll: toggleDisplayAll,
+			FlipToSettings: flipToSettings,
+			FlipToList: flipToList,
+			UpdateSettingsState: updateSettingsState,
+		};
+	})();
+
+
+								
+								
+									
+	
+		
+			
+				
+			
+			Search
+		
+		
+
+
+	
+	
+		
+			
+		
+	
+	
+		
+			
+				Collapse
+			
+		
+		
+			
+				Expand
+			
+		
+		
+			
+				Hide
+			
+		
+	
+
+
+	
+
+		
+
+			
+
+
+
+
+
+
+		
+
+
+
+
+	
+	
+		
+			MLS Number
+		
+		
+		
+		
+			Required field not entered
+		
+		
+			<span class="badge bg-secondary mtrx-header-badge-item text-dark text-wrap text-start mb-1 me-1">
+				<span id="badge_Fm11_Ctrl25_TextBox" role="button" onclick="{focus}" class="me-1">
+					{label}
+				</span>
+				<a class="ms-1 CursorHand" href="#" onclick="event.preventDefault(); {trigger}" aria-label="{label} Selected, Remove">
+					<i class="fas fa-times"></i>
+				</a>
+			</span>
+		
+	
+	
+		$(function () {
+			SearchJs.AddBadgePlaceHolder('Fm11_Ctrl25_TextBox', 'MLS Number');
+		});
+	
+
+
+	
+	
+		
+			Street #
+		
+		
+		
+		
+			Required field not entered
+		
+		
+			<span class="badge bg-secondary mtrx-header-badge-item text-dark text-wrap text-start mb-1 me-1">
+				<span id="badge_Fm11_Ctrl22_TextBox" role="button" onclick="{focus}" class="me-1">
+					{label}
+				</span>
+				<a class="ms-1 CursorHand" href="#" onclick="event.preventDefault(); {trigger}" aria-label="{label} Selected, Remove">
+					<i class="fas fa-times"></i>
+				</a>
+			</span>
+		
+	
+	
+		$(function () {
+			SearchJs.AddBadgePlaceHolder('Fm11_Ctrl22_TextBox', 'Street #');
+		});
+	
+
+
+	
+	
+
+		
+		
+			
+				
+					Street Dir Pfx
+				
+			
+			
+			
+		
+		
+		
+		
+			
+			
+				Select
+			
+
+			
+			
+				Required option not selected
+			
+		
+		
+		
+			
+			
+				+ -3
+				Show Less
+			
+		
+
+	
+	
+		<span class="badge bg-primary text-white text-wrap text-start mb-1 me-1" id="badge_{id}_Fm11_Ctrl2218_LB">
+			{label}
+			<a class="ms-3 text-white" href="#" role="button" onclick="event.preventDefault(); mtrxCheckboxListAsModal.RemoveItem('Fm11_Ctrl2218_LB', '{id}'); $('#Fm11_Ctrl2218_LB').trigger('mtrx.formchanged');" aria-label="{label} Selected, Remove">
+				<i class="fas fa-times"></i>
+			</a>
+		</span>
+	
+	
+		<span class="badge bg-secondary mtrx-header-badge-item text-dark text-wrap text-start mb-1 me-1">
+			<span id="Headerbadge_{id}_Fm11_Ctrl2218_LB" role="button" onclick="{focus}" class="me-1">
+				{label}
+			</span>
+			<a class="ms-1 CursorHand" href="#" onclick="event.preventDefault(); mtrxCheckboxListAsModal.RemoveItem('Fm11_Ctrl2218_LB', '{id}'); $('#Fm11_Ctrl2218_LB').trigger('mtrx.formchanged');" aria-label="{label} Selected, Remove">
+				<i class="fas fa-times"></i>
+			</a>
+		</span>
+	
+	
+		<div class="input-group mtrx-input-icon--right px-1 py-2 bg-white sticky-top">
+			<input class="form-control"
+				   id="filter_Fm11_Ctrl2218_LB"
+				   name="filter_Fm11_Ctrl2218_LB"
+				   type="text"
+				   value=""
+				   placeholder="Filter"
+				   autocomplete="off"
+				   data-mtrx-filter-for="mtrxCheckboxListModal"
+				   data-mtrx-input-clear="true">
+			<span class="input-group-text" id="clearAlt_filter_Fm11_Ctrl2218_LB">
+				<i class="fas fa-filter"></i>
+			</span>
+			<span class="input-group-text" id="clearFor_filter_Fm11_Ctrl2218_LB" onclick="mtrxInputClear.Clear('filter_Fm11_Ctrl2218_LB')">
+				<i class="fas fa-times"></i>
+			</span>
+		</div>
+	
+	
+		<div class="py-1 px-2 mtrx-invert-onHover mtrx-is-clickable" data-mtrx-filter="select all">
+			<div class="form-check">
+				<input class="form-check-input"
+					   type="checkbox"
+					   value="SelectAll_Fm11_Ctrl2218_LB"
+					   id="SelectAll_Fm11_Ctrl2218_LB"
+					   data-mtrx-item-text="Select All"
+					   onchange="mtrxCheckboxListAsModal.SelectAllChange(this.checked);">
+				<label class="form-check-label d-block" for="SelectAll_Fm11_Ctrl2218_LB">
+					Select All
+				</label>
+			</div>
+		</div>
+	
+	
+		<div class="py-1 px-2 mtrx-invert-onHover" data-mtrx-filter="{descriptionLower}">
+			<div class="form-check">
+				<input class="form-check-input" type="checkbox" value="{id}" id="{id}"
+					   data-mtrx-item-text="{description}"
+					   onchange="mtrxCheckboxListAsModal.SelectChange('Fm11_Ctrl2218_LB');" checked="checked">
+				<label class="form-check-label d-block" for="{id}">
+					{description}
+				</label>
+			</div>
+		</div>
+	
+	
+		<div class="py-1 px-2 fst-italic text-gray d-none" data-mtrx-filter-noresults>
+			<p>No results found</p>
+		</div>
+	
+	
+		var listboxInfo = {
+			ID: 'Fm11_Ctrl2218_LB',
+			label: 'Street Dir Pfx',
+			isSingleSelect: true,
+			items: ['121','N','123','E','125','S','127','W']
+		};
+		mtrxCheckboxListAsModal.AddControl(listboxInfo);
+	$(function () {
+		mtrxCheckboxListAsModal.AddBadgePlaceHolder('Fm11_Ctrl2218_LB', 'ListBox');
+	});
+	
+
+
+	
+	
+		
+			Street Name
+		
+		
+		
+		
+			Required field not entered
+		
+		
+			<span class="badge bg-secondary mtrx-header-badge-item text-dark text-wrap text-start mb-1 me-1">
+				<span id="badge_Fm11_Ctrl23_TextBox" role="button" onclick="{focus}" class="me-1">
+					{label}
+				</span>
+				<a class="ms-1 CursorHand" href="#" onclick="event.preventDefault(); {trigger}" aria-label="{label} Selected, Remove">
+					<i class="fas fa-times"></i>
+				</a>
+			</span>
+		
+	
+	
+		$(function () {
+			SearchJs.AddBadgePlaceHolder('Fm11_Ctrl23_TextBox', 'Street Name');
+		});
+	
+
+
+	
+	
+
+		
+		
+			
+				
+					Street Type
+				
+			
+			
+			
+		
+		
+		
+		
+			
+			
+				Select
+			
+
+			
+			
+				Required option not selected
+			
+		
+		
+		
+			
+			
+				+ -3
+				Show Less
+			
+		
+
+	
+	
+		<span class="badge bg-primary text-white text-wrap text-start mb-1 me-1" id="badge_{id}_Fm11_Ctrl2217_LB">
+			{label}
+			<a class="ms-3 text-white" href="#" role="button" onclick="event.preventDefault(); mtrxCheckboxListAsModal.RemoveItem('Fm11_Ctrl2217_LB', '{id}'); $('#Fm11_Ctrl2217_LB').trigger('mtrx.formchanged');" aria-label="{label} Selected, Remove">
+				<i class="fas fa-times"></i>
+			</a>
+		</span>
+	
+	
+		<span class="badge bg-secondary mtrx-header-badge-item text-dark text-wrap text-start mb-1 me-1">
+			<span id="Headerbadge_{id}_Fm11_Ctrl2217_LB" role="button" onclick="{focus}" class="me-1">
+				{label}
+			</span>
+			<a class="ms-1 CursorHand" href="#" onclick="event.preventDefault(); mtrxCheckboxListAsModal.RemoveItem('Fm11_Ctrl2217_LB', '{id}'); $('#Fm11_Ctrl2217_LB').trigger('mtrx.formchanged');" aria-label="{label} Selected, Remove">
+				<i class="fas fa-times"></i>
+			</a>
+		</span>
+	
+	
+		<div class="input-group mtrx-input-icon--right px-1 py-2 bg-white sticky-top">
+			<input class="form-control"
+				   id="filter_Fm11_Ctrl2217_LB"
+				   name="filter_Fm11_Ctrl2217_LB"
+				   type="text"
+				   value=""
+				   placeholder="Filter"
+				   autocomplete="off"
+				   data-mtrx-filter-for="mtrxCheckboxListModal"
+				   data-mtrx-input-clear="true">
+			<span class="input-group-text" id="clearAlt_filter_Fm11_Ctrl2217_LB">
+				<i class="fas fa-filter"></i>
+			</span>
+			<span class="input-group-text" id="clearFor_filter_Fm11_Ctrl2217_LB" onclick="mtrxInputClear.Clear('filter_Fm11_Ctrl2217_LB')">
+				<i class="fas fa-times"></i>
+			</span>
+		</div>
+	
+	
+		<div class="py-1 px-2 mtrx-invert-onHover mtrx-is-clickable" data-mtrx-filter="select all">
+			<div class="form-check">
+				<input class="form-check-input"
+					   type="checkbox"
+					   value="SelectAll_Fm11_Ctrl2217_LB"
+					   id="SelectAll_Fm11_Ctrl2217_LB"
+					   data-mtrx-item-text="Select All"
+					   onchange="mtrxCheckboxListAsModal.SelectAllChange(this.checked);">
+				<label class="form-check-label d-block" for="SelectAll_Fm11_Ctrl2217_LB">
+					Select All
+				</label>
+			</div>
+		</div>
+	
+	
+		<div class="py-1 px-2 mtrx-invert-onHover" data-mtrx-filter="{descriptionLower}">
+			<div class="form-check">
+				<input class="form-check-input" type="checkbox" value="{id}" id="{id}"
+					   data-mtrx-item-text="{description}"
+					   onchange="mtrxCheckboxListAsModal.SelectChange('Fm11_Ctrl2217_LB');" checked="checked">
+				<label class="form-check-label d-block" for="{id}">
+					{description}
+				</label>
+			</div>
+		</div>
+	
+	
+		<div class="py-1 px-2 fst-italic text-gray d-none" data-mtrx-filter-noresults>
+			<p>No results found</p>
+		</div>
+	
+	
+		var listboxInfo = {
+			ID: 'Fm11_Ctrl2217_LB',
+			label: 'Street Type',
+			isSingleSelect: true,
+			items: ['9212','Alley','9213','Avenue','42163','Bend','9214','Boulevard','37237','Canyon','9215','Circle','9216','Court','9217','Cove','42393','Crest','9218','Drive','37239','Estates','9219','Grove','9220','Heights','9221','Highway','37236','Hollow','37238','Landing','9222','Lane','9223','Loop','32807','Not Applicable','40305','Overlook','33749','Park','9224','Parkway','37240','Pass','9225','Path','9226','Place','9227','Plaza','9228','Point','37235','Ridge','9229','Road','37234','Run','9230','Square','9231','Street','9232','Terrace','33828','Trace','9233','Trail','42321','Trailway','9234','View','40810','Village','37241','Vista','9235','Way']
+		};
+		mtrxCheckboxListAsModal.AddControl(listboxInfo);
+	$(function () {
+		mtrxCheckboxListAsModal.AddBadgePlaceHolder('Fm11_Ctrl2217_LB', 'ListBox');
+	});
+	
+
+
+	
+	
+		
+			Unit #
+		
+		
+		
+		
+			Required field not entered
+		
+		
+			<span class="badge bg-secondary mtrx-header-badge-item text-dark text-wrap text-start mb-1 me-1">
+				<span id="badge_Fm11_Ctrl24_TextBox" role="button" onclick="{focus}" class="me-1">
+					{label}
+				</span>
+				<a class="ms-1 CursorHand" href="#" onclick="event.preventDefault(); {trigger}" aria-label="{label} Selected, Remove">
+					<i class="fas fa-times"></i>
+				</a>
+			</span>
+		
+	
+	
+		$(function () {
+			SearchJs.AddBadgePlaceHolder('Fm11_Ctrl24_TextBox', 'Unit #');
+		});
+	
+
+
+	
+	
+
+		
+		
+			
+				
+					Actives Only
+				
+			
+			
+			
+		
+		
+		
+		
+			
+			
+				Select
+			
+
+			
+			
+				Required option not selected
+			
+		
+		
+		
+			
+			
+				+ -3
+				Show Less
+			
+		
+
+	
+	
+		<span class="badge bg-primary text-white text-wrap text-start mb-1 me-1" id="badge_{id}_Fm11_Ctrl3553_LB">
+			{label}
+			<a class="ms-3 text-white" href="#" role="button" onclick="event.preventDefault(); mtrxCheckboxListAsModal.RemoveItem('Fm11_Ctrl3553_LB', '{id}'); $('#Fm11_Ctrl3553_LB').trigger('mtrx.formchanged');" aria-label="{label} Selected, Remove">
+				<i class="fas fa-times"></i>
+			</a>
+		</span>
+	
+	
+		<span class="badge bg-secondary mtrx-header-badge-item text-dark text-wrap text-start mb-1 me-1">
+			<span id="Headerbadge_{id}_Fm11_Ctrl3553_LB" role="button" onclick="{focus}" class="me-1">
+				{label}
+			</span>
+			<a class="ms-1 CursorHand" href="#" onclick="event.preventDefault(); mtrxCheckboxListAsModal.RemoveItem('Fm11_Ctrl3553_LB', '{id}'); $('#Fm11_Ctrl3553_LB').trigger('mtrx.formchanged');" aria-label="{label} Selected, Remove">
+				<i class="fas fa-times"></i>
+			</a>
+		</span>
+	
+	
+		<div class="input-group mtrx-input-icon--right px-1 py-2 bg-white sticky-top">
+			<input class="form-control"
+				   id="filter_Fm11_Ctrl3553_LB"
+				   name="filter_Fm11_Ctrl3553_LB"
+				   type="text"
+				   value=""
+				   placeholder="Filter"
+				   autocomplete="off"
+				   data-mtrx-filter-for="mtrxCheckboxListModal"
+				   data-mtrx-input-clear="true">
+			<span class="input-group-text" id="clearAlt_filter_Fm11_Ctrl3553_LB">
+				<i class="fas fa-filter"></i>
+			</span>
+			<span class="input-group-text" id="clearFor_filter_Fm11_Ctrl3553_LB" onclick="mtrxInputClear.Clear('filter_Fm11_Ctrl3553_LB')">
+				<i class="fas fa-times"></i>
+			</span>
+		</div>
+	
+	
+		<div class="py-1 px-2 mtrx-invert-onHover mtrx-is-clickable" data-mtrx-filter="select all">
+			<div class="form-check">
+				<input class="form-check-input"
+					   type="checkbox"
+					   value="SelectAll_Fm11_Ctrl3553_LB"
+					   id="SelectAll_Fm11_Ctrl3553_LB"
+					   data-mtrx-item-text="Select All"
+					   onchange="mtrxCheckboxListAsModal.SelectAllChange(this.checked);">
+				<label class="form-check-label d-block" for="SelectAll_Fm11_Ctrl3553_LB">
+					Select All
+				</label>
+			</div>
+		</div>
+	
+	
+		<div class="py-1 px-2 mtrx-invert-onHover" data-mtrx-filter="{descriptionLower}">
+			<div class="form-check">
+				<input class="form-check-input" type="checkbox" value="{id}" id="{id}"
+					   data-mtrx-item-text="{description}"
+					   onchange="mtrxCheckboxListAsModal.SelectChange('Fm11_Ctrl3553_LB');" checked="checked">
+				<label class="form-check-label d-block" for="{id}">
+					{description}
+				</label>
+			</div>
+		</div>
+	
+	
+		<div class="py-1 px-2 fst-italic text-gray d-none" data-mtrx-filter-noresults>
+			<p>No results found</p>
+		</div>
+	
+	
+		var listboxInfo = {
+			ID: 'Fm11_Ctrl3553_LB',
+			label: 'Actives Only',
+			isSingleSelect: false,
+			items: ['101','Active']
+		};
+		mtrxCheckboxListAsModal.AddControl(listboxInfo);
+	$(function () {
+		mtrxCheckboxListAsModal.AddBadgePlaceHolder('Fm11_Ctrl3553_LB', 'ListBox');
+	});
+	
+
+	
+
+	
+		
+			
+				Current Price
+			
+
+		
+		
+			
+				in thousands
+		
+	
+	
+	
+		
+			
+			
+				,000
+			
+		
+		
+			
+			
+				,000
+			
+		
+	
+	
+	Required field not entered
+	End of range is less than start of range
+	Number is too large or small
+	Number is required
+	
+		<span class="badge bg-secondary mtrx-header-badge-item text-dark text-wrap text-start mb-1 me-1">
+			<span id="badge_Fm11_Ctrl8_TB" role="button" onclick="{focus}" class="me-1">
+				{label}
+			</span>
+			<a class="ms-1 CursorHand" href="#" onclick="event.preventDefault(); {trigger}" aria-label="{label} Selected, Remove">
+				<i class="fas fa-times"></i>
+			</a>
+		</span>
+	
+
+
+		$(function () {
+			mtrxNumericMinMaxTextbox.AddBadges('Fm11_Ctrl8_TB', 'Fm11_Ctrl8_SF');
+		});
+
+
+
+	
+	
+		
+			
+				Total Bedrooms
+			
+					
+		
+		
+			
+			
+			
+		
+		
+		Required field not entered
+		End of range is less than start of range
+		Number is too large or small
+		Number is required
+		
+			<span class="badge bg-secondary mtrx-header-badge-item text-dark text-wrap text-start mb-1 me-1">
+				<span id="badge_Fm11_Ctrl3815_TB" role="button" onclick="{focus}" class="me-1">
+					{label}
+				</span>
+				<a class="ms-1 CursorHand" href="#" role="button" onclick="event.preventDefault(); {trigger}" aria-label="{label} Selected, Remove">
+					<i class="fas fa-times"></i>
+				</a>
+			</span>
+		
+	
+	
+		$(function () {
+			mtrxNumericMinMaxTextbox.AddBadges('Fm11_Ctrl3815_TB');
+		});
+	
+
+
+	
+	
+		
+			
+				Total Bath
+			
+					
+		
+		
+			
+			
+			
+		
+		
+		Required field not entered
+		End of range is less than start of range
+		Number is too large or small
+		Number is required
+		
+			<span class="badge bg-secondary mtrx-header-badge-item text-dark text-wrap text-start mb-1 me-1">
+				<span id="badge_Fm11_Ctrl3816_TB" role="button" onclick="{focus}" class="me-1">
+					{label}
+				</span>
+				<a class="ms-1 CursorHand" href="#" role="button" onclick="event.preventDefault(); {trigger}" aria-label="{label} Selected, Remove">
+					<i class="fas fa-times"></i>
+				</a>
+			</span>
+		
+	
+	
+		$(function () {
+			mtrxNumericMinMaxTextbox.AddBadges('Fm11_Ctrl3816_TB');
+		});
+	
+
+
+	
+	
+		
+			
+				Garage Spaces
+			
+					
+		
+		
+			
+			
+			
+		
+		
+		Required field not entered
+		End of range is less than start of range
+		Number is too large or small
+		Number is required
+		
+			<span class="badge bg-secondary mtrx-header-badge-item text-dark text-wrap text-start mb-1 me-1">
+				<span id="badge_Fm11_Ctrl3817_TB" role="button" onclick="{focus}" class="me-1">
+					{label}
+				</span>
+				<a class="ms-1 CursorHand" href="#" role="button" onclick="event.preventDefault(); {trigger}" aria-label="{label} Selected, Remove">
+					<i class="fas fa-times"></i>
+				</a>
+			</span>
+		
+	
+	
+		$(function () {
+			mtrxNumericMinMaxTextbox.AddBadges('Fm11_Ctrl3817_TB');
+		});
+	
+
+
+
+	/* Matt - Please help to place it at appropriate location */
+	.mapSearchDistance {
+		/*position: absolute;
+		top: 0px;
+		left: 54px;*/
+		width: 56px;
+		/*height: 17px;*/
+	}
+
+	.mapSearchSelect {
+		/*position: absolute;
+		top: 0px;
+		left: 103px;*/
+		width: 24.5px;
+		/*height: 17px;
+		line-height: 20px;
+		margin: 0;
+		padding: 0;*/
+	}
+
+	/*.mapSearchDistanceUnit {
+		position: absolute;
+		top: 3px;
+		left: 129px;
+	}
+
+	.mapSearchSubjectProperty {
+		position: relative;
+		top: 1px;
+		left: 122px;
+	}
+
+	.tbxMapSearch {
+		position: absolute;
+		top: 0px;
+		left: 175px;
+		width: 130px;
+		background-color: #ffffff;
+	}
+
+	.mapSearchLoc {
+		white-space: nowrap;
+		position: absolute;
+		top: 0px;
+		left: 310px;
+	}
+
+	.MapSearchStatus {
+		font-size: 14px;
+		font-style: italic;
+		color: Black;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	div.mapSearchDialog {
+		position: relative;
+		z-index: 55;
+	}*/
+
+	ul.disambiguation {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		background: #fff;
+		border: solid 1px #888;
+	}
+
+		ul.disambiguation li {
+			margin: 0 0.2em;
+			line-height: 15px;
+		}
+
+	.icon {
+		padding-right: 11px;
+		width: 16px;
+		height: 16px;
+		font-size: 10pt;
+		background-repeat: no-repeat;
+		text-decoration: none;
+		box-sizing: content-box;
+	}
+	.icon_spinner {
+		background-image: url(/matrix/images/icons/ajax-loading.gif);
+	}
+	.icon_alert {
+		background-image: url(/matrix/images/icons/alert.png);
+	}
+
+
+	
+	
+		
+			Map Search:
+		
+		
+			No Map Selected
+		
+		
+			
+				Clear Map
+			
+		
+	
+		
+				
+						 
+						 
+					 
+					Within 
+						
+						
+						
+									0.25
+									0.5
+									1
+									2
+									3
+									5
+									10
+									25
+
+						
+						  miles of 
+							
+							
+								
+									My Location
+								
+							
+							
+								<ul class="disambiguation">
+									<li>Your exact location could not be determined.</li>
+									<li><a class="go" href="#">Use approximate location</a></li>
+									<li><a class="cancel" href="#">Cancel</a></li>
+								</ul>
+							
+							
+								<ul class="disambiguation">
+									<li>Did you mean:</li>
+								</ul>
+							
+
+				
+
+		
+
+
+
+	var url = "https://maps.googleapis.com/maps/api/js?v=3.51&client=gme-corelogicsolutions&channel=Matrix-PPAR&libraries=drawing,places,geometry&language=en-US";
+	if (!$("script[src='" + url + "']").length) {
+		$('head').append("<script type='text/javascript' src='" + url + "'><\/script>");
+	}
+
+		
+		
+
+		
+		
+			
+				Search
+			
+		
+
+
+
+	var mtrxMiniSearchWidget = (function () {
+		return {
+			OnFormKeyPress: function (event) {
+				if (event.key === 'Enter' && !event.shiftKey) {
+					$(event.target).trigger("blur");
+					setTimeout(() => $('#frmWidgetMiniSearch').submit());
+					return false;
+				}
+			}
+		}
+	})();
+
+
+								
+								
+									
+	
+		
+			
+				
+			
+			My Favorite Searches
+		
+
+		
+				
+					
+				
+			
+
+
+	
+	
+		
+			
+		
+	
+	
+		
+			
+				Collapse
+			
+		
+		
+			
+				Expand
+			
+		
+		
+			
+				Hide
+			
+		
+	
+
+
+		
+
+	
+		
+				
+						
+							
+								
+									518 W Brookside Comps
+								
+							
+							
+								
+									Manage
+								
+							
+						
+						
+							
+								
+									Airbnb Potential Mtn Towns
+								
+							
+							
+								
+									Manage
+								
+							
+						
+						
+							
+								
+									Airbnb Potential Mtn Towns
+								
+							
+							
+								
+									Manage
+								
+							
+						
+						
+							
+								
+									Colorado College College Rentals
+								
+							
+							
+								
+									Manage
+								
+							
+						
+						
+							
+								
+									Colorado College Potential 2
+								
+							
+							
+								
+									Manage
+								
+							
+						
+						
+							
+								
+									Colorado Springs Potential - Mithun
+								
+							
+							
+								
+									Manage
+								
+							
+						
+						
+							
+								
+									Grant Williams Potential Houses
+								
+							
+							
+								
+									Manage
+								
+							
+						
+						
+							
+								
+									House Hack - Keyword "Bonus Room"
+								
+							
+							
+								
+									Manage
+								
+							
+						
+						
+							
+								
+									House Hack - Keyword "income"
+								
+							
+							
+								
+									Manage
+								
+							
+						
+						
+							
+								
+									House Hack - Keyword "in-law"
+								
+							
+							
+								
+									Manage
+								
+							
+						
+						
+							
+								
+									Income Properties in COS
+								
+							
+							
+								
+									Manage
+								
+							
+						
+						
+							
+								
+									Jennifer and Ryan Homes
+								
+							
+							
+								
+									Manage
+								
+							
+						
+						
+							
+								
+									Land Investment Property Potential
+								
+							
+							
+								
+									Manage
+								
+							
+						
+						
+							
+								
+									Minimum Criteria
+								
+							
+							
+								
+									Manage
+								
+							
+						
+						
+							
+								
+									Ryan - Airbnb Zoning that Works
+								
+							
+							
+								
+									Manage
+								
+							
+						
+						
+							
+								
+									Ryan - investing SFU with good zoning
+								
+							
+							
+								
+									Manage
+								
+							
+						
+						
+							
+								
+									Ryan - Unincorporated Income Properties
+								
+							
+							
+								
+									Manage
+								
+							
+						
+						
+							
+								
+									UCCS Investment Potential
+								
+							
+							
+								
+									Manage
+								
+							
+						
+				
+		
+
+
+
+	//********************************************************************************
+	//	Hot Searches (My Favorite Searches)
+	//
+	//	Function for refreshing Hot Searches.
+	//********************************************************************************
+	var mtrxHotSearchesWidget = (function () {
+		//****************************************************************************
+		//	Update all Hot searches.
+		function refresh() {
+			$.ajax({
+				type: 'POST',
+				url: '/Matrix/Widgets/HotSearches/UpdateAll',
+				beforeSend: mtrxLoading.Show('widgetFavoriteSearches'),
+				success: function (data, status, xhr) {
+					mtrxLoading.Hide('widgetFavoriteSearches');
+					$('#widgetFavoriteSearches').replaceWith($.parseHTML(data)[0]);
+					mtrxWidgets.HandleDragDropSetup($('#widgetFavoriteSearches').find(".mtrx-card-header-dragdrop-icon"));
+				},
+				error: mtrxForm.Failure
+			});
+		}
+		//****************************************************************************
+		//	Public.
+		return {
+			Refresh: refresh
+		};
+	})();
+
+
+								
+								
+									
+
+	
+		
+			
+				
+			
+			Market Watch
+		
+		
+		
+			
+				
+			
+
+
+			
+
+
+	
+	
+		
+			
+		
+	
+	
+		
+			
+				Collapse
+			
+		
+		
+			
+				Expand
+			
+		
+		
+			
+				Hide
+			
+		
+	
+
+
+		
+	
+
+		
+
+				
+						
+								
+									New Listing
+								
+							
+								
+									
+									
+								
+								
+									131
+								
+							
+						
+						
+								
+									Price Increase
+								
+							
+								
+									
+									
+								
+								
+									11
+								
+							
+						
+						
+								
+									Price Decrease
+								
+							
+								
+									
+									
+								
+								
+									78
+								
+							
+						
+						
+								
+									Back On Market
+								
+							
+								
+									
+									
+								
+								
+									8
+								
+							
+						
+						
+								
+									Act 1st Rgt - Showing
+								
+							
+								
+									
+									
+								
+								
+									1
+								
+							
+						
+						
+								
+									Under Contract - Showing
+								
+							
+								
+									
+									
+								
+								
+									32
+								
+							
+						
+						
+								
+									UC Short Sale - Showing
+								
+							
+								
+									
+									
+								
+								
+									3
+								
+							
+						
+						
+								
+									Withdrawn
+								
+							
+								
+									
+									
+								
+								
+									3
+								
+							
+						
+						
+								
+									Pending
+								
+							
+								
+									
+									
+								
+								
+									22
+								
+							
+						
+						
+								
+									Sold
+								
+							
+								
+									
+									
+								
+								
+									72
+								
+							
+						
+						
+								
+									Coming Soon
+								
+							
+								
+									
+									
+								
+								
+									7
+								
+							
+						
+						
+								
+									Leased
+								
+							
+								
+									
+									
+								
+								
+									0
+								
+							
+						
+						
+								
+									Cancelled
+								
+							
+								
+									
+									
+								
+								
+									6
+								
+							
+						
+						
+								
+									Expired
+								
+							
+								
+									
+									
+								
+								
+									2
+								
+							
+						
+				
+
+		
+		
+			
+				
+					
+					Property Type
+					Residential
+Income
+Land
+Farm
+Commercial
+Business
+Rental
+Cross Property
+
+				
+				
+					Timeframe
+					24 Hour
+Today
+3 Day
+7 Day
+
+				
+			
+		
+
+
+	//********************************************************************************
+	//	Market Watch
+	//
+	//	Functions for reloading Market Watch List and resetting selected Market Watch.
+	//********************************************************************************
+	var mtrxMarketWatchWidget = (function () {
+		var htmlFieldPrefix = 'widgetMarketWatch_';
+
+		//****************************************************************************
+		//	Get Market Watch list as per the options selected by user.
+		function reloadList(ignoreCache) {
+			var dataToSend = {
+				marketWatchId: $("#" + htmlFieldPrefix + "SelectedMarketWatchID").val(),
+				periodId: $("#" + htmlFieldPrefix + "SelectedPeriod_ID").val(),
+				ignoreCache: ignoreCache,
+				__RequestVerificationToken: $("[name='__RequestVerificationToken']").val()
+			};
+
+			mtrxLoading.Show("widgetMarketWatch");
+			$.ajax({
+				url: '/Matrix/Widgets/MarketWatch/GetMarketWatchList',
+				type: 'POST',
+				data: dataToSend,
+				success: (function (result) {
+					mtrxLoading.Hide("widgetMarketWatch");
+					$("#widgetMarketWatch").html(result.partial);
+					mtrxWidgets.HandleDragDropSetup($('#widgetMarketWatch').find(".mtrx-card-header-dragdrop-icon"));
+				})
+			});
+		}
+
+		//****************************************************************************
+		//	Reset selected Market Watch.
+		function reset() {
+			var dataToSend = {
+				marketWatchId: $("#" + htmlFieldPrefix + "SelectedMarketWatchID").val(),
+				__RequestVerificationToken: $("[name='__RequestVerificationToken']").val()
+			};
+
+			mtrxLoading.Show("widgetMarketWatch");
+			$.ajax({
+				url: '/Matrix/Widgets/MarketWatch/Reset',
+				type: 'POST',
+				data: dataToSend,
+				success: (function (result) {
+					mtrxLoading.Hide("widgetMarketWatch");
+					$("#widgetMarketWatch").html(result.partial);
+					mtrxWidgets.HandleDragDropSetup($('#widgetMarketWatch').find(".mtrx-card-header-dragdrop-icon"));
+				})
+			});
+		}
+		//****************************************************************************
+		//	Public.
+		return {
+			ReloadList: reloadList,
+			Reset: reset
+		};
+	})();
+
+
+								
+								
+									
+	//********************************************************************************
+	//	Portal Visitors
+	//
+	//	Function to open Portal URL in different window.
+	//********************************************************************************
+	var mtrxPortalVisitorsWidget = (function () {
+		var OpenWindow_Wins = {};
+		function openWindow(strURL, strTarget, strFeatures) {
+			var w = OpenWindow_Wins[strTarget];
+			if (w && !w.closed) {
+				w.close();
+				OpenWindow_Wins[strTarget] = null;
+			}
+			w = window.open(strURL, strTarget, strFeatures);
+			w.focus();
+			OpenWindow_Wins[strTarget] = w;
+		}
+		//****************************************************************************
+		//	Public.
+		return {
+			OpenWindow: openWindow
+		};
+	})();
+
+
+
+	
+		
+			
+				
+			
+			
+Recent OneHome Visitors			
+		
+		
+
+
+	
+	
+		
+			
+		
+	
+	
+		
+			
+				Collapse
+			
+		
+		
+			
+				Expand
+			
+		
+		
+			
+				Hide
+			
+		
+	
+
+
+	
+		
+
+				
+						
+							
+								
+									Lugayao, Bobby
+								
+							
+							
+								4:56 PM
+
+																															
+						
+						
+							
+								
+									Hodge, John
+								
+							
+							
+								7:16 AM
+
+																															
+						
+				
+		
+
+
+
+								
+								
+									
+	
+		
+			
+				
+			
+			My Stats
+		
+		
+
+
+	
+	
+		
+			
+		
+	
+	
+		
+			
+				Collapse
+			
+		
+		
+			
+				Expand
+			
+		
+		
+			
+				Hide
+			
+		
+	
+
+
+	
+		
+				
+					
+					You have no stats links
+				
+
+		
+
+
+								
+								
+									
+	
+		
+			
+				
+			
+			Recent Use Contacts
+		
+		
+
+
+	
+	
+		
+			
+		
+	
+	
+		
+			
+				Collapse
+			
+		
+		
+			
+				Expand
+			
+		
+		
+			
+				Hide
+			
+		
+	
+
+
+	
+		
+				
+						
+							
+								Thomson, Ryan
+							
+						
+				
+		
+
+
+								
+								
+									
+	
+		
+			
+				
+			
+			Contact Requests
+		
+		
+
+
+	
+	
+		
+			
+		
+	
+	
+		
+			
+				Collapse
+			
+		
+		
+			
+				Expand
+			
+		
+		
+			
+				Hide
+			
+		
+	
+
+
+	
+		
+				
+					
+					You have no contact requests.
+				
+		
+		
+		
+
+
+								
+								
+									
+	
+		
+			
+				
+			
+			External Links
+		
+		
+
+
+	
+	
+		
+			
+		
+	
+	
+		
+			
+				Collapse
+			
+		
+		
+			
+				Expand
+			
+		
+		
+			
+				Hide
+			
+		
+	
+
+
+	
+		
+
+				
+						
+							
+								Member Portal
+							
+						
+						
+							
+								MLS FAQs
+							
+						
+						
+							
+								OneHome
+							
+						
+						
+							
+								SentriLock
+							
+						
+						
+							
+								Key Subscriber Search
+							
+						
+						
+							
+								RPR-Realtor Property Resource
+							
+						
+						
+							
+								ShowingTime
+							
+						
+						
+							
+								Property Panorama
+							
+						
+				
+
+		
+
+
+								
+					
+				
+				
+
+
+	
+		
+			
+		
+		
+			©2026 Pikes Peak REALTOR® Services Corp. All rights reserved. Information herein deemed reliable but not guaranteed.
+			
+				Matrix v12.7. Copyright © 2026 Cotality. All rights reserved. Terms of Use.
+			
+		
+		
+			
+				
+			
+		
+	
+	
+
+
+
+
+			
+		
+	
+
+
+
+	
+		$(function () {
+			if(typeof mtrxNewsWidget !== 'undefined') {
+				mtrxNewsWidget.ShowModalFirstTime();
+			}
+		});
+	
+
+
+
+
+	$(function()
+	{
+		const options = {
+			placeholderML: "Replace an existing widget or place here at the end."
+		};
+		mtrxWidgets.Init(options);
+	});
+
+
+
+
+
+
+
+
+	
+	
+
+	
+	
+			function handleHelp(mlid, helpUrl) {
+				var data = {
+					mlid: mlid
+				};
+				if (helpUrl) {
+					data.helpUrl = helpUrl;
+				}
+				$('#mtrxHelpModal').load('/Matrix/r/Help', data, function () {
+					$('#mtrxHelpModal').modal('show');
+				});
+			}
+
+			// .mtrx-section--isCollapsible	adds arrow icon, clicking that arrow should trigger the link if there is one.
+			$('.mtrx-is-collapsible:has(a)').on('click', function (e)
+			{
+				var link = $(e.target).children('a');
+
+				if (link.length == 1)
+				{
+					link.click();
+				}
+			});
+	
+	
+
+

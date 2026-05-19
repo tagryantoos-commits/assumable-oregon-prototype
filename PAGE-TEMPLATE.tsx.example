@@ -1,0 +1,48 @@
+/**
+ * PAGE TEMPLATE — Copy this file when creating a new static page.
+ * Replace all placeholders marked with [BRACKETS].
+ * Delete this comment block when done.
+ *
+ * Checklist before merging:
+ * ✅ Title includes primary keyword + "The Assumable Guy"
+ * ✅ Description is 150-160 chars with keyword
+ * ✅ Canonical URL matches the actual page path
+ * ✅ OG title/description filled in
+ * ✅ Page added to app/sitemap.ts staticPages array
+ */
+
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: '[Page Title] | The Assumable Guy',
+  description: '[150-160 char description with primary keyword. Be specific and useful.]',
+  alternates: {
+    canonical: 'https://assumableguy.com/[page-slug]',
+  },
+  openGraph: {
+    title: '[Page Title] | The Assumable Guy',
+    description: '[Social sharing description — can be shorter than meta description]',
+    type: 'website',
+    url: 'https://assumableguy.com/[page-slug]',
+    images: [{
+      url: 'https://assumableguy.com/images/ryan-headshot.png',
+      width: 1200,
+      height: 630,
+      alt: '[Descriptive alt text]',
+    }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '[Page Title]',
+    description: '[Twitter description]',
+    images: ['https://assumableguy.com/images/ryan-headshot.png'],
+  },
+};
+
+export default function [PageName]Page() {
+  return (
+    <div>
+      {/* Page content here */}
+    </div>
+  );
+}

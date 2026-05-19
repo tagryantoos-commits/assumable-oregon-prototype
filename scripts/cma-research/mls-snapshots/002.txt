@@ -1,0 +1,315 @@
+
+    
+
+
+
+
+
+
+
+
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+
+
+
+
+
+var MLSURL = 'https://connectmedia.rapmls.com/loginImages/cosp/'var strAppName = 'cosp'
+
+
+
+
+
+
+
+
+
+var strMediaURL = 'https://connectmedia.rapmls.com/';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var rmesErrorText = 'ctl00_rmesErrorText_divMessage';
+
+
+
+
+
+
+
+
+
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+
+
+
+
+	
+	
+
+         
+        
+        
+            
+            
+                
+                       
+                        
+Pikes Peak Association of REALTORS®           
+                        
+		
+    
+Pikes Peak Association of REALTORS®
+
+
+ 
+
+                    
+                    
+                        
+                
+                                                                
+                        
+                            
+    
+    
+        
+	
+    
+		
+			
+        
+
+  
+         
+
+            
+    Caps Lock is on
+    Having Caps Lock on may cause you to enter your password incorrectly.
+        
+            
+                Agent ID
+                Invalid text. Scripts are not permitted in this field.                
+            
+            
+            
+                Password
+                Invalid text. Scripts are not permitted in this field.  
+            
+            
+            
+                
+                                   
+                     
+
+            
+                            
+              
+            
+                
+            
+        
+		
+	
+    
+        
+            Forgot your password?
+            
+            
+            
+        
+        
+
+
+
+    console.log("normal");
+    document.addEventListener('DOMContentLoaded', function () {
+        console.log("DOMContentLoaded in SSOLOGIN updated");
+    var userInput = document.getElementById('ctl00_cphBody_SSOLogin1_Login1_UserName');
+    var expected = '';
+        console.log("userInput", userInput);
+        console.log("expected", expected);
+        console.log("userInput value", userInput.value);
+    if (userInput && expected && userInput.value !== expected) {
+      userInput.value = expected;
+    }
+  });
+
+        
+    
+        
+            
+            Where do I enter my Password?        
+        
+    
+    
+        We have enhanced the logon system to better safeguard the privacy and security of your personal information.  Here is how to use this new system:
+        Enter your Agent ID in the field above and click the Submit button.If you are logging on from an unrecognized computer, you will be asked to provide the answers to the Security Questions which you chose when you enrolled.On the next page, your Security Image will be displayed. If you recognize your Security Image, you'll know you can safely enter your Password. If you have not selected your personalized Security Image, you will be prompted to do so before you can log on.
+        
+                
+    
+
+
+    
+    
+ 
+                            
+                    
+                
+                            
+
+            
+                           
+                
+                    Copyright © 2025 Rapattoni Corporation. All rights reserved.
+                    
+                
+                    Help
+                      
+                    
+            
+            
+                function HideMasterPageError() {
+                    var control = document.getElementById(rmesErrorText);
+                    if (control) {
+                        control.style.visibility = "hidden";
+                    }
+                }
+
+                $('input:submit').click(function () {
+                    $input = $(this).clone().val('Processing ...').attr('disabled', 'disabled');
+                    $(this).hide().after($input);
+                });
+
+            
+            
+         
+            
+
+              
+       
+    
+
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("ctl00_cphBody_SSOLogin1_Login1_ctl01"), document.getElementById("ctl00_cphBody_SSOLogin1_Login1_ctl02"));
+//]]>
+
+
+
+//<![CDATA[
+var ctl00_cphBody_SSOLogin1_Login1_ctl01 = document.all ? document.all["ctl00_cphBody_SSOLogin1_Login1_ctl01"] : document.getElementById("ctl00_cphBody_SSOLogin1_Login1_ctl01");
+ctl00_cphBody_SSOLogin1_Login1_ctl01.controltovalidate = "ctl00_cphBody_SSOLogin1_Login1_UserName";
+ctl00_cphBody_SSOLogin1_Login1_ctl01.errormessage = "Invalid text. Scripts are not permitted in this field.";
+ctl00_cphBody_SSOLogin1_Login1_ctl01.display = "Dynamic";
+ctl00_cphBody_SSOLogin1_Login1_ctl01.evaluationfunction = "CustomValidatorEvaluateIsValid";
+ctl00_cphBody_SSOLogin1_Login1_ctl01.clientvalidationfunction = "ValidateInvalidText";
+var ctl00_cphBody_SSOLogin1_Login1_ctl02 = document.all ? document.all["ctl00_cphBody_SSOLogin1_Login1_ctl02"] : document.getElementById("ctl00_cphBody_SSOLogin1_Login1_ctl02");
+ctl00_cphBody_SSOLogin1_Login1_ctl02.controltovalidate = "ctl00_cphBody_SSOLogin1_Login1_Password";
+ctl00_cphBody_SSOLogin1_Login1_ctl02.errormessage = "Invalid text. Scripts are not permitted in this field.";
+ctl00_cphBody_SSOLogin1_Login1_ctl02.display = "Dynamic";
+ctl00_cphBody_SSOLogin1_Login1_ctl02.evaluationfunction = "CustomValidatorEvaluateIsValid";
+ctl00_cphBody_SSOLogin1_Login1_ctl02.clientvalidationfunction = "ValidateInvalidPasswordText";
+//]]>
+
+
+
+                            
+                            (function () {
+                              function getResolution() {
+                                // If you truly want *screen* resolution, use screen.width/height.
+                                // If you want *viewport*, keep innerWidth/innerHeight.
+                                var vw = window.innerWidth || document.documentElement.clientWidth || 0;
+                                var vh = window.innerHeight || document.documentElement.clientHeight || 0;
+                                return (vw && vh) ? (vw + 'x' + vh) : 'Unknown';
+                              }
+
+                              function setResolution() {
+                                try {
+                                  var res = getResolution();
+
+                                  // cookie (for next request)
+                                  document.cookie = 'ScreenResolution=' + encodeURIComponent(res) + '; path=/; samesite=lax';
+
+                                  // hidden field (for postback)
+                                  var form = document.querySelector('form');
+                                  if (!form) return;
+
+                                  var hf = document.getElementById('__ScreenResolution');
+                                  if (!hf) {
+                                    hf = document.createElement('input');
+                                    hf.type = 'hidden';
+                                    hf.id = '__ScreenResolution';
+                                    hf.name = '__ScreenResolution'; // IMPORTANT: match what server reads
+                                    form.appendChild(hf);
+                                  }
+                                  hf.value = res;
+                                } catch (e) { /* ignore */ }
+                              }
+
+                              // Run after DOM is ready (form exists)
+                              if (document.readyState === 'loading') {
+                                document.addEventListener('DOMContentLoaded', setResolution);
+                              } else {
+                                setResolution();
+                              }
+
+                              // Ensure it’s set right before any submit
+                              document.addEventListener('submit', function () { setResolution(); }, true);
+
+                              // Optional: keep it current
+                              window.addEventListener('resize', setResolution);
+                            })();
+                            
+
+
+
+
+
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        WebForm_AutoFocus('ctl00_cphBody_SSOLogin1_Login1_UserName');//]]>
+
+
+
+

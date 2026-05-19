@@ -1,0 +1,5781 @@
+
+
+
+
+
+
+
+
+
+
+
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+
+
+
+
+
+
+
+
+
+
+
+
+if (window.mtxAnalytics) {mtxAnalytics.init("3da8d56ab740ca12e1101ecfd9d90a54", {batch_requests:true, track_pageview:false});mtxAnalytics.reset();mtxAnalytics.register({appId:"Matrix", resID:"1000079", AgentID:"230024640", distinctID:"230024640", SecurityGroup:"AG - Subscriber/Agent"});}
+
+if(!window.modelVars_PendoAnalytics) {const modelVars_PendoAnalytics = {apiKey: "96b1a5b6-0f87-4ef4-5232-f19d131490f9",data: {"VisitorID":"24363 Ryan Thomson","VisitorData":{"UserID":"24363","FullName":"Ryan Thomson","Email":"Ryan@TheAssumableGuy.com","Group":"AG - Subscriber/Agent","DateActivated":"03/30/2021","WorkingAs":"Ryan Thomson","UILanguage":"English","UIMode":"Responsive","ActiveAutoEmails":"14","ActiveContacts":"166","AgentID":"230024640","OfficeID":"00001197","OfficeName":"Keller Williams Advantage Realty","RCSLBranding":"yes","ResAgentID":"1000079-24363"},"AccountID":"PPAR","AccountData":{"Version":"12.7.3.5","PreviousVersion":"12.7.2.5","Current-MajorVersion":"12","Current-MinorVersion":"7","Current-Patch":"3.5","Previous-MajorVersion":"12","Previous-MinorVersion":"7","Previous-Patch":"2.5","ResID":"1000079"}}};mtrxPendoAnalytics.Init(modelVars_PendoAnalytics);}
+
+
+
+
+
+
+//<![CDATA[
+ResultsJs.asyncPostUpdate('');
+//]]>
+
+
+
+
+//<![CDATA[
+var SpeedBarJsVars={ m_strSpeedBar:'ctl01_m_ucSpeedBar' };
+//]]>
+
+
+
+
+//<![CDATA[
+ResultsPageTabs.initialize('m_ucResultsPageTabs_m_hfState');
+//]]>
+
+
+
+
+//<![CDATA[
+MLClientLabel.registerOptions('m_lblMapSummary',{Default:
+function(extra, rec)
+{
+	var MEParam = typeof MatrixExpression !== 'undefined' ? MatrixExpression : null;
+	var recParam = rec !== undefined ? rec : null;
+	var result = function(rec,ME){return '<b>'+extra.visiblecount+'<\/b> of <b>'+extra.count+'<\/b>';}(recParam, MEParam);
+	return  result;
+}
+},'Default');
+MLClientLabel.registerOptions('m_lblCheckedCount',{Default:
+function(extra, rec)
+{
+	var MEParam = typeof MatrixExpression !== 'undefined' ? MatrixExpression : null;
+	var recParam = rec !== undefined ? rec : null;
+	var result = function(rec,ME){return 'Checked <strong>'+extra.checkeditems+'<\/strong>';}(recParam, MEParam);
+	return  result;
+}
+},'Default');
+//]]>
+
+
+
+
+//<![CDATA[
+typeof(LBX_Control)!='undefined'&&LBX_Control.removeControls();SearchJs.setDefaultColor('#ffffff');SearchJs.setRequiredColor('khaki');SearchJs.setDataEnteredColor('#d3e2f9');SearchJs.setLang(1);
+//]]>
+
+
+
+
+
+
+//<![CDATA[
+LBX_Control.addControl('Fm1_Ctrl249_LB',new LBX_Simple({ID:'Fm1_Ctrl249_LB',items:null}));
+LBX_Control.addControl('Fm1_Ctrl246_LB',new LBX_SubList({ID:'Fm1_Ctrl246_LB',items:['9115','5-Plex','9120','Apartment','9116','Apartments(6+ Units)','9101','Campground','9121','Condominium','9112','Duplex','9113','Fourplex','9102','Hotel','42244','Hotel\/Motel','9117','House and Cottage','9103','Industrial','9107','Mixed Use','9122','Mobile Home','9105','Mobile Home Park','9106','Motel','9119','Multi Family','9108','Office','9109','Other','9123','Patio Home','9110','Retail','9124','Single Family','9118','Single Family Home','9125','Townhouse','9126','Tri-Plex Unit','9114','Triplex','9104','Unimproved Land','9111','Warehouse\/Storage'],parentID:'Fm1_Ctrl249_LB',sublistShowAll:false,parentToChildren:{'151':'9121,9123,9124,9125','7525':'9112,9113,9114,9115,9116,9117,9118,9119','7526':'9104','7528':'9102,9103,9104,9105,9106,9107,9108,9109,9110,9111','7530':'9112,9113,9118,9120,9121,9122,9123,9125'}}));
+//]]>
+
+
+
+
+
+
+
+
+//<![CDATA[
+LBX_Control.addControl('Fm1_Ctrl242_LB',new LBX_TextBox({ID:'Fm1_Ctrl242_LB',items:null,USFCID:242,withPrefixCodes:false}));
+LBX_Control.addControl('Fm1_Ctrl243_LB',new LBX_TextBox({ID:'Fm1_Ctrl243_LB',items:null,USFCID:243,withPrefixCodes:false}));
+LBX_Control.addControl('Fm1_Ctrl414_LB',new LBX_TextBox({ID:'Fm1_Ctrl414_LB',items:null,USFCID:414,withPrefixCodes:false}));
+LBX_Control.addControl('Fm1_Ctrl245_LB',new LBX_TextBox({ID:'Fm1_Ctrl245_LB',items:null,USFCID:245,withPrefixCodes:false}));
+LBX_Control.addControl('Fm1_Ctrl723_LB',new LBX_Simple({ID:'Fm1_Ctrl723_LB',items:null}));
+MLClientLabel.registerOptions('m_ucSearchButtons_ctl01',{Default:
+function(extra, rec)
+{
+	var MEParam = typeof MatrixExpression !== 'undefined' ? MatrixExpression : null;
+	var recParam = rec !== undefined ? rec : null;
+	var result = function(rec,ME){return 'Clear';}(recParam, MEParam);
+	return  result;
+}
+},'Default');
+MLClientLabel.registerOptions('m_ucSearchButtons_m_clblCount',{Default:
+function(extra, rec)
+{
+	var MEParam = typeof MatrixExpression !== 'undefined' ? MatrixExpression : null;
+	var recParam = rec !== undefined ? rec : null;
+	var result = function(rec,ME){return extra.count+' matches';}(recParam, MEParam);
+	return  result;
+}
+},'Default');
+LBX_Control.addControl('Fm1_Ctrl688_LB',new LBX_Simple({ID:'Fm1_Ctrl688_LB',items:null}));
+LBX_Control.addControl('Fm1_Ctrl567_LB',new LBX_Simple({ID:'Fm1_Ctrl567_LB',items:null}));
+LBX_Control.addControl('Fm1_Ctrl553_LB',new LBX_Simple({ID:'Fm1_Ctrl553_LB',items:null}));
+//]]>
+
+.stickywrapper, FORM.stickyform{margin-bottom:-114px;} .stickypush{height:114px;}
+
+
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+
+
+
+									
+
+										
+										
+									
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47351304-1', 'mlsmatrix.com');
+  ga('send', 'pageview');
+
+ 
+
+
+
+	
+	if (typeof Object.assign != 'function') {
+	  Object.assign = function(target) {
+		'use strict';
+		if (target == null) {
+		  throw new TypeError('Cannot convert undefined or null to object');
+		}
+		target = Object(target);
+		for (var index = 1; index < arguments.length; index++) {
+		  var source = arguments[index];
+		  if (source != null) {
+			for (var key in source) {
+			  if (Object.prototype.hasOwnProperty.call(source, key)) {
+				target[key] = source[key];
+			  }
+			}
+		  }
+		}
+		return target;
+	  };
+	}
+	
+
+
+
+// ForeSee Production Embed Script v2.01
+// DO NOT MODIFY BELOW THIS LINE *****************************************
+;(function (g) {
+  var d = document, am = d.createElement('script'), h = d.head || d.getElementsByTagName("head")[0], fsr = 'fsReady',
+  aex = {
+    "src": "//gateway.foresee.com/sites/mlsmatrix/production/gateway.min.js",
+    "type": "text/javascript",
+    "async": "true",
+    "data-vendor": "fs",
+    "data-role": "gateway"
+  };
+  for (var attr in aex) { am.setAttribute(attr, aex[attr]); } h.appendChild(am); g[fsr] || (g[fsr] = function () { var aT = '__' + fsr + '_stk__'; g[aT] = g[aT] || []; g[aT].push(arguments); });
+})(window);
+// DO NOT MODIFY ABOVE THIS LINE *****************************************
+
+fsReady(function() {
+  FSR.CPPS.set('MLSSystem','PPAR'); 
+  FSR.run();
+});
+
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m_SessionTimeoutWarningDiv$m_up','','fctl01$m_ucSpeedBar$m_upSpeedbar','','tctl01$m_ucSpeedBar$m_ucrs$m_upMain','','fm_upDivPopups','','fm_upHeader','','tm_ucTitle$m_ucMarketWatch$m_upContent','','fm_upSubHeader','','fm_upSearch','','fm_upDisplayCore','','fm_upDisplay','','fm_upMap','','fm_upDisplayButtons','','fm_upResultsInfo',''], ['ctl01$m_ucSpeedBar$m_lnkGo',''], ['m_ucSearchFormAdditional','','m_lbOldStats','','m_lbNewStats',''], 90, '');
+//]]>
+
+
+
+
+
+	
+	
+			
+				
+					
+						
+							
+						
+						
+							Hello, Ryan
+							
+							
+						
+					
+					
+						
+							
+									
+										
+											My Matrix
+											
+												
+													
+														
+															My Matrix
+														
+													
+													
+															
+																
+																
+																	
+																		Dashboard
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Summary
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Contacts
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		My Listings
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Saved Searches
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		My CMAs
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Sent Email
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Auto Emails
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Reverse Prospect Email History
+																	
+																
+															
+														
+												
+											
+										
+										
+										
+									
+								
+									
+										
+											Search
+											
+												
+													
+														
+															Search
+														
+													
+													
+															
+																
+																
+																	
+																		Search(New!)
+																	
+																
+															
+														
+															
+																
+																	Residential
+																	
+																		
+																			
+																				Residential
+																			
+																			
+																					
+																						
+																							Resi Default Search
+																						
+																					
+																				
+																					
+																						
+																							MLS # Search
+																						
+																					
+																				
+																					
+																						
+																							Custom Search
+																						
+																					
+																				
+																		
+																	
+																
+																
+															
+														
+															
+																
+																
+																	
+																		Rental Beast
+																	
+																
+															
+														
+															
+																
+																	Income
+																	
+																		
+																			
+																				Income
+																			
+																			
+																					
+																						
+																							Income Default Search
+																						
+																					
+																				
+																					
+																						
+																							MLS # Search
+																						
+																					
+																				
+																					
+																						
+																							Custom Search
+																						
+																					
+																				
+																		
+																	
+																
+																
+															
+														
+															
+																
+																	Land
+																	
+																		
+																			
+																				Land
+																			
+																			
+																					
+																						
+																							Land Default Search
+																						
+																					
+																				
+																					
+																						
+																							MLS # Search
+																						
+																					
+																				
+																					
+																						
+																							Custom Search
+																						
+																					
+																				
+																		
+																	
+																
+																
+															
+														
+															
+																
+																	Farm
+																	
+																		
+																			
+																				Farm
+																			
+																			
+																					
+																						
+																							Farm Default Search
+																						
+																					
+																				
+																					
+																						
+																							MLS # Search
+																						
+																					
+																				
+																					
+																						
+																							Custom Search
+																						
+																					
+																				
+																		
+																	
+																
+																
+															
+														
+															
+																
+																	Commercial
+																	
+																		
+																			
+																				Commercial
+																			
+																			
+																					
+																						
+																							Comm Default Search
+																						
+																					
+																				
+																					
+																						
+																							MLS # Search
+																						
+																					
+																				
+																					
+																						
+																							Custom Search
+																						
+																					
+																				
+																		
+																	
+																
+																
+															
+														
+															
+																
+																	Business
+																	
+																		
+																			
+																				Business
+																			
+																			
+																					
+																						
+																							Business Default Search
+																						
+																					
+																				
+																					
+																						
+																							MLS # Search
+																						
+																					
+																				
+																					
+																						
+																							Custom Search
+																						
+																					
+																				
+																		
+																	
+																
+																
+															
+														
+															
+																
+																
+																	
+																		Built On Owners Lot
+																	
+																
+															
+														
+															
+																
+																	Rental
+																	
+																		
+																			
+																				Rental
+																			
+																			
+																					
+																						
+																							Rent Default Search
+																						
+																					
+																				
+																					
+																						
+																							MLS # Search
+																						
+																					
+																				
+																					
+																						
+																							Custom Search
+																						
+																					
+																				
+																		
+																	
+																
+																
+															
+														
+															
+																
+																	Cross Property
+																	
+																		
+																			
+																				Cross Property
+																			
+																			
+																					
+																						
+																							Default Search
+																						
+																					
+																				
+																					
+																						
+																							MLS # Search
+																						
+																					
+																				
+																					
+																						
+																							Custom Search
+																						
+																					
+																				
+																		
+																	
+																
+																
+															
+														
+															
+																
+																
+																	
+																		Default Search
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		MLS # Search
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Agent
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Open House
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		More...
+																	
+																
+															
+														
+												
+											
+										
+										
+										
+									
+								
+									
+										
+											Stats
+											
+												
+													
+														
+															Stats
+														
+													
+													
+															
+																
+																
+																	
+																		Residential
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Land
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Cross Property
+																	
+																
+															
+														
+												
+											
+										
+										
+										
+									
+								
+									
+										
+											Tax
+											
+												
+													
+														
+															Tax
+														
+													
+													
+															
+																
+																
+																	
+																		Public Record Search
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Realist Tax
+																	
+																
+															
+														
+												
+											
+										
+										
+										
+									
+								
+									
+										
+										
+											
+												Links
+											
+										
+										
+									
+								
+									
+										
+											Finance
+											
+												
+													
+														
+															Finance
+														
+													
+													
+															
+																
+																
+																	
+																		Seller's Estimated Net Proceeds
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Buyer's Closing Costs
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		New Calculators
+																	
+																
+															
+														
+												
+											
+										
+										
+										
+									
+								
+									
+										
+											Add/Edit
+											
+												
+													
+														
+															Add/Edit
+														
+													
+													
+															
+																
+																
+																	
+																		Add/Edit
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Add/Edit Rental
+																	
+																
+															
+														
+												
+											
+										
+										
+										
+									
+								
+									
+										
+										
+											
+												Market Reports
+											
+										
+										
+									
+								
+									
+										
+											Data Partners
+											
+												
+													
+														
+															Data Partners
+														
+													
+													
+															
+																
+																
+																	
+																		CANOPY MLS (NC)
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		First MLS (GA)
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		HMLSD - Heartland MLS (KS)
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Longleaf Pines MLS (Fayetteville) (DD) (NC)
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		Northwest MLS (WA)
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		OMNI (Mexico & South Amerca)
+																	
+																
+															
+														
+															
+																
+																
+																	
+																		WARDEX (Western Arizona)
+																	
+																
+															
+														
+												
+											
+										
+										
+										
+									
+								
+							
+							
+									
+										
+											
+												Settings
+											
+										
+									
+								
+									
+										
+											
+												Manage Branding
+											
+										
+									
+								
+									
+										
+											
+												Help
+											
+										
+									
+								
+									
+										
+											
+												Mobile
+											
+										
+									
+								
+							
+							
+								
+									
+										
+										Logout
+									
+								
+							
+						
+					
+				
+			
+		
+	
+		
+			
+				
+	
+				
+					
+						
+								
+									
+										My Matrix
+									
+									
+											
+												
+													Dashboard
+												
+												
+											
+										
+											
+												
+													Summary
+												
+												
+											
+										
+											
+												
+													Contacts
+												
+												
+											
+										
+											
+												
+													My Listings
+												
+												
+											
+										
+											
+												
+													Saved Searches
+												
+												
+											
+										
+											
+												
+													My CMAs
+												
+												
+											
+										
+											
+												
+													Sent Email
+												
+												
+											
+										
+											
+												
+													Auto Emails
+												
+												
+											
+										
+											
+												
+													Reverse Prospect Email History
+												
+												
+											
+										
+								
+								 
+							
+								
+									
+										Search
+									
+									
+											
+												
+													Search(New!)
+												
+												
+											
+										
+											
+												
+													Residential
+												
+												
+														
+															
+																
+																Resi Default Search
+															
+														
+													
+														
+															
+																
+																MLS # Search
+															
+														
+													
+														
+															
+																
+																Custom Search
+															
+														
+													
+											
+										
+											
+												
+													Rental Beast
+												
+												
+											
+										
+											
+												
+													Income
+												
+												
+														
+															
+																
+																Income Default Search
+															
+														
+													
+														
+															
+																
+																MLS # Search
+															
+														
+													
+														
+															
+																
+																Custom Search
+															
+														
+													
+											
+										
+											
+												
+													Land
+												
+												
+														
+															
+																
+																Land Default Search
+															
+														
+													
+														
+															
+																
+																MLS # Search
+															
+														
+													
+														
+															
+																
+																Custom Search
+															
+														
+													
+											
+										
+											
+												
+													Farm
+												
+												
+														
+															
+																
+																Farm Default Search
+															
+														
+													
+														
+															
+																
+																MLS # Search
+															
+														
+													
+														
+															
+																
+																Custom Search
+															
+														
+													
+											
+										
+											
+												
+													Commercial
+												
+												
+														
+															
+																
+																Comm Default Search
+															
+														
+													
+														
+															
+																
+																MLS # Search
+															
+														
+													
+														
+															
+																
+																Custom Search
+															
+														
+													
+											
+										
+											
+												
+													Business
+												
+												
+														
+															
+																
+																Business Default Search
+															
+														
+													
+														
+															
+																
+																MLS # Search
+															
+														
+													
+														
+															
+																
+																Custom Search
+															
+														
+													
+											
+										
+											
+												
+													Built On Owners Lot
+												
+												
+											
+										
+											
+												
+													Rental
+												
+												
+														
+															
+																
+																Rent Default Search
+															
+														
+													
+														
+															
+																
+																MLS # Search
+															
+														
+													
+														
+															
+																
+																Custom Search
+															
+														
+													
+											
+										
+											
+												
+													Cross Property
+												
+												
+														
+															
+																
+																Default Search
+															
+														
+													
+														
+															
+																
+																MLS # Search
+															
+														
+													
+														
+															
+																
+																Custom Search
+															
+														
+													
+											
+										
+											
+												
+													Default Search
+												
+												
+											
+										
+											
+												
+													MLS # Search
+												
+												
+											
+										
+											
+												
+													Agent
+												
+												
+											
+										
+											
+												
+													Open House
+												
+												
+											
+										
+											
+												
+													More...
+												
+												
+											
+										
+								
+								 
+							
+								
+									
+										Stats
+									
+									
+											
+												
+													Residential
+												
+												
+											
+										
+											
+												
+													Land
+												
+												
+											
+										
+											
+												
+													Cross Property
+												
+												
+											
+										
+								
+								 
+							
+								
+									
+										Tax
+									
+									
+											
+												
+													Public Record Search
+												
+												
+											
+										
+											
+												
+													Realist Tax
+												
+												
+											
+										
+								
+								 
+							
+								
+									
+										Links
+									
+									
+								
+								 
+							
+								
+									
+										Finance
+									
+									
+											
+												
+													Seller's Estimated Net Proceeds
+												
+												
+											
+										
+											
+												
+													Buyer's Closing Costs
+												
+												
+											
+										
+											
+												
+													New Calculators
+												
+												
+											
+										
+								
+								 
+							
+								
+									
+										Add/Edit
+									
+									
+											
+												
+													Add/Edit
+												
+												
+											
+										
+											
+												
+													Add/Edit Rental
+												
+												
+											
+										
+								
+								 
+							
+								
+									
+										Market Reports
+									
+									
+								
+								 
+							
+								
+									
+										Data Partners
+									
+									
+											
+												
+													CANOPY MLS (NC)
+												
+												
+											
+										
+											
+												
+													First MLS (GA)
+												
+												
+											
+										
+											
+												
+													HMLSD - Heartland MLS (KS)
+												
+												
+											
+										
+											
+												
+													Longleaf Pines MLS (Fayetteville) (DD) (NC)
+												
+												
+											
+										
+											
+												
+													Northwest MLS (WA)
+												
+												
+											
+										
+											
+												
+													OMNI (Mexico & South Amerca)
+												
+												
+											
+										
+											
+												
+													WARDEX (Western Arizona)
+												
+												
+											
+										
+								
+								
+							
+						
+							
+								More
+							
+							
+							
+						
+						
+					
+				
+	
+				
+					
+		
+			
+
+
+	$(function () {
+		$('#m_spnNotifications').tooltip();
+		$('#m_spnLogOutAs').tooltip();
+		$('#ctl01_ctl06_m_btnFontSize').tooltip();
+
+        const uiVersionSwitchForm = $('#mtrxUIVersionSwitchConfirmForm');
+		
+		uiVersionSwitchForm.on('click', 'button[type=submit]', (e) => {
+			e.stopPropagation();
+			e.preventDefault();
+
+			const action = uiVersionSwitchForm.data('action-url');
+
+			const body = new FormData();
+			body.append('__RequestVerificationToken', uiVersionSwitchForm.find('input[name=__RequestVerificationToken]').val());
+			body.append('uiVersion', uiVersionSwitchForm.find('input[name=uiVersion]').val());
+
+			uiVersionSwitchForm.find('button[type=submit]')
+				.attr({ disabled: true })
+				.addClass('disabled');
+
+			fetch(action, {
+				method: 'POST',
+				body,
+			}).then((response) => {
+				if(response.redirected){
+					window.location = response.url;
+				}else {
+					alert('An error occurred');
+				}
+			}).finally(() => {
+				uiVersionSwitchForm.find('button[type=submit]')
+					.removeAttr('disabled')
+					.removeClass('disabled');
+			});
+		});
+
+		$('#mtrxUIVersionSwitchConfirm').on('hide.bs.modal', () => {
+			document.getElementById('ctl01_ctl06_m_uiVersionSwitch').checked = false;
+		});
+	});
+
+
+
+	Aa
+
+
+
+	
+	
+		
+		
+			
+				
+				
+			
+		
+		
+		
+		
+			
+			
+				Notifications
+			
+			
+			
+			
+		
+		
+			There are no notifications at this time.
+		
+	
+
+
+
+
+
+
+	
+		Hello, Ryan
+		
+		
+		
+		
+		
+	
+	
+		
+
+		
+			
+				
+					
+				
+				Classic Mode
+			
+		
+
+		
+				
+					
+						Settings
+						
+						
+					
+				
+			
+				
+					
+						Manage Branding
+						
+						
+					
+				
+			
+				
+					
+						Help
+						
+						
+					
+				
+			
+				
+					
+						Mobile
+						
+						
+					
+				
+			
+		
+		
+		
+			Logout   
+			
+		
+	
+
+
+	
+
+
+
+
+
+
+	
+		
+	
+
+
+
+
+	
+		
+	
+	
+
+
+
+	
+		
+			
+				
+					Switching to Classic Mode
+				
+				
+					
+				
+			
+			
+				
+					You are switching to the classic user experience. You can switch back to the new user experience at any time.
+				
+			
+			
+				
+
+				
+				
+					Cancel
+				
+				
+					Go to Classic Dashboard
+				
+			
+		
+	
+
+
+
+	function UIVersionSwitchPost()
+	{
+		var dataToSend = {
+			uiVersion: $('#mtrxUIVersionInput').val(),
+			__RequestVerificationToken: $("[name='__RequestVerificationToken']").val()
+		};
+
+		$.ajax({
+			url: '/Matrix/home/ChangeUIVersion',
+			type: 'POST',
+			data: dataToSend,
+			success: (function (result)
+			{
+				if (result.hasOwnProperty('target')) {
+					window.location.href = result.target;
+				}
+				else if (result.hasOwnProperty('errorMessage')) {
+					alert(result.errorMessage);
+				}
+				else {
+					alert('UnExpected - ' + result);
+				}
+			})
+		});
+	}
+
+
+
+			
+		
+	
+	
+					
+				
+			
+		
+	
+
+
+
+	
+		
+	
+	
+
+
+
+
+	
+		
+	
+				
+			
+
+	
+	
+		
+		  
+		Refresh
+		   	
+		Log Out
+	
+	
+		Your Session has Expired. Please login again.
+		Login
+	
+
+
+
+
+
+
+	
+			
+			
+				
+					
+					
+						
+					
+					
+					
+					
+					
+				
+			
+
+			
+			
+				
+					
+					
+						
+							
+						
+						
+					
+					
+					
+	
+						
+							Street Number Searchable is 14430Street Name is like 'Bermuda Dunes*'Zip Code is like '80921*'
+						
+						Include other criteria
+					
+
+				
+
+			
+
+			
+			
+			
+				
+				
+	
+		
+			
+				
+					
+						
+							Recent Searches
+							
+							
+						
+					
+				
+			
+		
+
+		
+			
+				
+					
+						
+							
+						
+						Recent Searches
+					
+					
+
+						
+								
+									
+
+
+	
+		Sold Street Number Searchable is 14430 Street Name is like 'Bermuda Dunes*'; Zip Code is like '80921*'
+		
+			
+				Cross Property | 6:52 PM
+			
+		
+	
+	
+		5 
+		Listings
+	
+
+
+
+
+	
+		Sold Street Number Searchable is 14185 Street Name is like 'Candlewood*'; Zip Code is like '80921*'
+		
+			
+				Cross Property | 6:51 PM
+			
+		
+	
+	
+		3 
+		Listings
+	
+
+
+
+
+	
+		Sold Street Number Searchable is 10 Street Name is like 'Desert Inn*'; Zip Code is like '80921*'
+		
+			
+				Cross Property | 6:50 PM
+			
+		
+	
+	
+		4 
+		Listings
+	
+
+
+
+
+	
+		Sold Street Number Searchable is 10 Street Name is like 'Desert Inn*'; Zip Code is like '80921*'
+		
+			
+				Cross Property | 5:47 PM
+			
+		
+	
+	
+		4 
+		Listings
+	
+
+
+
+
+	
+		Sold Street Number Searchable is 10 Street Name is like 'desert inn*'
+		
+			
+				Cross Property | 5:38 PM
+			
+		
+	
+	
+		4 
+		Listings
+	
+
+
+
+
+	
+		Sold Street Number Searchable is 80921
+		
+			
+				Cross Property | 4:55 PM
+			
+		
+	
+	
+		0 
+		Listings
+	
+
+
+
+
+	
+		Sold
+		
+			
+				Cross Property | 4:35 PM
+			
+		
+	
+	
+		5000+
+		Listings
+	
+
+
+
+
+	
+		Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing
+		
+			
+				Cross Property | 4:27 PM
+			
+		
+	
+	
+		5000+
+		Listings
+	
+
+
+
+
+	
+		Street Number is '10'; Street Name is 'Desert Inn Way'
+		
+			
+				Cross Property | 3:55 PM
+			
+		
+	
+	
+		0 
+		Listings
+	
+
+
+
+
+	
+		Street Number Searchable is 1125 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 2:58 PM
+			
+		
+	
+	
+		3 
+		Listings
+	
+
+
+
+
+	
+		Street Number Searchable is 11081 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 2:27 PM
+			
+		
+	
+	
+		1 
+		Listing
+	
+
+
+
+
+	
+		Street Number Searchable is 4826 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 1:40 PM
+			
+		
+	
+	
+		1 
+		Listing
+	
+
+
+
+
+	
+		Street Number Searchable is 4883 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 1:37 PM
+			
+		
+	
+	
+		2 
+		Listings
+	
+
+
+
+
+	
+		Street Number Searchable is 6522 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 1:36 PM
+			
+		
+	
+	
+		1 
+		Listing
+	
+
+
+
+
+	
+		Street Number Searchable is 6553 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 1:33 PM
+			
+		
+	
+	
+		1 
+		Listing
+	
+
+
+
+
+	
+		Street Number Searchable is 673 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 1:30 PM
+			
+		
+	
+	
+		1 
+		Listing
+	
+
+
+
+
+	
+		Street Number Searchable is 2030 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 1:28 PM
+			
+		
+	
+	
+		2 
+		Listings
+	
+
+
+
+
+	
+		Street Number Searchable is 2045 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 1:07 PM
+			
+		
+	
+	
+		3 
+		Listings
+	
+
+
+
+
+	
+		Street Number Searchable is 24331 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 1:02 PM
+			
+		
+	
+	
+		0 
+		Listings
+	
+
+
+
+
+	
+		Street Number Searchable is 2645 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 1:01 PM
+			
+		
+	
+	
+		1 
+		Listing
+	
+
+
+
+
+	
+		Street Number Searchable is 2215 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 12:57 PM
+			
+		
+	
+	
+		4 
+		Listings
+	
+
+
+
+
+	
+		Street Number Searchable is 1857 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 12:56 PM
+			
+		
+	
+	
+		1 
+		Listing
+	
+
+
+
+
+	
+		Street Number Searchable is 9074 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 12:56 PM
+			
+		
+	
+	
+		1 
+		Listing
+	
+
+
+
+
+	
+		Street Number Searchable is 12231 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 12:53 PM
+			
+		
+	
+	
+		1 
+		Listing
+	
+
+
+
+
+	
+		Street Number Searchable is 2750 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 12:49 PM
+			
+		
+	
+	
+		1 
+		Listing
+	
+
+
+
+
+	
+		Street Number Searchable is 6723 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 12:47 PM
+			
+		
+	
+	
+		1 
+		Listing
+	
+
+
+
+
+	
+		Street Number Searchable is 7323 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 12:46 PM
+			
+		
+	
+	
+		1 
+		Listing
+	
+
+
+
+
+	
+		MLS Number is '5310209'
+		
+			
+				Cross Property | 12:46 PM
+			
+		
+	
+	
+		1 
+		Listing
+	
+
+
+
+
+	
+		Street Number Searchable is 3425 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 12:45 PM
+			
+		
+	
+	
+		2 
+		Listings
+	
+
+
+
+
+	
+		Street Number Searchable is 4730 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 12:44 PM
+			
+		
+	
+	
+		1 
+		Listing
+	
+
+
+
+
+	
+		Street Number Searchable is 5620 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 12:21 PM
+			
+		
+	
+	
+		2 
+		Listings
+	
+
+
+
+
+	
+		Street Number Searchable is 3230 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 12:19 PM
+			
+		
+	
+	
+		1 
+		Listing
+	
+
+
+
+
+	
+		Street Number Searchable is 4169 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 12:18 PM
+			
+		
+	
+	
+		2 
+		Listings
+	
+
+
+
+
+	
+		Street Number Searchable is 1130 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 12:16 PM
+			
+		
+	
+	
+		3 
+		Listings
+	
+
+
+
+
+	
+		Street Number Searchable is 2645 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 12:16 PM
+			
+		
+	
+	
+		1 
+		Listing
+	
+
+
+
+
+	
+		Street Number Searchable is 6949 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 12:12 PM
+			
+		
+	
+	
+		1 
+		Listing
+	
+
+
+
+
+	
+		Street Number Searchable is 4364 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | 12:09 PM
+			
+		
+	
+	
+		1 
+		Listing
+	
+
+
+
+
+	
+		Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing; Latitude, Longitude is around 39.05, -104.81
+		
+			
+				Cross Property | Thu 5:12 PM
+			
+		
+	
+	
+		40 
+		Listings
+	
+
+
+
+
+	
+		Sold Street Number Searchable is 440 Street Name is like 'picasso*'
+		
+			
+				Cross Property | Thu 3:52 PM
+			
+		
+	
+	
+		1 
+		Listing
+	
+
+
+
+
+	
+		Sold Latitude, Longitude is around 39.05, -104.82
+		
+			
+				Cross Property | Thu 3:41 PM
+			
+		
+	
+	
+		31 
+		Listings
+	
+
+
+
+
+	
+		Street Number Searchable is 6750 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | Thu 1:35 PM
+			
+		
+	
+	
+		0 
+		Listings
+	
+
+
+
+
+	
+		Street Number Searchable is 11081 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | Thu 1:20 PM
+			
+		
+	
+	
+		1 
+		Listing
+	
+
+
+
+
+	
+		Street Number Searchable is 6330 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | Thu 1:15 PM
+			
+		
+	
+	
+		1 
+		Listing
+	
+
+
+
+
+	
+		Street Number Searchable is 4169 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | Thu 1:13 PM
+			
+		
+	
+	
+		2 
+		Listings
+	
+
+
+
+
+	
+		Street Number Searchable is 1130 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | Thu 1:12 PM
+			
+		
+	
+	
+		3 
+		Listings
+	
+
+
+
+
+	
+		Street Number Searchable is 5550 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | Thu 1:11 PM
+			
+		
+	
+	
+		1 
+		Listing
+	
+
+
+
+
+	
+		Street Number Searchable is 4765 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | Thu 1:11 PM
+			
+		
+	
+	
+		1 
+		Listing
+	
+
+
+
+
+	
+		Street Number Searchable is 8115 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | Thu 1:08 PM
+			
+		
+	
+	
+		2 
+		Listings
+	
+
+
+
+
+	
+		Street Number Searchable is 5618 Active or ACT 1st Rgt-Showing or UC Short Sale - Showing or Under Contract - Showing or Coming Soon-No Showings
+		
+			
+				Cross Property | Thu 1:06 PM
+			
+		
+	
+	
+		1 
+		Listing
+	
+
+
+
+
+	
+		Sold Street Number Searchable is 440 Street Name is like 'picasso*'
+		
+			
+				Cross Property | Thu 11:26 AM
+			
+		
+	
+	
+		1 
+		Listing
+	
+
+
+								
+							
+
+					
+				
+			
+		
+
+	
+
+
+			
+			
+		
+
+
+
+
+
+
+	$(document).ready(function () {
+		var langheader = document.getElementById("topMenuBlade").querySelectorAll('.liSectionTitle');
+		if(langheader.length > 0) {
+			langheader.item(0).style.display = 'none';
+		}
+		var langdivider = document.getElementById("topMenuBlade").querySelectorAll('.divider');
+		if(langdivider.length > 0) {
+			langdivider.item(0).style.display = 'none';
+		}
+		var langitems = document.getElementById("topMenuBlade").querySelectorAll('*[id^="lang_item"]');
+		for (var i = 0; i < langitems.length; i++) {
+			langitems.item(i).classList.add("mtx-text--larger");
+			langitems.item(i).classList.remove("mtx-dropdown-lang-item");
+			if (langitems.item(i).childElementCount==0) {				
+				langitems.item(i).setAttribute("style","padding-left:30px;")
+			}			
+		}
+	});
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+			
+	
+	Display Name:
+	
+		
+	
+
+
+
+	
+	Save As a Copy
+	Revert unsaved changes
+	
+
+
+
+
+		
+		
+			
+				
+					Set currently selected search criteria as my starting default
+				
+				
+					Reset to the system Search defaults
+				
+				
+
+	Set current display, sort order and count per page as my Search starting default
+
+
+	Reset to the system Search defaults
+
+
+				
+					Set this map view as my starting default
+				
+				
+					Restore system default map view
+				
+			
+		
+	
+
+
+
+
+		Try Our New Search
+		
+			
+	
+				
+
+
+		
+	
+		
+			
+		
+				
+	
+		
+			
+				 Market Watch
+			
+				
+			
+				
+					
+						 
+					
+				 
+			
+			
+				
+			
+			
+				
+			
+		
+	
+
+			
+
+		
+				
+			
+					
+						
+					
+						New Listing (138)
+						
+					
+				
+					
+						Price Increase (11)
+						
+					
+				
+					
+						Price Decrease (84)
+						
+					
+				
+					
+						Back On Market (10)
+						
+					
+				
+					
+						Act 1st Rgt - Showing (1)
+						
+					
+				
+					
+						Under Contract - Showing (37)
+						
+					
+				
+					
+						UC Short Sale - Showing (3)
+						
+					
+				
+					
+						Withdrawn (3)
+						
+					
+				
+					
+						Pending (27)
+						
+					
+				
+					
+						Sold (79)
+						
+					
+				
+					
+						Coming Soon (7)
+						
+					
+				
+					
+						Leased (0)
+						
+					
+				
+					
+						Cancelled (6)
+						
+					
+				
+					
+						Expired (2)
+						
+					
+				
+					
+				
+			
+			
+			
+					
+				
+
+					
+						
+							
+							
+						Residential
+						Income
+						Land
+						Farm
+						Commercial
+						Business
+						Rental
+						Cross Property
+
+					
+							
+						
+						
+							
+						24 Hour
+						Today
+						3 Day
+						7 Day
+
+					
+						
+					
+				
+				
+					
+						
+							
+								Refresh
+							
+							
+								Customize
+								
+								
+							
+						
+					
+				
+			
+				
+		
+			
+	
+		
+
+
+
+	
+	
+		(function () {
+			
+			$('body').on('click', '#m_ucTitle_btnMarketWatch', function () {
+				$("#divMarketWatch").show();
+			});
+			$('body').on('mouseleave', '#divMarketWatch', function (e) {
+				if ($(this).find("select").is(":focus")) return
+				$("#divMarketWatch").hide();
+			});
+			$('body').on('blur', "#divMarketWatch select", function () {
+				if ($("#divMarketWatch").is(":hover")) return;
+				$("#divMarketWatch").hide();
+			});
+			$('body').on('click', "#divMarketWatch select", function () {
+				setTimeout(function () {
+					if ($("#divMarketWatch").is(":hover") || $("#divMarketWatch select").is(":focus")) return;
+					$("#divMarketWatch").hide();
+				}, 2000);
+			});
+		}());
+	
+
+	
+
+
+
+			
+
+			
+
+	
+	
+		Results
+	
+
+	
+	
+	
+		Map
+		
+	
+
+	
+	
+	
+		Criteria
+		
+	
+
+	
+
+
+		
+	
+
+
+		
+	
+			
+				
+					
+						
+						   
+							
+								
+									
+									
+										
+											
+												
+													
+													Default Search
+												
+												
+													
+PreviousNext
+· 1 of 5
+												
+												
+													 of 
+												
+												
+													Checked 0
+																								
+												
+													All
+													·
+													None
+													·
+													Page
+													Page
+													·
+												
+												
+												
+													
+														
+															
+																
+															
+															
+																
+															
+															 											
+														
+													
+												
+												
+													Comp View display
+												
+											
+										
+									
+									
+									
+										
+											
+												
+												
+													Display
+
+		my:Single Line
+		my:Copy of Single Line
+		my:Schools
+		my:Comp View
+		my:Copy of Single Line
+		my:Relocation Comp View
+		Single Line
+		360 Property View
+		Thumbnail
+		Short
+		Hotsheet
+		Agent Report Preview
+		Appraisal Report (Res only)
+		Agent Full Report/Map
+		Agent Full Report w/photos
+		Agent Full Report (Condensed)
+		Photo Gallery
+		Thumbnail Gallery w/Remarks
+		Customer Single Line
+		Customer Mobile
+		Customer Preview
+		Customer Short
+		Customer Full Report
+		Customer Full Report /Map
+		Customer Full Report w/photos
+		Customer Full Report (Condensed)
+
+	
+
+at
+
+		1
+
+	
+per page
+
+
+												
+												
+												
+													
+												
+												
+													
+													
+												
+												
+													
+												
+												
+													
+												
+												
+													
+												
+												
+													
+												
+												
+													
+												
+												
+													
+												
+												
+													
+												
+											
+										
+									
+									
+									
+										
+										
+											
+												
+
+	
+		
+	
+	
+	
+	
+		<div class="list" style="display:block;">
+			<span class="">Did you mean:</span>
+		</div>
+	
+	
+		<div class="list" style="display:block;">
+			Your exact location could not be determined.
+			<a class="go" href="#">Use approximate location</a>
+			<a class="cancel" href="#">Cancel</a>
+		</div>
+	
+	
+		<div class="list" style="display:block;">
+			No matching address in MLS boundaries.
+			<a class="cancel" href="#">Close</a>
+		</div>
+	
+	
+		My Current Location
+		
+	
+
+											
+											
+										
+										
+									
+								
+							
+						
+						
+							
+							
+								
+									 
+										
+									 
+								
+							
+						
+					
+				
+			
+		
+
+	
+
+
+	
+		
+	
+									
+
+
+	
+	
+			
+		
+	
+										
+			
+				
+			
+		
+									
+	
+			
+	
+				
+					
+					
+						14430 Bermuda Dunes WY, Colorado Springs, CO 80921Sold02/05/26View Comparable PropertiesListingTaxPhotosHistoryParcel MapFlood MapForeclosure
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Agent Full Report/Map
+RESIDENTIAL-Single Family-Detached
+
+
+
+
+
+
+
+
+
+
+
+
+14430 Bermuda Dunes WY, Colorado Springs, CO 80921-2805     County:  El Paso
+Status:  SoldPrice:  $705,000
+
+
+
+
+
+1 / 48Front of Structure  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	01234
+	Ready
+	30000
+	Some content of this display timed out before being provided from external sources.
+	Error loading location data
+	←Move left→Move right↑Move up↓Move down+Zoom in-Zoom outHomeJump left by 75%EndJump right by 75%Page UpJump up by 75%Page DownJump down by 75%MapMapSatelliteTerrainLabelsMap DataMap data ©2026Map data ©2026200 ft Click to toggle between metric and imperial unitsTerms
+		Parcel Disclaimer
+		
+		
+		
+	
+		
+			
+				
+					
+						
+							
+								
+								
+									
+								
+
+							
+						
+					
+				
+			
+		 
+	
+	
+	
+	
+	
+	
+	
+		The map is loading...
+	
+	
+
+	
+		
+			
+				
+					
+						Boundaries
+					
+				
+				
+					
+						Zoom In
+						
+							
+										
+											
+											Parcel
+										
+									
+										
+											
+											Zip
+										
+									
+										
+											
+											City
+										
+									
+										
+											
+											County
+										
+									
+										
+											
+											Unified School District
+										
+									
+										
+											
+											Neighborhood
+										
+									
+										
+											
+											Flood Zones
+										
+									
+										
+											
+											MLS Areas 
+										
+									
+										
+											
+											Elementary Schools 
+										
+									
+										
+											
+											Middle Schools 
+										
+									
+										
+											
+											High Schools 
+										
+									
+						 
+					
+				
+			
+			
+			
+				
+					
+						MLS Status
+					
+				
+				
+					
+						
+	
+							Zoom In
+							
+								
+										
+											
+											
+											Active
+											
+											
+										
+									
+										
+											
+											
+											ACT 1st Rgt-Showing
+											
+											
+										
+									
+										
+											
+											
+											UC Short Sale - Showing
+											
+											
+										
+									
+										
+											
+											
+											Under Contract - Showing
+											
+											
+										
+									
+										
+											
+											
+											Pending
+											
+											
+										
+									
+										
+											
+											
+											Leased
+											
+											
+												
+													
+														
+															Last 3 Months 
+															Last 6 Months
+															Last 9 Months
+															Last 12 Months
+														
+													
+												
+											
+										
+									
+										
+											
+											
+											Sold
+											
+											
+												
+													
+														
+															Last 3 Months 
+															Last 6 Months
+															Last 9 Months
+															Last 12 Months
+														
+													
+												
+											
+										
+									
+										
+											
+											
+											Withdrawn
+											
+											
+												
+													
+														
+															Last 3 Months 
+															Last 6 Months
+															Last 9 Months
+															Last 12 Months
+														
+													
+												
+											
+										
+									
+										
+											
+											
+											Expired
+											
+											
+												
+													
+														
+															Last 3 Months 
+															Last 6 Months
+															Last 9 Months
+															Last 12 Months
+														
+													
+												
+											
+										
+									
+										
+											
+											
+											Cancelled
+											
+											
+												
+													
+														
+															Last 3 Months 
+															Last 6 Months
+															Last 9 Months
+															Last 12 Months
+														
+													
+												
+											
+										
+									
+							
+						
+
+					
+				
+			
+			
+					
+						
+							
+								Tax Data
+							
+						
+						
+							
+								
+									Zoom In
+								
+									
+											
+												
+													
+													
+													Tax Sales
+												
+												
+													
+														
+															
+																Last 3 Months
+																Last 6 Months
+																Last 9 Months
+																Last 12 Months
+															
+														
+													
+												
+											
+										
+											
+												
+													
+													
+													Non-MLS Sales
+												
+												
+													
+														
+															
+																Last 3 Months
+																Last 6 Months
+																Last 9 Months
+																Last 12 Months
+															
+														
+													
+												
+											
+										
+								
+							
+						
+					
+				
+			
+			
+			
+			
+				
+					
+						Points of Interest
+					
+				
+				
+					
+							
+								Zoom In
+								
+									
+									Arts and Entertainment
+									Banking
+									Education
+									Fire and Police
+									Food and Dining
+									Gas Stations
+									Health Care
+									Libraries
+									Post Offices
+									Religious Organisations
+									Shopping
+									Sports
+									Transportation
+								
+							
+					
+				
+			
+		
+		Clear All
+		Ok
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Bed/Bath:  6, 4
+
+
+
+
+ Gar/Parking#:  2, Attached
+
+
+
+
+ Tot SqFt:  3,814   LP/SF:  $193
+
+
+
+
+
+
+ Floor Plan:  2 Story
+
+
+
+
+ Year Built:  1988
+
+
+
+
+ Sub Area:  Donala
+
+
+
+
+ DOM:  52    CDOM:  53
+
+
+
+
+ Sched#:  6206203004
+
+
+
+
+ MLS#:  5559054
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+COMMUNITY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Directions/Cross:
+Northgate east from I-25. Turn left on Struthers. Right on Gleneagle and left on Westchester. Left on Bermuda Dunes. Home will be first on left.
+
+
+
+
+
+
+
+
+
+
+
+School District:
+20-Academy
+Grade School:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Taxes:
+$3,604
+Tax Year:
+2024
+
+
+
+
+
+
+
+
+
+
+
+Covenants:
+Yes
+
+
+Complex Name:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HOA 1:
+Gleneagle Civic Assoc.
+
+HOA 1 Dues: $67 Annual
+
+HOA 1 Dues Include:
+Covenant Enforcement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SQUARE FEET
+
+Year Built:
+1988
+Const Status:
+Existing Home
+Est. Comp Date: 
+
+
+
+
+
+
+
+
+
+
+
+Total Sqft:
+3,814
+Floor Plan:
+2 Story
+Builder Name: 
+
+
+
+
+
+
+
+
+
+
+
+Finished Sqft:
+3,658
+Unit Desc:
+
+Builder Model: 
+
+
+
+
+
+
+
+
+
+
+
+Above Grade Sqft:
+2,776
+Structure:
+Framed on Lot
+
+
+
+
+
+
+
+
+
+
+
+Upper Sqft:
+1,125
+SqFt Source:
+Assessor Records
+
+
+
+
+
+
+
+
+
+
+
+Main Sqft:
+1,651
+Outbuildings:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Basement Sqft:
+1,038
+Basement/Foundation: Full Basement, Garden Level, Walk Out
+
+
+
+
+
+
+
+
+
+
+
+
+% Basement Finished:
+85
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Gar (Parking) #:
+2
+Gar (Parking) Type: Attached
+Garage Remotes:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BATHS
+
+Baths: 4
+
+
+
+Rough-Ins:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bathroom (Full):
+U
+
+
+
+
+Bathroom (Full):
+U
+
+
+
+
+Bathroom (3/4):
+B
+
+
+
+
+Bathroom (1/2):
+M
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total Upper Bth:Total Main Bth:Total Lower Bth:Total Basement Bth:
+2101
+Total Full Bth:Total 3/4 Bth:Total 1/2 Bth:
+211
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ROOMS
+
+Beds Total: 6
+
+Main Lvl Bed: Yes
+Main Beds: 1
+Upper Beds: 4
+Lower Beds: 0
+Basement Beds: 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bedroom - Primary:
+U
+
+Bath Adjoins, Carpet
+
+
+
+Bedroom:
+B
+
+
+
+
+
+Bedroom:
+M
+
+
+
+
+
+Bedroom:
+U
+
+Carpet
+
+
+
+Bedroom:
+U
+
+Carpet
+
+
+
+Bedroom:
+U
+
+Carpet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OTHER FEATURES
+
+Roofing:
+Composite Shingle
+Window Type:
+
+
+
+
+
+
+
+
+
+
+
+
+Siding:
+Wood
+
+
+
+
+
+
+
+
+
+
+
+
+Fireplaces:
+Basement, Gas, Main Level, Three
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Misc. Interior Feat:
+5-Pc Bath, Great Room
+
+
+
+
+
+
+
+
+
+
+
+
+Misc. Items:
+HOA Required $
+
+
+
+
+
+
+
+
+
+
+
+
+
+Appliances:
+Dishwasher, Disposal, Microwave Oven, Oven, Refrigerator
+
+
+
+
+
+
+Laundry Facilities:
+Main
+
+
+
+
+
+
+
+
+
+
+
+
+Extras:
+Curtains main level and hardware/kitchen island/portable air conditioning unit/
+
+
+
+
+
+
+Exclusions:
+Washer/Dryer/Cabinet on wall in powder main level bathroom/bedroom curtains upstairs
+
+
+
+
+
+
+
+LOT
+
+Legal Desc:
+LOT 4 BLK 12 DONALA SUB NO 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Zoning:
+RS-6000
+Zoning Entity:
+
+
+
+
+
+
+
+
+
+
+
+
+Acres:
+0.36
+Lot Sqft:
+15,682
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Lot Desc:
+Corner, Flag Lot, Mountain View, See Prop Desc Remarks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+UTILITIES AND ENERGY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Heating
+Baseboard
+
+
+
+
+
+
+
+
+
+
+
+
+Cooling
+Ceiling Fan(s)
+
+
+
+
+
+
+
+
+
+
+
+
+Existing Water:
+Association/District
+
+
+
+
+
+
+
+
+
+
+
+Sanitation:
+Sewer
+
+
+
+
+
+
+
+
+
+
+
+Existing Utilities:
+Cable Connected, Electricity Connected, Natural Gas Available
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PROPERTY REMARKS
+
+Property Description Remarks:
+
+
+
+
+
+Wanting something that feels like home? Cozy? Inviting? Spacious? Look no further. 6 generously sized bedrooms and 4 bathrooms provide ample room for family living and entertaining. Located on .37 of an acre, this corner lot has many wonderful areas for play! South facing deck to enjoy coffee or sunset cocktails.  On the main level, take advantage of one bedroom and two living areas that invoke comfort. This home boasts sleek new stone countertops, offering a stylish and functional kitchen and bathrooms. Upstairs enjoy a great jack and jill bathroom with bluetooth speakers within the lighting! The four bedrooms upstairs each have built in shelving too! Enjoy the elegance of newly refinished floors and tastefully painted walls throughout.  Three beautiful gas fireplaces enhance the home's cozy, welcoming atmosphere. The downstairs walkout basement is where the fun begins! Large recreation area with LVP and an office and bedroom with ample storage. Step outside to find mature landscaping and an inviting outdoor space perfect for relaxation or entertaining. Close to the Air Force Academy, shopping, trails and I-25. This truly is one of those homes when you walk in, your heart is happy.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TERMS
+
+Terms Offered:
+Cash, Conventional, VA
+1st Right of Refusal:
+
+
+
+
+
+
+
+
+
+
+
+
+Possession Terms:
+Negotiable/TBD
+Possession Date:
+
+
+
+
+
+
+
+
+
+
+
+
+
+Earnest Money:
+$8000
+Earnest Money Holder: Capital Title
+EM Promissory Note Accepted: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Assumable Loan:
+No
+Current Financing:
+
+Assumption Info:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2nd Mortgage:
+
+Notices:
+Not Applicable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CONTACT/SHOWING DETAILS
+
+Listing Office:
+The Platinum Group
+
+
+
+
+
+
+
+
+
+
+
+
+Office Ph:
+719-536-4444
+
+Office Fax:
+719-536-4451
+
+
+
+
+
+
+
+
+
+
+
+
+Listing Agent:
+Marnie Terry
+marniedterry@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+Listing Agent Ph:
+303-883-7174
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Listing Agent Fax:
+719-536-4451
+
+Listing Agent Add'l Ph:  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Type Agreement: ERS
+ 
+Service Level: Full Service
+
+
+
+
+
+
+
+
+
+
+
+
+Photo: AGR
+VOW: Yes
+Elec Adv: Yes
+Blog: No
+AVM: No
+Display Address: Yes
+Virtually Staged: No
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Showing Instructions:
+Appointment Only
+Key: SentriLock Key Box
+
+
+
+
+
+
+
+
+
+
+
+Appointment Contact:
+Marnie Terry at 303-883-7174 or showingtimeonline
+
+
+
+
+
+
+
+
+
+
+
+Incentives:
+NEW CARPET BEING INSTALLED! Week of December 15th.
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHOW/AGENT REMARKS
+
+
+
+BRAND NEW CARPET! Please remove shoes, leave feedback and do not lock garage door. Great home! Call listing agent with any questions. Do not leave card. Thank you!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SOLD INFORMATION
+
+Buyer Office:
+Carrie Hogaboom
+
+
+
+
+
+
+
+
+
+
+
+
+Buyer Office Ph:
+(719) 318-4994
+
+Buyer Office Fax:
+
+
+
+
+
+
+
+
+
+
+
+
+
+Buyer Agent:
+Carrie Hogaboom
+carriemehomecolorado@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+BA Ph:
+(719) 491-2464
+BA Fax:
+
+BA Add'l Ph:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Concessions $:
+$12,500
+Closing Costs:Property Improvement Costs:Financing Costs:Other Costs:
+$0$12,500$0$0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Quality Below Grade:
+
+Sold Terms:
+VA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+List Date:
+11/14/25
+
+
+Pending Date:
+01/05/26
+Under Contract Date:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sold Price: $705,000
+Sold Date:
+02/05/26
+SP/LP:
+0.96
+SP/SF:
+$185
+
+
+
+
+
+
+
+
+
+
+
+List Price: $735,000
+Original List Price: $750,000
+DOM: 52
+CDOM: 53
+MLS#: 5559054
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+					
+
+	
+		
+			Alignment:
+			
+			Left
+			
+			Right
+			
+			Center
+			
+			Wrap Line
+		
+		Pixel Width:
+		
+			
+			
+			
+				
+					
+					Auto-fit
+					
+				
+			
+		
+		
+		Remove Column
+		Insert Column
+		
+		
+		
+				
+			
+			
+		
+		
+				
+					
+					Cancel
+					Apply
+					
+				
+			
+	
+
+
+
+
+
+
+					
+					
+				
+			
+
+		
+
+
+	
+	
+										
+			
+		
+									
+
+
+
+
+		
+	
+			
+			
+				
+					
+						Actions
+					
+					
+						Refine
+					
+					
+						Save
+					
+					
+						Carts
+					
+					
+				
+				
+					
+					
+							
+Previous1
+2
+3
+4
+5
+Next
+
+						
+				
+				
+				
+					
+						
+							
+							
+							
+								Criteria
+							
+	
+							
+								Email
+							
+	
+							
+								Print
+							
+	
+							
+								Share Link
+								
+
+
+	
+
+
+	
+		
+			
+				
+				
+					
+					
+						 
+						
+							Create share link for  listings
+						
+					
+					
+						
+							
+								
+									Listing Set Name:
+													
+								
+									
+										
+							
+						
+					
+					
+						
+							
+								
+									Link URL:
+													
+								
+									
+										
+							
+						
+					
+				
+				
+					
+						
+						
+							Cancel
+						
+						
+							Generate Link
+						
+		
+						
+							Copy URL
+						
+		
+						
+					
+				
+			
+		
+	
+
+
+							
+	
+							
+								CMA
+							
+	
+							
+								Directions
+							
+	
+							
+								Stats
+							
+	
+							
+								Export
+							
+	
+							
+		
+		
+	
+		
+			ShowingTime
+		
+	
+	
+
+	
+
+	
+		
+	
+		
+			Quick CMA
+		
+	
+	
+
+	
+
+	
+	
+
+
+						
+					
+				
+				
+					
+						
+							
+							
+							
+								
+		
+			View as
+			 
+			
+		Select a Contact
+		Baxter, Josh
+		Thomson, Ryan
+		--- more (click) ---
+
+	
+			
+			
+		
+	
+
+							
+	
+							
+								Narrow
+							
+	
+							
+								Discard
+							
+	
+							
+							
+								Sort
+							
+	
+							
+							
+
+
+						
+					
+				
+				
+					
+						
+							
+							
+							
+							
+								New Saved Search
+							
+							
+								New Auto Email
+							
+	
+							
+								New Speed Bar Shortcut
+							
+	
+							
+
+
+						
+					
+				
+				
+
+
+
+
+
+	
+		
+		
+			
+		
+					Select Cart:
+					
+			1033 E Costilla Comps (53)
+			2612 E Yampa Comps (5)
+			Comps - 2021 Airport Road (4)
+			Mayer, Jason - Furman Fourplex Comps (5)
+			Tang, Vicky - 2705 King St Comps (8)
+			Thomson, Ryan -  Debbie Combs Showing (4)
+			Thomson, Ryan - 10220 Elgon Comps (7)
+			Thomson, Ryan - 10643 Desert Bloom (15)
+			Thomson, Ryan - 11081 Buckhead Pl Comps (4)
+			Thomson, Ryan - 11584 Louvre PT Comps (6)
+			Thomson, Ryan - 11848 Alydar Lp Comps (7)
+			Thomson, Ryan - 1208 Harrison Road Comps (15)
+			Thomson, Ryan - 136 Star View Actives (7)
+			Thomson, Ryan - 136 Star View Comps (17)
+			Thomson, Ryan - 136 Star View Compss (7)
+			Thomson, Ryan - 16540 Mesquite - Active Comps (8)
+			Thomson, Ryan - 16540 Mesquite Rd Comps (8)
+			Thomson, Ryan - 1903 W Colorado AV Comps (4)
+			Thomson, Ryan - 2016 Downing Dr Comps (4)
+			Thomson, Ryan - 2202 Greenwich Cir Comps (8)
+			Thomson, Ryan - 2203 Wood Comps - Ryan (10)
+			Thomson, Ryan - 2303 Wood AV Comps (3)
+			Thomson, Ryan - 2515 Heathrow  (9)
+			Thomson, Ryan - 2612 E Yampa Comps - Ryan (8)
+			Thomson, Ryan - 2612 E Yampa St Comps (3)
+			Thomson, Ryan - 280 Saber Creek Dr Comps (3)
+			Thomson, Ryan - 31 Cherokee Comps (4)
+			Thomson, Ryan - 3754 Red Canon Pl Comps (3)
+			Thomson, Ryan - 4140 Anitra CR Comps (4)
+			Thomson, Ryan - 440 Picasso Ct Comps (21)
+			Thomson, Ryan - 440 Picasso FINAL comps (13)
+			Thomson, Ryan - 4465 N Wordsworth Comps (6)
+			Thomson, Ryan - 463 Blanket Flower Comps (2)
+			Thomson, Ryan - 4660 Bluestem Ln Comps (3)
+			Thomson, Ryan - 517 Crystal Peak Rd Comps (5)
+			Thomson, Ryan - 5222 Cliff Point Cir Comps - R (9)
+			Thomson, Ryan - 5222 Cliff Point Cir W Comps (3)
+			Thomson, Ryan - 573 Crown Hill Mesa Dr Comps (7)
+			Thomson, Ryan - 6064 John Muir (6)
+			Thomson, Ryan - 609 Wheat Field Comps (3)
+			Thomson, Ryan - 6092 Dancing Sun WY comps (3)
+			Thomson, Ryan - 6626 Mandan Dr (8)
+			Thomson, Ryan - 6710 Snowbird Dr Comps (6)
+			Thomson, Ryan - 7039 Reunion Comps (3)
+			Thomson, Ryan - 707 Orion Dr Comps (7)
+			Thomson, Ryan - 712 Panorama Best Comps (8)
+			Thomson, Ryan - 712 Panorama Comps (14)
+			Thomson, Ryan - 713 Panorama Dr (3)
+			Thomson, Ryan - 7225 Franconia Dr Comps (5)
+			Thomson, Ryan - 7564 Stormy WY Comps (5)
+			Thomson, Ryan - 7680 Almond Wood Lp Comps (0)
+			Thomson, Ryan - 7778 Como Bay Comps (5)
+			Thomson, Ryan - 8182 Silver Glen Dr Comps (5)
+			Thomson, Ryan - Airbnb Potentials 2 (500)
+			Thomson, Ryan - Airbnb Potentials 3 (23)
+			Thomson, Ryan - Comps - 2202 W Greenwich CR (5)
+			Thomson, Ryan - Comps - 712 Panorama Dr (4)
+			Thomson, Ryan - Comps 1025 Crandall Dr (4)
+			Thomson, Ryan - Comps 2931 W Kiowa with ADU (4)
+			Thomson, Ryan - Comps 6266 Canyon Crest LP (9)
+			Thomson, Ryan - Connor Paw Showings (5)
+			Thomson, Ryan - Eva Potential Homes (15)
+			Thomson, Ryan - Eva Refined (10)
+			Thomson, Ryan - Hannah and Taylor Showing (1)
+			Thomson, Ryan - Loan Assumable VA (499)
+			Thomson, Ryan - Loan Assumable VA 2 (499)
+			Thomson, Ryan - Markhus Showings (2)
+			Thomson, Ryan - Ryan - FHA Assumable (189)
+			Thomson, Ryan - Seller Financing (91)
+			Thomson, Ryan - SOLD Loan Assumable VA (467)
+			Thomson, Ryan - Sub prop 6266 Canyon Crest LP (17)
+			Thomson, Ryan - Subject prop 1859 Monterey Rd (5)
+			Thomson, Ryan - Subject Prop 2202 Greenwich (6)
+			Thomson, Ryan - Subject prop 2307 Lexington  (4)
+			Thomson, Ryan - Subject Prop 2506 San Marcos (6)
+			Thomson, Ryan - Subject prop 2728 W Pikes Peak (3)
+			Thomson, Ryan - Subject prop 2931 Illinois AV (5)
+			Thomson, Ryan - Subject prop 3618 Ian Point (5)
+			Thomson, Ryan - Subject prop 4086 Ascendant Dr (4)
+			Thomson, Ryan - Subject prop 416 E San Rafael (4)
+			Thomson, Ryan - Subject prop 526 E Saint Elmo (4)
+			Thomson, Ryan - Subject Prop 6075 Castlewood (6)
+			Thomson, Ryan - Subject prop 6615 Athletic AV (4)
+			Thomson, Ryan - Subject prop 7038 Leaf Wood (3)
+			Thomson, Ryan - Subject prop 7532 Johnsontown  (6)
+			Thomson, Ryan - Subject Property 1025 Crandall (4)
+			Thomson, Ryan - Subject property 1139 Royale D (5)
+			Thomson, Ryan - Subject property 1560 Ride Ln (5)
+			Thomson, Ryan - Subject Property 1611 E Platte (5)
+			Thomson, Ryan - Subject Property 1732 W Kiowa  (4)
+			Thomson, Ryan - Subject property 2515 E Dale#B (5)
+			Thomson, Ryan - Subject property 2558 Waldean  (6)
+			Thomson, Ryan - Subject property 2913 W Kiowa (5)
+			Thomson, Ryan - Subject property 326 N Logan  (19)
+			Thomson, Ryan - Subject Property 3441 Kestrel  (6)
+			Thomson, Ryan - Subject Property 346 Waco CT (4)
+			Thomson, Ryan - Subject Property 416 Pecos Dr (4)
+			Thomson, Ryan - Subject property 575 Big SkyCT (5)
+			Thomson, Ryan - VA Loan Assumable 3 (500)
+			Thomson, Ryan - VA Loan Assumable 4 (145)
+			--- more (click) ---
+
+		
+				
+	
+		
+	
+		Remove Checked
+	
+		Add to
+	
+		View
+	
+		
+			New Cart
+			
+
+
+	
+
+
+	
+		
+			
+				
+				
+					
+					
+						 
+						
+							Add/Edit Cart
+						
+					
+					
+						
+							
+								
+									Cart Name:
+									
+													
+							
+			
+									Contact:
+								
+			
+									
+		
+			
+			
+			
+				
+				Baxter, Josh
+				Thomson, Ryan
+				--- more (click) ---
+
+			
+			 Create a New Contact
+			
+		
+	
+
+
+			
+
+	
+				
+			
+		
+			
+
+
+	
+				
+			
+		
+			
+
+
+
+								
+		
+					
+							
+						
+					
+				
+				
+					
+						
+						
+							Cancel
+						
+						
+							Save
+						
+		
+						
+					
+				
+			
+		
+	
+
+		
+	
+		
+
+
+	
+
+				
+
+			
+		
+
+		
+			
+				
+					
+						
+							Charts
+						
+						
+							Tabular
+						
+					
+				
+			
+		
+	
+
+
+		
+	
+			
+				
+					
+						
+							
+								
+									Status is 'Sold'Street Number Searchable is 14430Street Name is like 'Bermuda Dunes*'Zip Code is like '80921*'
+									Ordered by Status, Sold Date descending, Finished Sq Ft, Current Price
+								
+							
+							
+								
+									Found  5 results in 0.02 seconds.
+								
+							
+						
+					
+				
+			
+		
+
+	
+
+
+
+
+
+  
+
+  
+
+  
+  
+
+	©2026 Pikes Peak REALTOR® Services Corp. All rights reserved. Information herein deemed reliable but not guaranteed.
+		
+			Matrix v12.7. Copyright © 2026 Cotality. All rights reserved. Terms of Use.
+	
+
+  
+  
+	
+	
+	
+
+
+									
+
+//<![CDATA[
+var TimeOutWarning = new SessionTimeOutWarning({
+					SessionExpireMinute: 'Your session will expire in 1 minute.',
+					SessionExpireMinutes: 
+function(extra, rec)
+{
+	var MEParam = typeof MatrixExpression !== 'undefined' ? MatrixExpression : null;
+	var recParam = rec !== undefined ? rec : null;
+	var result = function(rec,ME){return 'Your session will expire in '+extra.expiremin+' minutes.';}(recParam, MEParam);
+	return  result;
+}
+
+				}, function(){__doPostBack('ctl01$m_SessionTimeoutWarningDiv$m_btnTriggerSessionTouch','')}, '/Matrix/Logout.aspx', {
+					Warning: 'ctl01_m_SessionTimeoutWarningDiv_m_divErrorPopUpWarn',
+					Error: 'ctl01_m_SessionTimeoutWarningDiv_m_divErrorPopUpExpired'
+				}, '/Matrix/Login.aspx?r=1&ReturnUrl=%2fMatrix%2fResults.aspx');new GeocodeAddressClass({base:'m_ga', tb:'m_ga_m_tb', hfLat:'m_ga_m_hfLat', hfLong:'m_ga_m_hfLong'}, 'AtmMylOwdOQG4NWGfiM7G1EsIkDI42JQuufWW9tF9PE8gKv2A77HyRzj4xEGEfqP', '36.8896630305952,-109.150291085332,41.0722520779008,-101.921287179082', '/Matrix/Public/LocationList/GetLocations.ashx?L=1&u=24363', 0);new GeocodeAddressClass({base:'m_ucIMap_m_ucDriveTime_m_tbLoc', tb:'m_ucIMap_m_ucDriveTime_m_tbLoc_m_tb', hfLat:'m_ucIMap_m_ucDriveTime_m_tbLoc_m_hfLat', hfLong:'m_ucIMap_m_ucDriveTime_m_tbLoc_m_hfLong'}, 'AtmMylOwdOQG4NWGfiM7G1EsIkDI42JQuufWW9tF9PE8gKv2A77HyRzj4xEGEfqP', '36.8896630305952,-109.150291085332,41.0722520779008,-101.921287179082', '/Matrix/Public/LocationList/GetLocations.ashx?L=1&u=24363', 1);ResultsJs.initialize({display:(function(arg) { __doPostBack('m_DisplayCore','P-Display|' + arg);}), pageSize:(function(arg) { __doPostBack('m_DisplayCore','P-PageSize|' + arg);}), shapes:MakePostBackFromStrictModeCodeFirefoxSafe((function(arg) { __doPostBack('m_DisplayCore','P-Shapes|' + arg);})), movemap:MakePostBackFromStrictModeCodeFirefoxSafe((function(arg) { __doPostBack('m_DisplayCore','P-MoveMap|' + arg);})), showUnmappable:(function(arg) { __doPostBack('m_DisplayCore','P-ShowUnmappable|' + arg);})},{noPinsVisible:
+function(extra, rec)
+{
+	var MEParam = typeof MatrixExpression !== 'undefined' ? MatrixExpression : null;
+	var recParam = rec !== undefined ? rec : null;
+	var result = function(rec,ME){return 'No visible pins to check.';}(recParam, MEParam);
+	return  result;
+}
+, noResults:
+function(extra, rec)
+{
+	var MEParam = typeof MatrixExpression !== 'undefined' ? MatrixExpression : null;
+	var recParam = rec !== undefined ? rec : null;
+	var result = function(rec,ME){return 'No items to check.';}(recParam, MEParam);
+	return  result;
+}
+, setTooBig:
+function(extra, rec)
+{
+	var MEParam = typeof MatrixExpression !== 'undefined' ? MatrixExpression : null;
+	var recParam = rec !== undefined ? rec : null;
+	var result = function(rec,ME){return 'Too many items to check (max '+(''+((rec || (() => undefined))('MaxSetSize') || '5000'))+')';}(recParam, MEParam);
+	return  result;
+}
+, checkAll:
+function(extra, rec)
+{
+	var MEParam = typeof MatrixExpression !== 'undefined' ? MatrixExpression : null;
+	var recParam = rec !== undefined ? rec : null;
+	var result = function(rec,ME){return 'Check All';}(recParam, MEParam);
+	return  result;
+}
+});
+var ResultsMenu = new TabbedMenuClass('m_hfMenuState', {m_liActionsTab:{strID:'m_liActionsTab', strHFVal:'Actions', strSubMenuID:'m_tblActionMenu'},m_liResultsTab:{strID:'m_liResultsTab', strHFVal:'Results', strSubMenuID:'m_tblRefineMenu'},m_liSaveAsTab:{strID:'m_liSaveAsTab', strHFVal:'SaveAs', strSubMenuID:'m_tblSaveAsMenu'},m_liCartsTab:{strID:'m_liCartsTab', strHFVal:'Carts', strSubMenuID:'m_ucCartControl'}}, 'div.resultsMenu');
+SearchJs.wireUpCount('tid=9&qn=-1&sid=1');
+$('ul.sf-menu:not(.sf-click-menu)').supersubs().superfish();$('ul.sf-click-menu').supersubs().superclick();
+RegisterPostbackOnClick('ctl01_m_tdMenu','ctl01$m_pbtRedirect');
+ConfirmationMessage.confirmationMessage = new ConfirmationMessage('ctl01_ctl00_m_lblConf', 'ctl01_ctl00_m_divConf');
+TimeOutWarning.RefreshTimers(298.22903598, 10);var gridSaveLinks = new GridSaveLinksJsClass({displayName:'#m_ucGridSaveLinks_m_tbNewDisplayName',save:'#m_ucGridSaveLinks_m_lbSave',saveAs:'#m_ucGridSaveLinks_m_lbSaveAs'}, {BlankDisplayName:
+function(extra, rec)
+{
+	var MEParam = typeof MatrixExpression !== 'undefined' ? MatrixExpression : null;
+	var recParam = rec !== undefined ? rec : null;
+	var result = function(rec,ME){return 'The Display Name cannot be blank. No changes are saved.';}(recParam, MEParam);
+	return  result;
+}
+});gridSaveLinks.init();LBX_Control.wireUpControls();
+$(SearchJs.onFormLoad);
+SearchJs.setCountOnTheFlyLabel('m_ucSearchButtons_m_clblCount');
+ResultsJs.bindSearch();
+ResultsJs.bindSubHeader();
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"m_ucTitle_m_ucMarketWatch_m_upContent","displayAfter":0,"dynamicLayout":true}, null, null, $get("m_ucTitle_m_ucMarketWatch_m_ucHeader_m_spnUpdateSpinner"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"m_upDisplayCore","displayAfter":1000,"dynamicLayout":true}, null, null, $get("ctl13"));
+});
+//]]>
+
+
+
+

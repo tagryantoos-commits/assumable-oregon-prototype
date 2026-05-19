@@ -1,0 +1,390 @@
+
+    
+    Javascript is required for this website. Please enable Javascript to continue
+    
+        
+            
+            
+                
+                Menu
+            
+            
+                
+                    
+                        Value of elevateMLS
+                        
+                            What Is elevateMLS™?
+                            MLS-Client®
+                            OneHome™
+                            Home Mobile App
+                            Specialized Searches
+                            SentriConnect®
+                        
+                    
+                    
+                        Community
+                        
+                            PPAR REALTORS® Building Community
+                            The Region
+                            The Schools
+                            The Military
+                        
+                    
+                    
+                        Why Use a REALTOR® 
+                        
+                            Why Use a REALTOR®
+                            Find a REALTOR®
+                            Why Use a SentriLock® Lockbox
+                        
+                    
+                    
+                        Consumer
+                        
+                            Market Trends and Statistics
+                            Home Seller FAQ
+                            Home Buyer FAQ
+                            Mortgage Calculator
+                        
+                    
+                    
+                        About PPAR
+                        
+                            About Us
+                            History
+                            Board of Directors
+                            Staff
+                        
+                    
+                    
+                        Info
+                        
+                            Become A Member
+                            Affiliates
+                            File A Complaint
+                            Support
+                        
+                    
+                
+                Member Login
+            
+        
+
+    
+    
+
+
+
+
+
+
+	
+	
+
+
+        
+            
+                
+
+                    
+                    
+                    
+                        header { background: -moz-linear-gradient(top, rgba(0,56,0,1) 0%, rgba(0,87,0,0) 100%) !important; background: -webkit-linear-gradient(top, rgba(0,56,0,1) 0%,rgba(0,87,0,0) 100%) !important; background: linear-gradient(to bottom, rgba(0,56,0,1) 0%,rgba(0,87,0,0) 100%) !important; filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 ) !important; }
+                        Previous
+                            
+                            
+                            
+                            
+                        Next
+                        Previous
+                            
+                            
+                            
+                            
+                        Next
+                    
+                    
+
+
+                    
+                        
+                        
+                            
+                                
+                                    
+                                        Market Snapshot - March 2026
+                                    
+                                    
+                                        
+                                            
+                                                13
+                                            
+                                            Closed Sales
+                                        
+                                        
+                                           
+                                                4
+                                            
+                                            Median Sale Price (thousands)
+                                        
+                                        
+                                            
+                                                9
+                                            
+                                            Avg Showings Per Day*
+                                        
+                                        
+                                            
+                                                0
+                                            
+                                            Avg Days On Market
+                                        
+                                    
+                                    
+                                        
+                                            
+                                                This data reflects all property types within the elevateMLS market.
+                                                * Showing Data is for the previous month
+                                            
+                                            
+                                            Most accurate up-to-date listings for the Pikes Peak Area.
+                                            Powered by 5,500 Real Estate Professionals of the elevateMLS™. 
+                                        
+                                    
+                                
+                            
+                        
+
+                        
+                        
+                            
+                                
+                                    Find Your Perfect Colorado Property!
+                                    
+                                        
+                                        
+                                        
+                                        Rentals
+                                        Find a REALTOR®
+                                    
+
+
+                                    
+                                    
+                                        
+                                        
+                                            .open-house-ad {
+                                                height: 45vh;
+                                            }
+                                            #closeAd {
+                                                color: white;
+                                                position:absolute;
+                                                margin-top: -30px;
+                                                margin-left: -5px;
+                                                z-index: 500;
+                                            }
+                                            @media only screen and (min-width: 2000px) {
+                                                .open-house-ad {
+                                                    height: auto;
+                                                    left: 45%;
+                                                }
+                                            }
+                                        
+                                    
+                                    
+                                        
+                                        
+
+                                    
+                                    
+                                        
+                                            
+                                        
+                                    
+                                    
+                                    
+                                    
+                                    
+                                
+                                
+                                
+                                    Enter zipcode, address, or MLS Number …
+                                    
+
+                                    Choose a Specialized Search
+                                    
+	Residential
+	Land
+	New Builds
+	Open House
+	Farm and Ranch
+	Foreclosures/REOs
+	Income
+	Commercial
+	Business
+
+
+
+                                    
+                                        
+                                    
+
+                                
+                                
+	                                Search
+	                            
+                                Choose a suggestion and click search. If no suggestion is available, click search to continue 
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+
+                            
+                            Fix missing label in g-recaptcha
+                        
+
+                        
+                        
+
+                    
+                
+                
+                    
+                        
+                        
+                    
+                
+
+            
+        
+    
+
+    
+        
+            
+                
+                    Footer
+                    Property Search
+                    New BuildsOpen HousesHome SearchSpecialized Searches
+                
+                
+                    About
+                    Building CommunityWhy Use a REALTOR®?Find a REALTOR®Stats & Facts
+                
+                
+                    Contact
+                    Phone 719-633-7718Hours and Support
+                
+                
+                    Connect With Us
+                    PPAR: 
+                    elevateMLS:   
+                    Privacy Policy Terms of Use
+                
+            
+            
+                Pikes Peak Association of REALTORS®REALTOR® Services Corp © 2026elevate Multiple Listing Service™ (formerly Pikes Peak Multiple Listing Service™)430 N. Tejon St., Colorado Springs, CO 80903
+            
+        
+    
+    document.getElementById("jsMessage").style.display = "none";
+
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+        // Initialize slider before trying to use it
+        // Moved slick references from main.js to main-slider.js
+        // This clears the slider errors off every page that uses main.js 
+        // Slider is only needed here
+        function initSlider(selector, options) {
+            if ($.fn.slick) {
+                $(selector).slick(options);
+            } else {
+                setTimeout(function () {
+                    initSlider(selector, options);
+                }, 500);
+            }
+        }
+    
+    
+
+    
+        //check if dashboard is up - redirect to message if not
+        $(function () {
+            const url = 'https://isitup.org/rapmls.com';
+            const targeturl = 'https://connect.rapmls.com/SSOLogon.aspx?ApplicationID=cosp';
+            $('.auth0btn').click(() => {
+                $.ajax({
+                    url: url,
+                    type: 'GET',
+                    success: function (e) {
+                        if (e.status_code === 1)
+                            window.open(targeturl);
+                        else
+                            location.href = 'https://ppar.com/ServiceError.aspx', 'self';
+                    }
+                });
+            });
+        });
+    
+
+    
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function (position) {
+                var parts = [];
+                parts.push('circle');
+                parts.push('1000');
+                parts.push(position.coords.latitude);
+                parts.push(position.coords.longitude);
+                //console.log("script: " + parts.join('|'));
+                document.getElementById("userLocation").value = parts.join('|');
+            });
+        }
+    
+    codeAddress();
+
+    
+    
+
+    
+    
+        $(document).ready(function () {
+            $('#btnTranscript').click(function () {
+                $(this).siblings(".item").toggle();
+            });
+        });
+    
+
+    
+     { "@context":"https://schema.org", "@type":"Organization", "@id":"Organization", "legalName": "Pikes Peak Association Of REALTORS®, REALTOR® Services Corp©, elevate Multiple Listing Service™", "name": "Pikes Peak Association Of REALTORS®, REALTOR® Services Corp©, elevate Multiple Listing Service™", "address": "430 N. Tejon St., Colorado Springs, CO 80903", "description":"Pikes Peak Association of REALTORS® (PPAR) Since 1902, the Pikes Peak Association of REALTORS® has been committed to improving the quality of life in our communities and supporting home ownership rights and free enterprise. ,REALTOR® Services Corp (RSC) A subsidiary of PPAR and home to the elevate Multiple Listing Service™ (elevateMLS™ formerly PPMLS™), RSC is committed to providing the best MLS resources to REALTOR® participants who service the Pikes Peak Area.", "keywords": "[colorado, colorado springs, property, co, el paso county, teller county, homes for sale, condos, real estate, land for sale, mls, property for sale, open houses, mls listings, homes, land, commercial, townhomes, realtor, real estate agent, ranches for sale, farms for sale, businesses for sale, apartments, rentals, house, home, sell, rent, buy, realtors, association, property search, peyton, air force academy, fountain, manitou springs, palmer lake, ellicott, calhan, fort carson, security, security-widefield, gleneagle, cascade-chipita park, monument, black forest, falcon, rock creek park, woodland park, victor, cripple creek, goldfield, divide, midland, florissant, multiple listing service, real estate agent, real estate companies, realtor, find an agent]", "knowsAbout": "[https://coloradorealtors.com/,https://www.nar.realtor/]", "location": "[colorado, colorado springs, ,el paso county, teller county,peyton, air force academy, fountain, manitou springs, palmer lake, ellicott, calhan, fort carson, security, security-widefield, gleneagle, cascade-chipita park, monument, black forest, falcon, rock creek park, woodland park, victor, cripple creek, goldfield, divide, midland, florissant]", "naics": "531390", "url": "https://ppar.com", "slogan": "Most accurate up-to-date listings for the Pikes Peak Area, Listings are updated every 15 minutes, Powered by 4,000+ REALTOR® members of the elevate Multiple Listing Service™", "areaServed": "[Colorado,El Paso County,Teller County]", "ethicsPolicy": "[https://ppar.com/PublicPolicy/ethics.aspx,]", "email":"Membership@ppar.org", "foundingDate":"1902-07-01", "image":"https://ppar.com/images/Logo/PPAR_Logo_Main_VP.jpg", "logo":"https://ppar.com/images/Logo/PPAR_Logo_Main_VP.jpg", "telephone":"7196337718" }
+
+    
+    
+        $("document").ready(function () {
+            $("#closeAd").click(function () {
+                $("#openHouse").hide();
+                $("#openHouseParked").show();
+            });
+        });
+    
+
+    
+    
+
+    
+    
+
+
+🔍 MLS EXPLORATION MODE — Drive freely. Snapshots every 5s.

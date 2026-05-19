@@ -1,0 +1,44 @@
+[
+  {
+    "label": "St #",
+    "tag": "TD",
+    "parentTag": "TR",
+    "grandparentTag": "THEAD",
+    "rowInputs": []
+  },
+  {
+    "label": "Street Dir",
+    "tag": "TD",
+    "parentTag": "TR",
+    "grandparentTag": "THEAD",
+    "rowInputs": []
+  },
+  {
+    "label": "Street Name",
+    "tag": "TD",
+    "parentTag": "TR",
+    "grandparentTag": "THEAD",
+    "rowInputs": []
+  },
+  {
+    "label": "Street Type",
+    "tag": "TD",
+    "parentTag": "TR",
+    "grandparentTag": "THEAD",
+    "rowInputs": []
+  },
+  {
+    "label": "Unit #",
+    "tag": "TD",
+    "parentTag": "TR",
+    "grandparentTag": "THEAD",
+    "rowInputs": []
+  },
+  {
+    "label": "Zip",
+    "tag": "TD",
+    "parentTag": "TR",
+    "grandparentTag": "THEAD",
+    "rowInputs": []
+  }
+]

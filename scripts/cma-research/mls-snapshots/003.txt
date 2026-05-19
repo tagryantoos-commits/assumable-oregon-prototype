@@ -1,0 +1,110 @@
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var rmesErrorText = 'ctl00_rmesErrorText_divMessage';
+
+
+
+
+
+
+
+
+	
+	
+
+         
+        
+        
+            
+            
+                
+                       
+                        
+Pikes Peak Association of REALTORS®           
+                        
+    
+Register as a new user
+
+
+        
+
+                    
+                    
+                        
+Welcome, Ryan!If you are not Ryan (230024640)Click Here.                
+                                                                
+                        
+                             
+    
+
+    
+
+
+
+
+       
+           Your Agent ID is already logged on to Connect.
+If you click Continue , the previous logon session will be disconnected.
+       
+    
+        
+        
+        
+
+    
+
+ 
+                            
+                    
+                
+                            
+
+            
+                           
+                
+                    Copyright © 2025 Rapattoni Corporation. All rights reserved.
+                    
+                
+                    Help
+                      
+                    
+            
+            
+                function HideMasterPageError() {
+                    var control = document.getElementById(rmesErrorText);
+                    if (control) {
+                        control.style.visibility = "hidden";
+                    }
+                }
+
+                $('input:submit').click(function () {
+                    $input = $(this).clone().val('Processing ...').attr('disabled', 'disabled');
+                    $(this).hide().after($input);
+                });
+
+            
+            
+         
+            
+                          
+       
+    
+
+
+
+
+

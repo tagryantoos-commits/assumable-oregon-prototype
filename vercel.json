@@ -1,0 +1,21 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "crons": [
+    {
+      "path": "/api/cron/digest-smoke-test",
+      "schedule": "55 13 * * *"
+    },
+    {
+      "path": "/api/cron/digest-smoke-test",
+      "schedule": "55 14 * * *"
+    },
+    {
+      "path": "/api/cron/daily-digest",
+      "schedule": "0 14 * * *"
+    },
+    {
+      "path": "/api/cron/daily-digest",
+      "schedule": "0 15 * * *"
+    }
+  ]
+}

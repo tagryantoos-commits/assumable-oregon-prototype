@@ -1,0 +1,32 @@
+name: Build Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      # Fast syntax + type check — catches markdown fences, bad props,
+      # truncated files, and missing imports without needing env vars
+      - name: TypeScript check
+        run: npx tsc --noEmit
+
+      # Verify Turbopack can parse every file (the actual failure mode)
+      - name: Turbopack compile check
+        run: npx next build --experimental-build-mode compile
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: https://placeholder.supabase.co
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: placeholder

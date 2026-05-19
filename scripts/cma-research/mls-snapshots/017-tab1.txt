@@ -1,0 +1,182 @@
+
+		
+
+
+
+
+
+
+
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+
+
+
+
+
+
+
+
+
+if (window.mtxAnalytics) {mtxAnalytics.init("3da8d56ab740ca12e1101ecfd9d90a54", {batch_requests:true, track_pageview:false});mtxAnalytics.reset();mtxAnalytics.register({appId:"Matrix", resID:"1000079", AgentID:"230024640", distinctID:"230024640", SecurityGroup:"AG - Subscriber/Agent"});}
+
+if(!window.modelVars_PendoAnalytics) {const modelVars_PendoAnalytics = {apiKey: "96b1a5b6-0f87-4ef4-5232-f19d131490f9",data: {"VisitorID":"24363 Ryan Thomson","VisitorData":{"UserID":"24363","FullName":"Ryan Thomson","Email":"Ryan@TheAssumableGuy.com","Group":"AG - Subscriber/Agent","DateActivated":"03/30/2021","WorkingAs":"Ryan Thomson","UILanguage":"English","UIMode":"Responsive","ActiveAutoEmails":"14","ActiveContacts":"166","AgentID":"230024640","OfficeID":"00001197","OfficeName":"Keller Williams Advantage Realty","RCSLBranding":"yes","ResAgentID":"1000079-24363"},"AccountID":"PPAR","AccountData":{"Version":"12.7.3.5","PreviousVersion":"12.7.2.5","Current-MajorVersion":"12","Current-MinorVersion":"7","Current-Patch":"3.5","Previous-MajorVersion":"12","Previous-MinorVersion":"7","Previous-Patch":"2.5","ResID":"1000079"}}};mtrxPendoAnalytics.Init(modelVars_PendoAnalytics);}
+.stickywrapper, FORM.stickyform{margin-bottom:-114px;} .stickypush{height:114px;}
+
+
+	
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47351304-1', 'mlsmatrix.com');
+  ga('send', 'pageview');
+
+ 
+
+
+
+	
+	if (typeof Object.assign != 'function') {
+	  Object.assign = function(target) {
+		'use strict';
+		if (target == null) {
+		  throw new TypeError('Cannot convert undefined or null to object');
+		}
+		target = Object(target);
+		for (var index = 1; index < arguments.length; index++) {
+		  var source = arguments[index];
+		  if (source != null) {
+			for (var key in source) {
+			  if (Object.prototype.hasOwnProperty.call(source, key)) {
+				target[key] = source[key];
+			  }
+			}
+		  }
+		}
+		return target;
+	  };
+	}
+	
+
+
+
+// ForeSee Production Embed Script v2.01
+// DO NOT MODIFY BELOW THIS LINE *****************************************
+;(function (g) {
+  var d = document, am = d.createElement('script'), h = d.head || d.getElementsByTagName("head")[0], fsr = 'fsReady',
+  aex = {
+    "src": "//gateway.foresee.com/sites/mlsmatrix/production/gateway.min.js",
+    "type": "text/javascript",
+    "async": "true",
+    "data-vendor": "fs",
+    "data-role": "gateway"
+  };
+  for (var attr in aex) { am.setAttribute(attr, aex[attr]); } h.appendChild(am); g[fsr] || (g[fsr] = function () { var aT = '__' + fsr + '_stk__'; g[aT] = g[aT] || []; g[aT].push(arguments); });
+})(window);
+// DO NOT MODIFY ABOVE THIS LINE *****************************************
+
+fsReady(function() {
+  FSR.CPPS.set('MLSSystem','PPAR'); 
+  FSR.run();
+});
+
+
+	
+		
+	
+
+
+	
+		
+			
+				
+
+			
+				
+					
+						
+						
+						
+							Apr 10 2026   
+						
+					
+				
+			
+		
+	
+
+
+			
+				
+					
+						
+							
+								
+									
+										
+											 
+												
+													User Identity Conflict
+											
+										
+									
+								
+							
+							
+								Another user is logged in with this identity.If you elect to continue logging in the other user''s session will be endedThis warning can also occur if you have logged into Matrix from two different machines in the same hour without logging out of the first one.If you suspect that another person is fraudulently using your account please change your password and contact the MLS to initiate an investigation.
+							
+						
+						
+	
+		
+		
+									Cancel 
+								
+		
+									Continue 
+								
+		
+	
+
+
+						
+					 
+				 
+			 
+		
+
+  
+
+  
+
+  
+  
+
+	©2026 Pikes Peak REALTOR® Services Corp. All rights reserved. Information herein deemed reliable but not guaranteed.
+		
+			Matrix v12.7. Copyright © 2026 Cotality. All rights reserved. Terms of Use.
+	
+
+  
+  
+	
+	
+	
+
+
+	
+
