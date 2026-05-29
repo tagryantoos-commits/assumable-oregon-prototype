@@ -52,7 +52,7 @@ export default function TeamPage() {
                 Team Lead
               </div>
               <h2 className="text-3xl font-black mb-1">Ryan Thomson</h2>
-              <p className="text-brand-200 font-semibold mb-4">The Assumable Guy &middot; CO License #100080993</p>
+              <p className="text-brand-200 font-semibold mb-4">The Assumable Guy &middot; CO License #100092341</p>
               <div className="grid grid-cols-2 gap-4 mt-2">
                 <div>
                   <div className="text-2xl font-black">100+</div>

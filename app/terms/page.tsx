@@ -32,7 +32,7 @@ export default function TermsOfServicePage() {
             <p>
               The Assumable Guy is a licensed real estate team affiliated with Keller Williams,
               specializing in assumable FHA and VA mortgage transactions in Colorado. Our team is
-              licensed under Colorado real estate law. Ryan Thomson, CO License #100080993.
+              licensed under Colorado real estate law. Ryan Thomson, CO License #100092341.
             </p>
           </section>
 

@@ -33,7 +33,7 @@ export default function AboutPage() {
           <p className="text-brand-light text-lg font-semibold mb-1">
             The Assumable Guy | Colorado Licensed Real Estate Agent
           </p>
-          <p className="text-gray-400 text-sm mb-6">License #100080993</p>
+          <p className="text-gray-400 text-sm mb-6">License #100092341</p>
           <p className="text-2xl md:text-3xl font-bold text-white italic">
             &ldquo;I eat, sleep, and breathe assumable mortgages.&rdquo;
           </p>
